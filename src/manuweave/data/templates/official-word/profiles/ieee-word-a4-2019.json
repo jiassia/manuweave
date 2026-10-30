@@ -1,0 +1,3669 @@
+{
+  "id": "ieee-word-a4-2019",
+  "name": "IEEE conference Word A4 source, 2019-01-08",
+  "version": "1.0.0",
+  "scope": "Pinned IEEE conference Word A4 2019 source: typography and main-text layout; front matter and venue-specific rules require review.",
+  "aliases": [
+    "IEEE Word A4 2019",
+    "IEEE A4 Word source"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "font": "Times New Roman",
+      "size_pt": 24.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 6.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "body": {
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 6.0,
+      "first_line_pt": 14.4,
+      "left_indent_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "auto",
+      "line_spacing": 0.95
+    },
+    "heading1": {
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "space_before_pt": 8.0,
+      "space_after_pt": 4.0,
+      "first_line_pt": 0.0,
+      "left_indent_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "heading2": {
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "space_before_pt": 6.0,
+      "space_after_pt": 3.0,
+      "first_line_pt": -14.4,
+      "left_indent_pt": 14.4,
+      "bold": false,
+      "italic": true,
+      "alignment": "left",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "heading3": {
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "first_line_pt": 14.4,
+      "left_indent_pt": 0.0,
+      "bold": false,
+      "italic": true,
+      "alignment": "justify",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 12.0
+    },
+    "heading4": {
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "space_before_pt": 2.0,
+      "space_after_pt": 2.0,
+      "first_line_pt": 25.2,
+      "left_indent_pt": 0.0,
+      "bold": false,
+      "italic": true,
+      "alignment": "justify",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "references_heading": {
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "space_before_pt": 8.0,
+      "space_after_pt": 4.0,
+      "first_line_pt": 0.0,
+      "left_indent_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "abstract": {
+      "font": "Times New Roman",
+      "size_pt": 9.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 10.0,
+      "first_line_pt": 13.6,
+      "bold": true,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "keywords": {
+      "font": "Times New Roman",
+      "size_pt": 9.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 6.0,
+      "first_line_pt": 13.7,
+      "bold": true,
+      "italic": true,
+      "alignment": "justify",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "figure_caption": {
+      "font": "Times New Roman",
+      "size_pt": 8.0,
+      "space_before_pt": 4.0,
+      "space_after_pt": 10.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "table_caption": {
+      "font": "Times New Roman",
+      "size_pt": 8.0,
+      "space_before_pt": 12.0,
+      "space_after_pt": 6.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 0.9
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "size_pt": 8.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 2.5,
+      "first_line_pt": -18.0,
+      "left_indent_pt": 18.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 9.0
+    }
+  },
+  "page": {
+    "width_mm": 210.0086,
+    "height_mm": 297.0036,
+    "margin_top_mm": 19.05,
+    "margin_bottom_mm": 25.4,
+    "margin_left_mm": 15.9985,
+    "margin_right_mm": 15.9985,
+    "columns": 2
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+      "title": "IEEE conference Word A4 source, 2019-01-08",
+      "sha256": "9d0153f7121508f585eff77c6fc112234a9d289c0390bf54a5296d15d01b04d3",
+      "retrieved_at": "2026-10-30",
+      "source_modified": "2019-01-08T20:11:00Z",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false,
+      "provenance": {
+        "primary_guidance_url": "https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/authoring-tools-and-templates/",
+        "central_download_result": "Official www.ieee.org returned zero bytes on 2026-10-30; no challenge bypass attempted.",
+        "mirror_context": "IEEE ARGENCON 2020 site under attend.ieee.org; raw core properties identify IEEE and 2019-01-08 revision."
+      }
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 24.0
+    },
+    {
+      "role": "title",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "title",
+      "property": "space_after_pt",
+      "expected": 6.0
+    },
+    {
+      "role": "title",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "title",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "title",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "title",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "title",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "body",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "body",
+      "property": "space_after_pt",
+      "expected": 6.0
+    },
+    {
+      "role": "body",
+      "property": "first_line_pt",
+      "expected": 14.4
+    },
+    {
+      "role": "body",
+      "property": "left_indent_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "body",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "body",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "body",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 0.95
+    },
+    {
+      "role": "heading1",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading1",
+      "property": "size_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "heading1",
+      "property": "space_before_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "heading1",
+      "property": "space_after_pt",
+      "expected": 4.0
+    },
+    {
+      "role": "heading1",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "heading1",
+      "property": "left_indent_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "heading1",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "heading1",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "heading1",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "heading1",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "heading1",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "heading2",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading2",
+      "property": "size_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "heading2",
+      "property": "space_before_pt",
+      "expected": 6.0
+    },
+    {
+      "role": "heading2",
+      "property": "space_after_pt",
+      "expected": 3.0
+    },
+    {
+      "role": "heading2",
+      "property": "first_line_pt",
+      "expected": -14.4
+    },
+    {
+      "role": "heading2",
+      "property": "left_indent_pt",
+      "expected": 14.4
+    },
+    {
+      "role": "heading2",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "heading2",
+      "property": "italic",
+      "expected": true
+    },
+    {
+      "role": "heading2",
+      "property": "alignment",
+      "expected": "left"
+    },
+    {
+      "role": "heading2",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "heading2",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "heading3",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading3",
+      "property": "size_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "heading3",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "heading3",
+      "property": "space_after_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "heading3",
+      "property": "first_line_pt",
+      "expected": 14.4
+    },
+    {
+      "role": "heading3",
+      "property": "left_indent_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "heading3",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "heading3",
+      "property": "italic",
+      "expected": true
+    },
+    {
+      "role": "heading3",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "heading3",
+      "property": "line_spacing_rule",
+      "expected": "exact"
+    },
+    {
+      "role": "heading3",
+      "property": "line_spacing_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "heading4",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading4",
+      "property": "size_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "heading4",
+      "property": "space_before_pt",
+      "expected": 2.0
+    },
+    {
+      "role": "heading4",
+      "property": "space_after_pt",
+      "expected": 2.0
+    },
+    {
+      "role": "heading4",
+      "property": "first_line_pt",
+      "expected": 25.2
+    },
+    {
+      "role": "heading4",
+      "property": "left_indent_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "heading4",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "heading4",
+      "property": "italic",
+      "expected": true
+    },
+    {
+      "role": "heading4",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "heading4",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "heading4",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "references_heading",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "references_heading",
+      "property": "size_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "references_heading",
+      "property": "space_before_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "references_heading",
+      "property": "space_after_pt",
+      "expected": 4.0
+    },
+    {
+      "role": "references_heading",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "references_heading",
+      "property": "left_indent_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "references_heading",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "references_heading",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "references_heading",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "references_heading",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "references_heading",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "abstract",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "abstract",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "abstract",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "abstract",
+      "property": "space_after_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "abstract",
+      "property": "first_line_pt",
+      "expected": 13.6
+    },
+    {
+      "role": "abstract",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "abstract",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "abstract",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "abstract",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "abstract",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "keywords",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "keywords",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "keywords",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "keywords",
+      "property": "space_after_pt",
+      "expected": 6.0
+    },
+    {
+      "role": "keywords",
+      "property": "first_line_pt",
+      "expected": 13.7
+    },
+    {
+      "role": "keywords",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "keywords",
+      "property": "italic",
+      "expected": true
+    },
+    {
+      "role": "keywords",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "keywords",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "keywords",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "figure_caption",
+      "property": "size_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "space_before_pt",
+      "expected": 4.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "space_after_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "figure_caption",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "figure_caption",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "figure_caption",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "figure_caption",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "table_caption",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "table_caption",
+      "property": "size_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "table_caption",
+      "property": "space_before_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "table_caption",
+      "property": "space_after_pt",
+      "expected": 6.0
+    },
+    {
+      "role": "table_caption",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "table_caption",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "table_caption",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "table_caption",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "table_caption",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "table_caption",
+      "property": "line_spacing",
+      "expected": 0.9
+    },
+    {
+      "role": "reference",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "reference",
+      "property": "size_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "reference",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "reference",
+      "property": "space_after_pt",
+      "expected": 2.5
+    },
+    {
+      "role": "reference",
+      "property": "first_line_pt",
+      "expected": -18.0
+    },
+    {
+      "role": "reference",
+      "property": "left_indent_pt",
+      "expected": 18.0
+    },
+    {
+      "role": "reference",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "reference",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "reference",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "reference",
+      "property": "line_spacing_rule",
+      "expected": "exact"
+    },
+    {
+      "role": "reference",
+      "property": "line_spacing_pt",
+      "expected": 9.0
+    }
+  ],
+  "examples": [
+    {
+      "kind": "synthetic_docx",
+      "generator": "tests/test_official_word_templates.py",
+      "profile": "ieee-word-a4-2019"
+    }
+  ],
+  "template": {
+    "family": "IEEE conference Word",
+    "source_version": "2019-01-08T20:11:00Z",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 24.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-space_before_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-space_after_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-first_line_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-italic",
+        "category": "typography",
+        "target": "title",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-line_spacing_rule",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-line_spacing",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"papertitle\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-space_before_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-space_after_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 14.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-left_indent_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "left_indent_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-bold",
+        "category": "typography",
+        "target": "body",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-italic",
+        "category": "typography",
+        "target": "body",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 0.95,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"BodyText\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-space_before_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-space_after_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 4.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-first_line_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-left_indent_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "left_indent_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-italic",
+        "category": "typography",
+        "target": "heading1",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-space_before_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-space_after_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_after_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-first_line_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "first_line_pt",
+        "expected": -14.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"16\"]/w:lvl[@w:ilvl=\"1\"]/w:pPr/w:ind/@w:hanging"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-left_indent_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "left_indent_pt",
+        "expected": 14.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"16\"]/w:lvl[@w:ilvl=\"1\"]/w:pPr/w:ind/@w:start"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-bold",
+        "category": "typography",
+        "target": "heading2",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-italic",
+        "category": "typography",
+        "target": "heading2",
+        "property": "italic",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-space_before_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-space_after_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_after_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-first_line_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "first_line_pt",
+        "expected": 14.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-left_indent_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "left_indent_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-bold",
+        "category": "typography",
+        "target": "heading3",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-italic",
+        "category": "typography",
+        "target": "heading3",
+        "property": "italic",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "typography",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-font",
+        "category": "typography",
+        "target": "heading4",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-size_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "size_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-space_before_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "space_before_pt",
+        "expected": 2.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-space_after_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "space_after_pt",
+        "expected": 2.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-first_line_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "first_line_pt",
+        "expected": 25.2,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-left_indent_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "left_indent_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-bold",
+        "category": "typography",
+        "target": "heading4",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-italic",
+        "category": "typography",
+        "target": "heading4",
+        "property": "italic",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-alignment",
+        "category": "typography",
+        "target": "heading4",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-line_spacing_rule",
+        "category": "typography",
+        "target": "heading4",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading4-line_spacing",
+        "category": "typography",
+        "target": "heading4",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading4\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-space_before_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "space_before_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-space_after_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "space_after_pt",
+        "expected": 4.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-first_line_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-left_indent_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "left_indent_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-bold",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-italic",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing_rule",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading5\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-space_before_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-space_after_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "space_after_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-first_line_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "first_line_pt",
+        "expected": 13.6,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-bold",
+        "category": "typography",
+        "target": "abstract",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-italic",
+        "category": "typography",
+        "target": "abstract",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-alignment",
+        "category": "typography",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-line_spacing",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-space_before_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-space_after_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-first_line_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "first_line_pt",
+        "expected": 13.7,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-bold",
+        "category": "typography",
+        "target": "keywords",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-italic",
+        "category": "typography",
+        "target": "keywords",
+        "property": "italic",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-alignment",
+        "category": "typography",
+        "target": "keywords",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-line_spacing",
+        "category": "typography",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Keywords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-space_before_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "space_before_pt",
+        "expected": 4.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-space_after_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "space_after_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-first_line_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-bold",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-italic",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-alignment",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-line_spacing_rule",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-line_spacing",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"figurecaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-space_before_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "space_before_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-space_after_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-first_line_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-bold",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-italic",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-alignment",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-line_spacing_rule",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-line_spacing",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing",
+        "expected": 0.9,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"tablehead\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-space_before_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-space_after_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "space_after_pt",
+        "expected": 2.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-first_line_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "first_line_pt",
+        "expected": -18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"18\"]/w:lvl[@w:ilvl=\"0\"]/w:pPr/w:ind/@w:hanging"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-left_indent_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "left_indent_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"18\"]/w:lvl[@w:ilvl=\"0\"]/w:pPr/w:ind/@w:start"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-bold",
+        "category": "typography",
+        "target": "reference",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-italic",
+        "category": "typography",
+        "target": "reference",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-line_spacing_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"references\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0086,
+        "unit": "mm",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[85]/w:pPr/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0036,
+        "unit": "mm",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[85]/w:pPr/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 19.05,
+        "unit": "mm",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[85]/w:pPr/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 25.4,
+        "unit": "mm",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[85]/w:pPr/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 15.9985,
+        "unit": "mm",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[85]/w:pPr/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 15.9985,
+        "unit": "mm",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[85]/w:pPr/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[85]/w:pPr/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "reference-citation-style",
+        "category": "citation",
+        "target": "document",
+        "property": "citation_style",
+        "expected": "numeric_square_brackets",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[72]; paragraph_sha256=0acd98983e1770725f9f69106e91e3ec2f705d957375d55aae40c8cb28f4276b"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Reference numbers appear consecutively in square brackets; punctuation follows the bracket."
+      },
+      {
+        "id": "reference-citation-order",
+        "category": "citation",
+        "target": "document",
+        "property": "citation_numbering",
+        "expected": "consecutive",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[72]; paragraph_sha256=0acd98983e1770725f9f69106e91e3ec2f705d957375d55aae40c8cb28f4276b"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The source explicitly requires consecutive numbering. Venue-specific bibliography sorting still needs the reference guide."
+      },
+      {
+        "id": "forbid-page-numbers",
+        "category": "pagination",
+        "target": "document",
+        "property": "page_numbers_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[22]; paragraph_sha256=ceef337546982dfca939b31dec909aeffecc75f6f56e63dc8931dd5a1ec44077"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "This pinned conference template instructs authors not to add pagination."
+      },
+      {
+        "id": "abstract-no-footnotes",
+        "category": "content_policy",
+        "target": "abstract",
+        "property": "footnotes_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[73]; paragraph_sha256=40350a5ce8b2248633c0f28c007c7eea5d6b5a9a4994d9b2760d01dccd8be280"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-no-footnotes",
+        "category": "content_policy",
+        "target": "reference",
+        "property": "footnotes_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[73]; paragraph_sha256=40350a5ce8b2248633c0f28c007c7eea5d6b5a9a4994d9b2760d01dccd8be280"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-no-math",
+        "category": "content_policy",
+        "target": "title",
+        "property": "math_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]; paragraph_sha256=6793c4a4b12bdcaea3e31d67c5e051606abfb4f1d33e967f94a7241fb819b402"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-no-math",
+        "category": "content_policy",
+        "target": "abstract",
+        "property": "math_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]; paragraph_sha256=6793c4a4b12bdcaea3e31d67c5e051606abfb4f1d33e967f94a7241fb819b402"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-no-subtitle",
+        "category": "structure",
+        "target": "title",
+        "property": "subtitle_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[2]; paragraph_sha256=27fef646071021754888f234b6ff573cd54bd7a8360dc0a560f88102b9d669b3"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The template states that subtitles are not captured in Xplore."
+      },
+      {
+        "id": "figure-caption-below",
+        "category": "caption",
+        "target": "figure_caption",
+        "property": "position",
+        "expected": "below_object",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[64]; paragraph_sha256=ac0050604b187e4388a3ce4a73b965d58b1046c69ee58450238303e24727d9a9"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table-caption-above",
+        "category": "caption",
+        "target": "table_caption",
+        "property": "position",
+        "expected": "above_object",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[64]; paragraph_sha256=ac0050604b187e4388a3ce4a73b965d58b1046c69ee58450238303e24727d9a9"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "equation-numbering",
+        "category": "numbering",
+        "target": "equation",
+        "property": "numbering",
+        "expected": "consecutive_parenthesized_right",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[33]; paragraph_sha256=5499bead1ce6f4e056ab68956649d338339f0d242dcbadf14bbf71d0a3366867"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-small-caps",
+        "category": "typography",
+        "target": "heading1",
+        "property": "small_caps",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Heading1\"]/w:rPr/w:smallCaps"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Confirmed directly in the SHA-matched original Strict OOXML."
+      },
+      {
+        "id": "heading-numbering",
+        "category": "numbering",
+        "target": "heading1",
+        "property": "numbering",
+        "expected": "upper_roman",
+        "unit": null,
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"16\"]/w:lvl[@w:ilvl=\"0\"]/w:numFmt/@w:val"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Confirmed directly in the SHA-matched original Strict OOXML."
+      },
+      {
+        "id": "reference-hanging-indent",
+        "category": "typography",
+        "target": "reference",
+        "property": "hanging_indent_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://attend.ieee.org/argencon-2020/wp-content/uploads/sites/171/conference-template-a4.docx",
+          "file": "ieee-a4-argencon.docx",
+          "locator": "word/numbering.xml:/w:numbering; reference style numId=8 and heading style numId=4"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The reference list's native numbering definition supplies a hanging indent."
+      }
+    ],
+    "coverage_notes": [
+      "Original is Strict OOXML. Read-only Word COM observed effective style defaults; temporary transitional copies cross-checked XML. No template prose is redistributed.",
+      "This is the explicit 2019 source, not a claim of the current 2024/2026 master file.",
+      "Body page settings do not reproduce title/author multi-section front matter. Existing author facts are not replaced.",
+      "East Asian fallback font values are not treated as an English conference requirement.",
+      "Roman heading numbering, small caps and native reference hanging indents require distinct source-specific checks.",
+      "Typography and main-text page attributes derive from the pinned Word source; semantic policies retain their source-defined scope.",
+      "This fixed source version is not a claim of current compliance with every venue using the publisher's name."
+    ]
+  }
+}

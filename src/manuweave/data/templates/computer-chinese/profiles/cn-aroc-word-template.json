@@ -1,0 +1,2368 @@
+{
+  "id": "cn-aroc-word-template",
+  "name": "计算机应用研究官方投稿编辑模板",
+  "version": "1.0.0",
+  "aliases": [
+    "计算机应用研究投稿编辑模板"
+  ],
+  "scope": "Official Word manuscript template typography and layout captured from semantic content runs and resolved inheritance; source-specific stage and section limits are recorded.",
+  "compliance": "source_backed_template_partial_coverage",
+  "manuscript_stage": "official_manuscript_template",
+  "rules": {
+    "title_zh": {
+      "font": "Arial",
+      "east_asia_font": "黑体",
+      "size_pt": 16.0,
+      "alignment": "center",
+      "space_before_pt": 16.1,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2.0
+    },
+    "title_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 12.0,
+      "alignment": "center",
+      "space_before_pt": 16.1,
+      "space_after_pt": 16.1
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 9.0,
+      "alignment": "both"
+    },
+    "heading1": {
+      "font": "Arial",
+      "east_asia_font": "黑体",
+      "size_pt": 10.5,
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 16.0
+    },
+    "heading2": {
+      "font": "Arial",
+      "east_asia_font": "黑体",
+      "size_pt": 9.0,
+      "alignment": "both"
+    },
+    "abstract_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "alignment": "both"
+    },
+    "abstract_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "alignment": "both"
+    },
+    "keywords_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "alignment": "both"
+    },
+    "keywords_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "alignment": "both"
+    },
+    "references_heading": {
+      "font": "Arial",
+      "east_asia_font": "黑体",
+      "size_pt": 10.5,
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 16.0
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 7.5,
+      "alignment": "both"
+    },
+    "author_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 12.0,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "left_indent_pt": 22.7,
+      "right_indent_pt": 22.7,
+      "line_spacing": 2.0
+    },
+    "author_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "alignment": "center"
+    },
+    "affiliation_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "space_after_pt": 8.05,
+      "left_indent_pt": 22.7,
+      "right_indent_pt": 22.7
+    },
+    "affiliation_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "space_after_pt": 8.05,
+      "left_indent_pt": 22.7,
+      "right_indent_pt": 22.7
+    }
+  },
+  "page": {
+    "width_mm": 210.0086,
+    "height_mm": 297.0036,
+    "margin_top_mm": 20.0025,
+    "margin_bottom_mm": 14.9931,
+    "margin_left_mm": 14.9931,
+    "margin_right_mm": 14.9931,
+    "header_distance_mm": 10.0012,
+    "footer_distance_mm": 10.0012,
+    "grid_type": "linesAndChars",
+    "grid_line_pitch_pt": 16.1,
+    "mirror_margins": false
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://www.arocmag.cn/download/template",
+      "file": "投稿编辑模板-计算机应用研究.doc",
+      "sha256": "baf9fce8b2bc56f2320c8bf4541546e43f48a8f3a1c773b40667d7b2a7b872cb",
+      "byte_length": 169984,
+      "retrieved_at": "2026-10-30",
+      "official_index_url": "https://www.arocmag.cn/info/instruction/template",
+      "method": "Downloaded original official DOC; isolated hidden Microsoft Word with AutomationSecurity=3, UpdateLinksAtOpen=False, read-only/no-recent Open; converted only to system TEMP DOCX; static XML styles and representative visible runs inspected. No macros or OLE executed.",
+      "converted_file": "aroc-converted.docx",
+      "converted_sha256": "a7201543f4396cc9618cc1fc3e06fb19cd5441f94002fd5c047ff178fa93b7ca",
+      "original_link_url": "http://go.arocmag.com/?LinkId=468801",
+      "source_verified": true,
+      "original_file_redistributed": false,
+      "submission_compliance_verified": false
+    }
+  ],
+  "template": {
+    "family": "computer-chinese",
+    "source_version": "current-official-download-snapshot-2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.arocmag.cn/download/template",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title_zh-font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "font",
+        "expected": "Arial",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[1]; representative visible run ordinal 1; paragraph styleId=afd; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-east_asia_font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[1]; representative visible run ordinal 1; paragraph styleId=afd; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-size_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "size_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[1]; representative visible run ordinal 1; paragraph styleId=afd; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-alignment",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[1]; representative visible run ordinal 1; paragraph styleId=afd; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_before_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_before_pt",
+        "expected": 16.1,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[1]; representative visible run ordinal 1; paragraph styleId=afd; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[1]; representative visible run ordinal 1; paragraph styleId=afd; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[1]; representative visible run ordinal 1; paragraph styleId=afd; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 1; paragraph styleId=aff1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-east_asia_font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 1; paragraph styleId=aff1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-size_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 1; paragraph styleId=aff1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-alignment",
+        "category": "typography",
+        "target": "title_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 1; paragraph styleId=aff1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_before_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_before_pt",
+        "expected": 16.1,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 1; paragraph styleId=aff1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_after_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_after_pt",
+        "expected": 16.1,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 1; paragraph styleId=aff1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=afff6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=afff6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=afff6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=afff6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Arial",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[14]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[14]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[14]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[14]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[14]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[14]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Arial",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[22]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[22]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[22]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[22]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[4]; representative visible run ordinal 4; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-east_asia_font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[4]; representative visible run ordinal 4; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-size_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[4]; representative visible run ordinal 4; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-alignment",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[4]; representative visible run ordinal 4; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-east_asia_font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-size_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-alignment",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[5]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-east_asia_font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[5]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-size_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[5]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-alignment",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[5]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[11]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-east_asia_font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[11]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-size_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[11]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-alignment",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[11]; representative visible run ordinal 3; paragraph styleId=aff7; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Arial",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[102]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[102]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[102]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[102]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing_rule",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[102]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/document.xml:/w:document/w:body/w:p[102]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"a\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"a\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"a\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"a\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-east_asia_font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-size_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-alignment",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-left_indent_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "left_indent_pt",
+        "expected": 22.7,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-right_indent_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "right_indent_pt",
+        "expected": 22.7,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[2]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-east_asia_font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-size_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-alignment",
+        "category": "typography",
+        "target": "author_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-size_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-alignment",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-space_after_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "space_after_pt",
+        "expected": 8.05,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-left_indent_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "left_indent_pt",
+        "expected": 22.7,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-right_indent_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "right_indent_pt",
+        "expected": 22.7,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-size_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-alignment",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-space_after_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "space_after_pt",
+        "expected": 8.05,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-left_indent_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "left_indent_pt",
+        "expected": 22.7,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-right_indent_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "right_indent_pt",
+        "expected": 22.7,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0086,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0036,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 20.0025,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 14.9931,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 14.9931,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 14.9931,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-header_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "header_distance_mm",
+        "expected": 10.0012,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:pgMar/@w:header; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-footer_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "footer_distance_mm",
+        "expected": 10.0012,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:pgMar/@w:footer; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_type",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_type",
+        "expected": "linesAndChars",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:type; source default applies if absent; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_line_pitch_pt",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_line_pitch_pt",
+        "expected": 16.1,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:linePitch; source twips/20; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-mirror_margins",
+        "category": "layout",
+        "target": "page",
+        "property": "mirror_margins",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Converted word/settings.xml:/w:settings/w:mirrorMargins; OOXML default false when absent"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_column_gap_mm",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_column_gap_mm",
+        "expected": 6.4029,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_page",
+        "expected": {
+          "width_mm": 210.0086,
+          "height_mm": 297.0036,
+          "margin_top_mm": 20.0025,
+          "margin_bottom_mm": 14.9931,
+          "margin_left_mm": 14.9931,
+          "margin_right_mm": 14.9931,
+          "header_distance_mm": 10.0012,
+          "footer_distance_mm": 10.0012,
+          "columns": 1,
+          "column_gap_mm": 6.4029,
+          "grid_type": "linesAndChars",
+          "grid_line_pitch_pt": 16.1
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_page",
+        "expected": {
+          "width_mm": 210.0086,
+          "height_mm": 297.0036,
+          "margin_top_mm": 20.0025,
+          "margin_bottom_mm": 14.9931,
+          "margin_left_mm": 14.9931,
+          "margin_right_mm": 14.9931,
+          "header_distance_mm": 10.0012,
+          "footer_distance_mm": 10.0012,
+          "columns": 2,
+          "column_gap_mm": 6.4029,
+          "grid_type": "linesAndChars",
+          "grid_line_pitch_pt": 16.1
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "投稿编辑模板-计算机应用研究.doc",
+          "locator": "Word-converted aroc-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      }
+    ],
+    "coverage_notes": [
+      "Pinned official template/sample style learning, not a claim that every initial submission must use every sample property.",
+      "Typeface, size and paragraph properties come from representative visible content runs; red/blue instruction font colors are not copied.",
+      "Word original source is not redistributed; converted part locators refer to the temporary derived DOCX, linked to the original download SHA256.",
+      "Character-count indents and automatic numbering remain source observations; no point-indent approximation is added.",
+      "The final single-column section contains appended instructions; main-text section between paragraph13 and paragraph109 is double-column."
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1",
+    "body_column_gap_mm": 6.4029,
+    "front_matter_page": {
+      "width_mm": 210.0086,
+      "height_mm": 297.0036,
+      "margin_top_mm": 20.0025,
+      "margin_bottom_mm": 14.9931,
+      "margin_left_mm": 14.9931,
+      "margin_right_mm": 14.9931,
+      "header_distance_mm": 10.0012,
+      "footer_distance_mm": 10.0012,
+      "columns": 1,
+      "column_gap_mm": 6.4029,
+      "grid_type": "linesAndChars",
+      "grid_line_pitch_pt": 16.1
+    },
+    "body_page": {
+      "width_mm": 210.0086,
+      "height_mm": 297.0036,
+      "margin_top_mm": 20.0025,
+      "margin_bottom_mm": 14.9931,
+      "margin_left_mm": 14.9931,
+      "margin_right_mm": 14.9931,
+      "header_distance_mm": 10.0012,
+      "footer_distance_mm": 10.0012,
+      "columns": 2,
+      "column_gap_mm": 6.4029,
+      "grid_type": "linesAndChars",
+      "grid_line_pitch_pt": 16.1
+    }
+  },
+  "extracted_format": {
+    "visible_text_inheritance": "docDefaults + paragraph/character style inheritance + actual visible text run; pPr/rPr paragraph-mark font properties excluded",
+    "visible_run_reaudit": {
+      "title_zh": {
+        "paragraph_index": 1,
+        "run_index": 1,
+        "text_sha256": "1908946c36deb87961125d6263899f0e22ff309720d13094fc374ec76deb5eaa",
+        "resolved_visible_run_format": {
+          "font": "Arial",
+          "east_asia_font": "黑体",
+          "size_pt": 16.0,
+          "alignment": "center",
+          "space_before_pt": 16.1,
+          "line_spacing_rule": "auto",
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7,
+          "line_spacing": 2.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "space_before_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "title_en": {
+        "paragraph_index": 7,
+        "run_index": 1,
+        "text_sha256": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 12.0,
+          "alignment": "center",
+          "space_before_pt": 16.1,
+          "space_after_pt": 16.1,
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "space_before_pt",
+          "space_after_pt"
+        ]
+      },
+      "body": {
+        "paragraph_index": 15,
+        "run_index": 1,
+        "text_sha256": "28712918eaf103c59000b93a05fb0a75d1e47f3828f53ac6e1986970aa4a6d13",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "first_line_pt": 18.2
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment"
+        ]
+      },
+      "heading1": {
+        "paragraph_index": 14,
+        "run_index": 1,
+        "text_sha256": "ef6fba91718f20ee18db5a1fea02f670e9781fb4534bf9f2b2409266e0316dfd",
+        "resolved_visible_run_format": {
+          "font": "Arial",
+          "east_asia_font": "黑体",
+          "size_pt": 10.5,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 16.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "heading2": {
+        "paragraph_index": 22,
+        "run_index": 1,
+        "text_sha256": "b260439872218651f3e76b6d8d2cb3f31d2f02a6b03dc9195fcebcfd87183730",
+        "resolved_visible_run_format": {
+          "font": "Arial",
+          "east_asia_font": "黑体",
+          "size_pt": 9.0,
+          "alignment": "both"
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment"
+        ]
+      },
+      "abstract_zh": {
+        "paragraph_index": 4,
+        "run_index": 4,
+        "text_sha256": "e988a8413f98acd8ba7a23435e1f063947913ed6b3f5b7eb29ee1afdf45d1414",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment"
+        ]
+      },
+      "abstract_en": {
+        "paragraph_index": 10,
+        "run_index": 3,
+        "text_sha256": "408f57a8c87a61296460707fa1ad77dd855ed24acf4fb07aa180546633340815",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment"
+        ]
+      },
+      "keywords_zh": {
+        "paragraph_index": 5,
+        "run_index": 3,
+        "text_sha256": "1f7f0db90f932dfa22f12b72df78549394a7909550fea7a1eb91553aeb60927f",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "size_pt",
+          "alignment"
+        ]
+      },
+      "keywords_en": {
+        "paragraph_index": 11,
+        "run_index": 3,
+        "text_sha256": "d6d198dd68bbff3e3fef3ae8aa7c4d9608c0b13cc99e15077b82dfa3233be364",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment"
+        ]
+      },
+      "references_heading": {
+        "paragraph_index": 102,
+        "run_index": 1,
+        "text_sha256": "edc3efb149a25b9613ce36ac49d50fa08fbda9e7b7120a27b83d2c9a69b24a3f",
+        "resolved_visible_run_format": {
+          "font": "Arial",
+          "east_asia_font": "黑体",
+          "size_pt": 10.5,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 16.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "author_zh": {
+        "paragraph_index": 2,
+        "run_index": 1,
+        "text_sha256": "7d4146ca082798f06a3a99c87e2244a5ceb683cdbeda049d7b8a5c342b73edb0",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 12.0,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7,
+          "line_spacing": 2.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "left_indent_pt",
+          "right_indent_pt",
+          "line_spacing"
+        ]
+      },
+      "author_en": {
+        "paragraph_index": 8,
+        "run_index": 1,
+        "text_sha256": "aa4f0141730ab2ac1a78ceee889a79c18c909f8f1c770c43e8822a6dc46b4cb9",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 10.5,
+          "alignment": "center"
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment"
+        ]
+      },
+      "affiliation_zh": {
+        "paragraph_index": 3,
+        "run_index": 2,
+        "text_sha256": "80b19d68b1494dac82aa7f5433d676df3cd6ac45139a44b3790674b265dbae3f",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "space_after_pt": 8.05,
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "space_after_pt",
+          "left_indent_pt",
+          "right_indent_pt"
+        ]
+      },
+      "affiliation_en": {
+        "paragraph_index": 9,
+        "run_index": 2,
+        "text_sha256": "80b19d68b1494dac82aa7f5433d676df3cd6ac45139a44b3790674b265dbae3f",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "space_after_pt": 8.05,
+          "left_indent_pt": 22.7,
+          "right_indent_pt": 22.7
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "space_after_pt",
+          "left_indent_pt",
+          "right_indent_pt"
+        ]
+      },
+      "reference": {
+        "style_id": "a",
+        "resolved_style_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 7.5,
+          "alignment": "both",
+          "first_line_pt": -15.2,
+          "left_indent_pt": 15.2
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment"
+        ]
+      }
+    },
+    "reaudit_note": "Shared engine resolves defaults, basedOn paragraph/character styles and actual visible run; paragraph-mark rPr excluded. Captured full resolved source observations can include editorial colors or labels; executable rules retain documented manuscript content selection and source guidance/COM measurements where OOXML alone is incomplete."
+  }
+}

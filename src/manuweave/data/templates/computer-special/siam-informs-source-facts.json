@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "verified_layouts": [
+    {
+      "id": "comp-informs-ijoc-submission",
+      "journal": "INFORMS Journal on Computing",
+      "catalog_journal_id": "ccf-2026-informs-journal-on-computing",
+      "current_coverage": true,
+      "version": "1.0.0",
+      "stage": "review_submission",
+      "manuscript_type": "all_submissions",
+      "rules": {
+        "body": {
+          "size_pt": 12,
+          "line_spacing": 1.5
+        },
+        "abstract": {
+          "size_pt": 12,
+          "line_spacing": 1.5
+        },
+        "reference": {
+          "size_pt": 12,
+          "line_spacing": 1.5
+        }
+      },
+      "page": {
+        "columns": 1,
+        "margin_top_mm": 25.4,
+        "margin_bottom_mm": 25.4,
+        "margin_left_mm": 25.4,
+        "margin_right_mm": 25.4
+      },
+      "unique_physical_facts": 7,
+      "source_version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30",
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+          "file": "ijoc-submission-guidelines.html",
+          "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+          "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30",
+          "source_verified": true,
+          "source_verification_scope": "Explicit numeric Format and May 2025 Length Policy statements were read on the official publisher page through the web reader. Raw HTTP response bytes were not obtained; no original-response SHA-256 is asserted."
+        }
+      ],
+      "extracted_format": {
+        "mode": "current_journal_review_submission_layout",
+        "roles": {
+          "body": {
+            "size_pt": {
+              "value": 12,
+              "unit": "Word pt",
+              "source": {
+                "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+                "file": "ijoc-submission-guidelines.html",
+                "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+                "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+              }
+            },
+            "line_spacing": {
+              "value": 1.5,
+              "unit": "ratio",
+              "source": {
+                "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+                "file": "ijoc-submission-guidelines.html",
+                "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+                "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+              }
+            }
+          },
+          "abstract": {
+            "size_pt": {
+              "value": 12,
+              "unit": "Word pt",
+              "source": {
+                "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+                "file": "ijoc-submission-guidelines.html",
+                "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+                "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+              }
+            },
+            "line_spacing": {
+              "value": 1.5,
+              "unit": "ratio",
+              "source": {
+                "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+                "file": "ijoc-submission-guidelines.html",
+                "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+                "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+              }
+            }
+          },
+          "reference": {
+            "size_pt": {
+              "value": 12,
+              "unit": "Word pt",
+              "source": {
+                "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+                "file": "ijoc-submission-guidelines.html",
+                "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+                "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+              }
+            },
+            "line_spacing": {
+              "value": 1.5,
+              "unit": "ratio",
+              "source": {
+                "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+                "file": "ijoc-submission-guidelines.html",
+                "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+                "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+              }
+            }
+          }
+        },
+        "page": {
+          "columns": {
+            "value": 1,
+            "unit": "count",
+            "source": {
+              "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+              "file": "ijoc-submission-guidelines.html",
+              "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+              "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+            }
+          },
+          "margin_top_mm": {
+            "value": 25.4,
+            "unit": "mm",
+            "source": {
+              "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+              "file": "ijoc-submission-guidelines.html",
+              "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+              "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+            }
+          },
+          "margin_bottom_mm": {
+            "value": 25.4,
+            "unit": "mm",
+            "source": {
+              "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+              "file": "ijoc-submission-guidelines.html",
+              "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+              "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+            }
+          },
+          "margin_left_mm": {
+            "value": 25.4,
+            "unit": "mm",
+            "source": {
+              "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+              "file": "ijoc-submission-guidelines.html",
+              "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+              "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+            }
+          },
+          "margin_right_mm": {
+            "value": 25.4,
+            "unit": "mm",
+            "source": {
+              "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+              "file": "ijoc-submission-guidelines.html",
+              "locator": "Preparing Your Manuscript > Format and Length Policy, May 2025",
+              "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+            }
+          }
+        },
+        "references": {
+          "ordering": {
+            "value": "alphabetical_by_author",
+            "unit": "ordering",
+            "source": {
+              "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+              "file": "ijoc-submission-guidelines.html",
+              "locator": "Preparing Your Manuscript > References",
+              "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+            }
+          },
+          "in_text_citation_scheme": {
+            "value": "author_year",
+            "unit": "citation scheme",
+            "source": {
+              "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+              "file": "ijoc-submission-guidelines.html",
+              "locator": "Preparing Your Manuscript > References",
+              "version": "Preparing Your Manuscript > Format; Length Policy (May 2025); observed 2026-10-30"
+            }
+          }
+        }
+      },
+      "coverage_notes": [
+        "Review-submission layout uses 12-point text, 1.5 line spacing, a single column and one-inch margins on all four sides.",
+        "The 12-point and 1.5-line settings explicitly include abstract and reference text."
+      ]
+    }
+  ]
+}

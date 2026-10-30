@@ -1,0 +1,4958 @@
+{
+  "id": "revtex-aip-jcp-preprint",
+  "name": "AIP JCP REVTeX preprint class mode",
+  "version": "1.0.0",
+  "scope": "Detailed JSON formatting extracted from REVTeX 4.2f (2022/06/05). Original template files are research inputs only. Engine output implements the recorded dimensions and semantic styles; journal-specific policy and unsupported conditional composition require review.",
+  "aliases": [
+    "revtex-aip-jcp-preprint",
+    "AIP JCP REVTeX preprint class mode"
+  ],
+  "rules": {
+    "title": {
+      "font": "Computer Modern Sans",
+      "size_pt": 11.955168,
+      "bold": true,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left"
+    },
+    "author": {
+      "font": "Computer Modern Sans",
+      "size_pt": 11.955168,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left"
+    },
+    "affiliation": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": false,
+      "italic": true,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left"
+    },
+    "abstract": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "justify"
+    },
+    "body": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "justify",
+      "first_line_pt": 14.94396,
+      "space_before_pt": 0,
+      "space_after_pt": 0
+    },
+    "heading1": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": true,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left",
+      "space_before_pt": 22.677165,
+      "space_after_pt": 14.173228
+    },
+    "heading2": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": true,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left",
+      "space_before_pt": 22.677165,
+      "space_after_pt": 14.173228
+    },
+    "heading3": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": true,
+      "italic": true,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left",
+      "space_before_pt": 22.677165,
+      "space_after_pt": 14.173228
+    },
+    "caption": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 21.668742
+    },
+    "figure_caption": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 21.668742
+    },
+    "table_caption": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 21.668742
+    },
+    "reference": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "justify"
+    },
+    "heading4": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": false,
+      "italic": true,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left",
+      "space_before_pt": 0.0,
+      "space_after_pt": 0
+    },
+    "heading5": {
+      "font": "Computer Modern Roman",
+      "size_pt": 11.955168,
+      "bold": true,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 20.921544,
+      "alignment": "left",
+      "space_before_pt": 0.0,
+      "space_after_pt": 0
+    },
+    "correspondence": {
+      "font": "Computer Modern Roman",
+      "size_pt": 9.96264,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 21.668742,
+      "alignment": "left",
+      "bold": false,
+      "italic": false
+    }
+  },
+  "page": {
+    "width_mm": 215.9,
+    "height_mm": 279.399996,
+    "margin_left_mm": 25.399996,
+    "margin_right_mm": 26.016815,
+    "margin_top_mm": 25.399996,
+    "margin_bottom_mm": 20.103501,
+    "columns": 1,
+    "column_gap_mm": 3.514598
+  },
+  "latex": {
+    "documentclass": "article",
+    "options": [
+      "12pt"
+    ],
+    "packages": {}
+  },
+  "compliance": "source_extracted_json_rules",
+  "sources": [
+    {
+      "url": "https://journals.aps.org/revtex",
+      "title": "AIP JCP REVTeX preprint class mode source formatting extraction",
+      "version": "REVTeX 4.2f (2022/06/05)",
+      "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358",
+      "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+      "file": "revtex4-2.cls",
+      "verified": true
+    }
+  ],
+  "checks": [],
+  "template": {
+    "family": "revtex",
+    "source_version": "REVTeX 4.2f (2022/06/05)",
+    "license": "LPPL-1.3c-or-later",
+    "source_url": "https://journals.aps.org/revtex",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "partial"
+    },
+    "requirements": [
+      {
+        "id": "title_font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Computer Modern Sans",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "title_size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "title_bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "title_italic",
+        "category": "typography",
+        "target": "title",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "title_line_spacing_rule",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "title_line_spacing_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "title_alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "author_font",
+        "category": "typography",
+        "target": "author",
+        "property": "font",
+        "expected": "Computer Modern Sans",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "author_size_pt",
+        "category": "typography",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "author_bold",
+        "category": "typography",
+        "target": "author",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "author_italic",
+        "category": "typography",
+        "target": "author",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "author_line_spacing_rule",
+        "category": "typography",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "author_line_spacing_pt",
+        "category": "typography",
+        "target": "author",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "author_alignment",
+        "category": "typography",
+        "target": "author",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "affiliation_font",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "affiliation_size_pt",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "affiliation_bold",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "affiliation_italic",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "italic",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "affiliation_line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "affiliation_line_spacing_pt",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "affiliation_alignment",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "abstract_font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "abstract_size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "abstract_bold",
+        "category": "typography",
+        "target": "abstract",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "abstract_italic",
+        "category": "typography",
+        "target": "abstract",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "abstract_line_spacing_rule",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "abstract_line_spacing_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "abstract_alignment",
+        "category": "typography",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "justify",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_bold",
+        "category": "typography",
+        "target": "body",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_italic",
+        "category": "typography",
+        "target": "body",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_line_spacing_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "justify",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_first_line_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 14.94396,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_space_before_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "body_space_after_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aps12pt4-2.rtx",
+          "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_italic",
+        "category": "typography",
+        "target": "heading1",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_line_spacing_rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_line_spacing_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_space_before_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 22.677165,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading1_space_after_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 14.173228,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_bold",
+        "category": "typography",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_italic",
+        "category": "typography",
+        "target": "heading2",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_line_spacing_rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_line_spacing_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_space_before_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 22.677165,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading2_space_after_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_after_pt",
+        "expected": 14.173228,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_bold",
+        "category": "typography",
+        "target": "heading3",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_italic",
+        "category": "typography",
+        "target": "heading3",
+        "property": "italic",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_line_spacing_rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_line_spacing_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_alignment",
+        "category": "typography",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_space_before_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 22.677165,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading3_space_after_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_after_pt",
+        "expected": 14.173228,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "caption_font",
+        "category": "typography",
+        "target": "caption",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "caption_size_pt",
+        "category": "typography",
+        "target": "caption",
+        "property": "size_pt",
+        "expected": 10.909091,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "caption_bold",
+        "category": "typography",
+        "target": "caption",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "caption_italic",
+        "category": "typography",
+        "target": "caption",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "caption_line_spacing_rule",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "caption_line_spacing_pt",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing_pt",
+        "expected": 21.668742,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "figure_caption_font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "figure_caption_size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 10.909091,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "figure_caption_bold",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "figure_caption_italic",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "figure_caption_line_spacing_rule",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "figure_caption_line_spacing_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing_pt",
+        "expected": 21.668742,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "table_caption_font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "table_caption_size_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 10.909091,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "table_caption_bold",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "table_caption_italic",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "table_caption_line_spacing_rule",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "table_caption_line_spacing_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing_pt",
+        "expected": 21.668742,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "reference_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "reference_size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "reference_bold",
+        "category": "typography",
+        "target": "reference",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "reference_italic",
+        "category": "typography",
+        "target": "reference",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "reference_line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "reference_line_spacing_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "reference_alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "justify",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_font",
+        "category": "typography",
+        "target": "heading4",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_size_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_bold",
+        "category": "typography",
+        "target": "heading4",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_italic",
+        "category": "typography",
+        "target": "heading4",
+        "property": "italic",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_line_spacing_rule",
+        "category": "typography",
+        "target": "heading4",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_line_spacing_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_alignment",
+        "category": "typography",
+        "target": "heading4",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_space_before_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading4_space_after_pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_font",
+        "category": "typography",
+        "target": "heading5",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_size_pt",
+        "category": "typography",
+        "target": "heading5",
+        "property": "size_pt",
+        "expected": 11.955168,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_bold",
+        "category": "typography",
+        "target": "heading5",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_italic",
+        "category": "typography",
+        "target": "heading5",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_line_spacing_rule",
+        "category": "typography",
+        "target": "heading5",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_line_spacing_pt",
+        "category": "typography",
+        "target": "heading5",
+        "property": "line_spacing_pt",
+        "expected": 20.921544,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_alignment",
+        "category": "typography",
+        "target": "heading5",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_space_before_pt",
+        "category": "typography",
+        "target": "heading5",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "heading5_space_after_pt",
+        "category": "typography",
+        "target": "heading5",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "correspondence_font",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "correspondence_size_pt",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "size_pt",
+        "expected": 9.96264,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "correspondence_line_spacing_rule",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "correspondence_line_spacing_pt",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "line_spacing_pt",
+        "expected": 21.668742,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "correspondence_alignment",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "correspondence_bold",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "correspondence_italic",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source typography translated to executable physical bp; natural baseline spacing uses a minimum line height."
+      },
+      {
+        "id": "page_width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 215.9,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      },
+      {
+        "id": "page_height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 279.399996,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      },
+      {
+        "id": "page_margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 25.399996,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      },
+      {
+        "id": "page_margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 26.016815,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      },
+      {
+        "id": "page_margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 25.399996,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      },
+      {
+        "id": "page_margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 20.103501,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      },
+      {
+        "id": "page_columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      },
+      {
+        "id": "page_column_gap_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "column_gap_mm",
+        "expected": 3.514598,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Source-defined physical page or column measurement."
+      }
+    ],
+    "coverage_notes": [
+      "Only detailed JSON formatting rules are distributed; no publisher class, style, source archive or runtime download is required.",
+      "Conditional caption fitting, bibliography composition and specialized front matter retain explicit extracted facts and need engine-specific review."
+    ],
+    "validation": {
+      "source": "PASS",
+      "compile": "UNVERIFIED",
+      "visual": "UNVERIFIED"
+    }
+  },
+  "extracted_format": {
+    "mode": "source_extracted_rules",
+    "source_mode": {
+      "documentclass": "revtex4-2",
+      "options": [
+        "aip",
+        "jcp",
+        "preprint"
+      ]
+    },
+    "roles": {
+      "title": {
+        "font": {
+          "value": "Computer Modern Sans",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmssbx10 at 12.0pt",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 273 onward; title formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Computer Modern Sans",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmss12",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 250 onward; author formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmti12",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 262 onward; affiliation formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "abstract": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "justify",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmr12",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 231 onward; abstract formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "body": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "justify",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          }
+        },
+        "first_line_pt": {
+          "value": 14.94396,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "unit": "bp"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "unit": "bp"
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmr12",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aps12pt4-2.rtx",
+            "locator": "lines 40 onward; body formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "ed800427c862eee9fec9c705ca7fb1d82dc1f6abee5598257653e89d875e94bd"
+          }
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "space_before_pt": {
+          "value": 22.677165,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 14.173228,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmbx12",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 377 onward; heading1 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "space_before_pt": {
+          "value": 22.677165,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 14.173228,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmbx12",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 394 onward; heading2 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "heading3": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "space_before_pt": {
+          "value": 22.677165,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 14.173228,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmbxti10 at 12.0pt",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 409 onward; heading3 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "caption": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "size_pt": {
+          "value": 10.909091,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 21.668742,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "source_size_tex_pt": {
+          "value": 10.95,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.75,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmr10 at 10.95pt",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        }
+      },
+      "figure_caption": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "size_pt": {
+          "value": 10.909091,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 21.668742,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "source_size_tex_pt": {
+          "value": 10.95,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.75,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmr10 at 10.95pt",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; figure_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        }
+      },
+      "table_caption": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "size_pt": {
+          "value": 10.909091,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 21.668742,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "source_size_tex_pt": {
+          "value": 10.95,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.75,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmr10 at 10.95pt",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 6706 onward; table_caption formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "justify",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "source_size_tex_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_baseline_tex_pt": {
+          "value": 21.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "TeX pt"
+        },
+        "source_font_name": {
+          "value": "cmr12",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 590 onward; reference formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        }
+      },
+      "heading4": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "space_before_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 425 onward; heading4 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "run_in": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "Paragraph and subparagraph heading definitions",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "run_in_gap": {
+          "value": 1,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "Paragraph and subparagraph heading definitions",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "em"
+        }
+      },
+      "heading5": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "size_pt": {
+          "value": 11.955168,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 20.921544,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          }
+        },
+        "space_before_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "aip4-2.rtx",
+            "locator": "lines 434 onward; heading5 formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+          },
+          "unit": "bp"
+        },
+        "run_in": {
+          "value": true,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "Paragraph and subparagraph heading definitions",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "run_in_gap": {
+          "value": 1,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "Paragraph and subparagraph heading definitions",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "em"
+        }
+      },
+      "correspondence": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "size_pt": {
+          "value": 9.96264,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "condition": "TeX natural line boxes map to Word minimum spacing; this is not a fixed-height Word source rule"
+        },
+        "line_spacing_pt": {
+          "value": 21.668742,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://journals.aps.org/revtex",
+            "file": "revtex4-2.cls",
+            "locator": "lines 509 onward; correspondence formatting in source mode aip,jcp,preprint",
+            "version": "REVTeX 4.2f (2022/06/05)",
+            "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+          }
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 215.9,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "height_mm": {
+        "value": 279.399996,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "margin_left_mm": {
+        "value": 25.399996,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "margin_right_mm": {
+        "value": 26.016815,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "margin_top_mm": {
+        "value": 25.399996,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "margin_bottom_mm": {
+        "value": 20.103501,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "columns": {
+        "value": 1,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "column_gap_mm": {
+        "value": 3.514598,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Paper dimensions, text block, page origin and column separation",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "text_width_mm": {
+        "value": 164.483188,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      },
+      "text_height_mm": {
+        "value": 233.896499,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "mm"
+      }
+    },
+    "captions": {
+      "short_alignment": {
+        "value": "center",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "long_alignment": {
+        "value": "justify",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "space_before_tex_pt": {
+        "value": 10.0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "TeX pt"
+      },
+      "space_after_tex_pt": {
+        "value": 2.0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "TeX pt"
+      },
+      "separator": {
+        "value": ". ",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "figure_label": {
+        "value": "FIG.",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "table_label": {
+        "value": "TABLE",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "label_bold": {
+        "value": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "figure_number_format": {
+        "value": "arabic",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "table_number_format": {
+        "value": "Roman",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Caption builder and label/counter definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      }
+    },
+    "equations": {
+      "alignment": {
+        "value": "center",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "number_position": {
+        "value": "right",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "number_format": {
+        "value": "(arabic)",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "space_before_tex_pt": {
+        "value": 12.0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "TeX pt"
+      },
+      "space_after_tex_pt": {
+        "value": 12.0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "TeX pt"
+      },
+      "appendix_number_format": {
+        "value": "letter+arabic",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      }
+    },
+    "references": {
+      "scheme": {
+        "value": "numeric",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "order": {
+        "value": "citation",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "source_style": {
+        "value": "aipnum4-2",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "entry_spacing_tex_pt": {
+        "value": 0,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Bibliography list spacing",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        },
+        "unit": "TeX pt"
+      },
+      "author_name_order": {
+        "value": "initials_surname",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "article_title_included": {
+        "value": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "journal_italic": {
+        "value": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "volume_bold": {
+        "value": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "year_position": {
+        "value": "after_pages",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "in_text_delimiter": {
+        "value": "superscript",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      },
+      "article_fields": {
+        "value": [
+          "authors",
+          "journal",
+          "volume",
+          "pages",
+          "year"
+        ],
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aipnum4-2.bst",
+          "locator": "Citation-label, name formatting, entry-order and article formatting functions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "e69b7e6656784ef660ea243d9417fce5fc72742b084dc9775943c9dcfa714598"
+        }
+      }
+    },
+    "heading_numbering": {
+      "enabled": {
+        "value": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "depth": {
+        "value": 4,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "styles": {
+        "value": [
+          "Roman",
+          "Alpha",
+          "arabic"
+        ],
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "heading1_uppercase": {
+        "value": true,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Source option aip,jcp,preprint; class typography and geometry definitions",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      }
+    },
+    "keywords": {
+      "printed_by_default": {
+        "value": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Normal font size, baseline and text paragraphs",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      },
+      "condition": {
+        "value": "Keywords print only when the source showkeys option is selected",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "revtex4-2.cls",
+          "locator": "Normal font size, baseline and text paragraphs",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358"
+        }
+      }
+    },
+    "line_spacing_mapping": "Source TeX natural baseline skip maps to a Word minimum line height in physical bp; taller inline objects may expand the line box.",
+    "abstract": {
+      "label_visible": {
+        "value": false,
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "Abstract-heading selection in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        }
+      },
+      "label": {
+        "value": "Abstract",
+        "source": {
+          "url": "https://journals.aps.org/revtex",
+          "file": "aip4-2.rtx",
+          "locator": "Abstract-heading selection in source mode aip,jcp,preprint",
+          "version": "REVTeX 4.2f (2022/06/05)",
+          "sha256": "c9be497e89fcdc0a27174351d8ee5c94a2ed9a6057acfd5e62795e6a544b00de"
+        }
+      }
+    }
+  }
+}

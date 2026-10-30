@@ -1,0 +1,245 @@
+{
+  "id": "computer-wiley-spe-manuscript",
+  "name": "Software: Practice and Experience — source-stated manuscript typography",
+  "version": "1.0.0",
+  "scope": "Preferred manuscript typography from the SPE author guide. Partial editable Word coverage; this does not reproduce a final Wiley publication design.",
+  "aliases": [
+    "SPE manuscript typography",
+    "Software Practice and Experience manuscript"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "body": {
+      "font": "Times",
+      "size_pt": 12,
+      "line_spacing": 1
+    }
+  },
+  "page": {
+    "columns": 1
+  },
+  "latex": {},
+  "sources": [
+    {
+      "id": "spe-guide",
+      "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+      "file": "SPE author guidelines",
+      "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+      "bytes": 132121,
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "template": {
+    "family": "computer-wiley",
+    "source_version": "2026-10-30 pinned source",
+    "license": "ManuWeave rule encoding is MIT; factual configuration only; no publisher source software redistributed",
+    "source_url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "locator": "MANUSCRIPT STYLE: 12-point, single-column, single-spaced type in one of the standard fonts: Times, Helvetica, or Courier is preferred."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The source calls this preferred typography. Times is selected from its explicit allowed font list; no font substitution is authorized."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 12,
+        "unit": "pt",
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "locator": "MANUSCRIPT STYLE: 12-point, single-column, single-spaced type in one of the standard fonts: Times, Helvetica, or Courier is preferred."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The source calls this preferred typography. Times is selected from its explicit allowed font list; no font substitution is authorized."
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "locator": "MANUSCRIPT STYLE: 12-point, single-column, single-spaced type in one of the standard fonts: Times, Helvetica, or Courier is preferred."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The source calls this preferred typography. Times is selected from its explicit allowed font list; no font substitution is authorized."
+      },
+      {
+        "id": "page-columns",
+        "category": "typography",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "locator": "MANUSCRIPT STYLE: 12-point, single-column, single-spaced type in one of the standard fonts: Times, Helvetica, or Courier is preferred."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-style",
+        "category": "references",
+        "target": "reference",
+        "property": "citation_style",
+        "expected": "AMA",
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "locator": "REFERENCE STYLE: AMA - American Medical Association"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "This is the named reference-style section. Initial free-format submission separately permits any consistent reference style; the host must respect that stage and must not invent or replace references."
+      },
+      {
+        "id": "reference-sequence",
+        "category": "references",
+        "target": "reference",
+        "property": "numbering_order",
+        "expected": "order_of_appearance",
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "locator": "REFERENCE STYLE: numbered consecutively in order of appearance; Arabic superscript in-text numerals"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "Applies only the explicit preferred body font, body size, single line spacing and single-column settings.",
+      "Times, Helvetica and Courier are alternatives in the source. This profile selects Times literally; missing local Times requires a reported font failure or an explicitly source-permitted host choice.",
+      "Reference formatting requires host review; initial free-format and later reference-style instructions retain their distinct stages.",
+      "No page dimensions, margins, title sizes, heading sizes or table borders are inferred.",
+      "No publisher class is redistributed and native LaTeX formatting is unsupported by this profile."
+    ]
+  },
+  "extracted_format": {
+    "mode": "source_stated_preferred_manuscript_typography",
+    "roles": {
+      "body": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+            "file": "SPE author guidelines",
+            "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+            "locator": "Sheet1, row 202; exact journal title in column A; B reference style, C column count, D typography, E layout size"
+          }
+        },
+        "size_pt": {
+          "value": 12,
+          "unit": "pt",
+          "source": {
+            "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+            "file": "SPE author guidelines",
+            "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+            "locator": "Sheet1, row 202; exact journal title in column A; B reference style, C column count, D typography, E layout size"
+          }
+        },
+        "line_spacing": {
+          "value": 1,
+          "unit": null,
+          "source": {
+            "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+            "file": "SPE author guidelines",
+            "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+            "locator": "Sheet1, row 202; exact journal title in column A; B reference style, C column count, D typography, E layout size"
+          }
+        }
+      }
+    },
+    "page": {
+      "columns": {
+        "value": 1,
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+          "locator": "Sheet1, row 202; exact journal title in column A; B reference style, C column count, D typography, E layout size"
+        }
+      }
+    },
+    "citations": {
+      "reference_style_after_free_format_stage": {
+        "value": "AMA",
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+          "locator": "REFERENCE STYLE section"
+        }
+      },
+      "initial_submission_any_consistent_style": {
+        "value": true,
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+          "file": "SPE author guidelines",
+          "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+          "locator": "Free format submission section"
+        }
+      }
+    }
+  },
+  "journal_binding": {
+    "name": "Software: Practice and Experience",
+    "source_url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+    "strength": "preferred"
+  },
+  "catalog_ids": [
+    "ccf-2026-software-practice-and-experience"
+  ]
+}

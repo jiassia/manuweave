@@ -1,0 +1,119 @@
+{
+  "id": "computer-wiley-cavw-manuscript",
+  "name": "Computer animation & virtual worlds — explicit preferred manuscript typography",
+  "version": "1.0.0",
+  "scope": "Only the journal guide's explicit preferred 12-point font setting; no missing title, margin or column requirement is invented.",
+  "aliases": [
+    "Computer animation & virtual worlds preferred manuscript"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "body": {
+      "font": "Times",
+      "size_pt": 12
+    }
+  },
+  "page": {},
+  "latex": {},
+  "sources": [
+    {
+      "journal": "Computer animation & virtual worlds",
+      "url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+      "file": "official-author-guidelines",
+      "source_version": "official page text indexed 2026-10-30"
+    }
+  ],
+  "template": {
+    "family": "computer-wiley",
+    "source_version": "official page text indexed 2026-10-30",
+    "license": "ManuWeave rule encoding is MIT; factual configuration only; no publisher source software redistributed",
+    "source_url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+          "file": "official-author-guidelines",
+          "locator": "MANUSCRIPT STYLE: 12-point type in standard fonts Times, Helvetica or Courier is preferred; double-line spacing is not necessary."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 12,
+        "unit": "pt",
+        "source": {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+          "file": "official-author-guidelines",
+          "locator": "MANUSCRIPT STYLE: 12-point type in standard fonts Times, Helvetica or Courier is preferred; double-line spacing is not necessary."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "Times is selected literally from the allowed source fonts.",
+      "Not necessary to double-line space is not converted into a mandatory single-spacing value.",
+      "A separate optional NJD design choice supplies source-extracted typography when explicitly selected."
+    ]
+  },
+  "journal_binding": {
+    "name": "Computer animation & virtual worlds",
+    "source_url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+    "strength": "preferred"
+  },
+  "extracted_format": {
+    "mode": "source_stated_preferred_manuscript_typography",
+    "roles": {
+      "body": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+            "file": "official-author-guidelines",
+            "source_version": "official page text indexed 2026-10-30",
+            "locator": "MANUSCRIPT STYLE: 12-point type in standard fonts Times, Helvetica or Courier is preferred; double-line spacing is not necessary."
+          }
+        },
+        "size_pt": {
+          "value": 12,
+          "unit": "pt",
+          "source": {
+            "url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+            "file": "official-author-guidelines",
+            "source_version": "official page text indexed 2026-10-30",
+            "locator": "MANUSCRIPT STYLE: 12-point type in standard fonts Times, Helvetica or Courier is preferred; double-line spacing is not necessary."
+          }
+        }
+      }
+    },
+    "page": {},
+    "citations": {}
+  },
+  "catalog_ids": [
+    "ccf-2026-computer-animation-virtual-worlds"
+  ]
+}

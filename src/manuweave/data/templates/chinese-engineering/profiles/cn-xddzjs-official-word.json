@@ -1,0 +1,954 @@
+{
+  "id": "cn-xddzjs-official-word",
+  "name": "现代电子技术，2025官方研究论文投稿模板",
+  "version": "1.0.0",
+  "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+  "aliases": [
+    "现代电子技术"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "east_asia_font": "黑体",
+      "size_pt": 16.0,
+      "alignment": "center"
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    },
+    "heading1": {
+      "east_asia_font": "黑体",
+      "size_pt": 12.0
+    },
+    "heading2": {
+      "east_asia_font": "黑体",
+      "size_pt": 10.5
+    },
+    "heading3": {
+      "east_asia_font": "楷体",
+      "size_pt": 10.5
+    },
+    "abstract": {
+      "size_pt": 9.0
+    },
+    "keywords": {
+      "size_pt": 9.0
+    },
+    "figure_caption": {
+      "east_asia_font": "黑体",
+      "size_pt": 9.0
+    },
+    "table_caption": {
+      "east_asia_font": "黑体",
+      "size_pt": 9.0
+    }
+  },
+  "page": {
+    "width_mm": 210.0,
+    "height_mm": 297.0,
+    "margin_top_mm": 20.0,
+    "margin_bottom_mm": 20.0,
+    "margin_left_mm": 20.0,
+    "margin_right_mm": 20.0
+  },
+  "latex": {},
+  "sources": [
+    {
+      "file": "xddzjs-official-template.docx",
+      "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+      "sha256": "f0fba757547a67ae6bcf7735423cf5f17eb7cea020190ffb05a6b529fca51ed7",
+      "bytes": 516371,
+      "source_kind": "official_submission_template",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    },
+    {
+      "file": "xddzjs-official-home.html",
+      "url": "https://xddj.cbpt.cnki.net/portal/",
+      "sha256": "5d391d7cbdd4add3f9bcea092045b4687c061d85773eec22c78fd093d1a81cf8",
+      "bytes": 568083,
+      "source_kind": "official_template_index",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 16.0
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 1.5
+    },
+    {
+      "role": "heading1",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "heading1",
+      "property": "size_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "heading2",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "heading2",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "heading3",
+      "property": "east_asia_font",
+      "expected": "楷体"
+    },
+    {
+      "role": "heading3",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "abstract",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "keywords",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "figure_caption",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "table_caption",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "table_caption",
+      "property": "size_pt",
+      "expected": 9.0
+    }
+  ],
+  "template": {
+    "family": "chinese-engineering",
+    "source_version": "official-download-snapshot-2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 中文标题（三号黑体） and centered title alignment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 中文标题（三号黑体） and centered title alignment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 中文标题（三号黑体） and centered title alignment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号宋体/英文及数字Times New Roman/正文文本1.5倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号宋体/英文及数字Times New Roman/正文文本1.5倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号宋体/英文及数字Times New Roman/正文文本1.5倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号宋体/英文及数字Times New Roman/正文文本1.5倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号宋体/英文及数字Times New Roman/正文文本1.5倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 31, explicit 一级标题（小四号黑体）"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 31, explicit 一级标题（小四号黑体）"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 32, explicit 二级标题（五号黑体）"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 32, explicit 二级标题（五号黑体）"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 33, explicit 三级标题（五号楷体）"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 33, explicit 三级标题（五号楷体）"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 9 and 17, explicit Chinese and English abstract 小五"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 10 and 18, explicit Chinese and English keywords 小五"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 68, explicit 图题采用小五黑体"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 68, explicit 图题采用小五黑体"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-east_asia_font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 84, explicit 表题采用小五黑体"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 84, explicit 表题采用小五黑体"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit A4（21cm×29.7cm）and 页边距上下左右均为2cm; use this instruction, not instruction-document container margins"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit A4（21cm×29.7cm）and 页边距上下左右均为2cm; use this instruction, not instruction-document container margins"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 20.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit A4（21cm×29.7cm）and 页边距上下左右均为2cm; use this instruction, not instruction-document container margins"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 20.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit A4（21cm×29.7cm）and 页边距上下左右均为2cm; use this instruction, not instruction-document container margins"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 20.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit A4（21cm×29.7cm）and 页边距上下左右均为2cm; use this instruction, not instruction-document container margins"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 20.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit A4（21cm×29.7cm）and 页边距上下左右均为2cm; use this instruction, not instruction-document container margins"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 21 and 22: 从正文内容开始设置为双栏; 页眉页脚设置首页不同、奇偶页不同"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 21 and 22: 从正文内容开始设置为双栏; 页眉页脚设置首页不同、奇偶页不同"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 21 and 22: 从正文内容开始设置为双栏; 页眉页脚设置首页不同、奇偶页不同"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-different_first_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "different_first_page",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 21 and 22: 从正文内容开始设置为双栏; 页眉页脚设置首页不同、奇偶页不同"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-different_odd_even_headers",
+        "category": "layout",
+        "target": "sections",
+        "property": "different_odd_even_headers",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 21 and 22: 从正文内容开始设置为双栏; 页眉页脚设置首页不同、奇偶页不同"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-length",
+        "category": "typography",
+        "target": "abstract",
+        "property": "minimum_characters",
+        "expected": 300,
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 9, explicit 中文摘要篇幅不少于300字"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keyword-count",
+        "category": "typography",
+        "target": "keywords",
+        "property": "count_range",
+        "expected": [
+          6,
+          8
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 10 and 18, explicit 6~8个"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keyword-separator",
+        "category": "typography",
+        "target": "keywords",
+        "property": "separator",
+        "expected": "；",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraphs 10 and 18, explicit 以分号分隔"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "equation-point-size",
+        "category": "typography",
+        "target": "equation",
+        "property": "math_size_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 61, explicit 公式字号10磅"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-inline-width",
+        "category": "typography",
+        "target": "image",
+        "property": "single_column_max_width_mm",
+        "expected": 80.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 67, explicit 占用半栏时宽度不超过80mm"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-spanning-width",
+        "category": "typography",
+        "target": "image",
+        "property": "spanning_max_width_mm",
+        "expected": 160.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 67, explicit 通栏时宽度不超过160mm"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table-no-diagonal",
+        "category": "typography",
+        "target": "table",
+        "property": "diagonal_header_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 24, explicit 表格中的表头不能出现斜线"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "citation-order",
+        "category": "typography",
+        "target": "reference",
+        "property": "bibliography_style",
+        "expected": "numeric",
+        "unit": null,
+        "source": {
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "file": "xddzjs-official-template.docx",
+          "locator": "word/document.xml body paragraph 30, explicit 先后顺序用阿拉伯数字连续编码"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "仅执行本配置列出的、来源已确认的官方投稿格式与规则。",
+      "原始投稿模板和指南仅用于核对事实，未随项目再分发。",
+      "字体字号与页面几何检查、实际页面审查、内容义务检查分别记录。"
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1",
+    "different_first_page": true,
+    "different_odd_even_headers": true
+  }
+}

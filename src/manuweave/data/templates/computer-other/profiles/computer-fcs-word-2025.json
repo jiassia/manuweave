@@ -1,0 +1,3589 @@
+{
+  "id": "computer-fcs-word-2025",
+  "name": "Frontiers of Computer Science：2025 Word 模板格式",
+  "version": "2.0.0",
+  "catalog_ids": [
+    "ccf-2026-frontiers-of-computer-science"
+  ],
+  "aliases": [],
+  "scope": "Detailed formatting values extracted from the identified publisher template; applies through the generic document formatting engine.",
+  "compliance": "source_extracted_format",
+  "rules": {
+    "title": {
+      "size_pt": 18.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "bold": true,
+      "alignment": "both",
+      "space_before_pt": 8.25,
+      "left_indent_pt": 5.0
+    },
+    "abstract_heading": {
+      "size_pt": 9.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "bold": true,
+      "alignment": "both",
+      "space_before_pt": 0.05,
+      "left_indent_pt": 5.0
+    },
+    "abstract": {
+      "size_pt": 9.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "alignment": "both",
+      "space_before_pt": 2.2,
+      "line_spacing_rule": "auto",
+      "left_indent_pt": 5.0,
+      "right_indent_pt": 50.9,
+      "line_spacing": 1.2083333333333333
+    },
+    "keywords": {
+      "size_pt": 9.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "space_before_pt": 2.2,
+      "left_indent_pt": 5.0
+    },
+    "heading1": {
+      "size_pt": 9.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "bold": true,
+      "alignment": "left",
+      "first_line_pt": -9.2,
+      "left_indent_pt": 14.2
+    },
+    "heading2": {
+      "size_pt": 9.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "alignment": "both",
+      "first_line_pt": -7.75,
+      "left_indent_pt": 5.0,
+      "space_before_pt": 0.05
+    },
+    "body": {
+      "size_pt": 9.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "alignment": "both",
+      "space_before_pt": 2.65,
+      "line_spacing_rule": "auto",
+      "first_line_pt": 11.05,
+      "left_indent_pt": 5.0,
+      "right_indent_pt": 1.9,
+      "line_spacing": 1.2083333333333333
+    },
+    "figure_caption": {
+      "size_pt": 7.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "alignment": "both",
+      "space_before_pt": 1.35,
+      "left_indent_pt": 5.0
+    },
+    "references_heading": {
+      "size_pt": 9.0,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "bold": true,
+      "alignment": "both",
+      "first_line_pt": -9.05,
+      "left_indent_pt": 14.05,
+      "space_before_pt": 6.4
+    },
+    "reference": {
+      "size_pt": 8.5,
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "alignment": "both",
+      "first_line_pt": 0.0,
+      "left_indent_pt": 5.0,
+      "space_before_pt": 1.2,
+      "line_spacing_rule": "auto",
+      "right_indent_pt": 50.9,
+      "line_spacing": 1.1666666666666667
+    },
+    "author": {
+      "font": "Times New Roman",
+      "size_pt": 10
+    },
+    "affiliation": {
+      "font": "Times New Roman",
+      "size_pt": 9
+    }
+  },
+  "page": {
+    "width_mm": 216.0764,
+    "height_mm": 283.1042,
+    "margin_top_mm": 0.0,
+    "margin_bottom_mm": 4.9389,
+    "margin_left_mm": 16.2278,
+    "margin_right_mm": 0.0,
+    "columns": 2,
+    "column_gap_mm": 1.5169444444444444,
+    "column_widths_mm": [
+      90.48749999999998,
+      107.84416666666667
+    ]
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+      "file": "template in MS Word_2025.docx",
+      "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+      "version": "2025 official Word template",
+      "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body",
+      "source_verified": true,
+      "original_file_redistributed": false
+    },
+    {
+      "url": "https://journal.hep.com.cn/fcs/EN/download_templates",
+      "file": "FCS Download Templates page",
+      "version": "retrieved 2026-10-30",
+      "sha256": "c9e8d04849c85136173fc38c2241c0fe3c4ee5996586ba4fda7ffa0b92ee692b",
+      "locator": "Download templates > template in MS Word_2025.docx",
+      "source_verified": true,
+      "original_file_redistributed": false
+    }
+  ],
+  "extracted_format": {
+    "mode": "fcs-word-2025",
+    "roles": {
+      "title": {
+        "size_pt": {
+          "value": 18.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 8.25,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+          }
+        }
+      },
+      "abstract_heading": {
+        "size_pt": {
+          "value": 9.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 0.05,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+          }
+        }
+      },
+      "abstract": {
+        "size_pt": {
+          "value": 9.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 2.2,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "right_indent_pt": {
+          "value": 50.9,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        },
+        "line_spacing": {
+          "value": 1.2083333333333333,
+          "unit": "multiple",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+          }
+        }
+      },
+      "keywords": {
+        "size_pt": {
+          "value": 9.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 2.2,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+          }
+        }
+      },
+      "heading1": {
+        "size_pt": {
+          "value": 9.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "left",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+          }
+        },
+        "first_line_pt": {
+          "value": -9.2,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 14.2,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+          }
+        }
+      },
+      "heading2": {
+        "size_pt": {
+          "value": 9.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+          }
+        },
+        "first_line_pt": {
+          "value": -7.75,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 0.05,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+          }
+        }
+      },
+      "body": {
+        "size_pt": {
+          "value": 9.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 2.65,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "first_line_pt": {
+          "value": 11.05,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "right_indent_pt": {
+          "value": 1.9,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        },
+        "line_spacing": {
+          "value": 1.2083333333333333,
+          "unit": "multiple",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+          }
+        }
+      },
+      "figure_caption": {
+        "size_pt": {
+          "value": 7.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 1.35,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+          }
+        }
+      },
+      "references_heading": {
+        "size_pt": {
+          "value": 9.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        },
+        "first_line_pt": {
+          "value": -9.05,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 14.05,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 6.4,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+          }
+        }
+      },
+      "reference": {
+        "size_pt": {
+          "value": 8.5,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "east_asia_font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "alignment": {
+          "value": "both",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "first_line_pt": {
+          "value": 0.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "left_indent_pt": {
+          "value": 5.0,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "space_before_pt": {
+          "value": 1.2,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "unit": "enum",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "right_indent_pt": {
+          "value": 50.9,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        },
+        "line_spacing": {
+          "value": 1.1666666666666667,
+          "unit": "multiple",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+          }
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[9]; main-name/address runs and inherited font"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[9]; main-name/address runs and inherited font"
+          }
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Times New Roman",
+          "unit": "font_family",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[10]; main-name/address runs and inherited font"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "bp",
+          "source": {
+            "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+            "file": "template in MS Word_2025.docx",
+            "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+            "version": "2025 official Word template",
+            "locator": "word/document.xml /w:document/w:body/w:p[10]; main-name/address runs and inherited font"
+          }
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 216.0764,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p/w:pPr/w:sectPr[1]/w:pgSz"
+        }
+      },
+      "height_mm": {
+        "value": 283.1042,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p/w:pPr/w:sectPr[1]/w:pgSz"
+        }
+      },
+      "margin_top_mm": {
+        "value": 0.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        }
+      },
+      "margin_bottom_mm": {
+        "value": 4.9389,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        }
+      },
+      "margin_left_mm": {
+        "value": 16.2278,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        }
+      },
+      "margin_right_mm": {
+        "value": 0.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        }
+      },
+      "columns": {
+        "value": 2,
+        "unit": "columns",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:cols/@w:num; principal body section"
+        },
+        "condition": {
+          "section": "principal_body",
+          "requires_unequal_column_widths": true
+        }
+      },
+      "column_gap_mm": {
+        "value": 1.5169444444444444,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:cols/w:col[1]/@w:space = 86 twips"
+        },
+        "source_measurement": {
+          "value": 86,
+          "unit": "twip"
+        },
+        "condition": {
+          "section": "principal_body",
+          "requires_unequal_column_widths": true
+        }
+      },
+      "column_widths_mm": {
+        "value": [
+          90.48749999999998,
+          107.84416666666667
+        ],
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:cols/w:col/@w:w = 5130,6114 twips"
+        },
+        "condition": {
+          "section": "principal_body"
+        }
+      },
+      "section_layouts": {
+        "value": [
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 0.0,
+            "margin_bottom_mm": 4.9389,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 1,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "space": "720"
+              },
+              "columns": []
+            }
+          },
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 0.0,
+            "margin_bottom_mm": 4.9389,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 2,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "num": "2",
+                "space": "720",
+                "equalWidth": "0"
+              },
+              "columns": [
+                {
+                  "w": "5130",
+                  "space": "86"
+                },
+                {
+                  "w": "6114"
+                }
+              ]
+            }
+          },
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 18.3444,
+            "margin_bottom_mm": 4.9389,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 1,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "space": "720"
+              },
+              "columns": []
+            }
+          },
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 0.0,
+            "margin_bottom_mm": 4.9389,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 7,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "num": "7",
+                "space": "720",
+                "equalWidth": "0"
+              },
+              "columns": [
+                {
+                  "w": "5130",
+                  "space": "155"
+                },
+                {
+                  "w": "280",
+                  "space": "47"
+                },
+                {
+                  "w": "1796",
+                  "space": "39"
+                },
+                {
+                  "w": "223",
+                  "space": "40"
+                },
+                {
+                  "w": "255",
+                  "space": "39"
+                },
+                {
+                  "w": "2013",
+                  "space": "40"
+                },
+                {
+                  "w": "1273"
+                }
+              ]
+            }
+          },
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 0.0,
+            "margin_bottom_mm": 4.9389,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 2,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "num": "2",
+                "space": "720",
+                "equalWidth": "0"
+              },
+              "columns": [
+                {
+                  "w": "5130",
+                  "space": "86"
+                },
+                {
+                  "w": "6114"
+                }
+              ]
+            }
+          },
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 0.0,
+            "margin_bottom_mm": 4.9389,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 1,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "space": "720"
+              },
+              "columns": []
+            }
+          },
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 18.3444,
+            "margin_bottom_mm": 0.0,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 1,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "space": "720"
+              },
+              "columns": []
+            }
+          },
+          {
+            "width_mm": 216.0764,
+            "height_mm": 283.1042,
+            "margin_top_mm": 0.0,
+            "margin_bottom_mm": 4.9389,
+            "margin_left_mm": 16.2278,
+            "margin_right_mm": 0.0,
+            "header_distance_mm": 12.7,
+            "footer_distance_mm": 12.7,
+            "columns": 2,
+            "column_gap_mm": 12.7,
+            "column_definition": {
+              "attributes": {
+                "num": "2",
+                "space": "720",
+                "equalWidth": "0"
+              },
+              "columns": [
+                {
+                  "w": "5130",
+                  "space": "86"
+                },
+                {
+                  "w": "6114"
+                }
+              ]
+            }
+          }
+        ],
+        "unit": "section_list",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml all w:sectPr; complete original section lengths in twips"
+        }
+      },
+      "body_starts_at": {
+        "value": "first_heading1",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body"
+        }
+      }
+    },
+    "captions": {
+      "figure_label_bold": {
+        "value": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[144]/w:r[1]/w:rPr/w:b"
+        }
+      },
+      "figure_placement": {
+        "value": "below_figure",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml figure drawing precedes /w:document/w:body/w:p[144]"
+        }
+      }
+    },
+    "equations": {},
+    "references": {}
+  },
+  "template": {
+    "family": "computer-other",
+    "source_version": "fcs-word-2025",
+    "license": "structured_format_facts_only",
+    "source_url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "partial"
+    },
+    "requirements": [
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 18.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "title-space_before_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "space_before_pt",
+        "expected": 8.25,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "title-left_indent_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[8]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract_heading-size_pt",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract_heading-font",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract_heading-east_asia_font",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract_heading-bold",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "bold",
+        "expected": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract_heading-alignment",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract_heading-space_before_pt",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "space_before_pt",
+        "expected": 0.05,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract_heading-left_indent_pt",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[17]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-east_asia_font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-alignment",
+        "category": "typography",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-space_before_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "space_before_pt",
+        "expected": 2.2,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-left_indent_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-right_indent_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "right_indent_pt",
+        "expected": 50.9,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "abstract-line_spacing",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 1.2083333333333333,
+        "unit": "multiple",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[18]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "keywords-font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "keywords-east_asia_font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "keywords-space_before_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "space_before_pt",
+        "expected": 2.2,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "keywords-left_indent_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[22]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "left",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading1-first_line_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "first_line_pt",
+        "expected": -9.2,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading1-left_indent_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "left_indent_pt",
+        "expected": 14.2,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[24]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading2-first_line_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "first_line_pt",
+        "expected": -7.75,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading2-left_indent_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "heading2-space_before_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 0.05,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[60]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-space_before_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_before_pt",
+        "expected": 2.65,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 11.05,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-left_indent_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-right_indent_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "right_indent_pt",
+        "expected": 1.9,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.2083333333333333,
+        "unit": "multiple",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[27]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 7.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "figure_caption-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "figure_caption-alignment",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "figure_caption-space_before_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "space_before_pt",
+        "expected": 1.35,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "figure_caption-left_indent_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[144]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-bold",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "bold",
+        "expected": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-first_line_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "first_line_pt",
+        "expected": -9.05,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-left_indent_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "left_indent_pt",
+        "expected": 14.05,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "references_heading-space_before_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "space_before_pt",
+        "expected": 6.4,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[205]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 8.5,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "both",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-first_line_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-left_indent_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "left_indent_pt",
+        "expected": 5.0,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-space_before_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "space_before_pt",
+        "expected": 1.2,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-right_indent_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "right_indent_pt",
+        "expected": 50.9,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 1.1666666666666667,
+        "unit": "multiple",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[206]; inherited styles resolved"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "author-font",
+        "category": "typography",
+        "target": "author",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[9]; main-name/address runs and inherited font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "author-size_pt",
+        "category": "typography",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 10,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[9]; main-name/address runs and inherited font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "affiliation-font",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": "font_family",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[10]; main-name/address runs and inherited font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "affiliation-size_pt",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 9,
+        "unit": "bp",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p[10]; main-name/address runs and inherited font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 216.0764,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p/w:pPr/w:sectPr[1]/w:pgSz"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 283.1042,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml /w:document/w:body/w:p/w:pPr/w:sectPr[1]/w:pgSz"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 0.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 4.9389,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 16.2278,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 0.0,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:pgMar; front and principal body defaults"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 2,
+        "unit": "columns",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:cols/@w:num; principal body section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-column_gap_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "column_gap_mm",
+        "expected": 1.5169444444444444,
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:cols/w:col[1]/@w:space = 86 twips"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "page-column_widths_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "column_widths_mm",
+        "expected": [
+          90.48749999999998,
+          107.84416666666667
+        ],
+        "unit": "mm",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml second section w:cols/w:col/@w:w = 5130,6114 twips"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "sections-body_column_gap_mm",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_column_gap_mm",
+        "expected": 1.5169444444444444,
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "sections-front_matter_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_page",
+        "expected": {
+          "width_mm": 216.0764,
+          "height_mm": 283.1042,
+          "margin_top_mm": 0.0,
+          "margin_bottom_mm": 4.9389,
+          "margin_left_mm": 16.2278,
+          "margin_right_mm": 0.0,
+          "columns": 1
+        },
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      },
+      {
+        "id": "sections-body_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_page",
+        "expected": {
+          "width_mm": 216.0764,
+          "height_mm": 283.1042,
+          "margin_top_mm": 0.0,
+          "margin_bottom_mm": 4.9389,
+          "margin_left_mm": 16.2278,
+          "margin_right_mm": 0.0,
+          "columns": 2,
+          "column_gap_mm": 1.5169444444444444,
+          "column_widths_mm": [
+            90.48749999999998,
+            107.84416666666667
+          ]
+        },
+        "unit": "enum",
+        "source": {
+          "url": "https://journal.hep.com.cn/hep/EN/file/download/?fileId=JUknhLfWuL4OhMkHGi0CMQ==&type=file&fileName=template%20in%20MS%20Word_2025.docx",
+          "file": "template in MS Word_2025.docx",
+          "sha256": "ceccd6114272c640b6943695dd60d0e086623a9fc7b03c745c6d1eb42f375d6c",
+          "version": "2025 official Word template",
+          "locator": "word/document.xml first w:sectPr ends front matter before first Heading 1; second section begins main body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Publisher-source default format; source units and evaluated values are retained in extracted_format."
+      }
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1",
+    "body_column_gap_mm": 1.5169444444444444,
+    "front_matter_page": {
+      "width_mm": 216.0764,
+      "height_mm": 283.1042,
+      "margin_top_mm": 0.0,
+      "margin_bottom_mm": 4.9389,
+      "margin_left_mm": 16.2278,
+      "margin_right_mm": 0.0,
+      "columns": 1
+    },
+    "body_page": {
+      "width_mm": 216.0764,
+      "height_mm": 283.1042,
+      "margin_top_mm": 0.0,
+      "margin_bottom_mm": 4.9389,
+      "margin_left_mm": 16.2278,
+      "margin_right_mm": 0.0,
+      "columns": 2,
+      "column_gap_mm": 1.5169444444444444,
+      "column_widths_mm": [
+        90.48749999999998,
+        107.84416666666667
+      ]
+    }
+  }
+}

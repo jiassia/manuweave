@@ -1,0 +1,31 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "file": {
+      "title": "File",
+      "type": "string"
+    },
+    "locator": {
+      "title": "Locator",
+      "type": "string"
+    },
+    "fingerprint": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fingerprint"
+    }
+  },
+  "required": [
+    "file",
+    "locator"
+  ],
+  "title": "SourceMap",
+  "type": "object"
+}

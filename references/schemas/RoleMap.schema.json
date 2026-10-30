@@ -1,0 +1,72 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "roles": {
+      "additionalProperties": {
+        "enum": [
+          "title",
+          "author",
+          "author_zh",
+          "author_en",
+          "affiliation",
+          "affiliation_zh",
+          "affiliation_en",
+          "subtitle",
+          "subtitle_zh",
+          "subtitle_en",
+          "correspondence",
+          "correspondence_zh",
+          "correspondence_en",
+          "body_start",
+          "title_zh",
+          "title_en",
+          "abstract_zh",
+          "abstract_en",
+          "keywords_zh",
+          "keywords_en",
+          "figure_caption_zh",
+          "figure_caption_en",
+          "table_caption_zh",
+          "table_caption_en",
+          "heading1",
+          "heading2",
+          "heading3",
+          "heading4",
+          "heading5",
+          "heading6",
+          "body",
+          "abstract_heading",
+          "abstract",
+          "keywords",
+          "references_heading",
+          "reference",
+          "caption",
+          "figure_caption",
+          "table_caption",
+          "equation",
+          "table",
+          "table_body",
+          "image",
+          "legacy_image",
+          "toc",
+          "unknown"
+        ],
+        "type": "string"
+      },
+      "title": "Roles",
+      "type": "object"
+    },
+    "evidence": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Evidence",
+      "type": "object"
+    }
+  },
+  "required": [
+    "roles"
+  ],
+  "title": "RoleMap",
+  "type": "object"
+}

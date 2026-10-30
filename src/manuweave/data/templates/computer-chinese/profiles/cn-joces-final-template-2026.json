@@ -1,0 +1,4120 @@
+{
+  "id": "cn-joces-final-template-2026",
+  "name": "计算机工程与科学2026录用定稿模板",
+  "version": "1.0.0",
+  "aliases": [
+    "计算机工程与科学录用定稿",
+    "JOCES final Word 2026"
+  ],
+  "scope": "Official Word manuscript template typography and layout captured from semantic content runs and resolved inheritance; source-specific stage and section limits are recorded.",
+  "compliance": "source_backed_template_partial_coverage",
+  "manuscript_stage": "accepted_final_manuscript_template",
+  "rules": {
+    "title_zh": {
+      "alignment": "center",
+      "first_line_pt": 0.0,
+      "space_before_pt": 22.0,
+      "space_after_pt": 24.0,
+      "east_asia_font": "黑体",
+      "size_pt": 18.0
+    },
+    "title_en": {
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.2,
+      "space_before_pt": 20.0,
+      "space_after_pt": 16.0,
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": true
+    },
+    "body": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 18.0,
+      "line_spacing": 1.0583333333333333,
+      "east_asia_font": "宋体",
+      "size_pt": 10.5
+    },
+    "heading1": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "space_before_pt": 16.0,
+      "space_after_pt": 16.0,
+      "font": "Times New Roman",
+      "east_asia_font": "黑体",
+      "size_pt": 12.0
+    },
+    "heading2": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.5,
+      "space_before_pt": 7.25,
+      "font": "Times New Roman",
+      "east_asia_font": "黑体",
+      "size_pt": 10.5
+    },
+    "heading3": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "east_asia_font": "楷体",
+      "size_pt": 10.5
+    },
+    "abstract_zh": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.1791666666666667,
+      "space_before_pt": 16.0,
+      "left_indent_pt": 17.0,
+      "right_indent_pt": 17.0,
+      "east_asia_font": "仿宋",
+      "size_pt": 9.0
+    },
+    "abstract_en": {
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "first_line_pt": 0.0,
+      "space_before_pt": 16.0,
+      "left_indent_pt": 11.35,
+      "right_indent_pt": 11.35,
+      "line_spacing_pt": 15.6,
+      "font": "Times New Roman",
+      "size_pt": 9.0
+    },
+    "keywords_zh": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.1791666666666667,
+      "space_before_pt": 16.0,
+      "left_indent_pt": 17.0,
+      "right_indent_pt": 17.0,
+      "east_asia_font": "仿宋",
+      "size_pt": 9.0
+    },
+    "keywords_en": {
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "first_line_pt": 0.0,
+      "space_before_pt": 16.0,
+      "space_after_pt": 15.0,
+      "left_indent_pt": 11.35,
+      "right_indent_pt": 11.35,
+      "line_spacing_pt": 15.6,
+      "font": "Times New Roman",
+      "size_pt": 9.0
+    },
+    "figure_caption_zh": {
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0,
+      "east_asia_font": "黑体",
+      "size_pt": 9.0
+    },
+    "figure_caption_en": {
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0,
+      "font": "Times New Roman",
+      "size_pt": 9.0,
+      "bold": true
+    },
+    "table_caption_zh": {
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "space_before_pt": 0.0,
+      "space_after_pt": 1.45,
+      "east_asia_font": "黑体",
+      "size_pt": 9.0
+    },
+    "table_caption_en": {
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "space_before_pt": 0.0,
+      "space_after_pt": 1.45,
+      "font": "Times New Roman",
+      "size_pt": 9.0,
+      "bold": true
+    },
+    "references_heading": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.55,
+      "line_spacing": 1.0583333333333333,
+      "space_before_pt": 2.0,
+      "space_after_pt": 3.0,
+      "east_asia_font": "黑体",
+      "size_pt": 12.0
+    },
+    "reference": {
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 13.0,
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 9.0
+    },
+    "author_zh": {
+      "font": "楷体",
+      "east_asia_font": "楷体",
+      "alignment": "center",
+      "first_line_pt": 0.0,
+      "size_pt": 12.0,
+      "space_before_pt": 4.0,
+      "space_after_pt": 4.0
+    },
+    "author_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "size_pt": 10.5,
+      "space_before_pt": 7.0,
+      "space_after_pt": 3.0
+    },
+    "affiliation_zh": {
+      "font": "宋体",
+      "east_asia_font": "宋体",
+      "alignment": "center",
+      "first_line_pt": 0.0,
+      "size_pt": 9.0,
+      "space_after_pt": 10.0
+    },
+    "affiliation_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "方正书宋_GBK",
+      "alignment": "center",
+      "line_spacing_rule": "exact",
+      "first_line_pt": 0.0,
+      "size_pt": 9.0,
+      "italic": false,
+      "space_after_pt": 6.0,
+      "line_spacing_pt": 12.0
+    }
+  },
+  "page": {
+    "width_mm": 201.4185,
+    "height_mm": 275.5371,
+    "margin_top_mm": 4.1981,
+    "margin_bottom_mm": 4.004,
+    "margin_left_mm": 15.9985,
+    "margin_right_mm": 15.9985,
+    "header_distance_mm": 10.0012,
+    "grid_type": "lines",
+    "grid_line_pitch_pt": 14.5,
+    "mirror_margins": false
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+      "file": "20251103171729.docx",
+      "sha256": "0be7b460471492027e8daf44ac1d556956b956df9b3345009841c5d8f18507e8",
+      "byte_length": 335195,
+      "retrieved_at": "2026-10-30",
+      "official_index_url": "http://joces.nudt.edu.cn/CN/1007-130X/home.shtml",
+      "method": "Original OOXML read statically; representative runs checked with independent hidden Word read-only instance, macros and link updates disabled",
+      "source_kind": "actual_official_paper_template",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    }
+  ],
+  "template": {
+    "family": "computer-chinese",
+    "source_version": "official-label-2026;download-20251103171729.docx;retrieved-2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title_zh-alignment",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[7]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-first_line_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[7]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_before_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_before_pt",
+        "expected": 22.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[7]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_after_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_after_pt",
+        "expected": 24.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[7]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-east_asia_font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[7]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-size_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "size_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[7]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-alignment",
+        "category": "typography",
+        "target": "title_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing_rule",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-first_line_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing",
+        "expected": 1.2,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_before_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_before_pt",
+        "expected": 20.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_after_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_after_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-size_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "size_pt",
+        "expected": 14.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-bold",
+        "category": "typography",
+        "target": "title_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[15]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[26]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[26]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[26]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[26]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[26]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[26]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-first_line_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_before_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_after_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-first_line_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-space_before_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 7.25,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "typography",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[29]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[29]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-first_line_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[29]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[29]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[29]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[29]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-alignment",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-first_line_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing",
+        "expected": 1.1791666666666667,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-space_before_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-left_indent_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "left_indent_pt",
+        "expected": 17.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-right_indent_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "right_indent_pt",
+        "expected": 17.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-east_asia_font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "east_asia_font",
+        "expected": "仿宋",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-size_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[11]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-alignment",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-first_line_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-space_before_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-left_indent_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "left_indent_pt",
+        "expected": 11.35,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-right_indent_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "right_indent_pt",
+        "expected": 11.35,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing_pt",
+        "expected": 15.6,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-size_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[19]/w:r[8]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-alignment",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-first_line_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing",
+        "expected": 1.1791666666666667,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-space_before_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-left_indent_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "left_indent_pt",
+        "expected": 17.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-right_indent_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "right_indent_pt",
+        "expected": 17.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-east_asia_font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "east_asia_font",
+        "expected": "仿宋",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-size_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[12]/w:r[6]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-alignment",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-first_line_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-space_before_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-space_after_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "space_after_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-left_indent_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "left_indent_pt",
+        "expected": 11.35,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-right_indent_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "right_indent_pt",
+        "expected": 11.35,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing_pt",
+        "expected": 15.6,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-size_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[20]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-alignment",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[34]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[34]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-first_line_pt",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[34]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-line_spacing",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[34]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[34]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-size_pt",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[34]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-alignment",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-line_spacing_rule",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-first_line_pt",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-line_spacing",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-font",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-size_pt",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-bold",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-alignment",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-first_line_pt",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-line_spacing",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-space_before_pt",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-space_after_pt",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "space_after_pt",
+        "expected": 1.45,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-east_asia_font",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-size_pt",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-alignment",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-line_spacing_rule",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-first_line_pt",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-line_spacing",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-space_before_pt",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-space_after_pt",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "space_after_pt",
+        "expected": 1.45,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-font",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-size_pt",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-bold",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[55]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing_rule",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-first_line_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "first_line_pt",
+        "expected": 0.55,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-space_before_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "space_before_pt",
+        "expected": 2.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-space_after_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "space_after_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[90]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[92]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[92]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_pt",
+        "expected": 13.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[92]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[92]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[92]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[92]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-east_asia_font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-alignment",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-first_line_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-size_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-space_before_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "space_before_pt",
+        "expected": 4.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-space_after_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "space_after_pt",
+        "expected": 4.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-east_asia_font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-alignment",
+        "category": "typography",
+        "target": "author_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing_rule",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-first_line_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-size_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-space_before_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "space_before_pt",
+        "expected": 7.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-space_after_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "space_after_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-alignment",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-first_line_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-size_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-space_after_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "space_after_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[9]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "east_asia_font",
+        "expected": "方正书宋_GBK",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-alignment",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-first_line_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-size_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-italic",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-space_after_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 201.4185,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[30]/w:pPr/w:sectPr/w:pgSz and w:pgMar"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 275.5371,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[30]/w:pPr/w:sectPr/w:pgSz and w:pgMar"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 4.1981,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[30]/w:pPr/w:sectPr/w:pgSz and w:pgMar"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 4.004,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[30]/w:pPr/w:sectPr/w:pgSz and w:pgMar"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 15.9985,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[30]/w:pPr/w:sectPr/w:pgSz and w:pgMar"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 15.9985,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[30]/w:pPr/w:sectPr/w:pgSz and w:pgMar"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-header_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "header_distance_mm",
+        "expected": 10.0012,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml://w:sectPr/w:pgMar/@w:header; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_type",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_type",
+        "expected": "lines",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:type; source default applies if absent; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_line_pitch_pt",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_line_pitch_pt",
+        "expected": 14.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:linePitch; source twips/20; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-mirror_margins",
+        "category": "layout",
+        "target": "page",
+        "property": "mirror_margins",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/settings.xml:/w:settings/w:mirrorMargins; OOXML default false when absent"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml: source single-column front section ends before the unnumbered main-text introduction; actual main-text paragraph p[22]; host must identify the corresponding first actual body paragraph as body_start; source column gap is measured from main-text w:cols/w:col or @w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml: source single-column front section ends before the unnumbered main-text introduction; actual main-text paragraph p[22]; host must identify the corresponding first actual body paragraph as body_start; source column gap is measured from main-text w:cols/w:col or @w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "marked_body_start",
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml: source single-column front section ends before the unnumbered main-text introduction; actual main-text paragraph p[22]; host must identify the corresponding first actual body paragraph as body_start; source column gap is measured from main-text w:cols/w:col or @w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_column_gap_mm",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_column_gap_mm",
+        "expected": 11.0067,
+        "unit": "mm",
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml: source single-column front section ends before the unnumbered main-text introduction; actual main-text paragraph p[22]; host must identify the corresponding first actual body paragraph as body_start; source column gap is measured from main-text w:cols/w:col or @w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_page",
+        "expected": {
+          "width_mm": 201.4185,
+          "height_mm": 275.5371,
+          "margin_top_mm": 4.1981,
+          "margin_bottom_mm": 4.004,
+          "margin_left_mm": 15.9985,
+          "margin_right_mm": 15.9985,
+          "header_distance_mm": 10.0012,
+          "footer_distance_mm": 10.0012,
+          "columns": 1,
+          "column_gap_mm": 12.7,
+          "grid_type": "lines",
+          "grid_line_pitch_pt": 14.5
+        },
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml: source single-column front section ends before the unnumbered main-text introduction; actual main-text paragraph p[22]; host must identify the corresponding first actual body paragraph as body_start; source column gap is measured from main-text w:cols/w:col or @w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_page",
+        "expected": {
+          "width_mm": 201.4185,
+          "height_mm": 275.5371,
+          "margin_top_mm": 4.1981,
+          "margin_bottom_mm": 4.004,
+          "margin_left_mm": 15.9985,
+          "margin_right_mm": 15.9985,
+          "header_distance_mm": 10.0012,
+          "footer_distance_mm": 2.9986,
+          "columns": 2,
+          "column_gap_mm": 11.0067,
+          "grid_type": "lines",
+          "grid_line_pitch_pt": 14.5
+        },
+        "unit": null,
+        "source": {
+          "url": "http://joces.nudt.edu.cn/CN/item/downloadFile.jsp?filedisplay=20251103171729.docx",
+          "file": "20251103171729.docx",
+          "locator": "Converted word/document.xml: source single-column front section ends before the unnumbered main-text introduction; actual main-text paragraph p[22]; host must identify the corresponding first actual body paragraph as body_start; source column gap is measured from main-text w:cols/w:col or @w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      }
+    ],
+    "coverage_notes": [
+      "Actual native template formatting for the explicitly labeled accepted-final manuscript; not initial-submission rules.",
+      "Source instructional labels say 五号 for abstract/keywords but actual content runs are 9pt; these observations retain 9pt and do not convert it to 10.5pt.",
+      "The English title sample is actually 14pt although its red instruction says 三号. The native sample value is retained and the conflict is recorded.",
+      "Purple/red annotation colors are not copied. Some intended sample text is itself purple; only font family, size and paragraph geometry are learned.",
+      "Label character styles differ from abstract/keyword content; mixed label/content bold and fonts require host review.",
+      "The first main-text introduction paragraph precedes the first numbered heading. A host role map must identify that paragraph as body_start for the measured continuous one-to-two-column boundary."
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "marked_body_start",
+    "body_column_gap_mm": 11.0067,
+    "front_matter_page": {
+      "width_mm": 201.4185,
+      "height_mm": 275.5371,
+      "margin_top_mm": 4.1981,
+      "margin_bottom_mm": 4.004,
+      "margin_left_mm": 15.9985,
+      "margin_right_mm": 15.9985,
+      "header_distance_mm": 10.0012,
+      "footer_distance_mm": 10.0012,
+      "columns": 1,
+      "column_gap_mm": 12.7,
+      "grid_type": "lines",
+      "grid_line_pitch_pt": 14.5
+    },
+    "body_page": {
+      "width_mm": 201.4185,
+      "height_mm": 275.5371,
+      "margin_top_mm": 4.1981,
+      "margin_bottom_mm": 4.004,
+      "margin_left_mm": 15.9985,
+      "margin_right_mm": 15.9985,
+      "header_distance_mm": 10.0012,
+      "footer_distance_mm": 2.9986,
+      "columns": 2,
+      "column_gap_mm": 11.0067,
+      "grid_type": "lines",
+      "grid_line_pitch_pt": 14.5
+    }
+  },
+  "host_role_requirements": {
+    "body_start": "First unnumbered introduction paragraph; source representative p[22]; do not identify it only by position after keywords."
+  },
+  "extracted_format": {
+    "visible_text_inheritance": "docDefaults + paragraph/character style inheritance + actual visible text run; pPr/rPr paragraph-mark font properties excluded",
+    "visible_run_reaudit": {
+      "title_zh": {
+        "paragraph_index": 7,
+        "run_index": 1,
+        "text_sha256": "7e4d4717658d9007f930ec3776920dad781dc1a46ea9bf2adb5b95d9018c443b",
+        "resolved_visible_run_format": {
+          "font": "黑体",
+          "east_asia_font": "黑体",
+          "alignment": "center",
+          "line_spacing_rule": "atLeast",
+          "first_line_pt": 0.0,
+          "size_pt": 18.0,
+          "space_before_pt": 22.0,
+          "space_after_pt": 24.0,
+          "line_spacing_pt": 0.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "first_line_pt",
+          "space_before_pt",
+          "space_after_pt",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "title_en": {
+        "paragraph_index": 15,
+        "run_index": 1,
+        "text_sha256": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.2,
+          "size_pt": 14.0,
+          "bold": true,
+          "space_before_pt": 20.0,
+          "space_after_pt": 16.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "body": {
+        "paragraph_index": 26,
+        "run_index": 1,
+        "text_sha256": "d661c3d96d53ebc0ca8a55aae24b5df4a4d1bf28d37337b982fe8ebf54846eeb",
+        "resolved_visible_run_format": {
+          "font": "宋体",
+          "east_asia_font": "宋体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 18.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 10.5
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "heading1": {
+        "paragraph_index": 25,
+        "run_index": 1,
+        "text_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 12.0,
+          "space_before_pt": 16.0,
+          "space_after_pt": 16.0,
+          "font_color": "7030A0",
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "font",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "heading2": {
+        "paragraph_index": 27,
+        "run_index": 1,
+        "text_sha256": "b05e244762b1e472be89a93800cc3ee326743cecb55984bf12813addb8de66d0",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.5,
+          "size_pt": 10.5,
+          "space_before_pt": 7.25,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "font",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "heading3": {
+        "paragraph_index": 29,
+        "run_index": 1,
+        "text_sha256": "f3c343b9b6d0d9f5dc3d0a9a44161005d4dd994962e8362287ddb1159a729bfb",
+        "resolved_visible_run_format": {
+          "font": "楷体",
+          "east_asia_font": "楷体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 10.5
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "abstract_zh": {
+        "paragraph_index": 11,
+        "run_index": 8,
+        "text_sha256": "606a6737e6932d3587728bd4fb07cb369edbb7b6670bb74f485ff8bd9513b781",
+        "resolved_visible_run_format": {
+          "font": "仿宋",
+          "east_asia_font": "仿宋",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.1791666666666667,
+          "space_before_pt": 16.0,
+          "left_indent_pt": 17.0,
+          "right_indent_pt": 17.0,
+          "size_pt": 9.0,
+          "font_color": "7030A0"
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "left_indent_pt",
+          "right_indent_pt",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "abstract_en": {
+        "paragraph_index": 19,
+        "run_index": 8,
+        "text_sha256": "982d9e3eb996f559e633f4d194def3761d909f5a3b647d1a851fead67c32c9d1",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "first_line_pt": 0.0,
+          "space_before_pt": 16.0,
+          "left_indent_pt": 11.35,
+          "right_indent_pt": 11.35,
+          "line_spacing_pt": 15.6,
+          "size_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "space_before_pt",
+          "left_indent_pt",
+          "right_indent_pt",
+          "line_spacing_pt",
+          "font",
+          "size_pt"
+        ]
+      },
+      "keywords_zh": {
+        "paragraph_index": 12,
+        "run_index": 6,
+        "text_sha256": "654b980884d02f37844aa1f30c56a60799e9ea085f7fc5a8d4f4124717affae2",
+        "resolved_visible_run_format": {
+          "font": "仿宋",
+          "east_asia_font": "仿宋",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.1791666666666667,
+          "space_before_pt": 16.0,
+          "left_indent_pt": 17.0,
+          "right_indent_pt": 17.0,
+          "size_pt": 9.0,
+          "font_color": "7030A0"
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "left_indent_pt",
+          "right_indent_pt",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "keywords_en": {
+        "paragraph_index": 20,
+        "run_index": 1,
+        "text_sha256": "4cb6108161f7a06d73393f878e65f4497acbdcde5b221bc39097f8c8fffacc3d",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "first_line_pt": 0.0,
+          "space_before_pt": 16.0,
+          "space_after_pt": 15.0,
+          "left_indent_pt": 11.35,
+          "right_indent_pt": 11.35,
+          "line_spacing_pt": 15.6,
+          "size_pt": 9.0,
+          "font_color": "7030A0",
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "space_before_pt",
+          "space_after_pt",
+          "left_indent_pt",
+          "right_indent_pt",
+          "line_spacing_pt",
+          "font",
+          "size_pt"
+        ]
+      },
+      "figure_caption_zh": {
+        "paragraph_index": 34,
+        "run_index": 1,
+        "text_sha256": "bfec66247658714cbac0fee6b73a2c1fe699ab5584971f6e2154e6fd139c45a7",
+        "resolved_visible_run_format": {
+          "font": "黑体",
+          "east_asia_font": "黑体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0,
+          "size_pt": 9.0,
+          "font_color": "7030A0"
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "figure_caption_en": {
+        "paragraph_index": 35,
+        "run_index": 1,
+        "text_sha256": "0565fceba715022c0e85824b201086ecd54eb9eb38df8778c3686ed57b2148e0",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0,
+          "size_pt": 9.0,
+          "font_color": "7030A0",
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "table_caption_zh": {
+        "paragraph_index": 54,
+        "run_index": 1,
+        "text_sha256": "c2463e1271246c3886a7a67f44e83567989d52714db10c63e7744a38a1f0e1cd",
+        "resolved_visible_run_format": {
+          "font": "黑体",
+          "east_asia_font": "黑体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "space_before_pt": 0.0,
+          "space_after_pt": 1.45,
+          "size_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "table_caption_en": {
+        "paragraph_index": 55,
+        "run_index": 1,
+        "text_sha256": "16d1c9050a0b32e83764a81d801a880773abedfd7f8b0b08a1cd87ca0e404f12",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "space_before_pt": 0.0,
+          "space_after_pt": 1.45,
+          "size_pt": 9.0,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "references_heading": {
+        "paragraph_index": 90,
+        "run_index": 1,
+        "text_sha256": "edc3efb149a25b9613ce36ac49d50fa08fbda9e7b7120a27b83d2c9a69b24a3f",
+        "resolved_visible_run_format": {
+          "font": "黑体",
+          "east_asia_font": "黑体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.55,
+          "line_spacing": 1.0583333333333333,
+          "space_before_pt": 2.0,
+          "space_after_pt": 3.0,
+          "size_pt": 12.0,
+          "font_color": "7030A0"
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "reference": {
+        "paragraph_index": 92,
+        "run_index": 1,
+        "text_sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 13.0,
+          "left_indent_pt": 40.35
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt",
+          "font",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "author_zh": {
+        "paragraph_index": 8,
+        "run_index": 1,
+        "text_sha256": "77707ea533ac0acec494c9df406fd9671219b7108554266cd31b9e4b0a706cd2",
+        "resolved_visible_run_format": {
+          "font": "楷体",
+          "east_asia_font": "楷体",
+          "alignment": "center",
+          "line_spacing_rule": "atLeast",
+          "first_line_pt": 0.0,
+          "size_pt": 12.0,
+          "space_before_pt": 4.0,
+          "space_after_pt": 4.0,
+          "line_spacing_pt": 0.0,
+          "font_color": "7030A0"
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "first_line_pt",
+          "size_pt",
+          "space_before_pt",
+          "space_after_pt"
+        ]
+      },
+      "author_en": {
+        "paragraph_index": 16,
+        "run_index": 1,
+        "text_sha256": "8f17c755c0d9d72e098f04a707a3fd53578d8277b43c6ed9631abf1637fe5488",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 10.5,
+          "font_color": "000000",
+          "space_before_pt": 7.0,
+          "space_after_pt": 3.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "size_pt",
+          "space_before_pt",
+          "space_after_pt"
+        ]
+      },
+      "affiliation_zh": {
+        "paragraph_index": 9,
+        "run_index": 3,
+        "text_sha256": "d9a2c0724f6b053b7fdf2de1f7e17f08aa25cb47c2b0ce0d8ea30b9d4f1a5247",
+        "resolved_visible_run_format": {
+          "font": "宋体",
+          "east_asia_font": "宋体",
+          "alignment": "center",
+          "line_spacing_rule": "atLeast",
+          "first_line_pt": 0.0,
+          "size_pt": 9.0,
+          "space_after_pt": 10.0,
+          "line_spacing_pt": 0.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "first_line_pt",
+          "size_pt",
+          "space_after_pt"
+        ]
+      },
+      "affiliation_en": {
+        "paragraph_index": 17,
+        "run_index": 2,
+        "text_sha256": "46350de3b6c05fe53ed6999f79bcba0ca41da86444a46a79b8f855af26fec4ae",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "方正书宋_GBK",
+          "alignment": "center",
+          "line_spacing_rule": "exact",
+          "first_line_pt": 0.0,
+          "size_pt": 9.0,
+          "italic": false,
+          "space_after_pt": 6.0,
+          "line_spacing_pt": 12.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "size_pt",
+          "italic",
+          "space_after_pt",
+          "line_spacing_pt"
+        ]
+      }
+    },
+    "reaudit_note": "Shared engine resolves defaults, basedOn paragraph/character styles and actual visible run; paragraph-mark rPr excluded. Captured full resolved source observations can include editorial colors or labels; executable rules retain documented manuscript content selection and source guidance/COM measurements where OOXML alone is incomplete."
+  }
+}

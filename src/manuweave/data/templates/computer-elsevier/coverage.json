@@ -1,0 +1,529 @@
+{
+  "catalog": "computer-catalog.json",
+  "publisher_group": "Elsevier",
+  "journal_count": 65,
+  "executable_journal_layout_count": 4,
+  "historical_route_count": 1,
+  "journals": [
+    {
+      "catalog_id": "ccf-2026-ad-hoc-networks",
+      "title": "Ad Hoc Networks",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-advanced-engineering-informatics",
+      "title": "Advanced Engineering Informatics",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-annals-of-pure-and-applied-logic",
+      "title": "Annals of Pure and Applied Logic",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "profile_id": "computer-elsevier-artificial-intelligence",
+      "historical_profile_id": null,
+      "status": "SOURCE_VERIFIED_LAYOUT_SUBSET",
+      "reason": "Confirmed journal layout with detailed extracted JSON typography"
+    },
+    {
+      "catalog_id": "ccf-2026-artificial-intelligence-in-medicine",
+      "title": "Artificial Intelligence in Medicine",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-blockchain-research-and-applications",
+      "title": "Blockchain: Research and Applications",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-cognition",
+      "title": "Cognition",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computational-geometry-theory-and-applications",
+      "title": "Computational Geometry: Theory and Applications",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-aided-geometric-design",
+      "title": "Computer Aided Geometric Design",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-communications",
+      "title": "Computer Communications",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-languages-systems-and-structures",
+      "title": "Computer Languages, Systems and Structures",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-law-security-review",
+      "title": "Computer Law & Security Review",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-networks",
+      "title": "Computer Networks",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-speech-language",
+      "title": "Computer Speech & Language",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-vision-and-image-understanding",
+      "title": "Computer Vision and Image Understanding",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computer-aided-design",
+      "title": "Computer-Aided Design",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computers-graphics",
+      "title": "Computers & Graphics",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-computers-security",
+      "title": "Computers & Security",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-data-knowledge-engineering",
+      "title": "Data & Knowledge Engineering",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-decision-support-systems",
+      "title": "Decision Support Systems",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-discrete-applied-mathematics",
+      "title": "Discrete Applied Mathematics",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-engineering-applications-of-artificial-intelligence",
+      "title": "Engineering Applications of Artificial Intelligence",
+      "profile_id": "computer-elsevier-engineering-applications-of-artificial-intelligence",
+      "historical_profile_id": null,
+      "status": "SOURCE_VERIFIED_LAYOUT_SUBSET",
+      "reason": "Confirmed journal layout with detailed extracted JSON typography"
+    },
+    {
+      "catalog_id": "ccf-2026-expert-systems-with-applications",
+      "title": "Expert Systems with Applications",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-future-generation-computer-systems",
+      "title": "Future Generation Computer Systems",
+      "profile_id": null,
+      "historical_profile_id": "computer-elsevier-future-generation-computer-systems-rse-2026",
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-fuzzy-sets-and-systems",
+      "title": "Fuzzy Sets and Systems",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-graphical-models",
+      "title": "Graphical Models",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-high-confidence-computing",
+      "title": "High-Confidence Computing",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-image-and-vision-computing",
+      "title": "Image and Vision Computing",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-information-management",
+      "title": "Information & Management",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-information-and-computation",
+      "title": "Information and Computation",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-information-and-software-technology",
+      "title": "Information and Software Technology",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-information-processing-and-management",
+      "title": "Information Processing and Management",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-information-processing-letters",
+      "title": "Information Processing Letters",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-information-sciences",
+      "title": "Information Sciences",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-information-systems",
+      "title": "Information Systems",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-integration-the-vlsi-journal",
+      "title": "Integration, the VLSI Journal",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-international-journal-of-approximate-reasoning",
+      "title": "International Journal of Approximate Reasoning",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-international-journal-of-human-computer-studies",
+      "title": "International Journal of Human-Computer Studies",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-biomedical-informatics",
+      "title": "Journal of Biomedical Informatics",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-complexity",
+      "title": "Journal of Complexity",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-computer-and-system-sciences",
+      "title": "Journal of Computer and System Sciences",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-information-security-and-applications",
+      "title": "Journal of Information Security and Applications",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-logical-and-algebraic-methods-in-programming",
+      "title": "Journal of Logical and Algebraic Methods in Programming",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-network-and-computer-applications",
+      "title": "Journal of Network and Computer Applications",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-parallel-and-distributed-computing",
+      "title": "Journal of Parallel and Distributed Computing",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-symbolic-computation",
+      "title": "Journal of Symbolic Computation",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-systems-and-software",
+      "title": "Journal of Systems and Software",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-systems-architecture-embedded-software-design",
+      "title": "Journal of Systems Architecture: Embedded Software Design",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-visual-communication-and-image-representation",
+      "title": "Journal of Visual Communication and Image Representation",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-journal-of-web-semantics",
+      "title": "Journal of Web Semantics",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-knowledge-based-systems",
+      "title": "Knowledge-Based Systems",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-medical-image-analysis",
+      "title": "Medical Image Analysis",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-neural-networks",
+      "title": "Neural Networks",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-neurocomputing",
+      "title": "Neurocomputing",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-parallel-computing",
+      "title": "Parallel Computing",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-pattern-recognition",
+      "title": "Pattern Recognition",
+      "profile_id": "computer-elsevier-pattern-recognition",
+      "historical_profile_id": null,
+      "status": "SOURCE_VERIFIED_LAYOUT_SUBSET",
+      "reason": "Confirmed journal layout with detailed extracted JSON typography"
+    },
+    {
+      "catalog_id": "ccf-2026-pattern-recognition-letters",
+      "title": "Pattern Recognition Letters",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-performance-evaluation-an-international-journal",
+      "title": "Performance Evaluation: An International Journal",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-pervasive-and-mobile-computing",
+      "title": "Pervasive and Mobile Computing",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-science-of-computer-programming",
+      "title": "Science of Computer Programming",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-signal-processing",
+      "title": "Signal Processing",
+      "profile_id": "computer-elsevier-signal-processing",
+      "historical_profile_id": null,
+      "status": "SOURCE_VERIFIED_LAYOUT_SUBSET",
+      "reason": "Confirmed journal layout with detailed extracted JSON typography"
+    },
+    {
+      "catalog_id": "ccf-2026-signal-processing-image-communication",
+      "title": "Signal Processing: Image Communication",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-speech-communication",
+      "title": "Speech Communication",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-the-journal-of-strategic-information-systems",
+      "title": "The Journal of Strategic Information Systems",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    },
+    {
+      "catalog_id": "ccf-2026-theoretical-computer-science",
+      "title": "Theoretical Computer Science",
+      "profile_id": null,
+      "historical_profile_id": null,
+      "status": "UNMAPPED",
+      "reason": "A current journal-specific format source has not been established; no publisher-wide substitution is generated"
+    }
+  ]
+}

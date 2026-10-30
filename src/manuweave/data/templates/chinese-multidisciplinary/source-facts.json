@@ -1,0 +1,916 @@
+{
+  "retrieved_at": "2026-10-30",
+  "method": "Actual official-source response bytes hashed with SHA-256. Only explicit formatting facts and short native locators are redistributed; publisher source documents remain outside the project.",
+  "documents": {
+    "cn-foodindustry-word-confirmed": {
+      "name": "食品工业科技：官方投稿模板明确格式",
+      "aliases": [
+        "食品工业科技"
+      ],
+      "source_version": "2026-10-30/official-template-PDF-snapshot",
+      "scope": "中文研究论文与综述的投稿版式；采用官方明示字体、通栏和字号层级政策。",
+      "sources": [
+        {
+          "file": "spgykj-template.pdf",
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "bytes": 588044,
+          "retrieved_at": "2026-10-30"
+        }
+      ],
+      "rules": {
+        "title": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "abstract_heading": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "abstract": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "keywords": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "heading1": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "heading2": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "heading3": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "heading4": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "body": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "table_body": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "figure_caption": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "table_caption": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "references_heading": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "reference": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        }
+      },
+      "page": {
+        "columns": 1
+      },
+      "rule_sources": {
+        "title": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "abstract_heading": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "abstract": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "keywords": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "heading1": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "heading2": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "heading3": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "heading4": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "body": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "table_body": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "figure_caption": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "table_caption": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "references_heading": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        },
+        "reference": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文"
+          }
+        }
+      },
+      "page_sources": {
+        "columns": {
+          "source_index": 0,
+          "locator": "PDF page 1; text character offset 198; anchor 投稿时请使用通栏"
+        }
+      },
+      "policies": [
+        {
+          "id": "font-size-policy",
+          "category": "typography",
+          "target": "document",
+          "property": "fixed_point_sizes_required",
+          "expected": false,
+          "source_index": 0,
+          "locator": "PDF page 1; text character offset 393; anchor 对字号无要求",
+          "detail": "The official template explicitly leaves point sizes free; no invented fixed size is imposed."
+        },
+        {
+          "id": "font-size-hierarchy",
+          "category": "typography",
+          "target": "document",
+          "property": "size_order",
+          "expected": "heading_levels_to_body_descending",
+          "source_index": 0,
+          "locator": "PDF page 1; text character offset 393; anchor 对字号无要求",
+          "detail": ""
+        },
+        {
+          "id": "legacy-word-submission",
+          "category": "submission",
+          "target": "document",
+          "property": "file_format",
+          "expected": "Word .doc",
+          "source_index": 0,
+          "locator": "PDF page 1; text character offset 290; anchor 2003",
+          "detail": ""
+        },
+        {
+          "id": "keyword-count",
+          "category": "submission",
+          "target": "keywords",
+          "property": "recommended_count",
+          "expected": [
+            5,
+            8
+          ],
+          "source_index": 0,
+          "locator": "PDF page 2; text character offset 718; anchor 关键词以",
+          "detail": ""
+        },
+        {
+          "id": "heading-numbering",
+          "category": "structure",
+          "target": "document",
+          "property": "numbering",
+          "expected": "literal Arabic hierarchy 1,1.1,1.1.2; at most four levels; not automatic fields",
+          "source_index": 0,
+          "locator": "PDF page 3; text character offset 1023; anchor 层次标题左起顶格",
+          "detail": ""
+        },
+        {
+          "id": "figure-table-numbering",
+          "category": "caption",
+          "target": "document",
+          "property": "numbering",
+          "expected": "consecutive Arabic numbers",
+          "source_index": 0,
+          "locator": "PDF page 4; text character offset 723; anchor 表序与图序均按照",
+          "detail": ""
+        },
+        {
+          "id": "bilingual-captions",
+          "category": "caption",
+          "target": "document",
+          "property": "bilingual_captions_required",
+          "expected": true,
+          "source_index": 0,
+          "locator": "PDF page 4; text character offset 776; anchor 图与表题均需有英文对照",
+          "detail": ""
+        },
+        {
+          "id": "bibliography-numeric",
+          "category": "citation",
+          "target": "document",
+          "property": "bibliography_style",
+          "expected": "numeric",
+          "source_index": 0,
+          "locator": "PDF page 2; text character offset 1073; anchor 采用顺序编码体系",
+          "detail": ""
+        },
+        {
+          "id": "bibliography-standard",
+          "category": "citation",
+          "target": "reference",
+          "property": "standard",
+          "expected": "GB/T 7714-2015",
+          "source_index": 0,
+          "locator": "PDF page 6; text character offset 2159; anchor 参照 GB/T 7714-2015",
+          "detail": ""
+        }
+      ],
+      "coverage_notes": [
+        "Only the explicit confirmed manuscript-format rules are applied. Publisher documents and source prose are not redistributed.",
+        "Editorial requirements remain in the audit record; their presence does not authorize invention of author information, references, experiments or results.",
+        "The official document explicitly states that fixed point sizes are not prescribed; this is a confirmed design freedom. Editable DOCX formatting does not itself perform the legacy .doc submission conversion."
+      ]
+    },
+    "cn-foodscience-word-2020": {
+      "name": "食品科学：2020 官方链接中文稿格式模板",
+      "aliases": [
+        "食品科学"
+      ],
+      "source_version": "spkxmb-2020.doc; retrieved 2026-10-30",
+      "scope": "官方指南当前链接的 spkxmb-2020.doc 中中文普通研究稿的明示字体、字号、单栏及题注格式。",
+      "sources": [
+        {
+          "file": "spkx-template-2020.doc",
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "bytes": 57856,
+          "retrieved_at": "2026-10-30"
+        },
+        {
+          "file": "spkx-guide.html",
+          "url": "https://www.spkx.net.cn/CN/column/column26.shtml",
+          "sha256": "d0b2e1e7ad456dc62f628ed1be538e42c1b60093b7cb9181be51f93323d1e2e8",
+          "bytes": 178560,
+          "retrieved_at": "2026-10-30"
+        }
+      ],
+      "rules": {
+        "title": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 24.0,
+          "bold": true,
+          "alignment": "center"
+        },
+        "body": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 9.5
+        },
+        "abstract": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 9.0
+        },
+        "keywords": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 9.0
+        },
+        "heading1": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 9.5,
+          "bold": true,
+          "alignment": "left"
+        },
+        "heading2": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "heading3": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "heading4": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman"
+        },
+        "figure_caption": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 7.5,
+          "bold": true,
+          "alignment": "center"
+        },
+        "table_caption": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 7.5,
+          "bold": true,
+          "alignment": "center"
+        },
+        "table_body": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 7.5
+        },
+        "references_heading": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 9.0,
+          "bold": true,
+          "alignment": "left"
+        },
+        "reference": {
+          "east_asia_font": "宋体",
+          "font": "Times New Roman",
+          "size_pt": 7.5
+        }
+      },
+      "page": {
+        "columns": 1
+      },
+      "rule_sources": {
+        "title": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[15], Range.Start=469; statement anchor 题目宋体小一、居中、加粗、无缩略语"
+          },
+          "bold": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[15], Range.Start=469; statement anchor 题目宋体小一、居中、加粗、无缩略语"
+          },
+          "alignment": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[15], Range.Start=469; statement anchor 题目宋体小一、居中、加粗、无缩略语"
+          }
+        },
+        "body": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[67], Range.Start=2980; statement anchor 正文部分(宋体，英文用“Times New Ro"
+          }
+        },
+        "abstract": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[21], Range.Start=855; statement anchor 摘  要：宋体9号 ，摘要中首次出现的英文缩写名"
+          }
+        },
+        "keywords": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[22], Range.Start=914; statement anchor 关键词：关键词1；关键词2；关键词3宋体9号，缩"
+          }
+        },
+        "heading1": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[42], Range.Start=1907; statement anchor 材料与方法(一级标题，9.5号，宋体加黑，英文和"
+          },
+          "bold": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[42], Range.Start=1907; statement anchor 材料与方法(一级标题，9.5号，宋体加黑，英文和"
+          },
+          "alignment": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[42], Range.Start=1907; statement anchor 材料与方法(一级标题，9.5号，宋体加黑，英文和"
+          }
+        },
+        "heading2": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          }
+        },
+        "heading3": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          }
+        },
+        "heading4": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          }
+        },
+        "figure_caption": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[93], Range.Start=3728; statement anchor 作者最好提供实际印刷大小的图。图一般情况采用单栏"
+          },
+          "bold": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[93], Range.Start=3728; statement anchor 作者最好提供实际印刷大小的图。图一般情况采用单栏"
+          },
+          "alignment": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[93], Range.Start=3728; statement anchor 作者最好提供实际印刷大小的图。图一般情况采用单栏"
+          }
+        },
+        "table_caption": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为"
+          },
+          "bold": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为"
+          },
+          "alignment": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为"
+          }
+        },
+        "table_body": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为"
+          }
+        },
+        "references_heading": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参"
+          },
+          "bold": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参"
+          },
+          "alignment": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参"
+          }
+        },
+        "reference": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "font": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "Original DOC Word Paragraphs[102], Range.Start=4220; statement anchor 文献著录为7.5号字，中文宋体，英文和数字用“T"
+          }
+        }
+      },
+      "page_sources": {
+        "columns": {
+          "source_index": 0,
+          "locator": "Original DOC Word Paragraphs[4], Range.Start=136; statement anchor 投稿时请使用通栏，不必分两栏，分栏工作由排版人员"
+        }
+      },
+      "policies": [
+        {
+          "id": "first-line-indent",
+          "category": "paragraph",
+          "target": "body",
+          "property": "first_line_characters",
+          "expected": 2,
+          "source_index": 0,
+          "locator": "Original DOC Word Paragraphs[67], Range.Start=2980; statement anchor 正文部分(宋体，英文用“Times New Ro",
+          "detail": ""
+        },
+        {
+          "id": "three-line-table",
+          "category": "table",
+          "target": "table",
+          "property": "border_widths_pt",
+          "expected": {
+            "outer": 1.5,
+            "middle_and_auxiliary": 0.75
+          },
+          "source_index": 0,
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "detail": "The explicit widths are retained as a policy; no unstated border color or extra style value is imposed."
+        },
+        {
+          "id": "bilingual-captions",
+          "category": "caption",
+          "target": "document",
+          "property": "bilingual_captions_required",
+          "expected": true,
+          "source_index": 0,
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "detail": ""
+        },
+        {
+          "id": "bibliography-standard",
+          "category": "citation",
+          "target": "reference",
+          "property": "standard",
+          "expected": "GB/T 7714-2015",
+          "source_index": 0,
+          "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参",
+          "detail": ""
+        },
+        {
+          "id": "bibliography-numeric",
+          "category": "citation",
+          "target": "document",
+          "property": "bibliography_style",
+          "expected": "numeric",
+          "source_index": 1,
+          "locator": "HTML line 748; xpath /html/body/div[3]/div/div[2]/div/ul/li/div/table/tbody/tr[2]/td/table/tbody/tr/td/p[100]/span[1]; anchor 顺序编码制",
+          "detail": ""
+        },
+        {
+          "id": "legacy-word-submission",
+          "category": "submission",
+          "target": "document",
+          "property": "file_format",
+          "expected": "Word .doc",
+          "source_index": 0,
+          "locator": "Original DOC Word Paragraphs[7], Range.Start=248; statement anchor 5.  保存文件：选择“文件→另存为”为Word",
+          "detail": ""
+        }
+      ],
+      "coverage_notes": [
+        "Only the explicit confirmed manuscript-format rules are applied. Publisher documents and source prose are not redistributed.",
+        "Editorial requirements remain in the audit record; their presence does not authorize invention of author information, references, experiments or results.",
+        "The scope is a Chinese main manuscript. Its English translated title has a separate 10.5 pt instruction and requires explicit language-aware role assignment; this profile does not assign the Chinese title rule to an English title."
+      ],
+      "ownership_evidence": {
+        "source_index": 1,
+        "locator": "HTML line 293; xpath /html/body/div[3]/div/div[2]/div/ul/li/div/table/tbody/tr[2]/td/table/tbody/tr/td/p[11]/span[15]/strong/span/span/a; anchor spkxmb-2020.doc",
+        "fact": "The official journal guide directly links the exact downloaded Word template."
+      },
+      "size_confirmation": {
+        "source_size_name": "小一",
+        "point_size": 24.0,
+        "source_paragraph": 15,
+        "observed_native_Word_font_size": 24.0,
+        "method": "Read-only original DOC observation; macros disabled, external links not updated; original bytes retained."
+      }
+    },
+    "cn-statistics-decision-word-confirmed": {
+      "name": "统计与决策：官方投稿格式",
+      "aliases": [
+        "统计与决策"
+      ],
+      "source_version": "2026-10-30/official-format-page-snapshot",
+      "scope": "官方主站“投稿格式”中明示的 Word 单栏正文和图表格式。",
+      "sources": [
+        {
+          "file": "tjyjc-official-3.html",
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "bytes": 127533,
+          "retrieved_at": "2026-10-30"
+        },
+        {
+          "file": "tjyjc-http.html",
+          "url": "http://www.tjyjc.com/",
+          "sha256": "c20a209a6f4a914fcb6c165f6da4c2249d61379c3a6351c181871ea37a9d426a",
+          "bytes": 126100,
+          "retrieved_at": "2026-10-30"
+        }
+      ],
+      "rules": {
+        "body": {
+          "east_asia_font": "宋体",
+          "size_pt": 12.0,
+          "line_spacing": 1.0
+        },
+        "figure_caption": {
+          "east_asia_font": "宋体",
+          "size_pt": 9.0
+        },
+        "table_caption": {
+          "east_asia_font": "宋体",
+          "size_pt": 9.0
+        },
+        "table_body": {
+          "east_asia_font": "宋体",
+          "size_pt": 9.0
+        }
+      },
+      "page": {
+        "columns": 1
+      },
+      "rule_sources": {
+        "body": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体"
+          },
+          "line_spacing": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体"
+          }
+        },
+        "figure_caption": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体"
+          }
+        },
+        "table_caption": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体"
+          }
+        },
+        "table_body": {
+          "east_asia_font": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体"
+          },
+          "size_pt": {
+            "source_index": 0,
+            "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体"
+          }
+        }
+      },
+      "page_sources": {
+        "columns": {
+          "source_index": 0,
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体"
+        }
+      },
+      "policies": [
+        {
+          "id": "margin-label",
+          "category": "layout",
+          "target": "page",
+          "property": "margin_preset_label",
+          "expected": "中等",
+          "source_index": 0,
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "detail": "The guide gives a named setting, not numeric dimensions. No default Word margin values are inferred."
+        },
+        {
+          "id": "page-numbers",
+          "category": "structure",
+          "target": "document",
+          "property": "footer_page_numbers_required",
+          "expected": true,
+          "source_index": 0,
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "detail": ""
+        },
+        {
+          "id": "no-extra-blank-lines",
+          "category": "structure",
+          "target": "document",
+          "property": "extra_blank_lines_allowed",
+          "expected": false,
+          "source_index": 0,
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "detail": ""
+        },
+        {
+          "id": "bibliography-numeric",
+          "category": "citation",
+          "target": "document",
+          "property": "bibliography_style",
+          "expected": "numeric",
+          "source_index": 0,
+          "locator": "HTML line 464; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[20]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 按在正文中出现的先后次序",
+          "detail": ""
+        },
+        {
+          "id": "bibliography-standard",
+          "category": "citation",
+          "target": "reference",
+          "property": "standard",
+          "expected": "GB/T 7714-2015",
+          "source_index": 0,
+          "locator": "HTML line 464; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[20]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[6]; anchor GB/T 7714-2015",
+          "detail": ""
+        },
+        {
+          "id": "keyword-count",
+          "category": "submission",
+          "target": "keywords",
+          "property": "recommended_count",
+          "expected": [
+            3,
+            5
+          ],
+          "source_index": 0,
+          "locator": "HTML line 442; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[9]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[2]; anchor 关键词",
+          "detail": ""
+        },
+        {
+          "id": "heading-hierarchy",
+          "category": "structure",
+          "target": "document",
+          "property": "maximum_heading_levels",
+          "expected": 4,
+          "source_index": 0,
+          "locator": "HTML line 454; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[15]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[3]; anchor 文章层次",
+          "detail": ""
+        }
+      ],
+      "coverage_notes": [
+        "Only the explicit confirmed manuscript-format rules are applied. Publisher documents and source prose are not redistributed.",
+        "Editorial requirements remain in the audit record; their presence does not authorize invention of author information, references, experiments or results.",
+        "小四 maps to 12 pt and 小五 maps to 9 pt. The source does not prescribe a numeric margin or a Latin font in the selected formatting section, so those properties are not assigned."
+      ],
+      "ownership_evidence": {
+        "source_index": 1,
+        "locator": "HTML line 334; xpath /html/body/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div[1]/div[1]/div/div[2]/p/a; anchor tjjc.cbpt.cnki.net",
+        "fact": "The publisher main site links its journal author system; the applied rules come from the same main-site format page."
+      }
+    }
+  }
+}

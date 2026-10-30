@@ -1,0 +1,368 @@
+{
+  "family": "computer-wiley",
+  "version": "1.0.0",
+  "scope": "Publisher-source-extracted detailed JSON formats and explicit journal-recommended design choices; no original template files or runtime template downloads.",
+  "sources": [
+    {
+      "id": "spe-guide",
+      "url": "https://onlinelibrary.wiley.com/page/journal/1097024x/homepage/forauthors.html",
+      "file": "SPE author guidelines",
+      "sha256": "77d65831ec648803178498944b874822a067b8cb1c874f1a68a96430f951d4be",
+      "bytes": 132121,
+      "retrieved": "2026-10-30",
+      "facts": {
+        "manuscript_style": "12-point, single-column, single-spaced type in one of the standard fonts: Times, Helvetica, or Courier is preferred.",
+        "reference_style": "AMA; consecutively numbered in order of appearance; Arabic superscript in-text citations.",
+        "initial_submission_references": "Any consistent style or format is allowed at initial free-format submission."
+      }
+    },
+    {
+      "id": "wiley-2025-journal-mapping",
+      "url": "https://authorservices.wiley.com/asset/Journals%20in%20New%20Journal%20Design%202025.xlsx",
+      "file": "Journals in New Journal Design 2025.xlsx",
+      "sha256": "61e117b1485587a316a14ef34831176084a479a24c5457a30ecad382fb5bca62",
+      "bytes": 22655,
+      "retrieved": "2026-10-30",
+      "facts": {
+        "worksheet": "Sheet1",
+        "row": 202,
+        "cells": {
+          "A202": "Journal of the Association for Information Science and Technology",
+          "B202": "American Psychological Association (APA) Reference Style",
+          "C202": "2 column",
+          "D202": "stixtwotext",
+          "E202": "L3 (210 x 276)",
+          "F202": "Wiley Journals Style Manual (Latest Version)"
+        },
+        "journal": "Journal of the Association for Information Science and Technology",
+        "reference_style": "APA",
+        "columns": 2,
+        "typography_token": "stixtwotext",
+        "font_family": "STIX Two Text",
+        "layout": "L3",
+        "width_mm": 210,
+        "height_mm": 276
+      }
+    },
+    {
+      "id": "njd-format",
+      "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+      "file": "USG.cls",
+      "archive_member": "Optimal-Design-layout/USG.cls",
+      "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+      "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+      "bytes": 95431,
+      "archive_bytes": 7597672,
+      "source_version": "2024/05/07 v6.0",
+      "retrieved": "2026-10-30",
+      "facts": {
+        "encoding": "Declarative numeric facts only; source class is neither bundled nor executed."
+      }
+    },
+    {
+      "id": "cgf-format",
+      "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+      "file": "egpubl.cls",
+      "archive_member": "egPublStyle-cgf/egpubl.cls",
+      "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+      "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+      "bytes": 90478,
+      "archive_bytes": 1059066,
+      "source_version": "2024/09/24 v3.96",
+      "retrieved": "2026-10-30",
+      "facts": {
+        "encoding": "Declarative numeric facts only; source class is neither bundled nor executed."
+      },
+      "related_files": {
+        "dfadobe.sty": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+        "EGauthorGuidelines-cgf-sub.pdf": "1304bd1bfc969e9c6bb073369d105838864b18dae8ca0e5ac9904bef059c37ac",
+        "EGauthorGuidelines-body-sub.inc": "a1897fb91f104f0727410eeaf5b3201bbf75fbb5b013649aeac73ccc171b96ae"
+      }
+    }
+  ],
+  "admitted_profiles": [
+    "computer-wiley-spe-manuscript",
+    "computer-wiley-jasist-njd-2025",
+    "computer-wiley-cgf-regular-submission",
+    "computer-wiley-expert-njd-choice",
+    "computer-wiley-ci-njd-choice",
+    "computer-wiley-cpe-njd-choice",
+    "computer-wiley-jsep-njd-choice",
+    "computer-wiley-stvr-njd-choice",
+    "computer-wiley-cavw-njd-choice",
+    "computer-wiley-iet-com-njd-choice",
+    "computer-wiley-iet-cvi-njd-choice",
+    "computer-wiley-iet-its-njd-choice",
+    "computer-wiley-iet-ifs-njd-choice",
+    "computer-wiley-stvr-manuscript",
+    "computer-wiley-jsep-manuscript",
+    "computer-wiley-cavw-manuscript"
+  ],
+  "coverage_gaps": [
+    {
+      "journal": "IET Image Processing",
+      "publisher_group": "IET",
+      "reason": "The accessible current guide confirms free-format; no fixed numerical typography or an accessible journal-bound template was established. A mandatory font/column design is not invented.",
+      "source_url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17519667/homepage/author-guidelines"
+    },
+    {
+      "journal": "IET Signal Processing",
+      "publisher_group": "IET",
+      "reason": "A journal-specific current author page or its linked original format source was not accessible through the available official retrieval routes. No font, size, layout or citation mapping was inferred from another journal or publisher name.",
+      "source_url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17519683/homepage/author-guidelines"
+    },
+    {
+      "journal": "IET Software",
+      "publisher_group": "IET",
+      "reason": "A journal-specific current author page or its linked original format source was not accessible through the available official retrieval routes. No font, size, layout or citation mapping was inferred from another journal or publisher name.",
+      "source_url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietsfw/homepage/author-guidelines"
+    },
+    {
+      "journal": "International Journal of Intelligent Systems",
+      "publisher_group": "Wiley",
+      "reason": "A journal-specific current author page or its linked original format source was not accessible through the available official retrieval routes. No font, size, layout or citation mapping was inferred from another journal or publisher name.",
+      "source_url": "https://onlinelibrary.wiley.com/page/journal/ijis/homepage/author-guidelines"
+    },
+    {
+      "journal": "Networks",
+      "publisher_group": "Wiley",
+      "reason": "A journal-specific current author page or its linked original format source was not accessible through the available official retrieval routes. No font, size, layout or citation mapping was inferred from another journal or publisher name.",
+      "source_url": "https://onlinelibrary.wiley.com/page/journal/10970037/homepage/forauthors.html"
+    },
+    {
+      "journal": "Security and Communication Networks",
+      "publisher_group": "Wiley",
+      "reason": "A journal-specific current author page or its linked original format source was not accessible through the available official retrieval routes. No font, size, layout or citation mapping was inferred from another journal or publisher name.",
+      "source_url": "https://onlinelibrary.wiley.com/journal/19390122"
+    },
+    {
+      "journal": "Wireless Communications and Mobile Computing",
+      "publisher_group": "Wiley",
+      "reason": "The official guide allows free-format and links an optional research-article DOCX. That actual DOCX returned HTTP403, so its numerical style was not fabricated.",
+      "source_url": "https://onlinelibrary.wiley.com/page/journal/6302/homepage/author-guidelines",
+      "optional_template_url": "https://downloads.hindawi.com/Hindawi_template.docx"
+    }
+  ],
+  "unbundled_sources": [
+    {
+      "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+      "file": "Optimal-Design-layout/USG.cls",
+      "source_version": "2024/05/07 v6.0",
+      "reason": "Source header reserves Wiley rights and no explicit source-code redistribution permission was established."
+    },
+    {
+      "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+      "file": "egPublStyle-cgf/egpubl.cls",
+      "source_version": "2024/09/24 v3.96",
+      "mapping_url": "https://www.eg.org/wp/eurographics-publications/guidelines/",
+      "reason": "The official page maps regular CGF submissions to EGauthorGuidelines-cgf-sub.tex. Source-code redistribution permission was not established; no official class is bundled."
+    }
+  ],
+  "declarative_profiles": [
+    {
+      "id": "computer-wiley-jasist-njd-2025",
+      "name": "JASIST — source-extracted Wiley NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "id": "wiley-2025-journal-mapping",
+        "url": "https://authorservices.wiley.com/asset/Journals%20in%20New%20Journal%20Design%202025.xlsx",
+        "file": "Journals in New Journal Design 2025.xlsx",
+        "sha256": "61e117b1485587a316a14ef34831176084a479a24c5457a30ecad382fb5bca62",
+        "bytes": 22655,
+        "retrieved": "2026-10-30",
+        "facts": {
+          "worksheet": "Sheet1",
+          "row": 202,
+          "cells": {
+            "A202": "Journal of the Association for Information Science and Technology",
+            "B202": "American Psychological Association (APA) Reference Style",
+            "C202": "2 column",
+            "D202": "stixtwotext",
+            "E202": "L3 (210 x 276)",
+            "F202": "Wiley Journals Style Manual (Latest Version)"
+          },
+          "journal": "Journal of the Association for Information Science and Technology",
+          "reference_style": "APA",
+          "columns": 2,
+          "typography_token": "stixtwotext",
+          "font_family": "STIX Two Text",
+          "layout": "L3",
+          "width_mm": 210,
+          "height_mm": 276
+        },
+        "journal": "Journal of the Association for Information Science and Technology",
+        "reference_style": "APA"
+      },
+      "optional": false
+    },
+    {
+      "id": "computer-wiley-cgf-regular-submission",
+      "name": "Computer Graphics Forum — source-extracted regular submission format",
+      "format": "cgf",
+      "binding": {
+        "journal": "Computer Graphics Forum",
+        "url": "https://www.eg.org/wp/eurographics-publications/guidelines/",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "eg-alpha-doi"
+      },
+      "optional": false
+    },
+    {
+      "id": "computer-wiley-expert-njd-choice",
+      "name": "Expert Systems — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "Expert Systems",
+        "url": "https://onlinelibrary.wiley.com/page/journal/14680394/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "APA"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-ci-njd-choice",
+      "name": "Computational Intelligence — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "Computational Intelligence",
+        "url": "https://onlinelibrary.wiley.com/page/journal/14678640/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-cpe-njd-choice",
+      "name": "Concurrency and Computation: Practice and Experience — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "Concurrency and Computation: Practice and Experience",
+        "url": "https://onlinelibrary.wiley.com/page/journal/15320634/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "AMA"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-jsep-njd-choice",
+      "name": "Journal of Software: Evolution and Process — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "Journal of Software: Evolution and Process",
+        "url": "https://onlinelibrary.wiley.com/page/journal/20477481/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-stvr-njd-choice",
+      "name": "Software Testing, Verification and Reliability — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "Software Testing, Verification and Reliability",
+        "url": "https://onlinelibrary.wiley.com/page/journal/10991689/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "AMS"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-cavw-njd-choice",
+      "name": "Computer Animation and Virtual Worlds — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "Computer animation & virtual worlds",
+        "url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-iet-com-njd-choice",
+      "name": "IET Communications — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "IET Communications",
+        "url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518636/homepage/author-guidelines",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "Chicago"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-iet-cvi-njd-choice",
+      "name": "IET Computer Vision — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "IET Computer Vision",
+        "url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17519640/homepage/author-guidelines",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "Chicago"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-iet-its-njd-choice",
+      "name": "IET Intelligent Transport Systems — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "IET Intelligent Transport Systems",
+        "url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17519578/homepage/author-guidelines",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "Chicago"
+      },
+      "optional": true
+    },
+    {
+      "id": "computer-wiley-iet-ifs-njd-choice",
+      "name": "IET Information Security — optional recommended NJD two-column design",
+      "format": "njd",
+      "binding": {
+        "journal": "IET Information Security",
+        "url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/author-guidelines",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30"
+      },
+      "optional": true
+    }
+  ],
+  "direct_manuscript_profiles": [
+    {
+      "id": "computer-wiley-stvr-manuscript",
+      "binding": {
+        "journal": "Software Testing, Verification and Reliability",
+        "url": "https://onlinelibrary.wiley.com/page/journal/10991689/homepage/guide.htm",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30",
+        "reference_style": "AMS"
+      }
+    },
+    {
+      "id": "computer-wiley-jsep-manuscript",
+      "binding": {
+        "journal": "Journal of Software: Evolution and Process",
+        "url": "https://onlinelibrary.wiley.com/page/journal/20477481/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30"
+      }
+    },
+    {
+      "id": "computer-wiley-cavw-manuscript",
+      "binding": {
+        "journal": "Computer animation & virtual worlds",
+        "url": "https://onlinelibrary.wiley.com/page/journal/1546427x/homepage/forauthors.html",
+        "file": "official-author-guidelines",
+        "source_version": "official page text indexed 2026-10-30"
+      }
+    }
+  ]
+}

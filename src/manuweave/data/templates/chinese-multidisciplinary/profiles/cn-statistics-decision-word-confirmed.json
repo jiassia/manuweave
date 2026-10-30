@@ -1,0 +1,480 @@
+{
+  "id": "cn-statistics-decision-word-confirmed",
+  "name": "统计与决策：官方投稿格式",
+  "version": "1.0.0",
+  "aliases": [
+    "统计与决策"
+  ],
+  "scope": "官方主站“投稿格式”中明示的 Word 单栏正文和图表格式。",
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "body": {
+      "east_asia_font": "宋体",
+      "size_pt": 12.0,
+      "line_spacing": 1.0
+    },
+    "figure_caption": {
+      "east_asia_font": "宋体",
+      "size_pt": 9.0
+    },
+    "table_caption": {
+      "east_asia_font": "宋体",
+      "size_pt": 9.0
+    },
+    "table_body": {
+      "east_asia_font": "宋体",
+      "size_pt": 9.0
+    }
+  },
+  "page": {
+    "columns": 1
+  },
+  "latex": {},
+  "sources": [
+    {
+      "file": "tjyjc-official-3.html",
+      "url": "http://www.tjyjc.com/tougao/3.html",
+      "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+      "bytes": 127533,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    },
+    {
+      "file": "tjyjc-http.html",
+      "url": "http://www.tjyjc.com/",
+      "sha256": "c20a209a6f4a914fcb6c165f6da4c2249d61379c3a6351c181871ea37a9d426a",
+      "bytes": 126100,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    }
+  ],
+  "checks": [
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "figure_caption",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "table_caption",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "table_caption",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "table_body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "table_body",
+      "property": "size_pt",
+      "expected": 9.0
+    }
+  ],
+  "template": {
+    "family": "chinese-multidisciplinary",
+    "source_version": "2026-10-30/official-format-page-snapshot",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "http://www.tjyjc.com/tougao/3.html",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-east_asia_font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-east_asia_font",
+        "category": "typography",
+        "target": "table_body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-size_pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[5]; anchor 小五号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "margin-label",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_preset_label",
+        "expected": "中等",
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The guide gives a named setting, not numeric dimensions. No default Word margin values are inferred."
+      },
+      {
+        "id": "page-numbers",
+        "category": "structure",
+        "target": "document",
+        "property": "footer_page_numbers_required",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "no-extra-blank-lines",
+        "category": "structure",
+        "target": "document",
+        "property": "extra_blank_lines_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 482; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[29]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 正文为小四号宋体",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bibliography-numeric",
+        "category": "citation",
+        "target": "document",
+        "property": "bibliography_style",
+        "expected": "numeric",
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 464; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[20]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[1]; anchor 按在正文中出现的先后次序",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bibliography-standard",
+        "category": "citation",
+        "target": "reference",
+        "property": "standard",
+        "expected": "GB/T 7714-2015",
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 464; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[20]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[6]; anchor GB/T 7714-2015",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keyword-count",
+        "category": "submission",
+        "target": "keywords",
+        "property": "recommended_count",
+        "expected": [
+          3,
+          5
+        ],
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 442; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[9]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[2]; anchor 关键词",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading-hierarchy",
+        "category": "structure",
+        "target": "document",
+        "property": "maximum_heading_levels",
+        "expected": 4,
+        "unit": null,
+        "source": {
+          "url": "http://www.tjyjc.com/tougao/3.html",
+          "file": "tjyjc-official-3.html",
+          "locator": "HTML line 454; xpath /html/body/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/div/p[15]/span/span/span/span/span/span/span/span/span/span/span/span/span/span/span[3]; anchor 文章层次",
+          "sha256": "7937626245bc5cd6f7b7286f3d312361b15bd2123bcba7863a20f891e8023182",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "Only the explicit confirmed manuscript-format rules are applied. Publisher documents and source prose are not redistributed.",
+      "Editorial requirements remain in the audit record; their presence does not authorize invention of author information, references, experiments or results.",
+      "小四 maps to 12 pt and 小五 maps to 9 pt. The source does not prescribe a numeric margin or a Latin font in the selected formatting section, so those properties are not assigned."
+    ]
+  }
+}

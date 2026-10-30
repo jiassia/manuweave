@@ -1,0 +1,521 @@
+{
+  "retrieved_at": "2026-10-30",
+  "method": "Read explicit official submission instructions and native template styles. Original DOC downloads were opened read-only with macros disabled and converted in a temporary Word workspace for XML inspection; no publisher originals are redistributed.",
+  "documents": {
+    "cn-aroc-official-word": {
+      "name": "计算机应用研究，官方投稿编辑模板",
+      "aliases": [
+        "计算机应用研究"
+      ],
+      "source_version": "official-download-snapshot-2026-10-30",
+      "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+      "sources": [
+        {
+          "file": "aroc-official-template.doc",
+          "url": "https://www.arocmag.cn/download/template",
+          "sha256": "baf9fce8b2bc56f2320c8bf4541546e43f48a8f3a1c773b40667d7b2a7b872cb",
+          "bytes": 169984,
+          "source_kind": "official_submission_template",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        },
+        {
+          "file": "aroc-template-page.html",
+          "url": "https://www.arocmag.cn/info/instruction/template",
+          "sha256": "a18e26175e76d4558c970f2c947113de12a5d42b183f13da599817d2bcfb8b74",
+          "bytes": 15125,
+          "source_kind": "official_template_index",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        }
+      ],
+      "rules": {
+        "title": {
+          "east_asia_font": "黑体",
+          "size_pt": 16.0,
+          "alignment": "center"
+        },
+        "body": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 9.0,
+          "alignment": "justify",
+          "first_line_pt": 18.2
+        },
+        "abstract": {
+          "size_pt": 9.0
+        },
+        "keywords": {
+          "size_pt": 9.0
+        }
+      },
+      "page": {
+        "width_mm": 210.0086,
+        "height_mm": 297.0036,
+        "margin_top_mm": 20.0025,
+        "margin_bottom_mm": 14.9931,
+        "margin_left_mm": 14.9931,
+        "margin_right_mm": 14.9931
+      },
+      "locators": {
+        "title": "Official DOC read-only Word OOXML projection: body paragraph 1, Chinese title; size 16pt and 黑体, centered",
+        "body": "Official DOC read-only Word OOXML projection: body paragraph 19, anchor 本模板中正文文本的样式为; named style @正文|段落文本 resolves 9pt 宋体/Times New Roman, firstLine=364 twips",
+        "abstract": "Official DOC read-only Word OOXML projection: body paragraphs 4 and 10, Chinese and English abstract have 9pt text",
+        "keywords": "Official DOC read-only Word OOXML projection: body paragraphs 5 and 11, Chinese and English keywords have 9pt text",
+        "page": "Official DOC read-only Word OOXML projection: word/document.xml body section 2; pgSz 11906x16838 twips; pgMar top=1134, other edges=850",
+        "sections": "Official DOC read-only Word OOXML projection: front section 1 one column,正文 section 2 cols/@num=2; body begins at first level-one heading"
+      },
+      "sections": {
+        "front_matter_columns": 1,
+        "body_columns": 2,
+        "body_starts_at": "first_heading1"
+      },
+      "policies": [
+        {
+          "id": "inline-figures",
+          "target": "image",
+          "property": "placement",
+          "expected": "inline_with_text",
+          "locator": "Template page paragraph 对于文档中的图表; explicit 图片版式设为嵌入到文字",
+          "source_index": 1,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "citation-order",
+          "target": "reference",
+          "property": "bibliography_style",
+          "expected": "numeric",
+          "locator": "Official DOC projection paragraph 47, explicit 顺序编码制 and half-width square brackets",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        }
+      ]
+    },
+    "cn-jcyyy-official-word": {
+      "name": "机床与液压，2023官方论文投稿模板",
+      "aliases": [
+        "机床与液压"
+      ],
+      "source_version": "official-download-snapshot-2026-10-30",
+      "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+      "sources": [
+        {
+          "file": "jcyyy-official-template.docx",
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "sha256": "303d08e5ddefda7dbf727c5140a7fcc16d2a484402f0e6a3b1e9815d5a7c78db",
+          "bytes": 1049855,
+          "source_kind": "official_submission_template",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        },
+        {
+          "file": "jcyyy-template-page.html",
+          "url": "http://www.jcyyy.com.cn/jcyyy/news/view/20230703154824001",
+          "sha256": "c43a42e74c118172c76532374140736d19ea5f226b6c4c4cc1d0992504baab26",
+          "bytes": 29244,
+          "source_kind": "official_template_instructions",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        }
+      ],
+      "rules": {
+        "title": {
+          "east_asia_font": "宋体",
+          "size_pt": 16.0,
+          "bold": true,
+          "alignment": "center"
+        },
+        "body": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 10.5,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.2
+        },
+        "heading1": {
+          "east_asia_font": "黑体",
+          "size_pt": 10.5,
+          "alignment": "left"
+        },
+        "heading3": {
+          "east_asia_font": "宋体",
+          "size_pt": 10.5
+        },
+        "figure_caption": {
+          "east_asia_font": "宋体",
+          "size_pt": 9.0,
+          "alignment": "center"
+        }
+      },
+      "page": {
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      "locators": {
+        "title": "word/document.xml body paragraph 2, explicit 三号宋体，加粗，居中",
+        "body": "word/document.xml body paragraph 1, explicit 全文汉字宋体/西文Times New Roman/1.2倍; paragraphs 34,39,47,60,67 specify 五号宋体 for normal text",
+        "heading1": "word/document.xml body paragraph 22, explicit 五号黑体，顶格，一级标题",
+        "heading3": "word/document.xml body paragraphs 39 and 47, numbered third-level headings, explicit 五号宋体",
+        "figure_caption": "word/document.xml body paragraphs 72,81,87,93,171, explicit 小五号宋体，居中",
+        "page": "Official template index paragraph 页面要求：A4纸",
+        "page_source_index": 1
+      },
+      "sections": null,
+      "policies": [
+        {
+          "id": "margin-ui-preset",
+          "target": "page",
+          "property": "word_margin_preset",
+          "expected": "适中",
+          "locator": "word/document.xml body paragraph 1, explicit 全文页边距适中",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "native-equations",
+          "target": "equation",
+          "property": "image_equations_allowed",
+          "expected": false,
+          "locator": "word/document.xml body paragraphs 1 and 60, explicit 公式不能是图片",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "abstract-citations",
+          "target": "abstract",
+          "property": "abstract_citations_allowed",
+          "expected": false,
+          "locator": "word/document.xml body paragraph 9, explicit 不得使用参考文献号",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "keyword-count",
+          "target": "keywords",
+          "property": "count_range",
+          "expected": [
+            3,
+            5
+          ],
+          "locator": "word/document.xml body paragraph 10, explicit 3～5个词组",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        }
+      ]
+    },
+    "cn-xddzjs-official-word": {
+      "name": "现代电子技术，2025官方研究论文投稿模板",
+      "aliases": [
+        "现代电子技术"
+      ],
+      "source_version": "official-download-snapshot-2026-10-30",
+      "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+      "sources": [
+        {
+          "file": "xddzjs-official-template.docx",
+          "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/xddj/media/web/2025/11/12/论文模板.docx",
+          "sha256": "f0fba757547a67ae6bcf7735423cf5f17eb7cea020190ffb05a6b529fca51ed7",
+          "bytes": 516371,
+          "source_kind": "official_submission_template",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        },
+        {
+          "file": "xddzjs-official-home.html",
+          "url": "https://xddj.cbpt.cnki.net/portal/",
+          "sha256": "5d391d7cbdd4add3f9bcea092045b4687c061d85773eec22c78fd093d1a81cf8",
+          "bytes": 568083,
+          "source_kind": "official_template_index",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        }
+      ],
+      "rules": {
+        "title": {
+          "east_asia_font": "黑体",
+          "size_pt": 16.0,
+          "alignment": "center"
+        },
+        "body": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 10.5,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.5
+        },
+        "heading1": {
+          "east_asia_font": "黑体",
+          "size_pt": 12.0
+        },
+        "heading2": {
+          "east_asia_font": "黑体",
+          "size_pt": 10.5
+        },
+        "heading3": {
+          "east_asia_font": "楷体",
+          "size_pt": 10.5
+        },
+        "abstract": {
+          "size_pt": 9.0
+        },
+        "keywords": {
+          "size_pt": 9.0
+        },
+        "figure_caption": {
+          "east_asia_font": "黑体",
+          "size_pt": 9.0
+        },
+        "table_caption": {
+          "east_asia_font": "黑体",
+          "size_pt": 9.0
+        }
+      },
+      "page": {
+        "width_mm": 210.0,
+        "height_mm": 297.0,
+        "margin_top_mm": 20.0,
+        "margin_bottom_mm": 20.0,
+        "margin_left_mm": 20.0,
+        "margin_right_mm": 20.0
+      },
+      "locators": {
+        "title": "word/document.xml body paragraph 1, explicit 中文标题（三号黑体） and centered title alignment",
+        "body": "word/document.xml body paragraph 22, explicit 五号宋体/英文及数字Times New Roman/正文文本1.5倍行距",
+        "heading1": "word/document.xml body paragraph 31, explicit 一级标题（小四号黑体）",
+        "heading2": "word/document.xml body paragraph 32, explicit 二级标题（五号黑体）",
+        "heading3": "word/document.xml body paragraph 33, explicit 三级标题（五号楷体）",
+        "abstract": "word/document.xml body paragraphs 9 and 17, explicit Chinese and English abstract 小五",
+        "keywords": "word/document.xml body paragraphs 10 and 18, explicit Chinese and English keywords 小五",
+        "figure_caption": "word/document.xml body paragraph 68, explicit 图题采用小五黑体",
+        "table_caption": "word/document.xml body paragraph 84, explicit 表题采用小五黑体",
+        "page": "word/document.xml body paragraph 22, explicit A4（21cm×29.7cm）and 页边距上下左右均为2cm; use this instruction, not instruction-document container margins",
+        "sections": "word/document.xml body paragraphs 21 and 22: 从正文内容开始设置为双栏; 页眉页脚设置首页不同、奇偶页不同"
+      },
+      "sections": {
+        "front_matter_columns": 1,
+        "body_columns": 2,
+        "body_starts_at": "first_heading1",
+        "different_first_page": true,
+        "different_odd_even_headers": true
+      },
+      "policies": [
+        {
+          "id": "abstract-length",
+          "target": "abstract",
+          "property": "minimum_characters",
+          "expected": 300,
+          "locator": "word/document.xml body paragraph 9, explicit 中文摘要篇幅不少于300字",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "keyword-count",
+          "target": "keywords",
+          "property": "count_range",
+          "expected": [
+            6,
+            8
+          ],
+          "locator": "word/document.xml body paragraphs 10 and 18, explicit 6~8个",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "keyword-separator",
+          "target": "keywords",
+          "property": "separator",
+          "expected": "；",
+          "locator": "word/document.xml body paragraphs 10 and 18, explicit 以分号分隔",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "equation-point-size",
+          "target": "equation",
+          "property": "math_size_pt",
+          "expected": 10.0,
+          "locator": "word/document.xml body paragraph 61, explicit 公式字号10磅",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "figure-inline-width",
+          "target": "image",
+          "property": "single_column_max_width_mm",
+          "expected": 80.0,
+          "locator": "word/document.xml body paragraph 67, explicit 占用半栏时宽度不超过80mm",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "figure-spanning-width",
+          "target": "image",
+          "property": "spanning_max_width_mm",
+          "expected": 160.0,
+          "locator": "word/document.xml body paragraph 67, explicit 通栏时宽度不超过160mm",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "table-no-diagonal",
+          "target": "table",
+          "property": "diagonal_header_allowed",
+          "expected": false,
+          "locator": "word/document.xml body paragraph 24, explicit 表格中的表头不能出现斜线",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "citation-order",
+          "target": "reference",
+          "property": "bibliography_style",
+          "expected": "numeric",
+          "locator": "word/document.xml body paragraph 30, explicit 先后顺序用阿拉伯数字连续编码",
+          "source_index": 0,
+          "checking": "host",
+          "detail": ""
+        }
+      ]
+    },
+    "cn-emt-official-word": {
+      "name": "电子测量技术，官方研究论文排版模板及2026须知",
+      "aliases": [
+        "电子测量技术"
+      ],
+      "source_version": "official-download-snapshot-2026-10-30",
+      "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+      "sources": [
+        {
+          "file": "emt-official-typesetting-template.doc",
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "sha256": "659302f9924313f843262ea82804b3405924691bf8b4b526924b5a56d4e6c1ec",
+          "bytes": 81570,
+          "source_kind": "official_submission_template",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        },
+        {
+          "file": "emt-2026-author-instructions.docx",
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2026-01-15/电子测量技术-投稿须知.docx",
+          "sha256": "28b054738ea52afc5e44beeb85b351269bde2d2d93d31b78a828fc8c77b1929a",
+          "bytes": 25245,
+          "source_kind": "official_author_instructions",
+          "retrieved_at": "2026-10-30",
+          "original_file_redistributed": false
+        }
+      ],
+      "rules": {
+        "title": {
+          "east_asia_font": "黑体",
+          "size_pt": 22.0,
+          "alignment": "center"
+        },
+        "body": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 9.5,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.0
+        },
+        "abstract": {
+          "size_pt": 9.0
+        },
+        "reference": {
+          "east_asia_font": "宋体",
+          "size_pt": 9.0
+        }
+      },
+      "page": {
+        "width_mm": 210.0086,
+        "height_mm": 297.0036,
+        "margin_top_mm": 25.4,
+        "margin_bottom_mm": 25.4,
+        "margin_left_mm": 17.004,
+        "margin_right_mm": 17.004
+      },
+      "locators": {
+        "title": "Official DOC read-only Word OOXML projection: title paragraph 1, explicit 2号黑体，居中; actual title run 22pt",
+        "body": "Official DOC read-only Word OOXML projection: paragraph 65 contains 9.5磅宋体，正文; paragraph 27 states 英文部分均为Times New Roman; paragraph 125 states 所有正文为单倍行距",
+        "abstract": "Official DOC read-only Word OOXML projection: paragraph 20, explicit 小5号宋体; actual abstract text 9pt",
+        "reference": "Official DOC read-only Word OOXML projection: bibliography paragraph 110, explicit 小5号宋体 and actual 9pt text",
+        "page": "Official DOC read-only Word OOXML projection: body section 2 pgSz 11906x16838 twips, pgMar top/bottom1440, left/right964",
+        "sections": "Official DOC projection front section 1 is single-column and body section 2 cols/@num=2; 2026 author guide paragraph 36 also explicitly requires body double columns"
+      },
+      "sections": {
+        "front_matter_columns": 1,
+        "body_columns": 2,
+        "body_starts_at": "first_heading1"
+      },
+      "policies": [
+        {
+          "id": "heading-numbering",
+          "target": "heading1",
+          "property": "numbering_system",
+          "expected": "1 / 1.1 / 1.1.1",
+          "locator": "2026 author instructions paragraph 46, explicit hierarchical Arabic numbering and left alignment",
+          "source_index": 1,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "structured-abstract",
+          "target": "abstract",
+          "property": "required_elements",
+          "expected": [
+            "目的",
+            "方法",
+            "结果",
+            "结论"
+          ],
+          "locator": "2026 author instructions paragraph 28, research-article abstract has four elements",
+          "source_index": 1,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "references-minimum",
+          "target": "reference",
+          "property": "minimum_count",
+          "expected": 15,
+          "locator": "2026 author instructions paragraph 66, explicit 研究论文参考文献不少于15条",
+          "source_index": 1,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "citation-order",
+          "target": "reference",
+          "property": "bibliography_style",
+          "expected": "numeric",
+          "locator": "2026 author instructions paragraph 66, explicit 顺序编码",
+          "source_index": 1,
+          "checking": "host",
+          "detail": ""
+        },
+        {
+          "id": "table-form",
+          "target": "table",
+          "property": "structure",
+          "expected": "three_line",
+          "locator": "2026 author instructions paragraph 50, explicit 使用三线表",
+          "source_index": 1,
+          "checking": "host",
+          "detail": ""
+        }
+      ]
+    }
+  }
+}

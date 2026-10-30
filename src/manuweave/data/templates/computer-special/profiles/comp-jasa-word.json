@@ -1,0 +1,2388 @@
+{
+  "id": "comp-jasa-word",
+  "name": "The Journal of the Acoustical Society of America — explicit regular-article author-manuscript layout (Word)",
+  "version": "1.0.0",
+  "scope": "Regular-article submission manuscript from the official AIP-hosted contributor instructions. Font branch selects the guide’s Times New Roman example; source publication date remains explicit.",
+  "journal_title": "The Journal of the Acoustical Society of America",
+  "catalog_journal_id": "ccf-2026-the-journal-of-the-acoustical-society-of-america",
+  "manuscript_type": "journal_article",
+  "stage": "submission_author_manuscript",
+  "aliases": [
+    "The Journal of the Acoustical Society of America source formatting"
+  ],
+  "rules": {
+    "title": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "author": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "affiliation": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "abstract": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "keywords": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "body": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "heading1": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "bold": true,
+      "italic": false
+    },
+    "heading2": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "bold": true,
+      "italic": false
+    },
+    "heading3": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "bold": true,
+      "italic": true
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "figure_caption": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "table_caption": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    }
+  },
+  "page": {
+    "width_mm": 215.9,
+    "height_mm": 279.4,
+    "margin_top_mm": 25.4,
+    "margin_bottom_mm": 25.4,
+    "margin_left_mm": 25.4,
+    "margin_right_mm": 25.4
+  },
+  "latex": {},
+  "extracted_format": {
+    "mode": "source_extracted_rules",
+    "roles": {
+      "title": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "abstract": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "keywords": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "body": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        },
+        "numbering": {
+          "value": "uppercase Roman numerals",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text"
+        },
+        "case": {
+          "value": "uppercase",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text"
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        },
+        "numbering": {
+          "value": "uppercase Latin letters",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text"
+        },
+        "case": {
+          "value": "sentence",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text"
+        }
+      },
+      "heading3": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        },
+        "numbering": {
+          "value": "Arabic numerals",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text"
+        },
+        "case": {
+          "value": "sentence",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text"
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "figure_caption": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "table_caption": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "bp",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "multiple",
+          "condition": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+        }
+      },
+      "heading4": {
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        },
+        "numbering": {
+          "value": "lowercase Latin letters",
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "text"
+        },
+        "run_in": {
+          "value": true,
+          "source": {
+            "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+            "file": "Information_for_Contributors_to_JASA.pdf",
+            "locator": "p. 12 Heading style",
+            "version": "Last update March 20, 2023",
+            "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+          },
+          "unit": "boolean"
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 215.9,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "mm"
+      },
+      "height_mm": {
+        "value": 279.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "mm"
+      },
+      "margin_top_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "mm"
+      },
+      "margin_bottom_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "mm"
+      },
+      "margin_left_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "mm"
+      },
+      "margin_right_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "mm"
+      }
+    },
+    "captions": {
+      "placement": {
+        "value": "embedded at first textual callout",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "p. 12 Tables, figures, multimedia and their captions",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "text"
+      }
+    },
+    "equations": {
+      "editable": {
+        "value": true,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 16–17 Equations",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "boolean"
+      },
+      "number_alignment": {
+        "value": "right",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 16–17 Equations",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "text"
+      },
+      "number_delimiters": {
+        "value": "parentheses",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 16–17 Equations",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "text"
+      },
+      "main_text_numbering": {
+        "value": "consecutive",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 16–17 Equations",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "text"
+      },
+      "appendix_numbering": {
+        "value": "appendix letter plus consecutive integer",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 16–17 Equations",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "text"
+      }
+    },
+    "references": {
+      "style": {
+        "value": "JASA textual footnote style for new submissions from 2023-06-01",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 4–5 Revision Submission Requirements; pp. 23–25 References and Footnotes",
+          "version": "Last update March 20, 2023",
+          "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+        },
+        "unit": "text"
+      }
+    },
+    "line_numbering": {
+      "value": "mandatory",
+      "source": {
+        "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+        "file": "Information_for_Contributors_to_JASA.pdf",
+        "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+        "version": "Last update March 20, 2023",
+        "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted"
+      },
+      "unit": "text"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+      "file": "Information_for_Contributors_to_JASA.pdf",
+      "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript",
+      "version": "Last update March 20, 2023",
+      "retrieval": "Complete 39-page official AIP PDF read through web connector; direct HTTP 403, no byte hash asserted",
+      "verified": true
+    }
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "checks": [
+    {
+      "requirement": "title-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-width_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-height_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_top_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_bottom_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_left_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_right_mm",
+      "checking": "xml"
+    }
+  ],
+  "template": {
+    "family": "computer-special",
+    "source_version": "Information for Contributors, 2023-03-20, read 2026-10-30",
+    "source_url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+    "license": "formatting_facts_only_originals_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "layout",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "title-size_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "title-line_spacing_rule",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "title-line_spacing",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "author-font",
+        "category": "layout",
+        "target": "author",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "author-size_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "author-line_spacing_rule",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "author-line_spacing",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "affiliation-font",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "affiliation-size_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "affiliation-line_spacing_rule",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "affiliation-line_spacing",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "abstract-font",
+        "category": "layout",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "abstract-line_spacing",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "keywords-font",
+        "category": "layout",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "layout",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "keywords-line_spacing_rule",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "keywords-line_spacing",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "body-font",
+        "category": "layout",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "body-size_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading1-font",
+        "category": "layout",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading1-bold",
+        "category": "layout",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "p. 12 Heading style"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "heading1-italic",
+        "category": "layout",
+        "target": "heading1",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "p. 12 Heading style"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "heading2-font",
+        "category": "layout",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading2-bold",
+        "category": "layout",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "p. 12 Heading style"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "heading2-italic",
+        "category": "layout",
+        "target": "heading2",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "p. 12 Heading style"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "heading3-font",
+        "category": "layout",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "layout",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading3-line_spacing",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "heading3-bold",
+        "category": "layout",
+        "target": "heading3",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "p. 12 Heading style"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "heading3-italic",
+        "category": "layout",
+        "target": "heading3",
+        "property": "italic",
+        "expected": true,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "p. 12 Heading style"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "reference-font",
+        "category": "layout",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "figure_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "figure_caption-line_spacing",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "table_caption-font",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "table_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "table_caption-line_spacing",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Selected Times New Roman example from common readable 12 bp fonts; double spacing required throughout"
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 215.9,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 279.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://pubs.aip.org/DocumentLibrary/files/publications/jasa/Information_for_Contributors_to_JASA.pdf",
+          "file": "Information_for_Contributors_to_JASA.pdf",
+          "locator": "pp. 11–12 Organization and Basic Formatting of the Manuscript"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Information for Contributors, 2023-03-20, read 2026-10-30"
+      }
+    ],
+    "coverage_notes": [
+      "The source requires a common readable 12-point font and gives Times New Roman as an example. TNR is an author-selected permitted branch, not the sole allowed family.",
+      "Guide dimensions are author-manuscript requirements; they are not inferred from a typeset published article.",
+      "Heading numbering/case, line numbering, page numbering, equation-number placement and reference footnote content need composition/content review; this profile preserves manuscript text and objects.",
+      "This version specifies textual-footnote references for new submissions from 2023-06-01. The retained source date permits review of later journal changes."
+    ]
+  }
+}

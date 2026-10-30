@@ -1,0 +1,112 @@
+{
+  "retrieved": "2026-10-30",
+  "description": "Paraphrased primary-source formatting facts; source prose and webpage copies are not redistributed.",
+  "facts": [
+    {
+      "key": "artificial-intelligence",
+      "url": "https://aij.ijcai.org/formatting-requirements/",
+      "authority": "Artificial Intelligence Journal editorial website",
+      "locator": "Formatting Requirements, paper size and recommended class paragraphs",
+      "fact": "AIJ recommends A4 or Letter paper, one column, a font of at least 11 pt, and the elsarticle class for submissions.",
+      "strength": "recommended",
+      "stage": "submission",
+      "base_profile": "elsevier-preprint-numeric",
+      "options": [
+        "preprint",
+        "12pt",
+        "numbers"
+      ],
+      "packages": {},
+      "columns": 1,
+      "body_size_pt": 12,
+      "policy_boundary": "12 pt and the numeric bibliography are implementation choices within the recommended class; this source does not mandate a bibliography style."
+    },
+    {
+      "key": "pattern-recognition",
+      "url": "https://shop.elsevier.com/journals/pattern-recognition/0031-3203",
+      "authority": "Elsevier official journal description",
+      "locator": "Description, final paragraph",
+      "fact": "Pattern Recognition requires one column, double spacing and page numbers for submissions; research articles span 20 to 35 pages and reviews permit 40.",
+      "strength": "required",
+      "stage": "submission",
+      "base_profile": "elsevier-preprint-numeric",
+      "options": [
+        "preprint",
+        "12pt",
+        "numbers"
+      ],
+      "packages": {
+        "setspace": [
+          "doublespacing"
+        ]
+      },
+      "columns": 1,
+      "body_size_pt": 12,
+      "double_spacing": true,
+      "policy_boundary": "The single-column elsarticle preprint mode and setspace doublespacing implement the confirmed layout. 12 pt and numeric references are implementation choices, not additional journal mandates. Page-count limits require an actual manuscript."
+    },
+    {
+      "key": "engineering-applications-of-artificial-intelligence",
+      "url": "https://shop.elsevier.com/journals/engineering-applications-of-artificial-intelligence/0952-1976",
+      "authority": "Elsevier official journal description",
+      "locator": "Description, final submission conditions",
+      "fact": "Engineering Applications of Artificial Intelligence makes a single-column manuscript a submission condition.",
+      "strength": "required",
+      "stage": "submission",
+      "base_profile": "elsevier-preprint-numeric",
+      "options": [
+        "preprint",
+        "12pt",
+        "numbers"
+      ],
+      "packages": {},
+      "columns": 1,
+      "body_size_pt": 12,
+      "policy_boundary": "The native preprint mode implements the confirmed column rule. 12 pt and numeric references are implementation choices; this source does not prescribe their exact form."
+    },
+    {
+      "key": "future-generation-computer-systems",
+      "url": "https://lists.mcs.anl.gov/pipermail/hpc-announce/2025-November/011602.html",
+      "authority": "FGCS editorial office announcement distributed on behalf of Editor-in-Chief Michela Taufer",
+      "locator": "MANUSCRIPT FORMATTING GUIDELINES",
+      "fact": "The FGCS Research Software Engineering call specifies elsarticle with 5p and times, two columns, single spacing and an 18-page maximum.",
+      "strength": "required",
+      "stage": "special_issue_submission",
+      "historical_route": true,
+      "special_issue": "Research Software Engineering – Software-Enabled Discovery and Beyond",
+      "base_profile": "elsevier-5p",
+      "options": [
+        "5p",
+        "times"
+      ],
+      "packages": {},
+      "columns": 2,
+      "body_size_pt": 10,
+      "policy_boundary": "This is the documented editorial-call route with a February 2026 submission deadline. It is retained as a dated route, not asserted as the universal current FGCS submission policy. The call does not specify the exact numeric BST."
+    },
+    {
+      "key": "signal-processing",
+      "url": "https://shop.elsevier.com/journals/signal-processing/0165-1684",
+      "authority": "Elsevier official journal description and EURASIP journal",
+      "locator": "Description, contribution types",
+      "fact": "Signal Processing specifies one column and double spacing for research, review and fast communication manuscripts.",
+      "strength": "required",
+      "stage": "submission",
+      "base_profile": "elsevier-preprint-numeric",
+      "options": [
+        "preprint",
+        "12pt",
+        "numbers"
+      ],
+      "packages": {
+        "setspace": [
+          "doublespacing"
+        ]
+      },
+      "columns": 1,
+      "body_size_pt": 12,
+      "double_spacing": true,
+      "policy_boundary": "Single-column double spacing follows the journal source. The detailed 12 pt source-template typography and numeric references are selected implementation settings, not additional journal mandates."
+    }
+  ]
+}

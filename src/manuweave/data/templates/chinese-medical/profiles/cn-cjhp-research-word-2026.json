@@ -1,0 +1,419 @@
+{
+  "id": "cn-cjhp-research-word-2026",
+  "name": "中国医院药学杂志研究论文，2026 官方模板正文规范",
+  "version": "1.0.0",
+  "aliases": [
+    "中国医院药学杂志研究论文",
+    "Chinese Journal of Hospital Pharmacy research Word"
+  ],
+  "scope": "Main-text typography and 1.5 line spacing explicitly instructed by the official downloadable manuscript template; research-paper editorial requirements come from the official submission guide.",
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    }
+  },
+  "page": {},
+  "latex": {},
+  "checks": [
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 1.5
+    }
+  ],
+  "sources": [
+    {
+      "file": "hospital-template",
+      "url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+      "sha256": "d5b26657b1450c5f8c3fb315534fd68b968acdef801f545ef00c47c023ca86a2",
+      "byte_length": 790827,
+      "retrieved_at": "2026-10-30",
+      "source_role": "official_manuscript_template_with_explicit_main_text_instruction",
+      "official_index_url": "https://zgyyyx.magtechjournal.com/CN/column/column3.shtml",
+      "response_content_disposition": "attachment;filename=20260331114246.doc",
+      "extraction_method": "Static CFB FAT chains, FIB-selected 1Table CLX and active WordDocument piece table; one active text piece; no application or macro execution",
+      "source_verified": true,
+      "official_index_sha256": "b16f686b3f5cc7c5fa2493f262ca0cb9683b43d5593748a3876597e0a83d7c2b",
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    },
+    {
+      "file": "hospital-submission.html",
+      "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+      "sha256": "a8ff0492fb411ca5623aab5105bd4d5cd508db60a8cdff31f41ebda16834d181",
+      "byte_length": 82512,
+      "retrieved_at": "2026-10-30",
+      "source_role": "official_submission_instructions",
+      "published_at": "2024-01-12",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    }
+  ],
+  "template": {
+    "family": "chinese-medical",
+    "source_version": "2026-03-31/attachment-filename;2026-10-30/retrieved",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+          "file": "hospital-template",
+          "locator": "CFB WordDocument; FIB CLX selected 1Table; active text piece 0; CP 3801-3840; stream fc=9650 begins explicit main-text font/size/spacing instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+          "file": "hospital-template",
+          "locator": "CFB WordDocument; FIB CLX selected 1Table; active text piece 0; CP 3801-3840; stream fc=9650 begins explicit main-text font/size/spacing instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+          "file": "hospital-template",
+          "locator": "CFB WordDocument; FIB CLX selected 1Table; active text piece 0; CP 3801-3840; stream fc=9650 begins explicit main-text font/size/spacing instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+          "file": "hospital-template",
+          "locator": "CFB WordDocument; FIB CLX selected 1Table; active text piece 0; CP 3801-3840; stream fc=9650 begins explicit main-text font/size/spacing instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+          "file": "hospital-template",
+          "locator": "CFB WordDocument; FIB CLX selected 1Table; active text piece 0; CP 3801-3840; stream fc=9650 begins explicit main-text font/size/spacing instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "research-abstract-structure",
+        "category": "structure",
+        "target": "abstract",
+        "property": "structured_headings",
+        "expected": [
+          "目的",
+          "方法",
+          "结果",
+          "结论"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.2 中英文摘要"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-count",
+        "category": "structure",
+        "target": "keywords",
+        "property": "count_range",
+        "expected": [
+          3,
+          8
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.2"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-separator",
+        "category": "typography",
+        "target": "keywords",
+        "property": "separator",
+        "expected": "；",
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.2"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bilingual-front-matter",
+        "category": "structure",
+        "target": "document",
+        "property": "bilingual_elements",
+        "expected": [
+          "authors",
+          "affiliations",
+          "abstract",
+          "keywords"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section5 栏目要求 and section6.2"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "research-length",
+        "category": "structure",
+        "target": "document",
+        "property": "recommended_maximum_characters",
+        "expected": 6000,
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section5: research papers generally no more than 6000"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "three-line-tables",
+        "category": "table",
+        "target": "table",
+        "property": "borders",
+        "expected": "three_line",
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.4 表和图"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bilingual-captions",
+        "category": "caption",
+        "target": "document",
+        "property": "caption_languages",
+        "expected": [
+          "zh",
+          "en"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.4"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-maximum-dimensions",
+        "category": "image",
+        "target": "image",
+        "property": "maximum_dimensions_mm",
+        "expected": {
+          "width": 80.0,
+          "height": 45.0
+        },
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.4 explicit figure dimensions"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-marker-position",
+        "category": "citation",
+        "target": "reference",
+        "property": "in_text_marker",
+        "expected": "superscript_square_brackets",
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.7"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-authors",
+        "category": "citation",
+        "target": "reference",
+        "property": "author_list",
+        "expected": "all_up_to_three_else_first_three_et_al",
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.7"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-no-footnotes",
+        "category": "citation",
+        "target": "reference",
+        "property": "footnotes_or_endnotes_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "file": "hospital-submission.html",
+          "locator": "HTML section6.7"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "The packaged executable rule covers main text only and reproduces the template instruction for font family, size and paragraph line spacing.",
+      "The official guide identifies the downloadable file as its manuscript template; the active piece table contains the formatting instruction.",
+      "Figure dimensions, bilingual elements and reference markers retain explicit host checks."
+    ]
+  }
+}

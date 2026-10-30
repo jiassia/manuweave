@@ -1,0 +1,624 @@
+{
+  "id": "cn-emt-official-word",
+  "name": "电子测量技术，官方研究论文排版模板及2026须知",
+  "version": "1.0.0",
+  "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+  "aliases": [
+    "电子测量技术"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "east_asia_font": "黑体",
+      "size_pt": 22.0,
+      "alignment": "center"
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 9.5,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0
+    },
+    "abstract": {
+      "size_pt": 9.0
+    },
+    "reference": {
+      "east_asia_font": "宋体",
+      "size_pt": 9.0
+    }
+  },
+  "page": {
+    "width_mm": 210.0086,
+    "height_mm": 297.0036,
+    "margin_top_mm": 25.4,
+    "margin_bottom_mm": 25.4,
+    "margin_left_mm": 17.004,
+    "margin_right_mm": 17.004
+  },
+  "latex": {},
+  "sources": [
+    {
+      "file": "emt-official-typesetting-template.doc",
+      "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+      "sha256": "659302f9924313f843262ea82804b3405924691bf8b4b526924b5a56d4e6c1ec",
+      "bytes": 81570,
+      "source_kind": "official_submission_template",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    },
+    {
+      "file": "emt-2026-author-instructions.docx",
+      "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2026-01-15/电子测量技术-投稿须知.docx",
+      "sha256": "28b054738ea52afc5e44beeb85b351269bde2d2d93d31b78a828fc8c77b1929a",
+      "bytes": 25245,
+      "source_kind": "official_author_instructions",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 22.0
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 9.5
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 1.0
+    },
+    {
+      "role": "abstract",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "reference",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "reference",
+      "property": "size_pt",
+      "expected": 9.0
+    }
+  ],
+  "template": {
+    "family": "chinese-engineering",
+    "source_version": "official-download-snapshot-2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: title paragraph 1, explicit 2号黑体，居中; actual title run 22pt"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 22.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: title paragraph 1, explicit 2号黑体，居中; actual title run 22pt"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: title paragraph 1, explicit 2号黑体，居中; actual title run 22pt"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: paragraph 65 contains 9.5磅宋体，正文; paragraph 27 states 英文部分均为Times New Roman; paragraph 125 states 所有正文为单倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: paragraph 65 contains 9.5磅宋体，正文; paragraph 27 states 英文部分均为Times New Roman; paragraph 125 states 所有正文为单倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: paragraph 65 contains 9.5磅宋体，正文; paragraph 27 states 英文部分均为Times New Roman; paragraph 125 states 所有正文为单倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: paragraph 65 contains 9.5磅宋体，正文; paragraph 27 states 英文部分均为Times New Roman; paragraph 125 states 所有正文为单倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: paragraph 65 contains 9.5磅宋体，正文; paragraph 27 states 英文部分均为Times New Roman; paragraph 125 states 所有正文为单倍行距"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: paragraph 20, explicit 小5号宋体; actual abstract text 9pt"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: bibliography paragraph 110, explicit 小5号宋体 and actual 9pt text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: bibliography paragraph 110, explicit 小5号宋体 and actual 9pt text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0086,
+        "unit": "mm",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body section 2 pgSz 11906x16838 twips, pgMar top/bottom1440, left/right964"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0036,
+        "unit": "mm",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body section 2 pgSz 11906x16838 twips, pgMar top/bottom1440, left/right964"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 25.4,
+        "unit": "mm",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body section 2 pgSz 11906x16838 twips, pgMar top/bottom1440, left/right964"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 25.4,
+        "unit": "mm",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body section 2 pgSz 11906x16838 twips, pgMar top/bottom1440, left/right964"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 17.004,
+        "unit": "mm",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body section 2 pgSz 11906x16838 twips, pgMar top/bottom1440, left/right964"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 17.004,
+        "unit": "mm",
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body section 2 pgSz 11906x16838 twips, pgMar top/bottom1440, left/right964"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC projection front section 1 is single-column and body section 2 cols/@num=2; 2026 author guide paragraph 36 also explicitly requires body double columns"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC projection front section 1 is single-column and body section 2 cols/@num=2; 2026 author guide paragraph 36 also explicitly requires body double columns"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2023-03-23/uploadfilenews_imagesemt2017-07-28《电子测量技术》论文排版模版.doc",
+          "file": "emt-official-typesetting-template.doc",
+          "locator": "Official DOC projection front section 1 is single-column and body section 2 cols/@num=2; 2026 author guide paragraph 36 also explicitly requires body double columns"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading-numbering",
+        "category": "typography",
+        "target": "heading1",
+        "property": "numbering_system",
+        "expected": "1 / 1.1 / 1.1.1",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2026-01-15/电子测量技术-投稿须知.docx",
+          "file": "emt-2026-author-instructions.docx",
+          "locator": "2026 author instructions paragraph 46, explicit hierarchical Arabic numbering and left alignment"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "structured-abstract",
+        "category": "typography",
+        "target": "abstract",
+        "property": "required_elements",
+        "expected": [
+          "目的",
+          "方法",
+          "结果",
+          "结论"
+        ],
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2026-01-15/电子测量技术-投稿须知.docx",
+          "file": "emt-2026-author-instructions.docx",
+          "locator": "2026 author instructions paragraph 28, research-article abstract has four elements"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references-minimum",
+        "category": "typography",
+        "target": "reference",
+        "property": "minimum_count",
+        "expected": 15,
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2026-01-15/电子测量技术-投稿须知.docx",
+          "file": "emt-2026-author-instructions.docx",
+          "locator": "2026 author instructions paragraph 66, explicit 研究论文参考文献不少于15条"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "citation-order",
+        "category": "typography",
+        "target": "reference",
+        "property": "bibliography_style",
+        "expected": "numeric",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2026-01-15/电子测量技术-投稿须知.docx",
+          "file": "emt-2026-author-instructions.docx",
+          "locator": "2026 author instructions paragraph 66, explicit 顺序编码"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table-form",
+        "category": "typography",
+        "target": "table",
+        "property": "structure",
+        "expected": "three_line",
+        "unit": null,
+        "source": {
+          "url": "http://emt.cnjournals.com/uploadfile/news_images/emt/2026-01-15/电子测量技术-投稿须知.docx",
+          "file": "emt-2026-author-instructions.docx",
+          "locator": "2026 author instructions paragraph 50, explicit 使用三线表"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "仅执行本配置列出的、来源已确认的官方投稿格式与规则。",
+      "原始投稿模板和指南仅用于核对事实，未随项目再分发。",
+      "字体字号与页面几何检查、实际页面审查、内容义务检查分别记录。"
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1"
+  }
+}

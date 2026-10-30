@@ -1,0 +1,417 @@
+{
+  "retrieved_at": "2026-10-30",
+  "method": "Explicit official manuscript instructions; static extraction; no original publisher prose, sample research or source documents distributed.",
+  "documents": {
+    "cn-cgp-research-word-2023": {
+      "name": "中国全科医学研究性论文，2023 官方格式规范",
+      "aliases": [
+        "中国全科医学研究性论文",
+        "Chinese General Practice research Word"
+      ],
+      "source_version": "2023-09-08/document;2023-09-21/official-index",
+      "scope": "Research manuscripts covered by the official research article instructions: primary title and main-text typography, main-text line spacing, page margins and explicitly stated research policies.",
+      "sources": [
+        {
+          "file": "cgp-research.docx",
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "sha256": "57d928e7e45c16873da60787ee1c5a1b0b1df2b9af4612795c2147ff590f8548",
+          "byte_length": 1445744,
+          "retrieved_at": "2026-10-30",
+          "source_role": "official_research_article_format_instructions",
+          "official_index_url": "https://www.chinagp.net/CN/news/folder.do?folderId=8",
+          "source_document_date": "2023-09-08",
+          "official_index_date": "2023-09-21",
+          "extraction_method": "Static ZIP/XML text; no Word automation, macros or OLE execution",
+          "source_verified": true,
+          "official_index_sha256": "e184f46301408238f1840545e3464fbd12033b7e1b39f170fbf1b24188a1b47d"
+        }
+      ],
+      "rules": {
+        "title": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 14.0,
+          "bold": true,
+          "alignment": "center"
+        },
+        "body": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 10.5,
+          "alignment": "justify",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0
+        },
+        "heading1": {
+          "bold": true
+        },
+        "table_body": {
+          "alignment": "center"
+        }
+      },
+      "page": {
+        "margin_top_mm": 12.7,
+        "margin_bottom_mm": 12.7,
+        "margin_left_mm": 12.7,
+        "margin_right_mm": 12.7
+      },
+      "locators": {
+        "title": "word/document.xml:/w:document/w:body/w:p[40] general font rule; w:p[57] primary title instruction",
+        "body": "word/document.xml:/w:document/w:body/w:p[40] font and body size; w:p[41] fixed line spacing; w:p[44] justification",
+        "heading1": "word/document.xml:/w:document/w:body/w:p[78] first-level heading instruction; w:p[91] first-level results heading",
+        "table_body": "word/document.xml:/w:document/w:body/w:p[44] table cell horizontal and vertical alignment instruction",
+        "page": "word/document.xml:/w:document/w:body/w:p[39] four margins 1.27 cm"
+      },
+      "policies": [
+        {
+          "id": "research-abstract-structure",
+          "category": "structure",
+          "target": "abstract",
+          "property": "structured_headings",
+          "expected": [
+            "Background",
+            "Objective",
+            "Methods",
+            "Results",
+            "Conclusion"
+          ],
+          "locator": "word/document.xml:/w:document/w:body/w:p[65] Chinese research abstract; w:p[73] English research abstract",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "reference-minimum",
+          "category": "citation",
+          "target": "reference",
+          "property": "minimum_count",
+          "expected": 15,
+          "locator": "word/document.xml:/w:document/w:body/w:p[132] research reference count",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "reference-order",
+          "category": "citation",
+          "target": "document",
+          "property": "bibliography_style",
+          "expected": "numeric",
+          "locator": "word/document.xml:/w:document/w:body/w:p[135] ascending reference numbers",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "reference-correspondence",
+          "category": "citation",
+          "target": "reference",
+          "property": "text_list_one_to_one",
+          "expected": true,
+          "locator": "word/document.xml:/w:document/w:body/w:p[136] one-to-one correspondence",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "table-editability",
+          "category": "table",
+          "target": "table",
+          "property": "editable_native_table_required",
+          "expected": true,
+          "locator": "word/document.xml:/w:document/w:body/w:p[177] editable tables",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "table-column-limit",
+          "category": "table",
+          "target": "table",
+          "property": "maximum_columns",
+          "expected": 12,
+          "locator": "word/document.xml:/w:document/w:body/w:p[178] continuation table above twelve columns",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "table-vertical-alignment",
+          "category": "table",
+          "target": "table_body",
+          "property": "vertical_alignment",
+          "expected": "center",
+          "locator": "word/document.xml:/w:document/w:body/w:p[44] table cell alignment",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "bilingual-table-captions",
+          "category": "caption",
+          "target": "table_caption",
+          "property": "languages",
+          "expected": [
+            "zh",
+            "en"
+          ],
+          "locator": "word/document.xml:/w:document/w:body/w:p[176] bilingual table titles",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "figure-resolution",
+          "category": "image",
+          "target": "image",
+          "property": "minimum_dpi",
+          "expected": 300,
+          "locator": "word/document.xml:/w:document/w:body/w:p[190] source image resolution",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "bilingual-figure-captions",
+          "category": "caption",
+          "target": "figure_caption",
+          "property": "languages",
+          "expected": [
+            "zh",
+            "en"
+          ],
+          "locator": "word/document.xml:/w:document/w:body/w:p[192] bilingual figure titles",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "figure-internal-text",
+          "category": "typography",
+          "target": "image",
+          "property": "text_font_and_sizes",
+          "expected": {
+            "east_asia_font": "宋体",
+            "sizes_pt": [
+              6.0,
+              8.0
+            ]
+          },
+          "locator": "word/document.xml:/w:document/w:body/w:p[195] image text sizes stated in points",
+          "checking": "host",
+          "certainty": "verified",
+          "detail": "This applies inside figures and requires host review; it is not a paragraph caption size."
+        },
+        {
+          "id": "page-numbers",
+          "category": "layout",
+          "target": "document",
+          "property": "page_numbers_required",
+          "expected": true,
+          "locator": "word/document.xml:/w:document/w:body/w:p[35] bottom page numbers before upload",
+          "checking": "host",
+          "certainty": "verified"
+        },
+        {
+          "id": "remove-comments",
+          "category": "submission",
+          "target": "document",
+          "property": "remove_comments_before_upload",
+          "expected": true,
+          "locator": "word/document.xml:/w:document/w:body/w:p[35] remove all comments",
+          "checking": "host",
+          "certainty": "verified"
+        }
+      ],
+      "coverage_notes": [
+        "Implemented values come from explicit written research-manuscript instructions, rather than sample-page appearance.",
+        "The title rule applies to the primary title; a host role map selects the intended title and main text in bilingual manuscripts.",
+        "Image-internal type, table vertical alignment and editorial structure remain source-specific host checks."
+      ]
+    },
+    "cn-cjhp-research-word-2026": {
+      "name": "中国医院药学杂志研究论文，2026 官方模板正文规范",
+      "aliases": [
+        "中国医院药学杂志研究论文",
+        "Chinese Journal of Hospital Pharmacy research Word"
+      ],
+      "source_version": "2026-03-31/attachment-filename;2026-10-30/retrieved",
+      "scope": "Main-text typography and 1.5 line spacing explicitly instructed by the official downloadable manuscript template; research-paper editorial requirements come from the official submission guide.",
+      "sources": [
+        {
+          "file": "hospital-template",
+          "url": "https://zgyyyx.magtechjournal.com/CN/item/downloadFile.do?id=10",
+          "sha256": "d5b26657b1450c5f8c3fb315534fd68b968acdef801f545ef00c47c023ca86a2",
+          "byte_length": 790827,
+          "retrieved_at": "2026-10-30",
+          "source_role": "official_manuscript_template_with_explicit_main_text_instruction",
+          "official_index_url": "https://zgyyyx.magtechjournal.com/CN/column/column3.shtml",
+          "response_content_disposition": "attachment;filename=20260331114246.doc",
+          "extraction_method": "Static CFB FAT chains, FIB-selected 1Table CLX and active WordDocument piece table; one active text piece; no application or macro execution",
+          "source_verified": true,
+          "official_index_sha256": "b16f686b3f5cc7c5fa2493f262ca0cb9683b43d5593748a3876597e0a83d7c2b"
+        },
+        {
+          "file": "hospital-submission.html",
+          "url": "https://zgyyyx.magtechjournal.com/CN/column/item5.shtml",
+          "sha256": "a8ff0492fb411ca5623aab5105bd4d5cd508db60a8cdff31f41ebda16834d181",
+          "byte_length": 82512,
+          "retrieved_at": "2026-10-30",
+          "source_role": "official_submission_instructions",
+          "published_at": "2024-01-12",
+          "source_verified": true
+        }
+      ],
+      "rules": {
+        "body": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 10.5,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.5
+        }
+      },
+      "page": {},
+      "locators": {
+        "body": "CFB WordDocument; FIB CLX selected 1Table; active text piece 0; CP 3801-3840; stream fc=9650 begins explicit main-text font/size/spacing instruction"
+      },
+      "policies": [
+        {
+          "id": "research-abstract-structure",
+          "category": "structure",
+          "target": "abstract",
+          "property": "structured_headings",
+          "expected": [
+            "目的",
+            "方法",
+            "结果",
+            "结论"
+          ],
+          "locator": "HTML section6.2 中英文摘要",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "keywords-count",
+          "category": "structure",
+          "target": "keywords",
+          "property": "count_range",
+          "expected": [
+            3,
+            8
+          ],
+          "locator": "HTML section6.2",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "keywords-separator",
+          "category": "typography",
+          "target": "keywords",
+          "property": "separator",
+          "expected": "；",
+          "locator": "HTML section6.2",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "bilingual-front-matter",
+          "category": "structure",
+          "target": "document",
+          "property": "bilingual_elements",
+          "expected": [
+            "authors",
+            "affiliations",
+            "abstract",
+            "keywords"
+          ],
+          "locator": "HTML section5 栏目要求 and section6.2",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "research-length",
+          "category": "structure",
+          "target": "document",
+          "property": "recommended_maximum_characters",
+          "expected": 6000,
+          "locator": "HTML section5: research papers generally no more than 6000",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "three-line-tables",
+          "category": "table",
+          "target": "table",
+          "property": "borders",
+          "expected": "three_line",
+          "locator": "HTML section6.4 表和图",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "bilingual-captions",
+          "category": "caption",
+          "target": "document",
+          "property": "caption_languages",
+          "expected": [
+            "zh",
+            "en"
+          ],
+          "locator": "HTML section6.4",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "figure-maximum-dimensions",
+          "category": "image",
+          "target": "image",
+          "property": "maximum_dimensions_mm",
+          "expected": {
+            "width": 80.0,
+            "height": 45.0
+          },
+          "locator": "HTML section6.4 explicit figure dimensions",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "reference-marker-position",
+          "category": "citation",
+          "target": "reference",
+          "property": "in_text_marker",
+          "expected": "superscript_square_brackets",
+          "locator": "HTML section6.7",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "reference-authors",
+          "category": "citation",
+          "target": "reference",
+          "property": "author_list",
+          "expected": "all_up_to_three_else_first_three_et_al",
+          "locator": "HTML section6.7",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        },
+        {
+          "id": "reference-no-footnotes",
+          "category": "citation",
+          "target": "reference",
+          "property": "footnotes_or_endnotes_allowed",
+          "expected": false,
+          "locator": "HTML section6.7",
+          "checking": "host",
+          "certainty": "verified",
+          "source_index": 1
+        }
+      ],
+      "coverage_notes": [
+        "The packaged executable rule covers main text only and reproduces the template instruction for font family, size and paragraph line spacing.",
+        "The official guide identifies the downloadable file as its manuscript template; the active piece table contains the formatting instruction.",
+        "Figure dimensions, bilingual elements and reference markers retain explicit host checks."
+      ]
+    }
+  }
+}

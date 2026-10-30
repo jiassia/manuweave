@@ -1,0 +1,732 @@
+{
+  "id": "cn-cgp-research-word-2023",
+  "name": "中国全科医学研究性论文，2023 官方格式规范",
+  "version": "1.0.0",
+  "aliases": [
+    "中国全科医学研究性论文",
+    "Chinese General Practice research Word"
+  ],
+  "scope": "Research manuscripts covered by the official research article instructions: primary title and main-text typography, main-text line spacing, page margins and explicitly stated research policies.",
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 14.0,
+      "bold": true,
+      "alignment": "center"
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "alignment": "justify",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "heading1": {
+      "bold": true
+    },
+    "table_body": {
+      "alignment": "center"
+    }
+  },
+  "page": {
+    "margin_top_mm": 12.7,
+    "margin_bottom_mm": 12.7,
+    "margin_left_mm": 12.7,
+    "margin_right_mm": 12.7
+  },
+  "latex": {},
+  "checks": [
+    {
+      "role": "title",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 14.0
+    },
+    {
+      "role": "title",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "body",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_rule",
+      "expected": "exact"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_pt",
+      "expected": 15.0
+    },
+    {
+      "role": "heading1",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "table_body",
+      "property": "alignment",
+      "expected": "center"
+    }
+  ],
+  "sources": [
+    {
+      "file": "cgp-research.docx",
+      "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+      "sha256": "57d928e7e45c16873da60787ee1c5a1b0b1df2b9af4612795c2147ff590f8548",
+      "byte_length": 1445744,
+      "retrieved_at": "2026-10-30",
+      "source_role": "official_research_article_format_instructions",
+      "official_index_url": "https://www.chinagp.net/CN/news/folder.do?folderId=8",
+      "source_document_date": "2023-09-08",
+      "official_index_date": "2023-09-21",
+      "extraction_method": "Static ZIP/XML text; no Word automation, macros or OLE execution",
+      "source_verified": true,
+      "official_index_sha256": "e184f46301408238f1840545e3464fbd12033b7e1b39f170fbf1b24188a1b47d",
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    }
+  ],
+  "template": {
+    "family": "chinese-medical",
+    "source_version": "2023-09-08/document;2023-09-21/official-index",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] general font rule; w:p[57] primary title instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] general font rule; w:p[57] primary title instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 14.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] general font rule; w:p[57] primary title instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] general font rule; w:p[57] primary title instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] general font rule; w:p[57] primary title instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] font and body size; w:p[41] fixed line spacing; w:p[44] justification"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] font and body size; w:p[41] fixed line spacing; w:p[44] justification"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] font and body size; w:p[41] fixed line spacing; w:p[44] justification"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] font and body size; w:p[41] fixed line spacing; w:p[44] justification"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] font and body size; w:p[41] fixed line spacing; w:p[44] justification"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[40] font and body size; w:p[41] fixed line spacing; w:p[44] justification"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[78] first-level heading instruction; w:p[91] first-level results heading"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-alignment",
+        "category": "typography",
+        "target": "table_body",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[44] table cell horizontal and vertical alignment instruction"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 12.7,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[39] four margins 1.27 cm"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 12.7,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[39] four margins 1.27 cm"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 12.7,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[39] four margins 1.27 cm"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 12.7,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[39] four margins 1.27 cm"
+        },
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "research-abstract-structure",
+        "category": "structure",
+        "target": "abstract",
+        "property": "structured_headings",
+        "expected": [
+          "Background",
+          "Objective",
+          "Methods",
+          "Results",
+          "Conclusion"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[65] Chinese research abstract; w:p[73] English research abstract"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-minimum",
+        "category": "citation",
+        "target": "reference",
+        "property": "minimum_count",
+        "expected": 15,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[132] research reference count"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-order",
+        "category": "citation",
+        "target": "document",
+        "property": "bibliography_style",
+        "expected": "numeric",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[135] ascending reference numbers"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-correspondence",
+        "category": "citation",
+        "target": "reference",
+        "property": "text_list_one_to_one",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[136] one-to-one correspondence"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table-editability",
+        "category": "table",
+        "target": "table",
+        "property": "editable_native_table_required",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[177] editable tables"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table-column-limit",
+        "category": "table",
+        "target": "table",
+        "property": "maximum_columns",
+        "expected": 12,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[178] continuation table above twelve columns"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table-vertical-alignment",
+        "category": "table",
+        "target": "table_body",
+        "property": "vertical_alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[44] table cell alignment"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bilingual-table-captions",
+        "category": "caption",
+        "target": "table_caption",
+        "property": "languages",
+        "expected": [
+          "zh",
+          "en"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[176] bilingual table titles"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-resolution",
+        "category": "image",
+        "target": "image",
+        "property": "minimum_dpi",
+        "expected": 300,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[190] source image resolution"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bilingual-figure-captions",
+        "category": "caption",
+        "target": "figure_caption",
+        "property": "languages",
+        "expected": [
+          "zh",
+          "en"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[192] bilingual figure titles"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-internal-text",
+        "category": "typography",
+        "target": "image",
+        "property": "text_font_and_sizes",
+        "expected": {
+          "east_asia_font": "宋体",
+          "sizes_pt": [
+            6.0,
+            8.0
+          ]
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[195] image text sizes stated in points"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "This applies inside figures and requires host review; it is not a paragraph caption size."
+      },
+      {
+        "id": "page-numbers",
+        "category": "layout",
+        "target": "document",
+        "property": "page_numbers_required",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35] bottom page numbers before upload"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "remove-comments",
+        "category": "submission",
+        "target": "document",
+        "property": "remove_comments_before_upload",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.chinagp.net/fileup/1007-9572/ITEM/20230921140946.docx",
+          "file": "cgp-research.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[35] remove all comments"
+        },
+        "checking": "host",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "Implemented values come from explicit written research-manuscript instructions, rather than sample-page appearance.",
+      "The title rule applies to the primary title; a host role map selects the intended title and main text in bilingual manuscripts.",
+      "Image-internal type, table vertical alignment and editorial structure remain source-specific host checks."
+    ]
+  }
+}

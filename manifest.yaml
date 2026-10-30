@@ -1,0 +1,24 @@
+name: manuweave
+version: 0.2.1
+always_load:
+  - static/core.md
+routes:
+  docx:
+    description: Word 原稿、参考 Word 或内置 Word 版式
+    load:
+      - static/docx.md
+  latex:
+    description: 原生 LaTeX 工程、参考文档或内置 JSON 格式规则
+    load:
+      - static/latex.md
+  completion:
+    description: 用户要求完善缺失结构或起草有原文依据的内容
+    load:
+      - static/completion.md
+tools:
+  entry: scripts/manuweave.py
+  runtime: Existing Python 3.11+
+  dependencies: requirements.txt
+references:
+  template_details: README.md
+  advanced_operations: references/workflow.md

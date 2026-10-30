@@ -1,0 +1,3501 @@
+{
+  "id": "cn-ecice-word-2026",
+  "name": "计算机工程官方论文模板2026",
+  "version": "1.0.0",
+  "aliases": [
+    "计算机工程论文模板2026"
+  ],
+  "scope": "Official Word manuscript template typography and layout captured from semantic content runs and resolved inheritance; source-specific stage and section limits are recorded.",
+  "compliance": "source_backed_template_partial_coverage",
+  "manuscript_stage": "official_manuscript_template",
+  "rules": {
+    "title_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 16.0,
+      "alignment": "center",
+      "bold": true,
+      "space_before_pt": 8.4,
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 22.0
+    },
+    "title_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 16.0,
+      "alignment": "center",
+      "bold": true,
+      "space_before_pt": 8.4,
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 20.0
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 10.5,
+      "alignment": "both",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 17.0
+    },
+    "heading1": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 12.0,
+      "alignment": "left",
+      "bold": true,
+      "space_before_pt": 6.0,
+      "space_after_pt": 6.0,
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "heading2": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 10.5,
+      "alignment": "left",
+      "bold": true,
+      "space_before_pt": 0.0,
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "heading3": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 10.5,
+      "alignment": "left",
+      "bold": false,
+      "space_before_pt": 0.0,
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "abstract_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "abstract_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "keywords_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "keywords_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0
+    },
+    "figure_caption_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "center",
+      "bold": true,
+      "space_before_pt": 2.4,
+      "space_after_pt": 3.6
+    },
+    "figure_caption_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 10.5,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.0,
+      "bold": true
+    },
+    "table_caption_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "center",
+      "bold": true,
+      "space_before_pt": 3.6
+    },
+    "table_caption_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 10.5,
+      "alignment": "center",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 15.0,
+      "bold": true
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 16.0
+    },
+    "author_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 10.5,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.15
+    },
+    "author_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "center",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0,
+      "space_after_pt": 4.8
+    },
+    "affiliation_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.15
+    },
+    "affiliation_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "华文中宋",
+      "size_pt": 9.0,
+      "alignment": "center",
+      "line_spacing_rule": "exact",
+      "line_spacing_pt": 15.0,
+      "space_after_pt": 4.8
+    }
+  },
+  "page": {
+    "width_mm": 210.0086,
+    "height_mm": 297.0036,
+    "margin_left_mm": 20.0025,
+    "margin_right_mm": 18.0093,
+    "header_distance_mm": 15.0107,
+    "footer_distance_mm": 10.0012,
+    "grid_type": "default",
+    "grid_line_pitch_pt": 15.6,
+    "mirror_margins": false
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+      "file": "20260713132549_708.doc",
+      "sha256": "bf6f8831211a28f2f0b1e3faf653efd4cd598d15f3940f70565c34c6712c40db",
+      "byte_length": 121862,
+      "retrieved_at": "2026-10-30",
+      "official_index_url": "https://www.ecice06.com/CN/column/item5180.shtml",
+      "method": "Downloaded original official DOC; isolated hidden Microsoft Word with AutomationSecurity=3, UpdateLinksAtOpen=False, read-only/no-recent Open; converted only to system TEMP DOCX; static XML styles and representative visible runs inspected. No macros or OLE executed.",
+      "converted_file": "ecice-converted.docx",
+      "converted_sha256": "95105ad68a957a3d998217610ace6976c4ceff9c37d474772d26d73e89aa7def",
+      "source_verified": true,
+      "original_file_redistributed": false,
+      "submission_compliance_verified": false
+    }
+  ],
+  "template": {
+    "family": "computer-chinese",
+    "source_version": "2026-07-13-download-path",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title_zh-font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-east_asia_font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-size_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "size_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-alignment",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-bold",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_before_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_before_pt",
+        "expected": 8.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing_pt",
+        "expected": 22.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[3]; representative visible run ordinal 1; paragraph styleId=af0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-east_asia_font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-size_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "size_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-alignment",
+        "category": "typography",
+        "target": "title_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-bold",
+        "category": "typography",
+        "target": "title_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_before_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_before_pt",
+        "expected": 8.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing_rule",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing_pt",
+        "expected": 20.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=b0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[55]; representative visible run ordinal 1; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[55]; representative visible run ordinal 1; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[55]; representative visible run ordinal 1; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[55]; representative visible run ordinal 1; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[55]; representative visible run ordinal 1; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_pt",
+        "expected": 17.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[55]; representative visible run ordinal 1; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_before_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_after_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[36]; representative visible run ordinal 1; paragraph styleId=1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-bold",
+        "category": "typography",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-space_before_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[38]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "typography",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-bold",
+        "category": "typography",
+        "target": "heading3",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-space_before_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[52]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[9]; representative visible run ordinal 4; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-east_asia_font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[9]; representative visible run ordinal 4; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-size_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[9]; representative visible run ordinal 4; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-alignment",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[9]; representative visible run ordinal 4; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[9]; representative visible run ordinal 4; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[9]; representative visible run ordinal 4; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-east_asia_font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-size_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-alignment",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 6; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-east_asia_font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 6; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-size_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 6; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-alignment",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 6; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 6; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[10]; representative visible run ordinal 6; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-east_asia_font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-size_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-alignment",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 2; paragraph styleId=e; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-font",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[64]; representative visible run ordinal 3; paragraph styleId=t; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[64]; representative visible run ordinal 3; paragraph styleId=t; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-size_pt",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[64]; representative visible run ordinal 3; paragraph styleId=t; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-alignment",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[64]; representative visible run ordinal 3; paragraph styleId=t; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-bold",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[64]; representative visible run ordinal 3; paragraph styleId=t; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-space_before_pt",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "space_before_pt",
+        "expected": 2.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[64]; representative visible run ordinal 3; paragraph styleId=t; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_zh-space_after_pt",
+        "category": "typography",
+        "target": "figure_caption_zh",
+        "property": "space_after_pt",
+        "expected": 3.6,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[64]; representative visible run ordinal 3; paragraph styleId=t; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-font",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[65]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[65]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-size_pt",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[65]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-alignment",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[65]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-line_spacing_rule",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[65]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-line_spacing",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "line_spacing",
+        "expected": 1.0,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[65]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "figure_caption_en-bold",
+        "category": "typography",
+        "target": "figure_caption_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[65]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-font",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[82]; representative visible run ordinal 4; paragraph styleId=v; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-east_asia_font",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[82]; representative visible run ordinal 4; paragraph styleId=v; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-size_pt",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[82]; representative visible run ordinal 4; paragraph styleId=v; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-alignment",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[82]; representative visible run ordinal 4; paragraph styleId=v; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-bold",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[82]; representative visible run ordinal 4; paragraph styleId=v; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_zh-space_before_pt",
+        "category": "typography",
+        "target": "table_caption_zh",
+        "property": "space_before_pt",
+        "expected": 3.6,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[82]; representative visible run ordinal 4; paragraph styleId=v; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-font",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[83]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-east_asia_font",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[83]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-size_pt",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[83]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-alignment",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[83]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-line_spacing_rule",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[83]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-line_spacing_pt",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[83]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "table_caption_en-bold",
+        "category": "typography",
+        "target": "table_caption_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/document.xml:/w:document/w:body/w:p[83]; representative visible run ordinal 3; paragraph styleId=f; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"G\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"G\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"G\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"G\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"G\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"G\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[7]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-east_asia_font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[7]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-size_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[7]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-alignment",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[7]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[7]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing",
+        "expected": 1.15,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[7]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-east_asia_font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-size_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-alignment",
+        "category": "typography",
+        "target": "author_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing_rule",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-space_after_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "space_after_pt",
+        "expected": 4.8,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-size_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-alignment",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-line_spacing",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "line_spacing",
+        "expected": 1.15,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[8]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "east_asia_font",
+        "expected": "华文中宋",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-size_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-alignment",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing_pt",
+        "expected": 15.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-space_after_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "space_after_pt",
+        "expected": 4.8,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0086,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0036,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 20.0025,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 18.0093,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Word-converted ecice-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-header_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "header_distance_mm",
+        "expected": 15.0107,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:pgMar/@w:header; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-footer_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "footer_distance_mm",
+        "expected": 10.0012,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:pgMar/@w:footer; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_type",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_type",
+        "expected": "default",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:type; source default applies if absent; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_line_pitch_pt",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_line_pitch_pt",
+        "expected": 15.6,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:linePitch; source twips/20; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-mirror_margins",
+        "category": "layout",
+        "target": "page",
+        "property": "mirror_margins",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/settings.xml:/w:settings/w:mirrorMargins; OOXML default false when absent"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml: source front section ends at p[22]/w:pPr/w:sectPr; source main section uses two columns with measured gap; p[24] is editorial template instruction, excluded from manuscript; actual manuscript begins with first heading1 p[25] 0 引言; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml: source front section ends at p[22]/w:pPr/w:sectPr; source main section uses two columns with measured gap; p[24] is editorial template instruction, excluded from manuscript; actual manuscript begins with first heading1 p[25] 0 引言; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml: source front section ends at p[22]/w:pPr/w:sectPr; source main section uses two columns with measured gap; p[24] is editorial template instruction, excluded from manuscript; actual manuscript begins with first heading1 p[25] 0 引言; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_column_gap_mm",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_column_gap_mm",
+        "expected": 7.4083,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml: source front section ends at p[22]/w:pPr/w:sectPr; source main section uses two columns with measured gap; p[24] is editorial template instruction, excluded from manuscript; actual manuscript begins with first heading1 p[25] 0 引言; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_page",
+        "expected": {
+          "width_mm": 210.0086,
+          "height_mm": 297.0036,
+          "margin_top_mm": 21.0079,
+          "margin_bottom_mm": 18.0093,
+          "margin_left_mm": 20.0025,
+          "margin_right_mm": 18.0093,
+          "header_distance_mm": 15.0107,
+          "footer_distance_mm": 10.0012,
+          "columns": 1,
+          "column_gap_mm": 12.7,
+          "grid_line_pitch_pt": 15.6,
+          "grid_type": "default"
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml: source front section ends at p[22]/w:pPr/w:sectPr; source main section uses two columns with measured gap; p[24] is editorial template instruction, excluded from manuscript; actual manuscript begins with first heading1 p[25] 0 引言; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_page",
+        "expected": {
+          "width_mm": 210.0086,
+          "height_mm": 297.0036,
+          "margin_top_mm": 24.0065,
+          "margin_bottom_mm": 31.0092,
+          "margin_left_mm": 20.0025,
+          "margin_right_mm": 18.0093,
+          "header_distance_mm": 15.0107,
+          "footer_distance_mm": 10.0012,
+          "columns": 2,
+          "column_gap_mm": 7.4083,
+          "grid_line_pitch_pt": 15.6,
+          "grid_type": "default"
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.ecice06.com/attached/file/20260713/20260713132549_708.doc",
+          "file": "20260713132549_708.doc",
+          "locator": "Converted word/document.xml: source front section ends at p[22]/w:pPr/w:sectPr; source main section uses two columns with measured gap; p[24] is editorial template instruction, excluded from manuscript; actual manuscript begins with first heading1 p[25] 0 引言; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      }
+    ],
+    "coverage_notes": [
+      "Pinned official template/sample style learning, not a claim that every initial submission must use every sample property.",
+      "Typeface, size and paragraph properties come from representative visible content runs; red/blue instruction font colors are not copied.",
+      "Word original source is not redistributed; converted part locators refer to the temporary derived DOCX, linked to the original download SHA256.",
+      "Character-count indents and automatic numbering remain source observations; no point-indent approximation is added.",
+      "The official template explicitly permits initial manuscripts to omit its detailed columns/fonts/sizes; this profile reproduces the sample format, not a mandatory initial-submission rule.",
+      "The physical source double-column section includes a preceding editorial annotation; the semantic manuscript split uses first_heading1 after excluding that instruction.",
+      "Physical source section starts before an editorial instruction. The semantic manuscript split starts at the actual 0 引言 heading; the excluded annotation and both source positions are recorded in extracted_format. Measured front_matter_page and body_page execute the distinct source section geometry."
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1",
+    "body_column_gap_mm": 7.4083,
+    "front_matter_page": {
+      "width_mm": 210.0086,
+      "height_mm": 297.0036,
+      "margin_top_mm": 21.0079,
+      "margin_bottom_mm": 18.0093,
+      "margin_left_mm": 20.0025,
+      "margin_right_mm": 18.0093,
+      "header_distance_mm": 15.0107,
+      "footer_distance_mm": 10.0012,
+      "columns": 1,
+      "column_gap_mm": 12.7,
+      "grid_line_pitch_pt": 15.6,
+      "grid_type": "default"
+    },
+    "body_page": {
+      "width_mm": 210.0086,
+      "height_mm": 297.0036,
+      "margin_top_mm": 24.0065,
+      "margin_bottom_mm": 31.0092,
+      "margin_left_mm": 20.0025,
+      "margin_right_mm": 18.0093,
+      "header_distance_mm": 15.0107,
+      "footer_distance_mm": 10.0012,
+      "columns": 2,
+      "column_gap_mm": 7.4083,
+      "grid_line_pitch_pt": 15.6,
+      "grid_type": "default"
+    }
+  },
+  "extracted_format": {
+    "physical_front_section_end": "word/document.xml:/w:document/w:body/w:p[22]/w:pPr/w:sectPr",
+    "editorial_annotation_excluded": [
+      "word/document.xml:/w:document/w:body/w:p[24]"
+    ],
+    "semantic_body_start": "word/document.xml:/w:document/w:body/w:p[25]",
+    "body_start_mapping": "first_heading1",
+    "mapping_basis": "The source physical body section contains an editorial instruction before the real 0 引言 heading. The profile reproduces manuscript formatting after omitting template instructions; annotation text is never copied.",
+    "visible_text_inheritance": "docDefaults + paragraph/character style inheritance + actual visible text run; pPr/rPr paragraph-mark font properties excluded",
+    "visible_run_reaudit": {
+      "title_zh": {
+        "paragraph_index": 3,
+        "run_index": 1,
+        "text_sha256": "52f6775ab3784c0a88730a3916e192af85e54d1f285d1d8497b64c7c30b4f725",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 16.0,
+          "alignment": "center",
+          "bold": true,
+          "space_before_pt": 8.4,
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 22.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "bold",
+          "space_before_pt",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "title_en": {
+        "paragraph_index": 13,
+        "run_index": 1,
+        "text_sha256": "d7249043d0a89c5be0520f7d9d9748b5c406f00b05b8fc9302ae82eba2b54692",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 16.0,
+          "alignment": "center",
+          "bold": true,
+          "space_before_pt": 8.4,
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 20.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "bold",
+          "space_before_pt",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "body": {
+        "paragraph_index": 55,
+        "run_index": 1,
+        "text_sha256": "f6dbb2d94a23f93aa2337853fb8d335837f04e51aff063c5d1cdfa490a25e59d",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 10.5,
+          "alignment": "both",
+          "line_spacing_rule": "atLeast",
+          "first_line_pt": 19.3,
+          "line_spacing_pt": 17.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "heading1": {
+        "paragraph_index": 36,
+        "run_index": 1,
+        "text_sha256": "0fc5165686190ca845407c03ad4572e801265487ce3d352487f32016af34ed05",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 12.0,
+          "alignment": "left",
+          "bold": true,
+          "space_before_pt": 6.0,
+          "space_after_pt": 6.0,
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "bold",
+          "space_before_pt",
+          "space_after_pt",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "heading2": {
+        "paragraph_index": 38,
+        "run_index": 1,
+        "text_sha256": "4b52de9e53280aff1bc0cfde079fa8b33046e3e749e6bfb950f0f31732d9cf4e",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 10.5,
+          "alignment": "left",
+          "bold": true,
+          "space_before_pt": 0.0,
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "bold",
+          "space_before_pt",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "heading3": {
+        "paragraph_index": 52,
+        "run_index": 1,
+        "text_sha256": "b0f4bd72ad166f93945f7fa71d1dacd0a6f89c6ef949c1f5410786c05d444cf7",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 10.5,
+          "alignment": "left",
+          "bold": false,
+          "space_before_pt": 0.0,
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "bold",
+          "space_before_pt",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "abstract_zh": {
+        "paragraph_index": 9,
+        "run_index": 4,
+        "text_sha256": "ea96f128a0d3ec820bc1be0a34d1457693bdedbd7816e7f2629ecc4ba6486cbf",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "abstract_en": {
+        "paragraph_index": 19,
+        "run_index": 2,
+        "text_sha256": "d21b4a64a2d8656a0fdf7ab2e89a49164ac504686cfa2a3d442e87c209286330",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "keywords_zh": {
+        "paragraph_index": 10,
+        "run_index": 6,
+        "text_sha256": "6c816c64faf5debbe019ce589a9b12f3e7ea793d3b9bdfd41b7ed24343582a4a",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "keywords_en": {
+        "paragraph_index": 20,
+        "run_index": 2,
+        "text_sha256": "9f32068c3a10a65611aa7eb468e76c91244a3cbc35b8c7c4e4735ab9f53b8ec5",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      },
+      "figure_caption_zh": {
+        "paragraph_index": 64,
+        "run_index": 3,
+        "text_sha256": "628e28c7fe48f19993c1fc05834f6318d4844e559e90712ea026851642a2b6cf",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "center",
+          "line_spacing_rule": "atLeast",
+          "first_line_pt": 0.0,
+          "line_spacing_pt": 0.0,
+          "bold": true,
+          "space_before_pt": 2.4,
+          "space_after_pt": 3.6
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "bold",
+          "space_before_pt",
+          "space_after_pt"
+        ]
+      },
+      "figure_caption_en": {
+        "paragraph_index": 65,
+        "run_index": 3,
+        "text_sha256": "affaf48fde5f1e183a15e30feb6a7290b8099f9ab8cd92d8813261db9a69b6a5",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 10.5,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 19.3,
+          "line_spacing": 1.0,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing",
+          "bold"
+        ]
+      },
+      "table_caption_zh": {
+        "paragraph_index": 82,
+        "run_index": 4,
+        "text_sha256": "59eec5888c41d029291850991dfce1fc671fdd58b8c1d6c6d70d5d617e02f0bf",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "center",
+          "line_spacing_rule": "atLeast",
+          "first_line_pt": 0.0,
+          "line_spacing_pt": 0.0,
+          "bold": true,
+          "space_before_pt": 3.6
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "bold",
+          "space_before_pt"
+        ]
+      },
+      "table_caption_en": {
+        "paragraph_index": 83,
+        "run_index": 3,
+        "text_sha256": "92cab6a1b784580063e19fd819b61ce188d9f64326b099e02889b090866f0385",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 10.5,
+          "alignment": "center",
+          "line_spacing_rule": "atLeast",
+          "first_line_pt": 19.3,
+          "line_spacing_pt": 15.0,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt",
+          "bold"
+        ]
+      },
+      "author_zh": {
+        "paragraph_index": 7,
+        "run_index": 1,
+        "text_sha256": "7d4146ca082798f06a3a99c87e2244a5ceb683cdbeda049d7b8a5c342b73edb0",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 10.5,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.15
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "author_en": {
+        "paragraph_index": 16,
+        "run_index": 1,
+        "text_sha256": "d95082a2ee57f3e40e3050662a346e26a872fd4d0baf57d293ac5a883f0f4ff5",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "center",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0,
+          "space_after_pt": 4.8
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt",
+          "space_after_pt"
+        ]
+      },
+      "affiliation_zh": {
+        "paragraph_index": 8,
+        "run_index": 2,
+        "text_sha256": "41affc2feabdf1f2399f16a15cd58d1ad3624be2a1ac5d1d67efa3be766a2997",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.15
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "affiliation_en": {
+        "paragraph_index": 17,
+        "run_index": 1,
+        "text_sha256": "2119dc779e6377c96607046c07f1e2746e6b1d54d1a6c960874218e5e1454d24",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "center",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 15.0,
+          "space_after_pt": 4.8
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt",
+          "space_after_pt"
+        ]
+      },
+      "reference": {
+        "style_id": "G",
+        "resolved_style_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "华文中宋",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "line_spacing_pt": 16.0,
+          "first_line_pt": -11.0,
+          "left_indent_pt": 11.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing_pt"
+        ]
+      }
+    },
+    "reaudit_note": "Shared engine resolves defaults, basedOn paragraph/character styles and actual visible run; paragraph-mark rPr excluded. Captured full resolved source observations can include editorial colors or labels; executable rules retain documented manuscript content selection and source guidance/COM measurements where OOXML alone is incomplete."
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "id": "cn-cims-revised-word",
+  "name": "计算机集成制造系统退修改稿",
+  "version": "1.0.0",
+  "scope": "计算机集成制造系统；所有来稿；退修改稿，仅执行当前官方论文模版明确的正文宋体/Times New Roman、五号10.5pt、1.5倍行距和单栏。",
+  "manuscript_type": "all_manuscripts",
+  "stage": "revised_manuscript",
+  "variants": [
+    {
+      "manuscript_type": "all_manuscripts",
+      "stage": "revised_manuscript"
+    }
+  ],
+  "latex": {},
+  "sources": [
+    {
+      "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+      "file": "20220128161938.docx",
+      "sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+      "byte_length": 33200,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "original_file_redistributed": false,
+      "submission_compliance_verified": false,
+      "source_role": "official_paper_template_with_explicit_instructions"
+    },
+    {
+      "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+      "file": "20241121154611.docx",
+      "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+      "byte_length": 18773,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "original_file_redistributed": false,
+      "submission_compliance_verified": false,
+      "source_role": "official_submission_guide"
+    },
+    {
+      "url": "http://www.cims-journal.cn/CN/column/column4.shtml",
+      "file": "column4.shtml",
+      "sha256": "49eb4f419056f437b8071f74f1380a161ba3e076755255e21c4a4491fed5eedb",
+      "byte_length": 17387,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "original_file_redistributed": false,
+      "submission_compliance_verified": false,
+      "source_role": "current_official_guide_and_template_link"
+    }
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "template": {
+    "family": "imported-journals",
+    "source_version": "20220128161938.docx;guide-20241121154611.docx;current-link-snapshot-2026-10-30",
+    "source_url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+    "license": "rules_only_source_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "coverage_notes": [
+      "The selected manuscript stage controls which instructions apply.",
+      "Executable properties are limited to the explicit instructions recorded here."
+    ],
+    "requirements": [
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+          "file": "20220128161938.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+          "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+          "response_byte_length": 33200
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+          "file": "20220128161938.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+          "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+          "response_byte_length": 33200
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+          "file": "20220128161938.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+          "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+          "response_byte_length": 33200
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+          "file": "20220128161938.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+          "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+          "response_byte_length": 33200
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+          "file": "20220128161938.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+          "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+          "response_byte_length": 33200
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+          "file": "20241121154611.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[10] explicit Word single-column requirement; /w:document/w:body/w:p[12] revised-manuscript stage",
+          "response_sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+          "response_byte_length": 18773
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+      }
+    ]
+  },
+  "stage_evidence": {
+    "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+    "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+    "file": "20241121154611.docx",
+    "part": "word/document.xml",
+    "xpath": "/w:document/w:body/w:p[12]",
+    "namespaces": {
+      "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    }
+  },
+  "manuscript_type_evidence": {
+    "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+    "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+    "file": "20241121154611.docx",
+    "part": "word/document.xml",
+    "xpath": "/w:document/w:body/w:p[4]",
+    "namespaces": {
+      "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    }
+  },
+  "official_template_link": {
+    "url": "http://www.cims-journal.cn/CN/column/column4.shtml",
+    "sha256": "49eb4f419056f437b8071f74f1380a161ba3e076755255e21c4a4491fed5eedb",
+    "locator": "/html/body/div[3]/div/div[2]/div[3]/ul/li[1]/a/@href",
+    "href": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+    "label": "论文模版"
+  },
+  "journal_id": "CN-1006-5911",
+  "formal_title": "计算机集成制造系统",
+  "manuscript_format": "Microsoft Word",
+  "aliases": [
+    "CIMS 退修改 Word",
+    "计算机集成制造系统 退修改稿 Word"
+  ],
+  "rules": {
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    }
+  },
+  "page": {
+    "columns": 1
+  }
+}

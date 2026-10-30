@@ -1,0 +1,4093 @@
+{
+  "id": "comp-vrih-word",
+  "name": "Virtual Reality & Intelligent Hardware — research-paper Word authoring template facts",
+  "version": "1.0.0",
+  "scope": "Formatting extracted from the research-paper Word template linked by the official KeAi journal author page. Local formatting variations remain explicit.",
+  "journal_title": "Virtual Reality & Intelligent Hardware",
+  "catalog_journal_id": "ccf-2026-virtual-reality-intelligent-hardware",
+  "manuscript_type": "journal_article",
+  "stage": "submission_authoring_template",
+  "aliases": [
+    "Virtual Reality & Intelligent Hardware source formatting"
+  ],
+  "rules": {
+    "title": {
+      "font": "Times New Roman",
+      "east_asia_font": "方正黑体_GBK",
+      "size_pt": 18.0,
+      "font_color": "000000",
+      "space_before_pt": 31.5,
+      "space_after_pt": 8.4,
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5,
+      "bold": true
+    },
+    "author": {
+      "font": "Arial",
+      "east_asia_font": "方正书宋_GBK",
+      "size_pt": 12.0,
+      "font_color": "000000",
+      "space_before_pt": 5.25,
+      "space_after_pt": 5.25,
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    },
+    "affiliation": {
+      "font": "Times New Roman",
+      "east_asia_font": "方正书宋_GBK",
+      "size_pt": 8.0,
+      "font_color": "000000",
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5,
+      "italic": true
+    },
+    "correspondence": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 9.0,
+      "font_color": "000000",
+      "space_before_pt": 3.15,
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5,
+      "bold": true
+    },
+    "abstract": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "bold": false,
+      "alignment": "both",
+      "space_before_pt": 1.0,
+      "first_line_pt": 0.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    },
+    "keywords": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "bold": false,
+      "alignment": "both",
+      "first_line_pt": 0.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    },
+    "heading1": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "bold": true,
+      "alignment": "both",
+      "first_line_pt": -18.0,
+      "line_spacing_rule": "auto",
+      "left_indent_pt": 18.0,
+      "line_spacing": 1.5
+    },
+    "heading2": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.5,
+      "size_pt": 10.5,
+      "bold": true
+    },
+    "body_start": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.5,
+      "size_pt": 10.5
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 10.1,
+      "line_spacing": 1.5,
+      "size_pt": 10.5
+    },
+    "figure_caption": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.5,
+      "size_pt": 10.5,
+      "bold": true
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5,
+      "size_pt": 10.5
+    },
+    "references_heading": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.5,
+      "size_pt": 10.5,
+      "bold": true
+    }
+  },
+  "page": {
+    "width_mm": 215.9,
+    "height_mm": 279.4,
+    "margin_top_mm": 17.78,
+    "margin_bottom_mm": 17.78,
+    "margin_left_mm": 16.51,
+    "margin_right_mm": 16.51,
+    "header_distance_mm": 7.62,
+    "footer_distance_mm": 7.62,
+    "column_gap_mm": 5.08,
+    "columns": 1
+  },
+  "latex": {},
+  "extracted_format": {
+    "mode": "source_extracted_rules",
+    "roles": {
+      "title": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "方正黑体_GBK",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "size_pt": {
+          "value": 18.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "font_color": {
+          "value": "000000",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "space_before_pt": {
+          "value": 31.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 8.4,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Arial",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "方正书宋_GBK",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "size_pt": {
+          "value": 12.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "font_color": {
+          "value": "000000",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "space_before_pt": {
+          "value": 5.25,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 5.25,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "方正书宋_GBK",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "size_pt": {
+          "value": 8.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "font_color": {
+          "value": "000000",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        }
+      },
+      "correspondence": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "size_pt": {
+          "value": 9.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "font_color": {
+          "value": "000000",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "space_before_pt": {
+          "value": 3.15,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        }
+      },
+      "abstract": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "space_before_pt": {
+          "value": 1.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "first_line_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        }
+      },
+      "keywords": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": false,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": -18.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "left_indent_pt": {
+          "value": 18.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        }
+      },
+      "body_start": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        }
+      },
+      "body": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 10.1,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        }
+      },
+      "figure_caption": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "alignment": {
+          "value": "center",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        }
+      },
+      "references_heading": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "east_asia_font": {
+          "value": "宋体",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "alignment": {
+          "value": "both",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0.0,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "line_spacing": {
+          "value": 1.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "multiple"
+        },
+        "size_pt": {
+          "value": 10.5,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+            "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded",
+            "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+            "bytes": 3059554
+          },
+          "unit": "boolean"
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 215.9,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "height_mm": {
+        "value": 279.4,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "margin_top_mm": {
+        "value": 17.78,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "margin_bottom_mm": {
+        "value": 17.78,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "margin_left_mm": {
+        "value": 16.51,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "margin_right_mm": {
+        "value": 16.51,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "header_distance_mm": {
+        "value": 7.62,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "footer_distance_mm": {
+        "value": 7.62,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "column_gap_mm": {
+        "value": 5.08,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "mm"
+      },
+      "columns": {
+        "value": 1,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "count"
+      }
+    },
+    "captions": {
+      "selected_figure_caption_paragraph": {
+        "value": 35,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "count"
+      }
+    },
+    "equations": {
+      "object_representation": {
+        "value": "legacy OLE equation objects; no font inferred from opaque binary content",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml //o:OLEObject and package embeddings; read-only structural inspection",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "text"
+      }
+    },
+    "references": {
+      "style": {
+        "value": "numeric ordered reference list",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[164]",
+          "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+          "bytes": 3059554
+        },
+        "unit": "text"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+      "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+      "locator": "word/document.xml with styles.xml/docDefaults inheritance",
+      "sha256": "cccceafe117c1cc5190ed64ddbb05aecb40708c9898630a3fa6c4cd7994f5fdd",
+      "bytes": 3059554,
+      "verified": true
+    }
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "checks": [
+    {
+      "requirement": "title-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-font_color",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-font_color",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-font_color",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-font_color",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "correspondence-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-left_indent_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body_start-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body_start-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body_start-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body_start-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body_start-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body_start-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body_start-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-east_asia_font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-width_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-height_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_top_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_bottom_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_left_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_right_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-header_distance_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-footer_distance_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-column_gap_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-columns",
+      "checking": "xml"
+    }
+  ],
+  "template": {
+    "family": "computer-special",
+    "source_version": "Official Word template retrieved 2026-10-30",
+    "source_url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+    "license": "formatting_facts_only_originals_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "layout",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-east_asia_font",
+        "category": "layout",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "方正黑体_GBK",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-size_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 18.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-font_color",
+        "category": "layout",
+        "target": "title",
+        "property": "font_color",
+        "expected": "000000",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-space_before_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "space_before_pt",
+        "expected": 31.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-space_after_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "space_after_pt",
+        "expected": 8.4,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-alignment",
+        "category": "layout",
+        "target": "title",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-line_spacing_rule",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-line_spacing",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "title-bold",
+        "category": "layout",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[3]; paragraph style ['15']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-font",
+        "category": "layout",
+        "target": "author",
+        "property": "font",
+        "expected": "Arial",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-east_asia_font",
+        "category": "layout",
+        "target": "author",
+        "property": "east_asia_font",
+        "expected": "方正书宋_GBK",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-size_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 12.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-font_color",
+        "category": "layout",
+        "target": "author",
+        "property": "font_color",
+        "expected": "000000",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-space_before_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "space_before_pt",
+        "expected": 5.25,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-space_after_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "space_after_pt",
+        "expected": 5.25,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-alignment",
+        "category": "layout",
+        "target": "author",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-line_spacing_rule",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "author-line_spacing",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[4]; paragraph style ['16']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-font",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-east_asia_font",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "east_asia_font",
+        "expected": "方正书宋_GBK",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-size_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 8.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-font_color",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "font_color",
+        "expected": "000000",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-alignment",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-line_spacing_rule",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-line_spacing",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "affiliation-italic",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "italic",
+        "expected": true,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[5]; paragraph style ['21']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-font",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-east_asia_font",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-size_pt",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "size_pt",
+        "expected": 9.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-font_color",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "font_color",
+        "expected": "000000",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-space_before_pt",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "space_before_pt",
+        "expected": 3.15,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-alignment",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-line_spacing_rule",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-line_spacing",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "correspondence-bold",
+        "category": "layout",
+        "target": "correspondence",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[7]; paragraph style ['12']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-font",
+        "category": "layout",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-east_asia_font",
+        "category": "layout",
+        "target": "abstract",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-bold",
+        "category": "layout",
+        "target": "abstract",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-alignment",
+        "category": "layout",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-space_before_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "space_before_pt",
+        "expected": 1.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-first_line_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "abstract-line_spacing",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[11]; paragraph style ['Abstract']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-font",
+        "category": "layout",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-east_asia_font",
+        "category": "layout",
+        "target": "keywords",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "layout",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-bold",
+        "category": "layout",
+        "target": "keywords",
+        "property": "bold",
+        "expected": false,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-alignment",
+        "category": "layout",
+        "target": "keywords",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-first_line_pt",
+        "category": "layout",
+        "target": "keywords",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-line_spacing_rule",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "keywords-line_spacing",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[13]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-font",
+        "category": "layout",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "layout",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-bold",
+        "category": "layout",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "layout",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-first_line_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "first_line_pt",
+        "expected": -18.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-left_indent_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "left_indent_pt",
+        "expected": 18.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[15]; paragraph style ['IndexTerms']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-font",
+        "category": "layout",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "layout",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "layout",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-first_line_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "heading2-bold",
+        "category": "layout",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[25]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body_start-font",
+        "category": "layout",
+        "target": "body_start",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body_start-east_asia_font",
+        "category": "layout",
+        "target": "body_start",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body_start-alignment",
+        "category": "layout",
+        "target": "body_start",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body_start-line_spacing_rule",
+        "category": "layout",
+        "target": "body_start",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body_start-first_line_pt",
+        "category": "layout",
+        "target": "body_start",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body_start-line_spacing",
+        "category": "layout",
+        "target": "body_start",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body_start-size_pt",
+        "category": "layout",
+        "target": "body_start",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[16]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body-font",
+        "category": "layout",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "layout",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body-alignment",
+        "category": "layout",
+        "target": "body",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 10.1,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "body-size_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[17]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-east_asia_font",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-alignment",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "alignment",
+        "expected": "center",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-first_line_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-line_spacing",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "figure_caption-bold",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[36]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "reference-font",
+        "category": "layout",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "layout",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "reference-alignment",
+        "category": "layout",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[164]; paragraph style []; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-font",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "both",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-line_spacing_rule",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-first_line_pt",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-line_spacing",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 10.5,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "references_heading-bold",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "/w:document/w:body/w:p[163]; paragraph style ['Text']; text-run properties with style/default inheritance; paragraph-mark rPr excluded"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 215.9,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 279.4,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 17.78,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 17.78,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 16.51,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 16.51,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-header_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "header_distance_mm",
+        "expected": 7.62,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-footer_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "footer_distance_mm",
+        "expected": 7.62,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-column_gap_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "column_gap_mm",
+        "expected": 5.08,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "source": {
+          "url": "https://www.keaipublishing.com/media/omphe3x2/virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "file": "virtual-reality-intelligent-hardware-research-paper-template.docx",
+          "locator": "word/document.xml /w:document/w:body/w:sectPr; pgSz 12240x15840 twips; pgMar 1008/936/1008/936; header/footer 432; cols space=288 with omitted num=1"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Official Word template retrieved 2026-10-30"
+      }
+    ],
+    "coverage_notes": [
+      "The opening empty paragraph has a continuous two-column section; the main content and final body section have one column. The empty opening section is not generalized to a two-column article.",
+      "Author text inherits Arial from style 16 and uses explicit 12 bp runs; correspondence text uses Times New Roman 9 bp. NEU-BZ appears in paragraph-mark or isolated marker formatting and is not generalized to body text.",
+      "The sample has inconsistent heading and caption variants. Each recorded role cites the selected paragraph; variants remain metadata instead of an invented universal mandate.",
+      "The first body paragraph is flush left; following paragraphs use 10.1 bp first-line indent in the selected sample. Position-dependent paragraph composition requires role mapping.",
+      "The source contains legacy OLE equations. No object or macro was executed; this profile does not claim an equation font inferred from opaque embedded equations."
+    ]
+  }
+}

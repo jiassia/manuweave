@@ -1,0 +1,3143 @@
+{
+  "id": "cn-jcip-template-current",
+  "name": "中文信息学报当前投稿模板",
+  "version": "1.0.0",
+  "aliases": [
+    "中文信息学报",
+    "JCIP official Word"
+  ],
+  "scope": "Official Word manuscript template typography and layout captured from semantic content runs and resolved inheritance; source-specific stage and section limits are recorded.",
+  "compliance": "source_backed_template_partial_coverage",
+  "manuscript_stage": "official_manuscript_template",
+  "rules": {
+    "title_zh": {
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 21.0,
+      "line_spacing": 1.0583333333333333,
+      "space_before_pt": 12.0,
+      "space_after_pt": 7.25,
+      "font": "黑体",
+      "east_asia_font": "黑体",
+      "size_pt": 16.0,
+      "bold": true
+    },
+    "title_en": {
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.2,
+      "space_before_pt": 20.0,
+      "space_after_pt": 16.0,
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": true
+    },
+    "body": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.2,
+      "font": "宋体",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5
+    },
+    "heading1": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "space_before_pt": 16.0,
+      "space_after_pt": 16.0,
+      "font": "Times New Roman",
+      "east_asia_font": "黑体",
+      "size_pt": 12.0,
+      "bold": true
+    },
+    "heading2": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "east_asia_font": "黑体",
+      "size_pt": 10.5,
+      "bold": true
+    },
+    "heading3": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "east_asia_font": "方正书宋简体",
+      "size_pt": 10.5
+    },
+    "abstract_zh": {
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "first_line_pt": 21.0,
+      "line_spacing_pt": 18.0,
+      "east_asia_font": "楷体",
+      "size_pt": 9.0
+    },
+    "abstract_en": {
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "first_line_pt": 0.0,
+      "line_spacing_pt": 17.0,
+      "font": "Times New Roman",
+      "size_pt": 9.0
+    },
+    "keywords_zh": {
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "first_line_pt": 21.0,
+      "line_spacing_pt": 18.0,
+      "east_asia_font": "楷体",
+      "size_pt": 9.0
+    },
+    "keywords_en": {
+      "alignment": "both",
+      "line_spacing_rule": "exact",
+      "first_line_pt": 0.0,
+      "line_spacing_pt": 17.0,
+      "font": "Times New Roman",
+      "size_pt": 10.5
+    },
+    "references_heading": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 0.0,
+      "line_spacing": 1.0583333333333333,
+      "space_before_pt": 16.0,
+      "space_after_pt": 16.0,
+      "east_asia_font": "黑体",
+      "size_pt": 12.0,
+      "bold": true
+    },
+    "reference": {
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 21.0,
+      "line_spacing": 1.0583333333333333,
+      "east_asia_font": "方正书宋简体",
+      "size_pt": 9.0
+    },
+    "author_zh": {
+      "font": "仿宋_GB2312",
+      "east_asia_font": "仿宋_GB2312",
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 21.0,
+      "line_spacing": 1.0583333333333333,
+      "size_pt": 14.0
+    },
+    "author_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "方正书宋简体",
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 21.0,
+      "line_spacing": 1.0583333333333333
+    },
+    "affiliation_zh": {
+      "font": "宋体",
+      "east_asia_font": "方正书宋简体",
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 21.0,
+      "line_spacing": 1.0583333333333333,
+      "size_pt": 9.0
+    },
+    "affiliation_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "方正书宋简体",
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "first_line_pt": 21.0,
+      "line_spacing": 1.0583333333333333,
+      "size_pt": 9.0
+    }
+  },
+  "page": {
+    "width_mm": 201.4185,
+    "height_mm": 275.5371,
+    "margin_bottom_mm": 5.0094,
+    "margin_left_mm": 15.9985,
+    "margin_right_mm": 15.9985,
+    "header_distance_mm": 10.0012,
+    "footer_distance_mm": 2.9986,
+    "grid_type": "linesAndChars",
+    "grid_line_pitch_pt": 14.5,
+    "mirror_margins": false
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+      "file": "中文信息学报投稿模板.doc",
+      "sha256": "3f61c15075565af197fd04bfdac2e90c3eecd4d70293c8a2606c8b37323eb67f",
+      "byte_length": 62976,
+      "retrieved_at": "2026-10-30",
+      "official_index_url": "http://jcip.cipsc.org.cn/download-center",
+      "method": "Original DOC converted in independent read-only hidden Word with AutomationSecurity=3 and link updates disabled; static OOXML run/paragraph checks; effective source font checked",
+      "source_kind": "actual_official_paper_template",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    }
+  ],
+  "template": {
+    "family": "computer-chinese",
+    "source_version": "official-download-listed-2026;retrieved-2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title_zh-alignment",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-first_line_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_before_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_before_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_after_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_after_pt",
+        "expected": 7.25,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-east_asia_font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-size_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "size_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-bold",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-alignment",
+        "category": "typography",
+        "target": "title_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing_rule",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-first_line_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing",
+        "expected": 1.2,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_before_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_before_pt",
+        "expected": 20.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_after_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_after_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-size_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "size_pt",
+        "expected": 14.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-bold",
+        "category": "typography",
+        "target": "title_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[12]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.2,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[27]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-first_line_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_before_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_after_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[39]/w:r[3]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[40]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[40]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-first_line_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[40]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[40]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[40]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[40]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-bold",
+        "category": "typography",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[40]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "typography",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[48]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[48]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-first_line_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[48]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[48]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "方正书宋简体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[48]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[48]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-alignment",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-first_line_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-east_asia_font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-size_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[9]/w:r[2]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-alignment",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[18]/w:r[4]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[18]/w:r[4]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-first_line_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[18]/w:r[4]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing_pt",
+        "expected": 17.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[18]/w:r[4]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[18]/w:r[4]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-size_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[18]/w:r[4]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-alignment",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML/w:r[2]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML/w:r[2]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-first_line_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML/w:r[2]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML/w:r[2]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-east_asia_font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML/w:r[2]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-size_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML/w:r[2]; keyword content after label; visible text run and paragraph/style inheritance; paragraph-mark rPr excluded; editorial color not an executable manuscript rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-alignment",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[19]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[19]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-first_line_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[19]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing_pt",
+        "expected": 17.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[19]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[19]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-size_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[19]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing_rule",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-first_line_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-space_before_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-space_after_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "space_after_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-bold",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[51]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-first_line_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "方正书宋简体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:p[54]; inherited styles and read-only Word effective font checked; colored annotation formatting excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "font",
+        "expected": "仿宋_GB2312",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-east_asia_font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "east_asia_font",
+        "expected": "仿宋_GB2312",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-alignment",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-first_line_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-size_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "size_pt",
+        "expected": 14.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[13]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-east_asia_font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "east_asia_font",
+        "expected": "方正书宋简体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[13]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-alignment",
+        "category": "typography",
+        "target": "author_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[13]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing_rule",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[13]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-first_line_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[13]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[13]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[5]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "east_asia_font",
+        "expected": "方正书宋简体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[5]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-alignment",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[5]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[5]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-first_line_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[5]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-line_spacing",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[5]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-size_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[5]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[15]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "east_asia_font",
+        "expected": "方正书宋简体",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[15]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-alignment",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[15]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[15]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-first_line_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "first_line_pt",
+        "expected": 21.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[15]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing",
+        "expected": 1.0583333333333333,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[15]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-size_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[15]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 201.4185,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:sectPr/w:pgSz and w:pgMar; only section-invariant page properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 275.5371,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:sectPr/w:pgSz and w:pgMar; only section-invariant page properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 5.0094,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:sectPr/w:pgSz and w:pgMar; only section-invariant page properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 15.9985,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:sectPr/w:pgSz and w:pgMar; only section-invariant page properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 15.9985,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "converted OOXML; word/document.xml:/w:document/w:body/w:sectPr/w:pgSz and w:pgMar; only section-invariant page properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-header_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "header_distance_mm",
+        "expected": 10.0012,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:pgMar/@w:header; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-footer_distance_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "footer_distance_mm",
+        "expected": 2.9986,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:pgMar/@w:footer; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_type",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_type",
+        "expected": "linesAndChars",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:type; source default applies if absent; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_line_pitch_pt",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_line_pitch_pt",
+        "expected": 14.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:linePitch; source twips/20; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-mirror_margins",
+        "category": "layout",
+        "target": "page",
+        "property": "mirror_margins",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "Converted word/settings.xml:/w:settings/w:mirrorMargins; OOXML default false when absent"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr/w:cols/w:col[1]/@w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr/w:cols/w:col[1]/@w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr/w:cols/w:col[1]/@w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_column_gap_mm",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_column_gap_mm",
+        "expected": 7.4965,
+        "unit": "mm",
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr/w:cols/w:col[1]/@w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_page",
+        "expected": {
+          "width_mm": 201.4185,
+          "height_mm": 275.5371,
+          "margin_top_mm": 5.0094,
+          "margin_bottom_mm": 5.0094,
+          "margin_left_mm": 15.9985,
+          "margin_right_mm": 15.9985,
+          "header_distance_mm": 10.0012,
+          "footer_distance_mm": 2.9986,
+          "columns": 1,
+          "column_gap_mm": 12.7,
+          "grid_type": "linesAndChars",
+          "grid_line_pitch_pt": 14.5
+        },
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr/w:cols/w:col[1]/@w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_page",
+        "expected": {
+          "width_mm": 201.4185,
+          "height_mm": 275.5371,
+          "margin_top_mm": 4.1981,
+          "margin_bottom_mm": 5.0094,
+          "margin_left_mm": 15.9985,
+          "margin_right_mm": 15.9985,
+          "header_distance_mm": 10.0012,
+          "footer_distance_mm": 2.9986,
+          "columns": 2,
+          "column_gap_mm": 7.4965,
+          "column_widths_mm": [
+            80.9625,
+            80.9625
+          ],
+          "grid_type": "linesAndChars",
+          "grid_line_pitch_pt": 14.5
+        },
+        "unit": null,
+        "source": {
+          "url": "http://jcip.cipsc.org.cn/fileZWXXXB/news/zwxxxb/93db5994-c98f-41f6-b4f3-7abc609f27cf.doc",
+          "file": "中文信息学报投稿模板.doc",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr/w:cols/w:col[1]/@w:space; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      }
+    ],
+    "coverage_notes": [
+      "Actual current official manuscript-template formatting, not inferred requirements from a webpage guide.",
+      "The homepage download API currently lists this submission template in 2026; an article-number placeholder still says 2017 and is not treated as source publication metadata.",
+      "Chinese and English keywords have different actual sizes, 9pt and 10.5pt. Chinese/English abstract content is 9pt, distinct from larger label runs.",
+      "Body first-line indents vary (16.35pt and 21.8pt) across sample paragraphs; no uniform body first-line indent is forced.",
+      "Front and body top margins differ; front_matter_page and body_page execute their separately measured source section properties.",
+      "Heading1 Chinese text is 12pt while a numeric prefix sample is 11.5pt; semantic heading size follows the title-text run, with native numbering variation retained as an observation."
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1",
+    "body_column_gap_mm": 7.4965,
+    "front_matter_page": {
+      "width_mm": 201.4185,
+      "height_mm": 275.5371,
+      "margin_top_mm": 5.0094,
+      "margin_bottom_mm": 5.0094,
+      "margin_left_mm": 15.9985,
+      "margin_right_mm": 15.9985,
+      "header_distance_mm": 10.0012,
+      "footer_distance_mm": 2.9986,
+      "columns": 1,
+      "column_gap_mm": 12.7,
+      "grid_type": "linesAndChars",
+      "grid_line_pitch_pt": 14.5
+    },
+    "body_page": {
+      "width_mm": 201.4185,
+      "height_mm": 275.5371,
+      "margin_top_mm": 4.1981,
+      "margin_bottom_mm": 5.0094,
+      "margin_left_mm": 15.9985,
+      "margin_right_mm": 15.9985,
+      "header_distance_mm": 10.0012,
+      "footer_distance_mm": 2.9986,
+      "columns": 2,
+      "column_gap_mm": 7.4965,
+      "column_widths_mm": [
+        80.9625,
+        80.9625
+      ],
+      "grid_type": "linesAndChars",
+      "grid_line_pitch_pt": 14.5
+    }
+  },
+  "extracted_format": {
+    "visible_text_inheritance": "docDefaults + paragraph/character style inheritance + actual visible text run; pPr/rPr paragraph-mark font properties excluded",
+    "visible_run_reaudit": {
+      "title_zh": {
+        "paragraph_index": 3,
+        "run_index": 1,
+        "text_sha256": "45937b7f2844297ec8e145a5c89fed21400cbec08fca199b84e5dcf315b83881",
+        "resolved_visible_run_format": {
+          "font": "黑体",
+          "east_asia_font": "黑体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 21.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 16.0,
+          "space_before_pt": 12.0,
+          "space_after_pt": 7.25,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "title_en": {
+        "paragraph_index": 12,
+        "run_index": 1,
+        "text_sha256": "824a4f5778b378b5821e1aabc34fc9287837783598808d13631d7636dd0c2c08",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.2,
+          "size_pt": 14.0,
+          "bold": true,
+          "space_before_pt": 20.0,
+          "space_after_pt": 16.0,
+          "font_color": "000000"
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "body": {
+        "paragraph_index": 27,
+        "run_index": 1,
+        "text_sha256": "ef6fba91718f20ee18db5a1fea02f670e9781fb4534bf9f2b2409266e0316dfd",
+        "resolved_visible_run_format": {
+          "font": "宋体",
+          "east_asia_font": "宋体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 16.35,
+          "line_spacing": 1.2,
+          "size_pt": 10.5
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing",
+          "font",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "heading1": {
+        "paragraph_index": 39,
+        "run_index": 3,
+        "text_sha256": "c3405f8c7d9d392aa3e2d073d5793bce795353c5f7ef0d27f3d6c1c8d2832681",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 12.0,
+          "space_before_pt": 16.0,
+          "space_after_pt": 16.0,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "heading2": {
+        "paragraph_index": 40,
+        "run_index": 1,
+        "text_sha256": "342ae963a54802aae7c217483af71aa2ad4b0889b6e44c0b70558167edbb4038",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 10.5,
+          "font_color": "000000",
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "east_asia_font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "heading3": {
+        "paragraph_index": 48,
+        "run_index": 1,
+        "text_sha256": "c5752c93158aa0bc87f4665057b3d30a36b996345fc4250a69368f3ce46277ce",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 10.5,
+          "font_color": "000000"
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "abstract_zh": {
+        "paragraph_index": 9,
+        "run_index": 2,
+        "text_sha256": "ee40bf839a8b31ce95797fb06775e734ebe5d444d38b4bbce4ebfe57becd7163",
+        "resolved_visible_run_format": {
+          "font": "楷体",
+          "east_asia_font": "楷体",
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "first_line_pt": 21.0,
+          "line_spacing_pt": 18.0,
+          "size_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing_pt",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "abstract_en": {
+        "paragraph_index": 18,
+        "run_index": 4,
+        "text_sha256": "04f370a889bd14d8a022f81093068a29df06f6e8ae92670d7986154d5487f8cb",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "first_line_pt": 0.0,
+          "line_spacing_pt": 17.0,
+          "size_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing_pt",
+          "font",
+          "size_pt"
+        ]
+      },
+      "keywords_zh": {
+        "paragraph_index": 10,
+        "run_index": 2,
+        "text_sha256": "9f3a3ddf2cdc838ebc20e71607d8b9c2bc9d963c0d3a7a46f1f92dc04cb089d3",
+        "resolved_visible_run_format": {
+          "font": "楷体",
+          "east_asia_font": "楷体",
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "first_line_pt": 21.0,
+          "line_spacing_pt": 18.0,
+          "size_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing_pt",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "keywords_en": {
+        "paragraph_index": 19,
+        "run_index": 1,
+        "text_sha256": "4cb6108161f7a06d73393f878e65f4497acbdcde5b221bc39097f8c8fffacc3d",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "alignment": "both",
+          "line_spacing_rule": "exact",
+          "first_line_pt": 0.0,
+          "line_spacing_pt": 17.0,
+          "size_pt": 10.5,
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing_pt",
+          "font",
+          "size_pt"
+        ]
+      },
+      "references_heading": {
+        "paragraph_index": 51,
+        "run_index": 2,
+        "text_sha256": "edc3efb149a25b9613ce36ac49d50fa08fbda9e7b7120a27b83d2c9a69b24a3f",
+        "resolved_visible_run_format": {
+          "font": "黑体",
+          "east_asia_font": "黑体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 0.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 12.0,
+          "space_before_pt": 16.0,
+          "space_after_pt": 16.0,
+          "font_color": "000000",
+          "bold": true
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "space_before_pt",
+          "space_after_pt",
+          "east_asia_font",
+          "size_pt",
+          "bold"
+        ]
+      },
+      "reference": {
+        "paragraph_index": 54,
+        "run_index": 1,
+        "text_sha256": "513fd8aa064d15884228355289d4cd5bf2edab3033ac7601f6506c9ca4122a58",
+        "resolved_visible_run_format": {
+          "font": "宋体",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 21.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "east_asia_font",
+          "size_pt"
+        ]
+      },
+      "author_zh": {
+        "paragraph_index": 4,
+        "run_index": 1,
+        "text_sha256": "77707ea533ac0acec494c9df406fd9671219b7108554266cd31b9e4b0a706cd2",
+        "resolved_visible_run_format": {
+          "font": "仿宋_GB2312",
+          "east_asia_font": "仿宋_GB2312",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 21.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 14.0,
+          "font_color": "000000"
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "size_pt"
+        ]
+      },
+      "author_en": {
+        "paragraph_index": 13,
+        "run_index": 1,
+        "text_sha256": "d95082a2ee57f3e40e3050662a346e26a872fd4d0baf57d293ac5a883f0f4ff5",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 21.0,
+          "line_spacing": 1.0583333333333333,
+          "font_color": "000000"
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing"
+        ]
+      },
+      "affiliation_zh": {
+        "paragraph_index": 5,
+        "run_index": 3,
+        "text_sha256": "f38941084ba2b97d8842d7cbfd25f6ef86d51e9ce47be4dbae2867a6193119aa",
+        "resolved_visible_run_format": {
+          "font": "宋体",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 21.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "size_pt"
+        ]
+      },
+      "affiliation_en": {
+        "paragraph_index": 15,
+        "run_index": 1,
+        "text_sha256": "139116cfa434e22fe6b36ed90add47d94f8d6382a1c30bfec75cef650ac2bb08",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "方正书宋简体",
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 21.0,
+          "line_spacing": 1.0583333333333333,
+          "size_pt": 9.0,
+          "font_color": "000000"
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "alignment",
+          "line_spacing_rule",
+          "first_line_pt",
+          "line_spacing",
+          "size_pt"
+        ]
+      }
+    },
+    "reaudit_note": "Shared engine resolves defaults, basedOn paragraph/character styles and actual visible run; paragraph-mark rPr excluded. Captured full resolved source observations can include editorial colors or labels; executable rules retain documented manuscript content selection and source guidance/COM measurements where OOXML alone is incomplete."
+  }
+}

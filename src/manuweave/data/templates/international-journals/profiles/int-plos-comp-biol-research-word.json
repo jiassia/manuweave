@@ -1,0 +1,795 @@
+{
+  "id": "int-plos-comp-biol-research-word",
+  "name": "PLOS Computational Biology research manuscript Word requirements",
+  "version": "1.0.0",
+  "aliases": [
+    "PLOS Computational Biology research",
+    "PLOS Computational Biology 投稿稿 Word"
+  ],
+  "scope": "Research article; explicit Word spacing/layout and listed editorial requirements from the journal's own guide.",
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "line_spacing": 2
+    },
+    "body": {
+      "line_spacing": 2
+    },
+    "abstract_heading": {
+      "line_spacing": 2
+    },
+    "abstract": {
+      "line_spacing": 2
+    },
+    "keywords": {
+      "line_spacing": 2
+    },
+    "heading1": {
+      "line_spacing": 2
+    },
+    "heading2": {
+      "line_spacing": 2
+    },
+    "heading3": {
+      "line_spacing": 2
+    },
+    "caption": {
+      "line_spacing": 2
+    },
+    "figure_caption": {
+      "line_spacing": 2
+    },
+    "table_caption": {
+      "line_spacing": 2
+    },
+    "table_body": {
+      "line_spacing": 2
+    },
+    "reference": {
+      "line_spacing": 2
+    },
+    "references_heading": {
+      "line_spacing": 2
+    },
+    "equation": {
+      "line_spacing": 2
+    }
+  },
+  "page": {
+    "columns": 1
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+      "title": "PLOS Computational Biology",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+      "byte_count": 185567,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false,
+      "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)"
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "abstract_heading",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "abstract",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "keywords",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "heading1",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "heading2",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "heading3",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "caption",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "figure_caption",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "table_caption",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "table_body",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "reference",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "references_heading",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "equation",
+      "property": "line_spacing",
+      "expected": 2
+    }
+  ],
+  "template": {
+    "family": "international-journals",
+    "source_version": "Official online author guidelines snapshot 2026-10-30; Research article",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-line-spacing",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "body-line-spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "abstract_heading-line-spacing",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "abstract-line-spacing",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "keywords-line-spacing",
+        "category": "typography",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "heading1-line-spacing",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "heading2-line-spacing",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "heading3-line-spacing",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "caption-line-spacing",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "figure_caption-line-spacing",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "table_caption-line-spacing",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "table_body-line-spacing",
+        "category": "typography",
+        "target": "table_body",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "reference-line-spacing",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "references_heading-line-spacing",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "equation-line-spacing",
+        "category": "typography",
+        "target": "equation",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+          "anchor": "Manuscript text should be double-spaced",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "single-column",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": "columns",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[2]; normalized text anchor: Do not format text in multiple columns",
+          "anchor": "Do not format text in multiple columns",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "The journal explicitly prohibits a multi-column manuscript."
+      },
+      {
+        "id": "font-choice",
+        "category": "typography",
+        "target": "body",
+        "property": "font_choice",
+        "expected": {
+          "fixed_family": false,
+          "fixed_size": false,
+          "forbidden_family": "Symbol"
+        },
+        "detail": "The guide allows standard font families and sizes, with Symbol excluded. The profile does not invent a fixed font or point size.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[3]/td[2]; normalized text anchor: Use a standard font size and any standard font",
+          "anchor": "Use a standard font size and any standard font",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "heading-depth",
+        "category": "structure",
+        "target": "document",
+        "property": "maximum_heading_levels",
+        "expected": 3,
+        "detail": "Keep the manuscript hierarchy within three heading levels.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[4]/td[2]; normalized text anchor: Limit manuscript sections and sub-sections to 3 heading levels",
+          "anchor": "Limit manuscript sections and sub-sections to 3 heading levels",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "page-numbering",
+        "category": "layout",
+        "target": "document",
+        "property": "page_numbers_required",
+        "expected": true,
+        "detail": "Include page and line numbering in the submitted manuscript.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[6]/td[2]; normalized text anchor: Include page numbers and line numbers",
+          "anchor": "Include page numbers and line numbers",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "continuous-line-numbering",
+        "category": "layout",
+        "target": "document",
+        "property": "line_numbering",
+        "expected": "continuous",
+        "detail": "Line numbering continues across pages rather than restarting on each page.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[6]/td[2]; normalized text anchor: Use continuous line numbers",
+          "anchor": "Use continuous line numbers",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "footnotes",
+        "category": "structure",
+        "target": "document",
+        "property": "footnotes_allowed",
+        "expected": false,
+        "detail": "Move footnote information only after reviewing its meaning; formatting must not silently delete it.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[9]/td[2]; normalized text anchor: Footnotes are not permitted",
+          "anchor": "Footnotes are not permitted",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "reference-style",
+        "category": "citation",
+        "target": "reference",
+        "property": "bibliography_style",
+        "expected": "Vancouver",
+        "detail": "The journal specifies Vancouver reference formatting; this partial Word profile records the policy without rewriting references automatically.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[12]/td[2]/p[1]; normalized text anchor: Vancouver",
+          "anchor": "Vancouver",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "figure-caption-position",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "placement",
+        "expected": "after_first_citing_paragraph",
+        "detail": "Place figure captions after the first paragraph that cites the figure; upload figure files separately.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[28]/p[3]; normalized text anchor: immediately following the paragraph",
+          "anchor": "immediately following the paragraph",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "abstract-limit",
+        "category": "structure",
+        "target": "abstract",
+        "property": "maximum_words",
+        "expected": 300,
+        "detail": "The abstract has a 300-word maximum.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": "words",
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[17]/p[1]; normalized text anchor: it must not exceed 300 words",
+          "anchor": "it must not exceed 300 words",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "abstract-citations",
+        "category": "citation",
+        "target": "abstract",
+        "property": "citations_allowed",
+        "expected": false,
+        "detail": "The abstract excludes citations.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[17]/p[3]; normalized text anchor: Do not include any citations",
+          "anchor": "Do not include any citations",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "abstract-subheadings",
+        "category": "structure",
+        "target": "abstract",
+        "property": "subheadings_allowed",
+        "expected": false,
+        "detail": "The abstract has conceptual components but does not display the component headings.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[17]/p[2]; normalized text anchor: do not apply these distinct headings to the Abstract",
+          "anchor": "do not apply these distinct headings to the Abstract",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "author-summary",
+        "category": "structure",
+        "target": "author_summary",
+        "property": "word_range",
+        "expected": [
+          150,
+          200
+        ],
+        "detail": "Research articles include a separate nontechnical Author Summary immediately after the abstract.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": "words",
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[18]/p[1]; normalized text anchor: 150-200 word non-technical summary",
+          "anchor": "150-200 word non-technical summary",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "author-title-page",
+        "category": "identity",
+        "target": "title_page",
+        "property": "author_names_and_affiliations_required",
+        "expected": true,
+        "detail": "Identify authors and affiliations on the title page rather than removing them automatically.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+          "locator": "/html/body/main/div/article/div[12]/div[2]/p[1]; normalized text anchor: Enter author names on the title page",
+          "anchor": "Enter author names on the title page",
+          "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      }
+    ],
+    "coverage_notes": [
+      "This profile applies only the source-established spacing and layout properties; it preserves manuscript font and point-size choices.",
+      "The listed reference, figure, structure and identity policies require the corresponding host checks. Formatting does not invent facts or delete material.",
+      "A Word formatting pass does not establish complete journal submission compliance."
+    ]
+  }
+}

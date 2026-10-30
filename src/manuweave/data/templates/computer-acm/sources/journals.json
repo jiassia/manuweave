@@ -1,0 +1,850 @@
+{
+  "version": 1,
+  "retrieved": "2026-10-30",
+  "selection": {
+    "official_catalog_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+    "catalog_title": "第七版中国计算机学会推荐国际学术会议和期刊目录（正式版）",
+    "document_mirror_url": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+    "mirror_page_url": "https://kyc.lsu.edu.cn/2026/0518/c1772a367789/page.htm",
+    "sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+    "byte_length": 346777,
+    "purpose": "Selection of journals only; no ranking property drives formatting."
+  },
+  "journals": [
+    {
+      "code": "DLT",
+      "title": "Distributed Ledger Technologies: Research and Practice",
+      "format": "acmlarge",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        69
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-distributed-ledger-technologies-research-and-practice"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "FAC",
+      "title": "Formal Aspects of Computing",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        39
+      ],
+      "catalog_ids": [
+        "ccf-2026-formal-aspects-of-computing"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "HEALTH",
+      "title": "ACM Transactions on Computing for Healthcare",
+      "format": "acmlarge",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        69
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-computing-for-healthcare"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "JACM",
+      "title": "Journal of the ACM",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        67
+      ],
+      "catalog_ids": [
+        "ccf-2026-journal-of-the-acm"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "JATS",
+      "title": "Journal on Autonomous Transportation Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        56
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-journal-on-autonomous-transportation-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "JETC",
+      "title": "ACM Journal on Emerging Technologies in Computing Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        4
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-journal-on-emerging-technologies-in-computing-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "PACMHCI",
+      "title": "Proceedings of the ACM on Human-Computer Interaction",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        63
+      ],
+      "catalog_ids": [
+        "ccf-2026-proceedings-of-the-acm-on-human-computer-interaction"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "PACMPL",
+      "title": "Proceedings of the ACM on Programming Languages",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        26
+      ],
+      "catalog_ids": [
+        "ccf-2026-proceedings-of-the-acm-on-programming-languages"
+      ],
+      "author_format_source": {
+        "url": "https://www.sigplan.org/Resources/Author/",
+        "file": "author-information.html",
+        "locator": "LaTeX class, bibliography style, and template files",
+        "version": "retrieved 2026-10-30"
+      },
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TAAS",
+      "title": "ACM Transactions on Autonomous and Adaptive Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        3
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-autonomous-and-adaptive-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TACO",
+      "title": "ACM Transactions on Architecture and Code Optimization",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        2
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-architecture-and-code-optimization"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TALG",
+      "title": "ACM Transactions on Algorithms",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        39
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-algorithms"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TALLIP",
+      "title": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        54
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-asian-and-low-resource-language-inf-d266a5a6"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TAP",
+      "title": "ACM Transactions on Applied Perception",
+      "format": "acmlarge",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        52
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-applied-perception"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TCPS",
+      "title": "ACM Transactions on Cyber-Physical Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        69
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-cyber-physical-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TECS",
+      "title": "ACM Transactions on Embedded Computing Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        3
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-embedded-computing-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TELO",
+      "title": "ACM Transactions on Evolutionary Learning and Optimization",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        56
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-evolutionary-learning-and-optimization"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "THRI",
+      "title": "ACM Transactions on Human-Robot Interaction",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        63
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-human-robot-interaction"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TIIS",
+      "title": "ACM Transactions on Interactive Intelligent Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        56
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-interactive-intelligent-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TIOT",
+      "title": "ACM Transactions on Internet of Things",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        12
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-internet-of-things"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TIST",
+      "title": "ACM Transactions on Intelligent Systems and Technology",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        34
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-intelligent-systems-and-technology"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TKDD",
+      "title": "ACM Transactions on Knowledge Discovery from Data",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        33
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-knowledge-discovery-from-data"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOCE",
+      "title": "ACM Transactions on Computing Education",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        69
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-computing-education"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOCHI",
+      "title": "ACM Transactions on Computer-Human Interaction",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        61
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-computer-human-interaction"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOCL",
+      "title": "ACM Transactions on Computational Logic",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        39
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-computational-logic"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOCS",
+      "title": "ACM Transactions on Computer Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        2
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-computer-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TODAES",
+      "title": "ACM Transactions on Design Automation of Electronic Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        3
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-design-automation-of-electronic-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TODS",
+      "title": "ACM Transactions on Database Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        32
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-database-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOG",
+      "title": "ACM Transactions on Graphics",
+      "format": "acmtog",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        44
+      ],
+      "track": "SIGGRAPH or SIGGRAPH Asia Technical Papers journal track",
+      "citation_style": "acmauthoryear",
+      "citation_source": {
+        "url": "https://www.siggraph.org/preparing-your-content/author-instructions/",
+        "file": "author-instructions.html",
+        "locator": "Citations and References",
+        "version": "retrieved 2026-10-30"
+      },
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-graphics"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOIS",
+      "title": "ACM Transactions on Information Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        32
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-information-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOIT",
+      "title": "ACM Transactions on Internet Technology",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        11
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-internet-technology"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOMM",
+      "title": "ACM Transactions on Multimedia Computing, Communications and Applications",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        11,
+        45
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-multimedia-computing-communications-fb08804c"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOMS",
+      "title": "ACM Transactions on Mathematical Software",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        39
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-mathematical-software"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOPLAS",
+      "title": "ACM Transactions on Programming Languages and Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        24
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-programming-languages-and-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOPS",
+      "title": "ACM Transactions on Privacy and Security",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        18
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-privacy-and-security"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TORS",
+      "title": "ACM Transactions on Recommender Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        34
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-recommender-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOS",
+      "title": "ACM Transactions on Storage",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        2
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-storage"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOSEM",
+      "title": "ACM Transactions on Software Engineering and Methodology",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        24
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-software-engineering-and-methodology"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TOSN",
+      "title": "ACM Transactions on Sensor Networks",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        11
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-sensor-networks"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TQC",
+      "title": "ACM Transactions on Quantum Computing",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        40
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-in-quantum-computing"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TRETS",
+      "title": "ACM Transactions on Reconfigurable Technology and Systems",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        3
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-reconfigurable-technology-and-systems"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    },
+    {
+      "code": "TWEB",
+      "title": "ACM Transactions on the Web",
+      "format": "acmsmall",
+      "manuscript_type": "research_article",
+      "stage": "publication",
+      "ccf_2026_pages": [
+        33
+      ],
+      "catalog_ids": [
+        "ccf-2026-acm-transactions-on-the-web"
+      ],
+      "mapping_source": {
+        "url": "https://ctan.org/pkg/acmart",
+        "file": "acmart.dtx",
+        "version": "2.20 (2026-08-16)",
+        "sha256": "e29efd327f5c759f3d1f2e99dc8588c6a05b734c142f89c3e348161b893e44ff",
+        "locator": "lines 314-329"
+      }
+    }
+  ]
+}

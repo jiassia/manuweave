@@ -1,0 +1,838 @@
+{
+  "id": "en-report",
+  "name": "ManuWeave custom English scientific-report layout",
+  "version": "1.0.0",
+  "scope": "ManuWeave-authored editable layout with explicit local rules. It specifies no journal, publisher or institution submission requirements.",
+  "compliance": "authored_style",
+  "aliases": [
+    "科技报告",
+    "英文科技报告",
+    "technical report",
+    "ManuWeave custom report"
+  ],
+  "sources": [],
+  "rule_provenance": "ManuWeave authored these exact typography, page and table rules as a custom layout. No external journal or institution source establishes these numerical values.",
+  "rules": {
+    "title": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 18,
+      "bold": true,
+      "alignment": "center",
+      "line_spacing": 1.2,
+      "space_before_pt": 18,
+      "space_after_pt": 6,
+      "first_line_pt": 0
+    },
+    "heading1": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 14,
+      "bold": true,
+      "alignment": "left",
+      "line_spacing": 1.2,
+      "space_before_pt": 12,
+      "space_after_pt": 6,
+      "first_line_pt": 0
+    },
+    "heading2": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 12,
+      "bold": true,
+      "alignment": "left",
+      "line_spacing": 1.2,
+      "space_before_pt": 6,
+      "space_after_pt": 6,
+      "first_line_pt": 0
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 11,
+      "bold": false,
+      "alignment": "justify",
+      "line_spacing": 1.2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "first_line_pt": 0
+    },
+    "abstract": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 11,
+      "bold": false,
+      "alignment": "justify",
+      "line_spacing": 1.2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "first_line_pt": 0
+    },
+    "keywords": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 11,
+      "bold": false,
+      "alignment": "justify",
+      "line_spacing": 1.2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "first_line_pt": 0
+    },
+    "caption": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 10,
+      "bold": false,
+      "alignment": "center",
+      "line_spacing": 1.0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "first_line_pt": 0
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 10,
+      "bold": false,
+      "alignment": "justify",
+      "line_spacing": 1.0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "first_line_pt": 0
+    },
+    "equation": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 11,
+      "bold": false,
+      "alignment": "center",
+      "line_spacing": 1.2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "first_line_pt": 0
+    },
+    "table": {
+      "font": "Times New Roman",
+      "east_asia_font": "Times New Roman",
+      "size_pt": 10,
+      "bold": false,
+      "alignment": "justify",
+      "line_spacing": 1.0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "first_line_pt": 0
+    }
+  },
+  "page": {
+    "margin_top_mm": 25,
+    "margin_bottom_mm": 25,
+    "margin_left_mm": 25,
+    "margin_right_mm": 25,
+    "columns": 1,
+    "width_mm": 210,
+    "height_mm": 297
+  },
+  "latex": {
+    "documentclass": "article",
+    "options": [
+      "11pt"
+    ],
+    "packages": {}
+  },
+  "checks": [
+    {
+      "role": "title",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 18,
+      "tolerance": 0.05
+    },
+    {
+      "role": "title",
+      "property": "bold",
+      "expected": true,
+      "tolerance": 0
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center",
+      "tolerance": 0
+    },
+    {
+      "role": "title",
+      "property": "line_spacing",
+      "expected": 1.2,
+      "tolerance": 0.05
+    },
+    {
+      "role": "title",
+      "property": "space_before_pt",
+      "expected": 18,
+      "tolerance": 0.05
+    },
+    {
+      "role": "title",
+      "property": "space_after_pt",
+      "expected": 6,
+      "tolerance": 0.05
+    },
+    {
+      "role": "title",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading1",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "heading1",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "heading1",
+      "property": "size_pt",
+      "expected": 14,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading1",
+      "property": "bold",
+      "expected": true,
+      "tolerance": 0
+    },
+    {
+      "role": "heading1",
+      "property": "alignment",
+      "expected": "left",
+      "tolerance": 0
+    },
+    {
+      "role": "heading1",
+      "property": "line_spacing",
+      "expected": 1.2,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading1",
+      "property": "space_before_pt",
+      "expected": 12,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading1",
+      "property": "space_after_pt",
+      "expected": 6,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading1",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading2",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "heading2",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "heading2",
+      "property": "size_pt",
+      "expected": 12,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading2",
+      "property": "bold",
+      "expected": true,
+      "tolerance": 0
+    },
+    {
+      "role": "heading2",
+      "property": "alignment",
+      "expected": "left",
+      "tolerance": 0
+    },
+    {
+      "role": "heading2",
+      "property": "line_spacing",
+      "expected": 1.2,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading2",
+      "property": "space_before_pt",
+      "expected": 6,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading2",
+      "property": "space_after_pt",
+      "expected": 6,
+      "tolerance": 0.05
+    },
+    {
+      "role": "heading2",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 11,
+      "tolerance": 0.05
+    },
+    {
+      "role": "body",
+      "property": "bold",
+      "expected": false,
+      "tolerance": 0
+    },
+    {
+      "role": "body",
+      "property": "alignment",
+      "expected": "justify",
+      "tolerance": 0
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 1.2,
+      "tolerance": 0.05
+    },
+    {
+      "role": "body",
+      "property": "space_before_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "body",
+      "property": "space_after_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "body",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "abstract",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "abstract",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "abstract",
+      "property": "size_pt",
+      "expected": 11,
+      "tolerance": 0.05
+    },
+    {
+      "role": "abstract",
+      "property": "bold",
+      "expected": false,
+      "tolerance": 0
+    },
+    {
+      "role": "abstract",
+      "property": "alignment",
+      "expected": "justify",
+      "tolerance": 0
+    },
+    {
+      "role": "abstract",
+      "property": "line_spacing",
+      "expected": 1.2,
+      "tolerance": 0.05
+    },
+    {
+      "role": "abstract",
+      "property": "space_before_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "abstract",
+      "property": "space_after_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "abstract",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "keywords",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "keywords",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "keywords",
+      "property": "size_pt",
+      "expected": 11,
+      "tolerance": 0.05
+    },
+    {
+      "role": "keywords",
+      "property": "bold",
+      "expected": false,
+      "tolerance": 0
+    },
+    {
+      "role": "keywords",
+      "property": "alignment",
+      "expected": "justify",
+      "tolerance": 0
+    },
+    {
+      "role": "keywords",
+      "property": "line_spacing",
+      "expected": 1.2,
+      "tolerance": 0.05
+    },
+    {
+      "role": "keywords",
+      "property": "space_before_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "keywords",
+      "property": "space_after_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "keywords",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "caption",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "caption",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "caption",
+      "property": "size_pt",
+      "expected": 10,
+      "tolerance": 0.05
+    },
+    {
+      "role": "caption",
+      "property": "bold",
+      "expected": false,
+      "tolerance": 0
+    },
+    {
+      "role": "caption",
+      "property": "alignment",
+      "expected": "center",
+      "tolerance": 0
+    },
+    {
+      "role": "caption",
+      "property": "line_spacing",
+      "expected": 1.0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "caption",
+      "property": "space_before_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "caption",
+      "property": "space_after_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "caption",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "reference",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "reference",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "reference",
+      "property": "size_pt",
+      "expected": 10,
+      "tolerance": 0.05
+    },
+    {
+      "role": "reference",
+      "property": "bold",
+      "expected": false,
+      "tolerance": 0
+    },
+    {
+      "role": "reference",
+      "property": "alignment",
+      "expected": "justify",
+      "tolerance": 0
+    },
+    {
+      "role": "reference",
+      "property": "line_spacing",
+      "expected": 1.0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "reference",
+      "property": "space_before_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "reference",
+      "property": "space_after_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "reference",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "equation",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "equation",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "equation",
+      "property": "size_pt",
+      "expected": 11,
+      "tolerance": 0.05
+    },
+    {
+      "role": "equation",
+      "property": "bold",
+      "expected": false,
+      "tolerance": 0
+    },
+    {
+      "role": "equation",
+      "property": "alignment",
+      "expected": "center",
+      "tolerance": 0
+    },
+    {
+      "role": "equation",
+      "property": "line_spacing",
+      "expected": 1.2,
+      "tolerance": 0.05
+    },
+    {
+      "role": "equation",
+      "property": "space_before_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "equation",
+      "property": "space_after_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "equation",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "table",
+      "property": "font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "table",
+      "property": "east_asia_font",
+      "expected": "Times New Roman",
+      "tolerance": 0
+    },
+    {
+      "role": "table",
+      "property": "size_pt",
+      "expected": 10,
+      "tolerance": 0.05
+    },
+    {
+      "role": "table",
+      "property": "bold",
+      "expected": false,
+      "tolerance": 0
+    },
+    {
+      "role": "table",
+      "property": "alignment",
+      "expected": "justify",
+      "tolerance": 0
+    },
+    {
+      "role": "table",
+      "property": "line_spacing",
+      "expected": 1.0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "table",
+      "property": "space_before_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "table",
+      "property": "space_after_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    },
+    {
+      "role": "table",
+      "property": "first_line_pt",
+      "expected": 0,
+      "tolerance": 0.05
+    }
+  ],
+  "examples": [
+    {
+      "text": "Synthetic Layout Example",
+      "role": "title"
+    },
+    {
+      "text": "1 Introduction",
+      "role": "heading1"
+    },
+    {
+      "text": "This synthetic paragraph demonstrates editable formatting.",
+      "role": "body"
+    }
+  ],
+  "tables": {
+    "borders": {
+      "top": {
+        "style": "single",
+        "size_pt": 0.75,
+        "color": "auto"
+      },
+      "bottom": {
+        "style": "single",
+        "size_pt": 0.75,
+        "color": "auto"
+      },
+      "left": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      },
+      "right": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      },
+      "insideH": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      },
+      "insideV": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      }
+    },
+    "header_bottom": {
+      "style": "single",
+      "size_pt": 0.5,
+      "color": "auto"
+    }
+  },
+  "page_checks": [
+    {
+      "property": "margin_top_mm",
+      "expected": 25,
+      "tolerance": 0.1
+    },
+    {
+      "property": "margin_bottom_mm",
+      "expected": 25,
+      "tolerance": 0.1
+    },
+    {
+      "property": "margin_left_mm",
+      "expected": 25,
+      "tolerance": 0.1
+    },
+    {
+      "property": "margin_right_mm",
+      "expected": 25,
+      "tolerance": 0.1
+    },
+    {
+      "property": "columns",
+      "expected": 1,
+      "tolerance": 0.1
+    },
+    {
+      "property": "width_mm",
+      "expected": 210,
+      "tolerance": 0.1
+    },
+    {
+      "property": "height_mm",
+      "expected": 297,
+      "tolerance": 0.1
+    }
+  ],
+  "table_checks": [
+    {
+      "property": "borders.top",
+      "expected": {
+        "style": "single",
+        "size_pt": 0.75,
+        "color": "auto"
+      }
+    },
+    {
+      "property": "borders.bottom",
+      "expected": {
+        "style": "single",
+        "size_pt": 0.75,
+        "color": "auto"
+      }
+    },
+    {
+      "property": "borders.left",
+      "expected": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      }
+    },
+    {
+      "property": "borders.right",
+      "expected": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      }
+    },
+    {
+      "property": "borders.insideH",
+      "expected": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      }
+    },
+    {
+      "property": "borders.insideV",
+      "expected": {
+        "style": "nil",
+        "size_pt": 0,
+        "color": "auto"
+      }
+    },
+    {
+      "property": "header_bottom",
+      "expected": {
+        "style": "single",
+        "size_pt": 0.5,
+        "color": "auto"
+      }
+    }
+  ],
+  "authored_style": {
+    "author": "ManuWeave",
+    "kind": "custom_layout",
+    "rule_basis": "Explicit local configuration values; not an external submission specification."
+  }
+}

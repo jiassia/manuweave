@@ -1,0 +1,4773 @@
+{
+  "id": "comp-igi-jdm-apa7-word",
+  "name": "Journal of Database Management — APA 7 final author manuscript, selected TNR 12 branch (Word)",
+  "version": "1.0.0",
+  "scope": "Final author manuscript under this journal’s explicit APA 7 referral. The selected font is one allowed APA branch; production house style may differ.",
+  "journal_title": "Journal of Database Management",
+  "catalog_journal_id": "ccf-2026-journal-of-database-management",
+  "manuscript_type": "journal_article",
+  "stage": "final_author_manuscript",
+  "aliases": [
+    "Journal of Database Management source formatting"
+  ],
+  "rules": {
+    "title": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "center",
+      "first_line_pt": 0,
+      "bold": true
+    },
+    "author": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "center",
+      "first_line_pt": 0
+    },
+    "affiliation": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "center",
+      "first_line_pt": 0
+    },
+    "abstract_heading": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "center",
+      "bold": true,
+      "italic": false,
+      "first_line_pt": 0
+    },
+    "abstract": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "left",
+      "first_line_pt": 0
+    },
+    "keywords": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0
+    },
+    "body": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "left",
+      "first_line_pt": 36
+    },
+    "heading1": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "center",
+      "bold": true,
+      "italic": false,
+      "first_line_pt": 0
+    },
+    "heading2": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "left",
+      "bold": true,
+      "italic": false,
+      "first_line_pt": 0
+    },
+    "heading3": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "left",
+      "bold": true,
+      "italic": true,
+      "first_line_pt": 0
+    },
+    "references_heading": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "center",
+      "bold": true,
+      "italic": false,
+      "first_line_pt": 0
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "left",
+      "left_indent_pt": 36,
+      "first_line_pt": -36
+    },
+    "figure_caption": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "left",
+      "first_line_pt": 0
+    },
+    "table_caption": {
+      "font": "Times New Roman",
+      "size_pt": 12,
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "alignment": "left",
+      "first_line_pt": 0
+    }
+  },
+  "page": {
+    "margin_top_mm": 25.4,
+    "margin_bottom_mm": 25.4,
+    "margin_left_mm": 25.4,
+    "margin_right_mm": 25.4
+  },
+  "latex": {},
+  "extracted_format": {
+    "mode": "source_extracted_rules",
+    "roles": {
+      "title": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "center",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/title-page",
+            "file": "title-page (APA official HTML)",
+            "locator": "Professional title page table",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "top_offset_lines": {
+          "value": [
+            3,
+            4
+          ],
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/title-page",
+            "file": "title-page (APA official HTML)",
+            "locator": "Professional title page table",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Professional title page; line count below top margin, not an exact point offset"
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "center",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "blank_lines_before": {
+          "value": 1,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/title-page",
+            "file": "title-page (APA official HTML)",
+            "locator": "Professional title page table",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "count",
+          "condition": "One double-spaced blank line between paper title and byline"
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "center",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "abstract_heading": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "center",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "abstract": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "keywords": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "body": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 36,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "center",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "heading3": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "references_heading": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "center",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "left_indent_pt": {
+          "value": 36,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "first_line_pt": {
+          "value": -36,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "figure_caption": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "table_caption": {
+        "font": {
+          "value": "Times New Roman",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "size_pt": {
+          "value": 12,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+            "file": "font (APA official HTML)",
+            "locator": "Font options and exceptions",
+            "version": "Updated February 2026; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+        },
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "multiple"
+        },
+        "space_before_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "space_after_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+            "file": "line-spacing (APA official HTML)",
+            "locator": "Main rule and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "alignment": {
+          "value": "left",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "first_line_pt": {
+          "value": 0,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        }
+      },
+      "heading4": {
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": false,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "first_line_pt": {
+          "value": 36,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "run_in": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "case": {
+          "value": "title",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "terminal_period": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        }
+      },
+      "heading5": {
+        "bold": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "italic": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "first_line_pt": {
+          "value": 36,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp"
+        },
+        "run_in": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        },
+        "case": {
+          "value": "title",
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "text"
+        },
+        "terminal_period": {
+          "value": true,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+            "file": "headings (APA official HTML)",
+            "locator": "Format of headings, levels 1–5",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "boolean"
+        }
+      }
+    },
+    "page": {
+      "margin_top_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "mm"
+      },
+      "margin_bottom_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "mm"
+      },
+      "margin_left_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "mm"
+      },
+      "margin_right_mm": {
+        "value": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "mm"
+      }
+    },
+    "captions": {
+      "number_alignment": {
+        "value": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "text"
+      },
+      "number_bold": {
+        "value": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "boolean"
+      },
+      "title_alignment": {
+        "value": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "text"
+      },
+      "title_italic": {
+        "value": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "boolean"
+      },
+      "note_alignment": {
+        "value": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "text"
+      }
+    },
+    "equations": {
+      "permitted_special_spacing_multiples": {
+        "value": [
+          3,
+          4
+        ],
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "text",
+        "condition": "Displayed equations only, when special spacing is needed"
+      }
+    },
+    "references": {
+      "hanging_indent_pt": {
+        "value": 36,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions",
+          "version": "Updated July 2022; APA 7",
+          "retrieval": "Official page content read with web connector; no original bytes retained"
+        },
+        "unit": "bp"
+      },
+      "order": {
+        "value": "alphabetical; unnumbered",
+        "source": {
+          "url": "https://www.igi-global.com/publish/contributor-resources/journal-guidelines-for-submission/?titleid=1072",
+          "file": "IGI journal submission guidelines (HTML)",
+          "locator": "All final article manuscript submissions: General Formatting; Subhead Divisions",
+          "sha256": "88243e665f03e454a164e1ed30aa86e9e7248b405e99ff4c0d7390490859b343"
+        },
+        "unit": "text"
+      }
+    },
+    "font_options": {
+      "value": [
+        {
+          "font": "Aptos",
+          "size_bp": 12
+        },
+        {
+          "font": "Calibri",
+          "size_bp": 11
+        },
+        {
+          "font": "Arial",
+          "size_bp": 11
+        },
+        {
+          "font": "Lucida Sans Unicode",
+          "size_bp": 10
+        },
+        {
+          "font": "Times New Roman",
+          "size_bp": 12
+        },
+        {
+          "font": "Georgia",
+          "size_bp": 11
+        },
+        {
+          "font": "Computer Modern",
+          "size_bp": 10
+        }
+      ],
+      "source": {
+        "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+        "file": "font (APA official HTML)",
+        "locator": "Font options and exceptions",
+        "version": "Updated February 2026; APA 7",
+        "retrieval": "Official page content read with web connector; no original bytes retained"
+      },
+      "unit": "text"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.igi-global.com/publish/contributor-resources/journal-guidelines-for-submission/?titleid=1072",
+      "file": "IGI journal submission guidelines (HTML)",
+      "locator": "All final article manuscript submissions: General Formatting; Subhead Divisions",
+      "sha256": "88243e665f03e454a164e1ed30aa86e9e7248b405e99ff4c0d7390490859b343",
+      "verified": true
+    },
+    {
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+      "file": "font (APA official HTML)",
+      "locator": "Font options and exceptions",
+      "version": "Updated February 2026; APA 7",
+      "retrieval": "Official page content read with web connector; no original bytes retained",
+      "verified": true
+    },
+    {
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+      "file": "line-spacing (APA official HTML)",
+      "locator": "Main rule and exceptions",
+      "version": "Updated July 2022; APA 7",
+      "retrieval": "Official page content read with web connector; no original bytes retained",
+      "verified": true
+    },
+    {
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+      "file": "margins (APA official HTML)",
+      "locator": "Main margin rule",
+      "version": "Updated July 2022; APA 7",
+      "retrieval": "Official page content read with web connector; no original bytes retained",
+      "verified": true
+    },
+    {
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+      "file": "paragraph-format (APA official HTML)",
+      "locator": "Paragraph alignment/indentation and exceptions",
+      "version": "Updated July 2022; APA 7",
+      "retrieval": "Official page content read with web connector; no original bytes retained",
+      "verified": true
+    },
+    {
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+      "file": "headings (APA official HTML)",
+      "locator": "Format of headings, levels 1–5",
+      "version": "Updated July 2022; APA 7",
+      "retrieval": "Official page content read with web connector; no original bytes retained",
+      "verified": true
+    },
+    {
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/title-page",
+      "file": "title-page (APA official HTML)",
+      "locator": "Professional title page table",
+      "version": "Updated July 2022; APA 7",
+      "retrieval": "Official page content read with web connector; no original bytes retained",
+      "verified": true
+    }
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "checks": [
+    {
+      "requirement": "title-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract_heading-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "references_heading-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-left_indent_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-space_before_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_top_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_bottom_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_left_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_right_mm",
+      "checking": "xml"
+    }
+  ],
+  "template": {
+    "family": "computer-special",
+    "source_version": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30",
+    "source_url": "https://www.igi-global.com/publish/contributor-resources/journal-guidelines-for-submission/?titleid=1072",
+    "license": "formatting_facts_only_originals_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "layout",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "title-size_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "title-line_spacing_rule",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "title-line_spacing",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "title-space_before_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "title-space_after_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "title-alignment",
+        "category": "layout",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "title-first_line_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "title-bold",
+        "category": "layout",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/title-page",
+          "file": "title-page (APA official HTML)",
+          "locator": "Professional title page table"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "author-font",
+        "category": "layout",
+        "target": "author",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "author-size_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "author-line_spacing_rule",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "author-line_spacing",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "author-space_before_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "author-space_after_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "author-alignment",
+        "category": "layout",
+        "target": "author",
+        "property": "alignment",
+        "expected": "center",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "author-first_line_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "affiliation-font",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "affiliation-size_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "affiliation-line_spacing_rule",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "affiliation-line_spacing",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "affiliation-space_before_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "affiliation-space_after_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "affiliation-alignment",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "alignment",
+        "expected": "center",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "affiliation-first_line_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-font",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "abstract_heading-size_pt",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "abstract_heading-line_spacing_rule",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-line_spacing",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-space_before_pt",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-space_after_pt",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-alignment",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "alignment",
+        "expected": "center",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-bold",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-italic",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract_heading-first_line_pt",
+        "category": "layout",
+        "target": "abstract_heading",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract-font",
+        "category": "layout",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract-line_spacing",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract-space_before_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract-space_after_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract-alignment",
+        "category": "layout",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "abstract-first_line_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "keywords-font",
+        "category": "layout",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "layout",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "keywords-line_spacing_rule",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "keywords-line_spacing",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "keywords-space_before_pt",
+        "category": "layout",
+        "target": "keywords",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "keywords-space_after_pt",
+        "category": "layout",
+        "target": "keywords",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "body-font",
+        "category": "layout",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "body-space_before_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "body-space_after_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "body-alignment",
+        "category": "layout",
+        "target": "body",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 36,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-font",
+        "category": "layout",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-space_before_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-space_after_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "layout",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "center",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-bold",
+        "category": "layout",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-italic",
+        "category": "layout",
+        "target": "heading1",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading1-first_line_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-font",
+        "category": "layout",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-space_before_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-space_after_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "layout",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-bold",
+        "category": "layout",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-italic",
+        "category": "layout",
+        "target": "heading2",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading2-first_line_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-font",
+        "category": "layout",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "layout",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-line_spacing",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-space_before_pt",
+        "category": "layout",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-space_after_pt",
+        "category": "layout",
+        "target": "heading3",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "layout",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-bold",
+        "category": "layout",
+        "target": "heading3",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-italic",
+        "category": "layout",
+        "target": "heading3",
+        "property": "italic",
+        "expected": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "heading3-first_line_pt",
+        "category": "layout",
+        "target": "heading3",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings",
+          "file": "headings (APA official HTML)",
+          "locator": "Format of headings, levels 1–5"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-font",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "references_heading-line_spacing_rule",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-line_spacing",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-space_before_pt",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-space_after_pt",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "center",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-bold",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-italic",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "italic",
+        "expected": false,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "references_heading-first_line_pt",
+        "category": "layout",
+        "target": "references_heading",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "reference-font",
+        "category": "layout",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "reference-space_before_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "reference-space_after_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "reference-alignment",
+        "category": "layout",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "reference-left_indent_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "left_indent_pt",
+        "expected": 36,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "reference-first_line_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "first_line_pt",
+        "expected": -36,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "figure_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "figure_caption-line_spacing",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "figure_caption-space_before_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "figure_caption-space_after_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "figure_caption-alignment",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "figure_caption-first_line_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "table_caption-font",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 12,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/font",
+          "file": "font (APA official HTML)",
+          "locator": "Font options and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely."
+      },
+      {
+        "id": "table_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "table_caption-line_spacing",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "table_caption-space_before_pt",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "space_before_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "table_caption-space_after_pt",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "space_after_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/line-spacing",
+          "file": "line-spacing (APA official HTML)",
+          "locator": "Main rule and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "table_caption-alignment",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "alignment",
+        "expected": "left",
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "table_caption-first_line_pt",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "first_line_pt",
+        "expected": 0,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 25.4,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/margins",
+          "file": "margins (APA official HTML)",
+          "locator": "Main margin rule"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "IGI journal-specific final-manuscript guide; APA 7 official pages checked 2026-10-30"
+      }
+    ],
+    "coverage_notes": [
+      "The APA referral applies explicitly to final article manuscripts, not an inferred production layout.",
+      "Author-selected APA-permitted Times New Roman 12 bp branch; APA permits other fonts and does not require this font uniquely.",
+      "No publisher sample text, title-page content, running head, numbering, reference content or inline punctuation is rewritten.",
+      "APA levels 4 and 5 are run-in headings. Their placement/case/punctuation and split caption components are retained as facts, not silently approximated as whole-paragraph style.",
+      "APA table cells permit 1, 1.5, or 2 line spacing. This selected branch chooses 2; figure image typography is separate from caption typography."
+    ]
+  }
+}

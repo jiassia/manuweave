@@ -1,0 +1,613 @@
+{
+  "id": "cn-jcyyy-official-word",
+  "name": "机床与液压，2023官方论文投稿模板",
+  "version": "1.0.0",
+  "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+  "aliases": [
+    "机床与液压"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "east_asia_font": "宋体",
+      "size_pt": 16.0,
+      "bold": true,
+      "alignment": "center"
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 10.5,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.2
+    },
+    "heading1": {
+      "east_asia_font": "黑体",
+      "size_pt": 10.5,
+      "alignment": "left"
+    },
+    "heading3": {
+      "east_asia_font": "宋体",
+      "size_pt": 10.5
+    },
+    "figure_caption": {
+      "east_asia_font": "宋体",
+      "size_pt": 9.0,
+      "alignment": "center"
+    }
+  },
+  "page": {
+    "width_mm": 210.0,
+    "height_mm": 297.0
+  },
+  "latex": {},
+  "sources": [
+    {
+      "file": "jcyyy-official-template.docx",
+      "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+      "sha256": "303d08e5ddefda7dbf727c5140a7fcc16d2a484402f0e6a3b1e9815d5a7c78db",
+      "bytes": 1049855,
+      "source_kind": "official_submission_template",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    },
+    {
+      "file": "jcyyy-template-page.html",
+      "url": "http://www.jcyyy.com.cn/jcyyy/news/view/20230703154824001",
+      "sha256": "c43a42e74c118172c76532374140736d19ea5f226b6c4c4cc1d0992504baab26",
+      "bytes": 29244,
+      "source_kind": "official_template_instructions",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 16.0
+    },
+    {
+      "role": "title",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_rule",
+      "expected": "auto"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 1.2
+    },
+    {
+      "role": "heading1",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "heading1",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "heading1",
+      "property": "alignment",
+      "expected": "left"
+    },
+    {
+      "role": "heading3",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading3",
+      "property": "size_pt",
+      "expected": 10.5
+    },
+    {
+      "role": "figure_caption",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "figure_caption",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "alignment",
+      "expected": "center"
+    }
+  ],
+  "template": {
+    "family": "chinese-engineering",
+    "source_version": "official-download-snapshot-2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 2, explicit 三号宋体，加粗，居中"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 2, explicit 三号宋体，加粗，居中"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 2, explicit 三号宋体，加粗，居中"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 2, explicit 三号宋体，加粗，居中"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 全文汉字宋体/西文Times New Roman/1.2倍; paragraphs 34,39,47,60,67 specify 五号宋体 for normal text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 全文汉字宋体/西文Times New Roman/1.2倍; paragraphs 34,39,47,60,67 specify 五号宋体 for normal text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 全文汉字宋体/西文Times New Roman/1.2倍; paragraphs 34,39,47,60,67 specify 五号宋体 for normal text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 全文汉字宋体/西文Times New Roman/1.2倍; paragraphs 34,39,47,60,67 specify 五号宋体 for normal text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.2,
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 全文汉字宋体/西文Times New Roman/1.2倍; paragraphs 34,39,47,60,67 specify 五号宋体 for normal text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号黑体，顶格，一级标题"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号黑体，顶格，一级标题"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 22, explicit 五号黑体，顶格，一级标题"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraphs 39 and 47, numbered third-level headings, explicit 五号宋体"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 10.5,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraphs 39 and 47, numbered third-level headings, explicit 五号宋体"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraphs 72,81,87,93,171, explicit 小五号宋体，居中"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraphs 72,81,87,93,171, explicit 小五号宋体，居中"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-alignment",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraphs 72,81,87,93,171, explicit 小五号宋体，居中"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0,
+        "unit": "mm",
+        "source": {
+          "url": "http://www.jcyyy.com.cn/jcyyy/news/view/20230703154824001",
+          "file": "jcyyy-template-page.html",
+          "locator": "Official template index paragraph 页面要求：A4纸"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0,
+        "unit": "mm",
+        "source": {
+          "url": "http://www.jcyyy.com.cn/jcyyy/news/view/20230703154824001",
+          "file": "jcyyy-template-page.html",
+          "locator": "Official template index paragraph 页面要求：A4纸"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "margin-ui-preset",
+        "category": "layout",
+        "target": "page",
+        "property": "word_margin_preset",
+        "expected": "适中",
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 1, explicit 全文页边距适中"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "native-equations",
+        "category": "typography",
+        "target": "equation",
+        "property": "image_equations_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraphs 1 and 60, explicit 公式不能是图片"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-citations",
+        "category": "typography",
+        "target": "abstract",
+        "property": "abstract_citations_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 9, explicit 不得使用参考文献号"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keyword-count",
+        "category": "typography",
+        "target": "keywords",
+        "property": "count_range",
+        "expected": [
+          3,
+          5
+        ],
+        "unit": null,
+        "source": {
+          "url": "http://www.jcyyy.com.cn/download_upload_file.aspx?file_name=/uploadfile/jcyyy/20230704/《机床与液压》论文投稿模板.docx",
+          "file": "jcyyy-official-template.docx",
+          "locator": "word/document.xml body paragraph 10, explicit 3～5个词组"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "仅执行本配置列出的、来源已确认的官方投稿格式与规则。",
+      "原始投稿模板和指南仅用于核对事实，未随项目再分发。",
+      "字体字号与页面几何检查、实际页面审查、内容义务检查分别记录。"
+    ]
+  }
+}

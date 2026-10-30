@@ -1,0 +1,2803 @@
+{
+  "id": "computer-wiley-cgf-regular-submission",
+  "name": "Computer Graphics Forum — source-extracted regular submission format",
+  "version": "1.0.0",
+  "scope": "source-established journal layout; JSON typography and geometry only; no publisher source file is installed or executed.",
+  "aliases": [
+    "Computer Graphics Forum — source-extracted regular submission format"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "font": "Times",
+      "size_pt": 19.925280199252803,
+      "line_spacing_pt": 24.906600249066006,
+      "bold": true,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "exact"
+    },
+    "author": {
+      "font": "Times",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "exact"
+    },
+    "affiliation": {
+      "font": "Times",
+      "size_pt": 7.970112079701122,
+      "line_spacing_pt": 9.962640099626402,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "exact"
+    },
+    "body": {
+      "font": "Times",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "first_line_pt": 8.966376089663761,
+      "space_after_pt": 5.479452054794521,
+      "line_spacing_rule": "exact"
+    },
+    "abstract": {
+      "font": "Times",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": false,
+      "italic": true,
+      "alignment": "justify",
+      "line_spacing_rule": "exact"
+    },
+    "heading1": {
+      "font": "Times",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": true,
+      "italic": false,
+      "alignment": "left",
+      "space_before_pt": 10.958904109589042,
+      "space_after_pt": 0.0009962640099626403,
+      "line_spacing_rule": "exact"
+    },
+    "heading2": {
+      "font": "Times",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": true,
+      "italic": false,
+      "alignment": "left",
+      "space_before_pt": 10.958904109589042,
+      "space_after_pt": 0.0009962640099626403,
+      "line_spacing_rule": "exact"
+    },
+    "heading3": {
+      "font": "Times",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": true,
+      "italic": false,
+      "alignment": "left",
+      "space_before_pt": 5.479452054794521,
+      "space_after_pt": 0.0009962640099626403,
+      "line_spacing_rule": "exact"
+    },
+    "caption": {
+      "font": "Times",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "line_spacing_rule": "exact"
+    },
+    "reference": {
+      "font": "Times",
+      "size_pt": 7.970112079701122,
+      "line_spacing_pt": 8.966376089663761,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "exact"
+    }
+  },
+  "page": {
+    "width_mm": 210,
+    "height_mm": 297,
+    "columns": 2,
+    "margin_left_mm": 17.316424519164244,
+    "margin_right_mm": 15.54783450947835,
+    "margin_top_mm": 28.91459803514598,
+    "margin_bottom_mm": 44.55696692956968,
+    "column_gap_mm": 8.435035284350352
+  },
+  "latex": {},
+  "sources": [
+    {
+      "id": "cgf-format",
+      "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+      "file": "egpubl.cls",
+      "archive_member": "egPublStyle-cgf/egpubl.cls",
+      "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+      "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+      "bytes": 90478,
+      "archive_bytes": 1059066,
+      "source_version": "2024/09/24 v3.96",
+      "retrieved": "2026-10-30",
+      "related_files": {
+        "dfadobe.sty": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+        "EGauthorGuidelines-cgf-sub.pdf": "1304bd1bfc969e9c6bb073369d105838864b18dae8ca0e5ac9904bef059c37ac",
+        "EGauthorGuidelines-body-sub.inc": "a1897fb91f104f0727410eeaf5b3201bbf75fbb5b013649aeac73ccc171b96ae"
+      }
+    },
+    {
+      "journal": "Computer Graphics Forum",
+      "url": "https://www.eg.org/wp/eurographics-publications/guidelines/",
+      "file": "official-author-guidelines",
+      "source_version": "official page text indexed 2026-10-30",
+      "reference_style": "eg-alpha-doi"
+    }
+  ],
+  "template": {
+    "family": "computer-wiley",
+    "source_version": "2024/09/24 v3.96",
+    "license": "ManuWeave rule encoding is MIT; factual configuration only; no publisher source software redistributed",
+    "source_url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-size-pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 19.925280199252803,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-line-spacing-pt",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_pt",
+        "expected": 24.906600249066006,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-italic",
+        "category": "typography",
+        "target": "title",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-line-spacing-rule",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-font",
+        "category": "typography",
+        "target": "author",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-size-pt",
+        "category": "typography",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-line-spacing-pt",
+        "category": "typography",
+        "target": "author",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-bold",
+        "category": "typography",
+        "target": "author",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-italic",
+        "category": "typography",
+        "target": "author",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-alignment",
+        "category": "typography",
+        "target": "author",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-line-spacing-rule",
+        "category": "typography",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-font",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-size-pt",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 7.970112079701122,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-line-spacing-pt",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "line_spacing_pt",
+        "expected": 9.962640099626402,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-bold",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-italic",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-alignment",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-line-spacing-rule",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-size-pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-line-spacing-pt",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-bold",
+        "category": "typography",
+        "target": "body",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-italic",
+        "category": "typography",
+        "target": "body",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-first-line-pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-space-after-pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_after_pt",
+        "expected": 5.479452054794521,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-line-spacing-rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-size-pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-line-spacing-pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-bold",
+        "category": "typography",
+        "target": "abstract",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-italic",
+        "category": "typography",
+        "target": "abstract",
+        "property": "italic",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-alignment",
+        "category": "typography",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-line-spacing-rule",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-size-pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-line-spacing-pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-italic",
+        "category": "typography",
+        "target": "heading1",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-space-before-pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-space-after-pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 0.0009962640099626403,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-line-spacing-rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-size-pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-line-spacing-pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-bold",
+        "category": "typography",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-italic",
+        "category": "typography",
+        "target": "heading2",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-space-before-pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-space-after-pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_after_pt",
+        "expected": 0.0009962640099626403,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-line-spacing-rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-size-pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-line-spacing-pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-bold",
+        "category": "typography",
+        "target": "heading3",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-italic",
+        "category": "typography",
+        "target": "heading3",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "typography",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-space-before-pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 5.479452054794521,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-space-after-pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_after_pt",
+        "expected": 0.0009962640099626403,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-line-spacing-rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-font",
+        "category": "typography",
+        "target": "caption",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-size-pt",
+        "category": "typography",
+        "target": "caption",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-line-spacing-pt",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-line-spacing-rule",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-size-pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 7.970112079701122,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-line-spacing-pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-bold",
+        "category": "typography",
+        "target": "reference",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-italic",
+        "category": "typography",
+        "target": "reference",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-line-spacing-rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-width-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-height-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-columns",
+        "category": "typography",
+        "target": "page",
+        "property": "columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-left-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 17.316424519164244,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-right-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 15.54783450947835,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-top-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 28.91459803514598,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-bottom-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 44.55696692956968,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-column-gap-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "column_gap_mm",
+        "expected": 8.435035284350352,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "journal-reference-family",
+        "category": "references",
+        "target": "reference",
+        "property": "citation_style",
+        "expected": "eg-alpha-doi",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/eurographics-publications/guidelines/",
+          "file": "official-author-guidelines",
+          "locator": "Journal-specific Reference Style section"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "An explicit family, not an invented edition; initial free-format exceptions still apply."
+      }
+    ],
+    "coverage_notes": [
+      "This is the regular-issue submission format, not a conference-specific special-issue style.",
+      "The journal source has full-width title/abstract composition, context-sensitive captions and flexible TeX skips; the Word projection covers explicit scalar properties and records these contextual details.",
+      "Paper size comes from the supplied official PDF; margins combine its A4 box with the class text-box dimensions and standard 1in TeX origin.",
+      "Font availability and actual rendering require independent checks.",
+      "No class/options payload stands in for missing typography; extracted_format records the actual numeric source declarations."
+    ]
+  },
+  "extracted_format": {
+    "mode": "cgf_regular_issue_submission",
+    "roles": {
+      "title": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 20,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:186,753-762, huge bold title"
+          },
+          "physical_word_pt": 19.925280199252803
+        },
+        "line_spacing_pt": {
+          "value": 25,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:186,753-762, huge bold title"
+          },
+          "physical_word_pt": 24.906600249066003
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:186,753-762, huge bold title"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:186,753-762, huge bold title"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:186,753-762, huge bold title"
+          }
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154,758-760"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154,758-760"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154,758-760"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154,758-760"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154,758-760"
+          }
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 8,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:163 and 779-784, author next line"
+          },
+          "physical_word_pt": 7.970112079701122
+        },
+        "line_spacing_pt": {
+          "value": 10,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:163 and 779-784, author next line"
+          },
+          "physical_word_pt": 9.962640099626402
+        },
+        "bold": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:163 and 779-784, author next line"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:163 and 779-784, author next line"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:163 and 779-784, author next line"
+          }
+        }
+      },
+      "body": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154-161"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154-161"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154-161"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154-161"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:154-161"
+          }
+        },
+        "first_line_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:257-258; 1em at 9TeXpt"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "space_after_pt": {
+          "value": 5.5,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:257; natural paragraph skip, stretch/shrink separately 1/-1.5pt"
+          },
+          "physical_word_pt": 5.479452054794521
+        }
+      },
+      "abstract": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:793-806; normal text inherited, italic body"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:793-806; normal text inherited, italic body"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:793-806; normal text inherited, italic body"
+          }
+        },
+        "italic": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:793-806; normal text inherited, italic body"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:793-806; normal text inherited, italic body"
+          }
+        },
+        "left_indent_pt": {
+          "value": 24,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:805; 2pc"
+          },
+          "physical_word_pt": 23.910336239103362
+        },
+        "right_indent_pt": {
+          "value": 24,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:805; 2pc"
+          },
+          "physical_word_pt": 23.910336239103362
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-351"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-351"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-351"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-351"
+          }
+        },
+        "alignment": {
+          "value": "left",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-351"
+          }
+        },
+        "space_before_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-359; before-skip natural magnitude"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "space_after_pt": {
+          "value": 0.001,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:350,354,358"
+          },
+          "physical_word_pt": 0.0009962640099626403
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:352-355"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:352-355"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:352-355"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:352-355"
+          }
+        },
+        "alignment": {
+          "value": "left",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:352-355"
+          }
+        },
+        "space_before_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-359; before-skip natural magnitude"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "space_after_pt": {
+          "value": 0.001,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:350,354,358"
+          },
+          "physical_word_pt": 0.0009962640099626403
+        }
+      },
+      "heading3": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:356-359"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:356-359"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:356-359"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:356-359"
+          }
+        },
+        "alignment": {
+          "value": "left",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:356-359"
+          }
+        },
+        "space_before_pt": {
+          "value": 5.5,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:348-359; before-skip natural magnitude"
+          },
+          "physical_word_pt": 5.479452054794521
+        },
+        "space_after_pt": {
+          "value": 0.001,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:350,354,358"
+          },
+          "physical_word_pt": 0.0009962640099626403
+        }
+      },
+      "caption": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:310-317; normal size inherited"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:310-317; normal size inherited"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "label_bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:310-315"
+          }
+        },
+        "text_italic": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:310-315"
+          }
+        },
+        "alignment_condition": {
+          "value": "center when one line; paragraph layout otherwise",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:312-315"
+          }
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "Times",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "dfadobe.sty",
+            "sha256": "ced0a1b97221c826d9f62f9d8ac887e842aadd75fb04202dea3538b24e079b28",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "dfadobe.sty:9-14; ptm Times family"
+          }
+        },
+        "size_pt": {
+          "value": 8,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:1994-2006"
+          },
+          "physical_word_pt": 7.970112079701122
+        },
+        "line_spacing_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:1994-2006"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "bold": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:1994-2006"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:1994-2006"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": null,
+          "source": {
+            "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+            "file": "egpubl.cls",
+            "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+            "source_version": "2024/09/24 v3.96",
+            "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+            "locator": "egpubl.cls:1994-2006"
+          }
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 210,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      },
+      "height_mm": {
+        "value": 297,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      },
+      "columns": {
+        "value": 2,
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      },
+      "margin_left_mm": {
+        "value": 17.316424519164244,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      },
+      "margin_right_mm": {
+        "value": 15.54783450947835,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      },
+      "margin_top_mm": {
+        "value": 28.91459803514598,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      },
+      "margin_bottom_mm": {
+        "value": 44.55696692956968,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      },
+      "column_gap_mm": {
+        "value": 8.435035284350352,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:135-219; paper size measured from original EGauthorGuidelines-cgf-sub.pdf MediaBox"
+        }
+      }
+    },
+    "citations": {
+      "bibliography_style": {
+        "value": "eg-alpha-doi",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "EGauthorGuidelines-body-sub.inc",
+          "sha256": "a1897fb91f104f0727410eeaf5b3201bbf75fbb5b013649aeac73ccc171b96ae",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "EGauthorGuidelines-body-sub.inc:469"
+        }
+      },
+      "reference_hanging_indent_pt": {
+        "value": 8,
+        "unit": "tex_pt",
+        "source": {
+          "url": "https://www.eg.org/wp/wp-content/uploads/2024/12/egPublStyle-cgf.zip",
+          "file": "egpubl.cls",
+          "sha256": "781a1f053a33ae2804d89fea72f91701b4edc9ffa28f4d1ceccf5171d88d80e9",
+          "source_version": "2024/09/24 v3.96",
+          "archive_sha256": "230c34fa8cd89016af231f1497d76479a5eb4463ad7b90fb65765010dae419c9",
+          "locator": "egpubl.cls:1998-2000; 1em at 8TeXpt"
+        },
+        "physical_word_pt": 7.970112079701122
+      },
+      "journal_reference_family": {
+        "value": "eg-alpha-doi",
+        "unit": null,
+        "source": {
+          "url": "https://www.eg.org/wp/eurographics-publications/guidelines/",
+          "file": "official-author-guidelines",
+          "source_version": "official page text indexed 2026-10-30",
+          "locator": "Journal-specific Reference Style section"
+        }
+      }
+    },
+    "limitations": [
+      "This is the regular-issue submission format, not a conference-specific special-issue style.",
+      "The journal source has full-width title/abstract composition, context-sensitive captions and flexible TeX skips; the Word projection covers explicit scalar properties and records these contextual details.",
+      "Paper size comes from the supplied official PDF; margins combine its A4 box with the class text-box dimensions and standard 1in TeX origin."
+    ]
+  },
+  "journal_binding": {
+    "name": "Computer Graphics Forum",
+    "source_url": "https://www.eg.org/wp/eurographics-publications/guidelines/",
+    "strength": "source_established_layout"
+  },
+  "catalog_ids": [
+    "ccf-2026-computer-graphics-forum"
+  ]
+}

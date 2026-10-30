@@ -1,0 +1,2961 @@
+{
+  "id": "computer-wiley-jsep-njd-choice",
+  "name": "Journal of Software: Evolution and Process — optional recommended NJD two-column design",
+  "version": "1.0.0",
+  "scope": "optional journal-recommended NJD template choice; JSON typography and geometry only; no publisher source file is installed or executed.",
+  "aliases": [
+    "Journal of Software: Evolution and Process — optional recommended NJD two-column design"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "font": "STIX Two Text",
+      "size_pt": 17.932752179327522,
+      "line_spacing_pt": 20.921544209215444,
+      "bold": true,
+      "alignment": "left",
+      "line_spacing_rule": "exact"
+    },
+    "subtitle": {
+      "font": "STIX Two Text",
+      "size_pt": 15.940224159402243,
+      "line_spacing_pt": 20.921544209215444,
+      "bold": true,
+      "alignment": "left",
+      "line_spacing_rule": "exact"
+    },
+    "author": {
+      "font": "STIX Two Text",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 11.955168119551683,
+      "alignment": "left",
+      "line_spacing_rule": "exact"
+    },
+    "affiliation": {
+      "font": "STIX Two Text",
+      "size_pt": 7.471980074719801,
+      "line_spacing_pt": 9.962640099626402,
+      "line_spacing_rule": "exact"
+    },
+    "correspondence": {
+      "font": "STIX Two Text",
+      "size_pt": 7.471980074719801,
+      "line_spacing_pt": 9.962640099626402,
+      "alignment": "left",
+      "line_spacing_rule": "exact"
+    },
+    "abstract": {
+      "font": "STIX Two Text",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 12.951432129514323,
+      "line_spacing_rule": "exact"
+    },
+    "abstract_heading": {
+      "font": "STIX Two Text",
+      "size_pt": 9.962640099626402,
+      "line_spacing_pt": 14.943960149439603,
+      "bold": true,
+      "line_spacing_rule": "exact"
+    },
+    "heading1": {
+      "font": "STIX Two Text",
+      "size_pt": 9.962640099626402,
+      "line_spacing_pt": 11.955168119551683,
+      "bold": true,
+      "space_before_pt": 27,
+      "line_spacing_rule": "exact"
+    },
+    "heading2": {
+      "font": "STIX Two Text",
+      "size_pt": 9.962640099626402,
+      "line_spacing_pt": 11.955168119551683,
+      "bold": true,
+      "space_before_pt": 23,
+      "line_spacing_rule": "exact"
+    },
+    "heading3": {
+      "font": "STIX Two Text",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": true,
+      "space_before_pt": 20,
+      "line_spacing_rule": "exact"
+    },
+    "heading4": {
+      "font": "STIX Two Text",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": true,
+      "space_before_pt": 12,
+      "line_spacing_rule": "exact"
+    },
+    "heading5": {
+      "font": "STIX Two Text",
+      "size_pt": 8.966376089663761,
+      "line_spacing_pt": 10.958904109589042,
+      "bold": true,
+      "space_before_pt": 10,
+      "line_spacing_rule": "exact"
+    },
+    "body": {
+      "font": "STIX Two Text",
+      "size_pt": 9,
+      "first_line_pt": 9,
+      "space_after_pt": 0
+    },
+    "caption": {
+      "font": "STIX Two Text",
+      "size_pt": 7.970112079701122,
+      "line_spacing_pt": 9.962640099626402,
+      "line_spacing_rule": "exact"
+    },
+    "table_body": {
+      "font": "STIX Two Text",
+      "size_pt": 8.5,
+      "line_spacing_pt": 11.5,
+      "line_spacing_rule": "exact"
+    },
+    "reference": {
+      "font": "STIX Two Text"
+    }
+  },
+  "page": {
+    "width_mm": 210,
+    "height_mm": 276,
+    "margin_left_mm": 16,
+    "margin_right_mm": 16,
+    "margin_top_mm": 12,
+    "margin_bottom_mm": 30,
+    "column_gap_mm": 6,
+    "columns": 2
+  },
+  "latex": {},
+  "sources": [
+    {
+      "id": "njd-format",
+      "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+      "file": "USG.cls",
+      "archive_member": "Optimal-Design-layout/USG.cls",
+      "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+      "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+      "bytes": 95431,
+      "archive_bytes": 7597672,
+      "source_version": "2024/05/07 v6.0",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "journal": "Journal of Software: Evolution and Process",
+      "url": "https://onlinelibrary.wiley.com/page/journal/20477481/homepage/forauthors.html",
+      "file": "official-author-guidelines",
+      "source_version": "official page text indexed 2026-10-30"
+    }
+  ],
+  "template": {
+    "family": "computer-wiley",
+    "source_version": "2024/05/07 v6.0",
+    "license": "ManuWeave rule encoding is MIT; factual configuration only; no publisher source software redistributed",
+    "source_url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-size-pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 17.932752179327522,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-line-spacing-pt",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_pt",
+        "expected": 20.921544209215444,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "title-line-spacing-rule",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "subtitle-font",
+        "category": "typography",
+        "target": "subtitle",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "subtitle-size-pt",
+        "category": "typography",
+        "target": "subtitle",
+        "property": "size_pt",
+        "expected": 15.940224159402243,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "subtitle-line-spacing-pt",
+        "category": "typography",
+        "target": "subtitle",
+        "property": "line_spacing_pt",
+        "expected": 20.921544209215444,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "subtitle-bold",
+        "category": "typography",
+        "target": "subtitle",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "subtitle-alignment",
+        "category": "typography",
+        "target": "subtitle",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "subtitle-line-spacing-rule",
+        "category": "typography",
+        "target": "subtitle",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-font",
+        "category": "typography",
+        "target": "author",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-size-pt",
+        "category": "typography",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-line-spacing-pt",
+        "category": "typography",
+        "target": "author",
+        "property": "line_spacing_pt",
+        "expected": 11.955168119551683,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-alignment",
+        "category": "typography",
+        "target": "author",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "author-line-spacing-rule",
+        "category": "typography",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-font",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-size-pt",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 7.471980074719801,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-line-spacing-pt",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "line_spacing_pt",
+        "expected": 9.962640099626402,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "affiliation-line-spacing-rule",
+        "category": "typography",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "correspondence-font",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "correspondence-size-pt",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "size_pt",
+        "expected": 7.471980074719801,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "correspondence-line-spacing-pt",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "line_spacing_pt",
+        "expected": 9.962640099626402,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "correspondence-alignment",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "correspondence-line-spacing-rule",
+        "category": "typography",
+        "target": "correspondence",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-size-pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-line-spacing-pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_pt",
+        "expected": 12.951432129514323,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-line-spacing-rule",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-heading-font",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-heading-size-pt",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "size_pt",
+        "expected": 9.962640099626402,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-heading-line-spacing-pt",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "line_spacing_pt",
+        "expected": 14.943960149439603,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-heading-bold",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "abstract-heading-line-spacing-rule",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-size-pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 9.962640099626402,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-line-spacing-pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_pt",
+        "expected": 11.955168119551683,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-space-before-pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 27,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading1-line-spacing-rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-size-pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 9.962640099626402,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-line-spacing-pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_pt",
+        "expected": 11.955168119551683,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-bold",
+        "category": "typography",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-space-before-pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 23,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading2-line-spacing-rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-size-pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-line-spacing-pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-bold",
+        "category": "typography",
+        "target": "heading3",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-space-before-pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 20,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading3-line-spacing-rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading4-font",
+        "category": "typography",
+        "target": "heading4",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading4-size-pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading4-line-spacing-pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading4-bold",
+        "category": "typography",
+        "target": "heading4",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading4-space-before-pt",
+        "category": "typography",
+        "target": "heading4",
+        "property": "space_before_pt",
+        "expected": 12,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading4-line-spacing-rule",
+        "category": "typography",
+        "target": "heading4",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading5-font",
+        "category": "typography",
+        "target": "heading5",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading5-size-pt",
+        "category": "typography",
+        "target": "heading5",
+        "property": "size_pt",
+        "expected": 8.966376089663761,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading5-line-spacing-pt",
+        "category": "typography",
+        "target": "heading5",
+        "property": "line_spacing_pt",
+        "expected": 10.958904109589042,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading5-bold",
+        "category": "typography",
+        "target": "heading5",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading5-space-before-pt",
+        "category": "typography",
+        "target": "heading5",
+        "property": "space_before_pt",
+        "expected": 10,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "heading5-line-spacing-rule",
+        "category": "typography",
+        "target": "heading5",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-size-pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-first-line-pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 9,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "body-space-after-pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_after_pt",
+        "expected": 0,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-font",
+        "category": "typography",
+        "target": "caption",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-size-pt",
+        "category": "typography",
+        "target": "caption",
+        "property": "size_pt",
+        "expected": 7.970112079701122,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-line-spacing-pt",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing_pt",
+        "expected": 9.962640099626402,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "caption-line-spacing-rule",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "table-body-font",
+        "category": "typography",
+        "target": "table_body",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "table-body-size-pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "size_pt",
+        "expected": 8.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "table-body-line-spacing-pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "line_spacing_pt",
+        "expected": 11.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "table-body-line-spacing-rule",
+        "category": "typography",
+        "target": "table_body",
+        "property": "line_spacing_rule",
+        "expected": "exact",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "STIX Two Text",
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-width-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-height-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 276,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-left-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 16,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-right-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 16,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-top-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 12,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-margin-bottom-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 30,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-column-gap-mm",
+        "category": "typography",
+        "target": "page",
+        "property": "column_gap_mm",
+        "expected": 6,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      },
+      {
+        "id": "page-columns",
+        "category": "typography",
+        "target": "page",
+        "property": "columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "locator": "See extracted_format corresponding role/page property and its pinned source locator"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Exact physical-unit conversion of the recorded source value. The shared rule is not quantized; the Word writer reports any OOXML half-point representation adjustment. This scalar rule does not assert exact TeX flexible-skip behavior."
+      }
+    ],
+    "coverage_notes": [
+      "Run-in level 4/5 headings, mixed caption labels and special title/abstract boxes retain explicit source facts but need contextual host layout handling.",
+      "The 13bp class-load body baseline and 11.5bp normalsize baseline are distinct contexts; neither is silently treated as a universal fixed body baseline.",
+      "Raw TeX pt differs from physical Word pt/bp. Shared rules retain exact physical values; only the Word writer quantizes them to OOXML half-points and reports that representation adjustment.",
+      "Font availability and actual rendering require independent checks.",
+      "No class/options payload stands in for missing typography; extracted_format records the actual numeric source declarations."
+    ]
+  },
+  "extracted_format": {
+    "mode": "source_template_two_column_choice",
+    "source_configuration": {
+      "columns": 2,
+      "exactsize_override": false
+    },
+    "roles": {
+      "title": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 18,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:886, titlefont in two-column branch"
+          },
+          "physical_word_pt": 17.932752179327522
+        },
+        "line_spacing_pt": {
+          "value": 21,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:886, titlefont in two-column branch"
+          },
+          "physical_word_pt": 20.921544209215444
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:886, titlefont in two-column branch"
+          }
+        },
+        "alignment": {
+          "value": "left",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:886, titlefont in two-column branch"
+          }
+        }
+      },
+      "subtitle": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 16,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:887, subtitlefont in two-column branch"
+          },
+          "physical_word_pt": 15.940224159402243
+        },
+        "line_spacing_pt": {
+          "value": 21,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:887, subtitlefont in two-column branch"
+          },
+          "physical_word_pt": 20.921544209215444
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:887, subtitlefont in two-column branch"
+          }
+        },
+        "alignment": {
+          "value": "left",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:887, subtitlefont in two-column branch"
+          }
+        }
+      },
+      "author": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:888, Authorfont"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 12,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:888, Authorfont"
+          },
+          "physical_word_pt": 11.955168119551681
+        },
+        "alignment": {
+          "value": "left",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:888, Authorfont"
+          }
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 7.5,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:930, addressfont"
+          },
+          "physical_word_pt": 7.471980074719801
+        },
+        "line_spacing_pt": {
+          "value": 10,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:930, addressfont"
+          },
+          "physical_word_pt": 9.962640099626402
+        }
+      },
+      "correspondence": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 7.5,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:931, corresfont"
+          },
+          "physical_word_pt": 7.471980074719801
+        },
+        "line_spacing_pt": {
+          "value": 10,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:931, corresfont"
+          },
+          "physical_word_pt": 9.962640099626402
+        },
+        "alignment": {
+          "value": "left",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:931, corresfont"
+          }
+        }
+      },
+      "abstract": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:935 and 1382-1398, abstractfont in abstract box"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 13,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:935 and 1382-1398, abstractfont in abstract box"
+          },
+          "physical_word_pt": 12.951432129514322
+        }
+      },
+      "abstract_heading": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:889 and 1396, absheadfont"
+          },
+          "physical_word_pt": 9.962640099626402
+        },
+        "line_spacing_pt": {
+          "value": 15,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:889 and 1396, absheadfont"
+          },
+          "physical_word_pt": 14.943960149439603
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:889 and 1396, absheadfont"
+          }
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671, final section definition in two-column branch"
+          },
+          "physical_word_pt": 9.962640099626402
+        },
+        "line_spacing_pt": {
+          "value": 12,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671, final section definition in two-column branch"
+          },
+          "physical_word_pt": 11.955168119551681
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671, final section definition in two-column branch"
+          }
+        },
+        "space_before_pt": {
+          "value": 27,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675; absolute before-skip magnitude"
+          }
+        },
+        "space_after_pt": {
+          "value": 8,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675"
+          },
+          "condition": "For levels 4 and 5, run-in composition requires host layout support."
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1672, final subsection definition in two-column branch"
+          },
+          "physical_word_pt": 9.962640099626402
+        },
+        "line_spacing_pt": {
+          "value": 12,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1672, final subsection definition in two-column branch"
+          },
+          "physical_word_pt": 11.955168119551681
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1672, final subsection definition in two-column branch"
+          }
+        },
+        "space_before_pt": {
+          "value": 23,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675; absolute before-skip magnitude"
+          }
+        },
+        "space_after_pt": {
+          "value": 8,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675"
+          },
+          "condition": "For levels 4 and 5, run-in composition requires host layout support."
+        }
+      },
+      "heading3": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1673, final subsubsection definition"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1673, final subsubsection definition"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1673, final subsubsection definition"
+          }
+        },
+        "space_before_pt": {
+          "value": 20,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675; absolute before-skip magnitude"
+          }
+        },
+        "space_after_pt": {
+          "value": 8,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675"
+          },
+          "condition": "For levels 4 and 5, run-in composition requires host layout support."
+        }
+      },
+      "heading4": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1674, paragraph run-in definition"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1674, paragraph run-in definition"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1674, paragraph run-in definition"
+          }
+        },
+        "space_before_pt": {
+          "value": 12,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675; absolute before-skip magnitude"
+          }
+        },
+        "space_after_pt": {
+          "value": 0,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675"
+          },
+          "condition": "For levels 4 and 5, run-in composition requires host layout support."
+        }
+      },
+      "heading5": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1675, subparagraph run-in definition"
+          },
+          "physical_word_pt": 8.966376089663761
+        },
+        "line_spacing_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1675, subparagraph run-in definition"
+          },
+          "physical_word_pt": 10.958904109589042
+        },
+        "bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1675, subparagraph run-in definition"
+          }
+        },
+        "space_before_pt": {
+          "value": 10,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675; absolute before-skip magnitude"
+          }
+        },
+        "space_after_pt": {
+          "value": 0,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:1671-1675"
+          },
+          "condition": "For levels 4 and 5, run-in composition requires host layout support."
+        }
+      },
+      "body": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 9,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:716-726, normalsize two-column branch"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 11.5,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:716-726, normalsize two-column branch"
+          },
+          "condition": "When the source normalsize macro is invoked; load-time baseline is separately 13bp."
+        },
+        "load_time_baseline_pt": {
+          "value": 13,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:725-726"
+          },
+          "condition": "At class-load time"
+        },
+        "first_line_pt": {
+          "value": 9,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:397-420; paragraph indent 1em with 9bp normal text"
+          }
+        },
+        "space_after_pt": {
+          "value": 0,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:420, paragraph skip zero"
+          }
+        }
+      },
+      "caption": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 8,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:361-370, active general caption formatter"
+          },
+          "physical_word_pt": 7.970112079701122
+        },
+        "line_spacing_pt": {
+          "value": 10,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:361-370, active general caption formatter"
+          },
+          "physical_word_pt": 9.962640099626402
+        },
+        "label_bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:363-366"
+          }
+        }
+      },
+      "table_body": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 8.5,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:916, tablebodyfont"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 11.5,
+          "unit": "bp",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:916, tablebodyfont"
+          }
+        },
+        "header_bold": {
+          "value": true,
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:917, tablecolheadfont"
+          }
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "STIX Two Text",
+          "unit": null,
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:335-337, stix2 text family"
+          }
+        },
+        "size_pt": {
+          "value": 8.5,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:925, reflistfont"
+          },
+          "physical_word_pt": 8.468244084682441,
+          "condition": "When reflistfont is selected; APA-specific refapasize is separately 8.5/11 TeXpt."
+        },
+        "line_spacing_pt": {
+          "value": 11.5,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:925, reflistfont"
+          },
+          "physical_word_pt": 11.457036114570363,
+          "condition": "When reflistfont is selected; APA-specific refapasize is separately 8.5/11 TeXpt."
+        },
+        "apa_baseline_pt": {
+          "value": 11,
+          "unit": "tex_pt",
+          "source": {
+            "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+            "file": "USG.cls",
+            "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+            "source_version": "2024/05/07 v6.0",
+            "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+            "locator": "USG.cls:760, refapasize"
+          },
+          "condition": "APA reference-size macro",
+          "physical_word_pt": 10.958904109589042
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 210,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      },
+      "height_mm": {
+        "value": 276,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      },
+      "margin_left_mm": {
+        "value": 16,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      },
+      "margin_right_mm": {
+        "value": 16,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      },
+      "margin_top_mm": {
+        "value": 12,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      },
+      "margin_bottom_mm": {
+        "value": 30,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      },
+      "column_gap_mm": {
+        "value": 6,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      },
+      "columns": {
+        "value": 2,
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:376-393; two-column choice in original sample line 1"
+        }
+      }
+    },
+    "citations": {
+      "available_reference_modes": {
+        "value": [
+          "APA",
+          "AMS",
+          "AMA",
+          "Vancouver",
+          "Chemistry",
+          "Harvard",
+          "Chicago",
+          "MPS",
+          "APS",
+          "MLA"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:59-85 and reference-style conditionals:1920-2120"
+        }
+      }
+    },
+    "special_layout": {
+      "abstract_box_padding_mm": {
+        "value": 3.5,
+        "unit": "mm",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:1385-1393"
+        }
+      },
+      "abstract_box_border_pt": {
+        "value": 0,
+        "unit": "bp",
+        "source": {
+          "url": "https://authorservices.wiley.com/asset/WileyNJDv5_Template.zip",
+          "file": "USG.cls",
+          "sha256": "b9aa4b5d43c6c444f2876000952fa03439972c8e573d67212123647cbbfa4e08",
+          "source_version": "2024/05/07 v6.0",
+          "archive_sha256": "86d6118ac65f78fc23f0bfa8d1fe33146856e5a731646bc629264154520e463b",
+          "locator": "USG.cls:1391-1393"
+        }
+      }
+    },
+    "limitations": [
+      "Run-in level 4/5 headings, mixed caption labels and special title/abstract boxes retain explicit source facts but need contextual host layout handling.",
+      "The 13bp class-load body baseline and 11.5bp normalsize baseline are distinct contexts; neither is silently treated as a universal fixed body baseline.",
+      "Raw TeX pt differs from physical Word pt/bp. Shared rules retain exact physical values; only the Word writer quantizes them to OOXML half-points and reports that representation adjustment."
+    ]
+  },
+  "journal_binding": {
+    "name": "Journal of Software: Evolution and Process",
+    "source_url": "https://onlinelibrary.wiley.com/page/journal/20477481/homepage/forauthors.html",
+    "strength": "recommended_optional_choice"
+  },
+  "catalog_ids": [
+    "ccf-2026-journal-of-software-evolution-and-process"
+  ]
+}

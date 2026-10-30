@@ -1,0 +1,537 @@
+{
+  "id": "cn-aroc-official-word",
+  "name": "计算机应用研究，官方投稿编辑模板",
+  "version": "1.0.0",
+  "scope": "中文研究论文投稿；按官方模板中已确认的段落格式与页面要求执行。",
+  "aliases": [
+    "计算机应用研究"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "east_asia_font": "黑体",
+      "size_pt": 16.0,
+      "alignment": "center"
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 9.0,
+      "alignment": "justify",
+      "first_line_pt": 18.2
+    },
+    "abstract": {
+      "size_pt": 9.0
+    },
+    "keywords": {
+      "size_pt": 9.0
+    }
+  },
+  "page": {
+    "width_mm": 210.0086,
+    "height_mm": 297.0036,
+    "margin_top_mm": 20.0025,
+    "margin_bottom_mm": 14.9931,
+    "margin_left_mm": 14.9931,
+    "margin_right_mm": 14.9931
+  },
+  "latex": {},
+  "sources": [
+    {
+      "file": "aroc-official-template.doc",
+      "url": "https://www.arocmag.cn/download/template",
+      "sha256": "baf9fce8b2bc56f2320c8bf4541546e43f48a8f3a1c773b40667d7b2a7b872cb",
+      "bytes": 169984,
+      "source_kind": "official_submission_template",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    },
+    {
+      "file": "aroc-template-page.html",
+      "url": "https://www.arocmag.cn/info/instruction/template",
+      "sha256": "a18e26175e76d4558c970f2c947113de12a5d42b183f13da599817d2bcfb8b74",
+      "bytes": 15125,
+      "source_kind": "official_template_index",
+      "retrieved_at": "2026-10-30",
+      "original_file_redistributed": false,
+      "source_verified": true,
+      "submission_compliance_verified": false
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "黑体"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 16.0
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "body",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "body",
+      "property": "first_line_pt",
+      "expected": 18.2
+    },
+    {
+      "role": "abstract",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "keywords",
+      "property": "size_pt",
+      "expected": 9.0
+    }
+  ],
+  "template": {
+    "family": "chinese-engineering",
+    "source_version": "official-download-snapshot-2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.arocmag.cn/download/template",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 1, Chinese title; size 16pt and 黑体, centered"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 1, Chinese title; size 16pt and 黑体, centered"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 1, Chinese title; size 16pt and 黑体, centered"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 19, anchor 本模板中正文文本的样式为; named style @正文|段落文本 resolves 9pt 宋体/Times New Roman, firstLine=364 twips"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 19, anchor 本模板中正文文本的样式为; named style @正文|段落文本 resolves 9pt 宋体/Times New Roman, firstLine=364 twips"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 19, anchor 本模板中正文文本的样式为; named style @正文|段落文本 resolves 9pt 宋体/Times New Roman, firstLine=364 twips"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 19, anchor 本模板中正文文本的样式为; named style @正文|段落文本 resolves 9pt 宋体/Times New Roman, firstLine=364 twips"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 18.2,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraph 19, anchor 本模板中正文文本的样式为; named style @正文|段落文本 resolves 9pt 宋体/Times New Roman, firstLine=364 twips"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraphs 4 and 10, Chinese and English abstract have 9pt text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: body paragraphs 5 and 11, Chinese and English keywords have 9pt text"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0086,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: word/document.xml body section 2; pgSz 11906x16838 twips; pgMar top=1134, other edges=850"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0036,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: word/document.xml body section 2; pgSz 11906x16838 twips; pgMar top=1134, other edges=850"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 20.0025,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: word/document.xml body section 2; pgSz 11906x16838 twips; pgMar top=1134, other edges=850"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 14.9931,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: word/document.xml body section 2; pgSz 11906x16838 twips; pgMar top=1134, other edges=850"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 14.9931,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: word/document.xml body section 2; pgSz 11906x16838 twips; pgMar top=1134, other edges=850"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 14.9931,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: word/document.xml body section 2; pgSz 11906x16838 twips; pgMar top=1134, other edges=850"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: front section 1 one column,正文 section 2 cols/@num=2; body begins at first level-one heading"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: front section 1 one column,正文 section 2 cols/@num=2; body begins at first level-one heading"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC read-only Word OOXML projection: front section 1 one column,正文 section 2 cols/@num=2; body begins at first level-one heading"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "inline-figures",
+        "category": "typography",
+        "target": "image",
+        "property": "placement",
+        "expected": "inline_with_text",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/info/instruction/template",
+          "file": "aroc-template-page.html",
+          "locator": "Template page paragraph 对于文档中的图表; explicit 图片版式设为嵌入到文字"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "citation-order",
+        "category": "typography",
+        "target": "reference",
+        "property": "bibliography_style",
+        "expected": "numeric",
+        "unit": null,
+        "source": {
+          "url": "https://www.arocmag.cn/download/template",
+          "file": "aroc-official-template.doc",
+          "locator": "Official DOC projection paragraph 47, explicit 顺序编码制 and half-width square brackets"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "仅执行本配置列出的、来源已确认的官方投稿格式与规则。",
+      "原始投稿模板和指南仅用于核对事实，未随项目再分发。",
+      "字体字号与页面几何检查、实际页面审查、内容义务检查分别记录。"
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1"
+  }
+}

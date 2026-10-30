@@ -1,0 +1,1037 @@
+{
+  "id": "comp-jslhr-word",
+  "name": "Journal of Speech, Language, and Hearing Research — explicit author-manuscript formatting facts (Word)",
+  "version": "1.0.0",
+  "scope": "Journal-specific JSLHR instructions and current ASHA manuscript formatting. Font size/family and margins are not specified in these retrieved sources; they remain unset.",
+  "journal_title": "Journal of Speech, Language, and Hearing Research",
+  "catalog_journal_id": "ccf-2026-journal-of-speech-language-and-hearing-research",
+  "manuscript_type": "journal_article",
+  "stage": "submission_author_manuscript",
+  "aliases": [
+    "Journal of Speech, Language, and Hearing Research source formatting"
+  ],
+  "rules": {
+    "title": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "author": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "affiliation": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "abstract": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "keywords": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "body": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "heading1": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "heading2": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "heading3": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "reference": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2,
+      "left_indent_pt": 36,
+      "first_line_pt": -36
+    },
+    "figure_caption": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    },
+    "table_caption": {
+      "line_spacing_rule": "auto",
+      "line_spacing": 2
+    }
+  },
+  "page": {},
+  "latex": {},
+  "extracted_format": {
+    "mode": "source_extracted_rules",
+    "roles": {
+      "title": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "author": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "affiliation": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "abstract": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "keywords": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "body": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "heading1": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "heading2": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "heading3": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "reference": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        },
+        "left_indent_pt": {
+          "value": 36,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Applies only to reference entries through ASHA’s explicit reference-format referral to APA"
+        },
+        "first_line_pt": {
+          "value": -36,
+          "source": {
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+            "file": "paragraph-format (APA official HTML)",
+            "locator": "Paragraph alignment/indentation and exceptions",
+            "version": "Updated July 2022; APA 7",
+            "retrieval": "Official page content read with web connector; no original bytes retained"
+          },
+          "unit": "bp",
+          "condition": "Applies only to reference entries through ASHA’s explicit reference-format referral to APA"
+        }
+      },
+      "figure_caption": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      },
+      "table_caption": {
+        "line_spacing_rule": {
+          "value": "auto",
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "text"
+        },
+        "line_spacing": {
+          "value": 2,
+          "source": {
+            "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+            "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+            "locator": "General Manuscript Formatting",
+            "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+          },
+          "unit": "multiple"
+        }
+      }
+    },
+    "page": {},
+    "captions": {
+      "items_per_page": {
+        "value": 1,
+        "source": {
+          "url": "https://academy.pubs.asha.org/wp-content/uploads/JSLHR_Author_Instructions.pdf",
+          "file": "JSLHR_Author_Instructions.pdf",
+          "locator": "p. 6 Tables and Figures",
+          "version": "3.5, updated 2024-10-29",
+          "sha256": "68b531a19875c873af88485495e73d3532aa514423ce9f621a2f3b29f0299aa8"
+        },
+        "unit": "count"
+      },
+      "minimum_figure_dpi": {
+        "value": 300,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting",
+          "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+        },
+        "unit": "count"
+      }
+    },
+    "equations": {},
+    "references": {
+      "order": {
+        "value": "alphabetical, then chronological within author",
+        "source": {
+          "url": "https://academy.pubs.asha.org/wp-content/uploads/JSLHR_Author_Instructions.pdf",
+          "file": "JSLHR_Author_Instructions.pdf",
+          "locator": "p. 6 References",
+          "version": "3.5, updated 2024-10-29",
+          "sha256": "68b531a19875c873af88485495e73d3532aa514423ce9f621a2f3b29f0299aa8"
+        },
+        "unit": "text"
+      },
+      "journal_name_italic": {
+        "value": true,
+        "source": {
+          "url": "https://academy.pubs.asha.org/wp-content/uploads/JSLHR_Author_Instructions.pdf",
+          "file": "JSLHR_Author_Instructions.pdf",
+          "locator": "p. 6 References",
+          "version": "3.5, updated 2024-10-29",
+          "sha256": "68b531a19875c873af88485495e73d3532aa514423ce9f621a2f3b29f0299aa8"
+        },
+        "unit": "boolean"
+      }
+    },
+    "line_numbering": {
+      "value": "continuous",
+      "source": {
+        "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+        "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+        "locator": "General Manuscript Formatting",
+        "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16"
+      },
+      "unit": "text"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://academy.pubs.asha.org/wp-content/uploads/JSLHR_Author_Instructions.pdf",
+      "file": "JSLHR_Author_Instructions.pdf",
+      "locator": "pp. 4–6 General Manuscript Formatting; References",
+      "version": "3.5, updated 2024-10-29",
+      "sha256": "68b531a19875c873af88485495e73d3532aa514423ce9f621a2f3b29f0299aa8",
+      "verified": true
+    },
+    {
+      "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+      "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+      "locator": "General Manuscript Formatting",
+      "sha256": "0be59597600231d6da4c596b603aa3649c36d51a07038a97023d1be9882d7d16",
+      "verified": true
+    },
+    {
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+      "file": "paragraph-format (APA official HTML)",
+      "locator": "Paragraph alignment/indentation and exceptions",
+      "version": "Updated July 2022; APA 7",
+      "retrieval": "Official page content read with web connector; no original bytes retained",
+      "verified": true
+    }
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "checks": [
+    {
+      "requirement": "title-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "keywords-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-left_indent_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing",
+      "checking": "xml"
+    }
+  ],
+  "template": {
+    "family": "computer-special",
+    "source_version": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30",
+    "source_url": "https://academy.pubs.asha.org/wp-content/uploads/JSLHR_Author_Instructions.pdf",
+    "license": "formatting_facts_only_originals_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-line_spacing_rule",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "title-line_spacing",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "author-line_spacing_rule",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "author-line_spacing",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "affiliation-line_spacing_rule",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "affiliation-line_spacing",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "abstract-line_spacing",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "keywords-line_spacing_rule",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "keywords-line_spacing",
+        "category": "layout",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "heading3-line_spacing",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "reference-left_indent_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "left_indent_pt",
+        "expected": 36,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Applies only to reference entries through ASHA’s explicit reference-format referral to APA"
+      },
+      {
+        "id": "reference-first_line_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "first_line_pt",
+        "expected": -36,
+        "source": {
+          "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format/paragraph-format",
+          "file": "paragraph-format (APA official HTML)",
+          "locator": "Paragraph alignment/indentation and exceptions"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Applies only to reference entries through ASHA’s explicit reference-format referral to APA"
+      },
+      {
+        "id": "figure_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "figure_caption-line_spacing",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "table_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      },
+      {
+        "id": "table_caption-line_spacing",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "source": {
+          "url": "https://academy.pubs.asha.org/asha-journals-author-resource-center/manuscript-preparation/writing-and-formatting-your-manuscript/",
+          "file": "Writing and Formatting Your Manuscript (ASHA HTML)",
+          "locator": "General Manuscript Formatting"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "JSLHR 3.5 (2024-10-29); ASHA Academy read 2026-10-30"
+      }
+    ],
+    "coverage_notes": [
+      "ASHA refers to APA for reference style and formatting. This does not establish an APA-wide body/title/page specification.",
+      "All declared manuscript roles carry the explicit double-spacing rule. No body or title font, size or page geometry is invented.",
+      "Continuous line numbering and separate table/figure pages are source facts requiring composition checks; this profile does not claim to implement them."
+    ]
+  }
+}

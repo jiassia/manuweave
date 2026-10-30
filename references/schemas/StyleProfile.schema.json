@@ -1,0 +1,865 @@
+{
+  "$defs": {
+    "BorderRule": {
+      "additionalProperties": false,
+      "properties": {
+        "style": {
+          "enum": [
+            "single",
+            "double",
+            "dashed",
+            "dotted",
+            "nil",
+            "none"
+          ],
+          "title": "Style",
+          "type": "string"
+        },
+        "size_pt": {
+          "maximum": 12,
+          "minimum": 0,
+          "title": "Size Pt",
+          "type": "number"
+        },
+        "color": {
+          "pattern": "^(?:[0-9a-fA-F]{6}|auto)$",
+          "title": "Color",
+          "type": "string"
+        }
+      },
+      "required": [
+        "style",
+        "size_pt",
+        "color"
+      ],
+      "title": "BorderRule",
+      "type": "object"
+    },
+    "FormatRule": {
+      "additionalProperties": false,
+      "properties": {
+        "font": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Font"
+        },
+        "east_asia_font": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "East Asia Font"
+        },
+        "size_pt": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "maximum": 200,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Size Pt"
+        },
+        "bold": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bold"
+        },
+        "italic": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Italic"
+        },
+        "font_color": {
+          "anyOf": [
+            {
+              "pattern": "^(?:[0-9a-fA-F]{6}|auto)$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Font Color"
+        },
+        "alignment": {
+          "anyOf": [
+            {
+              "enum": [
+                "left",
+                "center",
+                "right",
+                "justify",
+                "both"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Alignment"
+        },
+        "line_spacing": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "maximum": 10,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Line Spacing"
+        },
+        "line_spacing_rule": {
+          "anyOf": [
+            {
+              "enum": [
+                "auto",
+                "exact",
+                "atLeast"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Line Spacing Rule"
+        },
+        "line_spacing_pt": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "maximum": 500,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Line Spacing Pt"
+        },
+        "space_before_pt": {
+          "anyOf": [
+            {
+              "maximum": 500,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Space Before Pt"
+        },
+        "space_after_pt": {
+          "anyOf": [
+            {
+              "maximum": 500,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Space After Pt"
+        },
+        "first_line_pt": {
+          "anyOf": [
+            {
+              "maximum": 500,
+              "minimum": -200,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "First Line Pt"
+        },
+        "left_indent_pt": {
+          "anyOf": [
+            {
+              "maximum": 500,
+              "minimum": -200,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Left Indent Pt"
+        },
+        "right_indent_pt": {
+          "anyOf": [
+            {
+              "maximum": 500,
+              "minimum": -200,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Right Indent Pt"
+        }
+      },
+      "title": "FormatRule",
+      "type": "object"
+    },
+    "LaTeXRule": {
+      "additionalProperties": false,
+      "properties": {
+        "documentclass": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z0-9_-]+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Documentclass"
+        },
+        "options": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Options"
+        },
+        "packages": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "title": "Packages",
+          "type": "object"
+        },
+        "pre_class_packages": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Pre Class Packages",
+          "type": "object"
+        },
+        "bibliography_style": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z0-9_-]+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bibliography Style"
+        },
+        "compatibility": {
+          "items": {
+            "const": "cmss_bold_alias",
+            "type": "string"
+          },
+          "title": "Compatibility",
+          "type": "array"
+        },
+        "engine": {
+          "anyOf": [
+            {
+              "enum": [
+                "auto",
+                "tectonic",
+                "xelatex",
+                "pdflatex",
+                "latexmk",
+                "latexmk-pdf",
+                "latexmk-ps"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Engine"
+        }
+      },
+      "title": "LaTeXRule",
+      "type": "object"
+    },
+    "PageRule": {
+      "additionalProperties": false,
+      "properties": {
+        "width_mm": {
+          "anyOf": [
+            {
+              "maximum": 600,
+              "minimum": 50,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Width Mm"
+        },
+        "height_mm": {
+          "anyOf": [
+            {
+              "maximum": 600,
+              "minimum": 50,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Height Mm"
+        },
+        "margin_top_mm": {
+          "anyOf": [
+            {
+              "maximum": 80,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Margin Top Mm"
+        },
+        "margin_bottom_mm": {
+          "anyOf": [
+            {
+              "maximum": 80,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Margin Bottom Mm"
+        },
+        "margin_left_mm": {
+          "anyOf": [
+            {
+              "maximum": 80,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Margin Left Mm"
+        },
+        "margin_right_mm": {
+          "anyOf": [
+            {
+              "maximum": 80,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Margin Right Mm"
+        },
+        "columns": {
+          "anyOf": [
+            {
+              "enum": [
+                1,
+                2
+              ],
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Columns"
+        },
+        "column_gap_mm": {
+          "anyOf": [
+            {
+              "maximum": 50,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Column Gap Mm"
+        },
+        "column_widths_mm": {
+          "anyOf": [
+            {
+              "items": {
+                "exclusiveMinimum": 0,
+                "maximum": 600,
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 1,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Column Widths Mm"
+        },
+        "header_distance_mm": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Header Distance Mm"
+        },
+        "footer_distance_mm": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Footer Distance Mm"
+        },
+        "mirror_margins": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mirror Margins"
+        },
+        "grid_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "default",
+                "lines",
+                "linesAndChars",
+                "snapToChars"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Grid Type"
+        },
+        "grid_line_pitch_pt": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "maximum": 100,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Grid Line Pitch Pt"
+        }
+      },
+      "title": "PageRule",
+      "type": "object"
+    },
+    "RunningRule": {
+      "additionalProperties": false,
+      "properties": {
+        "header": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FormatRule"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "footer": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FormatRule"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "RunningRule",
+      "type": "object"
+    },
+    "SectionsRule": {
+      "additionalProperties": false,
+      "description": "Bounded continuous front-matter/body column transition.",
+      "properties": {
+        "front_matter_columns": {
+          "const": 1,
+          "title": "Front Matter Columns",
+          "type": "integer"
+        },
+        "body_columns": {
+          "const": 2,
+          "title": "Body Columns",
+          "type": "integer"
+        },
+        "body_starts_at": {
+          "enum": [
+            "first_heading1",
+            "marked_body_start",
+            "first_abstract"
+          ],
+          "title": "Body Starts At",
+          "type": "string"
+        },
+        "body_column_gap_mm": {
+          "anyOf": [
+            {
+              "maximum": 50,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Body Column Gap Mm"
+        },
+        "different_first_page": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Different First Page"
+        },
+        "different_odd_even_headers": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Different Odd Even Headers"
+        },
+        "front_matter_page": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PageRule"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "body_page": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PageRule"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "front_matter_columns",
+        "body_columns",
+        "body_starts_at"
+      ],
+      "title": "SectionsRule",
+      "type": "object"
+    },
+    "TableRule": {
+      "additionalProperties": false,
+      "properties": {
+        "borders": {
+          "additionalProperties": {
+            "$ref": "#/$defs/BorderRule"
+          },
+          "propertyNames": {
+            "enum": [
+              "top",
+              "bottom",
+              "left",
+              "right",
+              "insideH",
+              "insideV"
+            ]
+          },
+          "title": "Borders",
+          "type": "object"
+        },
+        "header_bottom": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/BorderRule"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "TableRule",
+      "type": "object"
+    }
+  },
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9_-]{0,79}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "rules": {
+      "additionalProperties": {
+        "$ref": "#/$defs/FormatRule"
+      },
+      "propertyNames": {
+        "enum": [
+          "title",
+          "author",
+          "author_zh",
+          "author_en",
+          "affiliation",
+          "affiliation_zh",
+          "affiliation_en",
+          "subtitle",
+          "subtitle_zh",
+          "subtitle_en",
+          "correspondence",
+          "correspondence_zh",
+          "correspondence_en",
+          "body_start",
+          "title_zh",
+          "title_en",
+          "abstract_zh",
+          "abstract_en",
+          "keywords_zh",
+          "keywords_en",
+          "figure_caption_zh",
+          "figure_caption_en",
+          "table_caption_zh",
+          "table_caption_en",
+          "heading1",
+          "heading2",
+          "heading3",
+          "heading4",
+          "heading5",
+          "heading6",
+          "body",
+          "abstract_heading",
+          "abstract",
+          "keywords",
+          "references_heading",
+          "reference",
+          "caption",
+          "figure_caption",
+          "table_caption",
+          "equation",
+          "table",
+          "table_body",
+          "image",
+          "legacy_image",
+          "toc",
+          "unknown"
+        ]
+      },
+      "title": "Rules",
+      "type": "object"
+    },
+    "page": {
+      "$ref": "#/$defs/PageRule"
+    },
+    "sources": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "evidence": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "items": {},
+          "type": "array"
+        }
+      ],
+      "title": "Evidence"
+    },
+    "latex": {
+      "$ref": "#/$defs/LaTeXRule"
+    },
+    "tables": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TableRule"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "running": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/RunningRule"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "sections": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SectionsRule"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "version",
+    "rules"
+  ],
+  "title": "StyleProfile",
+  "type": "object"
+}

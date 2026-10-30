@@ -1,0 +1,133 @@
+{
+  "$defs": {
+    "Caption": {
+      "additionalProperties": false,
+      "properties": {
+        "block_id": {
+          "title": "Block Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 5000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "figure",
+            "table"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "block_id",
+        "text",
+        "kind"
+      ],
+      "title": "Caption",
+      "type": "object"
+    },
+    "Draft": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "enum": [
+            "abstract",
+            "keywords",
+            "conclusion",
+            "caption"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 40000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "maxItems": 100,
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "role",
+        "text",
+        "evidence"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "block_id": {
+          "title": "Block Id",
+          "type": "string"
+        },
+        "quote": {
+          "maxLength": 20000,
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "block_id",
+        "quote"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "enabled_content": {
+      "default": false,
+      "title": "Enabled Content",
+      "type": "boolean"
+    },
+    "add_toc": {
+      "default": false,
+      "title": "Add Toc",
+      "type": "boolean"
+    },
+    "add_page_numbers": {
+      "default": false,
+      "title": "Add Page Numbers",
+      "type": "boolean"
+    },
+    "number_headings": {
+      "default": false,
+      "title": "Number Headings",
+      "type": "boolean"
+    },
+    "captions": {
+      "items": {
+        "$ref": "#/$defs/Caption"
+      },
+      "maxItems": 1000,
+      "title": "Captions",
+      "type": "array"
+    },
+    "drafts": {
+      "items": {
+        "$ref": "#/$defs/Draft"
+      },
+      "maxItems": 100,
+      "title": "Drafts",
+      "type": "array"
+    }
+  },
+  "title": "CompletionRequest",
+  "type": "object"
+}

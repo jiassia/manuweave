@@ -1,0 +1,697 @@
+{
+  "id": "int-bmc-public-health-research-word",
+  "name": "BMC Public Health research article Word requirements",
+  "version": "1.0.0",
+  "aliases": [
+    "BMC Public Health research",
+    "BMC Public Health 研究论文 Word"
+  ],
+  "scope": "Research article; explicit Word spacing/layout and listed editorial requirements from the journal's own guide.",
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "line_spacing": 2
+    },
+    "body": {
+      "line_spacing": 2
+    },
+    "abstract_heading": {
+      "line_spacing": 2
+    },
+    "abstract": {
+      "line_spacing": 2
+    },
+    "keywords": {
+      "line_spacing": 2
+    },
+    "heading1": {
+      "line_spacing": 2
+    },
+    "heading2": {
+      "line_spacing": 2
+    },
+    "heading3": {
+      "line_spacing": 2
+    },
+    "caption": {
+      "line_spacing": 2
+    },
+    "figure_caption": {
+      "line_spacing": 2
+    },
+    "table_caption": {
+      "line_spacing": 2
+    },
+    "table_body": {
+      "line_spacing": 2
+    },
+    "reference": {
+      "line_spacing": 2
+    },
+    "references_heading": {
+      "line_spacing": 2
+    },
+    "equation": {
+      "line_spacing": 2
+    }
+  },
+  "page": {},
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://link.springer.com/journal/12889/submission-guidelines",
+      "title": "Submission guidelines | BMC Public Health | Springer Nature Link",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+      "byte_count": 221528,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false,
+      "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)"
+    },
+    {
+      "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+      "title": "Research article | BMC Public Health | Springer Nature Link",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+      "byte_count": 196849,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false,
+      "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)"
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "body",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "abstract_heading",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "abstract",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "keywords",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "heading1",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "heading2",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "heading3",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "caption",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "figure_caption",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "table_caption",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "table_body",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "reference",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "references_heading",
+      "property": "line_spacing",
+      "expected": 2
+    },
+    {
+      "role": "equation",
+      "property": "line_spacing",
+      "expected": 2
+    }
+  ],
+  "template": {
+    "family": "international-journals",
+    "source_version": "Official online author guidelines snapshot 2026-10-30; Research article",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://link.springer.com/journal/12889/submission-guidelines",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-line-spacing",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "body-line-spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "abstract_heading-line-spacing",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "abstract-line-spacing",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "keywords-line-spacing",
+        "category": "typography",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "heading1-line-spacing",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "heading2-line-spacing",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "heading3-line-spacing",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "caption-line-spacing",
+        "category": "typography",
+        "target": "caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "figure_caption-line-spacing",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "table_caption-line-spacing",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "table_body-line-spacing",
+        "category": "typography",
+        "target": "table_body",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "reference-line-spacing",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "references_heading-line-spacing",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "equation-line-spacing",
+        "category": "typography",
+        "target": "equation",
+        "property": "line_spacing",
+        "expected": 2,
+        "unit": "ratio",
+        "checking": "xml",
+        "certainty": "verified",
+        "applies_to": [
+          "docx"
+        ],
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+          "anchor": "Use double-line spacing",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "detail": "Apply the journal's explicit manuscript-wide line-spacing instruction."
+      },
+      {
+        "id": "page-and-line-numbers",
+        "category": "layout",
+        "target": "document",
+        "property": "page_and_line_numbers_required",
+        "expected": true,
+        "detail": "The main manuscript includes both line and page numbering.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[2]; normalized text anchor: Include line and page numbering",
+          "anchor": "Include line and page numbering",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "no-manual-page-breaks",
+        "category": "layout",
+        "target": "document",
+        "property": "manual_page_breaks_allowed",
+        "expected": false,
+        "detail": "Do not add manual page breaks as a formatting shortcut.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[4]; normalized text anchor: Do not use page breaks in your manuscript",
+          "anchor": "Do not use page breaks in your manuscript",
+          "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "abstract-limit",
+        "category": "structure",
+        "target": "abstract",
+        "property": "maximum_words",
+        "expected": 350,
+        "detail": "Research-article abstracts have a maximum of 350 words.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": "words",
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+          "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[8]; normalized text anchor: The Abstract should not exceed 350 words",
+          "anchor": "The Abstract should not exceed 350 words",
+          "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "abstract-structure",
+        "category": "structure",
+        "target": "abstract",
+        "property": "required_labels",
+        "expected": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusions"
+        ],
+        "detail": "Use the research-article abstract labels specified by the journal. Trial-registration information is additionally required for applicable intervention trials.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+          "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[8]; normalized text anchor: The abstract must include the following separate sections",
+          "anchor": "The abstract must include the following separate sections",
+          "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "abstract-citations",
+        "category": "citation",
+        "target": "abstract",
+        "property": "citations_allowed",
+        "expected": false,
+        "detail": "Do not cite references in the abstract.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+          "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[8]; normalized text anchor: do not cite references in the abstract",
+          "anchor": "do not cite references in the abstract",
+          "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "keyword-count",
+        "category": "structure",
+        "target": "keywords",
+        "property": "count_range",
+        "expected": [
+          3,
+          10
+        ],
+        "detail": "Provide three to ten keywords representing the article.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+          "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[10]; normalized text anchor: Three to ten keywords",
+          "anchor": "Three to ten keywords",
+          "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "title-page-identity",
+        "category": "identity",
+        "target": "title_page",
+        "property": "author_names_and_addresses_required",
+        "expected": true,
+        "detail": "The title page identifies authors and institutional addresses; identity details must come from the manuscript or user.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+          "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[1]/li[2]; normalized text anchor: list the full names and institutional addresses for all authors",
+          "anchor": "list the full names and institutional addresses for all authors",
+          "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      },
+      {
+        "id": "declarations",
+        "category": "structure",
+        "target": "declarations",
+        "property": "required_section",
+        "expected": true,
+        "detail": "The research article includes the journal's Declarations subsections; statements require actual author, funding and ethics evidence.",
+        "checking": "host",
+        "certainty": "verified",
+        "unit": null,
+        "source": {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+          "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+          "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[20]; normalized text anchor: All manuscripts must contain the following sections under the heading",
+          "anchor": "All manuscripts must contain the following sections under the heading",
+          "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+          "retrieved_at": "2026-10-30"
+        },
+        "applies_to": [
+          "docx"
+        ]
+      }
+    ],
+    "coverage_notes": [
+      "This profile applies only the source-established spacing and layout properties; it preserves manuscript font and point-size choices.",
+      "The listed reference, figure, structure and identity policies require the corresponding host checks. Formatting does not invent facts or delete material.",
+      "A Word formatting pass does not establish complete journal submission compliance."
+    ]
+  }
+}

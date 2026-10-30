@@ -1,0 +1,1362 @@
+{
+  "id": "comp-tf-hhci20-word",
+  "name": "Human-Computer Interaction — selected authoring layout (Word)",
+  "version": "1.0.0",
+  "scope": "article_main_document_authoring_template; journal_article",
+  "journal_title": "Human-Computer Interaction",
+  "catalog_journal_id": "ccf-2026-human-computer-interaction",
+  "manuscript_type": "journal_article",
+  "stage": "article_main_document_authoring_template",
+  "aliases": [
+    "Human-Computer Interaction Word authoring layout"
+  ],
+  "rules": {
+    "body": {
+      "size_pt": 9.96264
+    },
+    "caption": {
+      "bold": true
+    }
+  },
+  "page": {
+    "width_mm": 215.9,
+    "height_mm": 279.4,
+    "margin_top_mm": 24.602186,
+    "margin_bottom_mm": 63.262765,
+    "columns": 1
+  },
+  "latex": {},
+  "extracted_format": {
+    "mode": "native_hcij_template_values_partial_word_mapping",
+    "roles": {
+      "body": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "title": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 20.74,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 92-97; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 25,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 92-97; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 92-97; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 92-97; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": "name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 92-97; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "size_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 107-112; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "baseline_skip_pt": {
+          "value": 14,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 107-112; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 107-112; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 107-112; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "alignment": {
+          "value": "center",
+          "unit": "name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 107-112; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "size_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 122-127; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "baseline_skip_pt": {
+          "value": 14,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 122-127; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 122-127; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "italic": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 122-127; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        },
+        "alignment": {
+          "value": "center",
+          "unit": "name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 122-127; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          },
+          "condition": "separate title-page document; do not introduce author identities into the main review document"
+        }
+      },
+      "abstract": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "alignment": {
+          "value": "left",
+          "unit": "name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "abstract_heading": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 14.4,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 18,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": "name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "text_case": {
+          "value": "uppercase",
+          "unit": "name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 152-157; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 14.4,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 79-84; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 18,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 79-84; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 79-84; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 79-84; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "text_case": {
+          "value": "uppercase",
+          "unit": "name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 79-84; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 82-87; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 14,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 82-87; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 82-87; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 82-87; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "heading3": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 84-89; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 84-89; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 84-89; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 84-89; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "heading4": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 86-91; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 86-91; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 86-91; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 86-91; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "heading5": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 88-93; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 88-93; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 88-93; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 88-93; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "run_in": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 88-93; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "figure_caption": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "table_caption": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "Palatino",
+          "unit": "native family literal",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "line 21; class font-family selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "size_pt": {
+          "value": 10,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "baseline_skip_pt": {
+          "value": 12,
+          "unit": "TeX pt",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+            "file": "hcij.cls",
+            "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+            "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+          }
+        },
+        "bibliography_style": {
+          "value": "apacite",
+          "unit": "native bibliography style name",
+          "source": {
+            "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/articleMainDocument.tex",
+            "file": "articleMainDocument.tex",
+            "locator": "References group bibliography-style selection",
+            "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30"
+          }
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 215.9,
+        "unit": "mm",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 50; explicit geometry letterpaper and top/bottom settings; line 8 one-column setting",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "height_mm": {
+        "value": 279.4,
+        "unit": "mm",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 50; explicit geometry letterpaper and top/bottom settings; line 8 one-column setting",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "margin_top_mm": {
+        "value": 24.602186,
+        "unit": "mm",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 50; explicit geometry letterpaper and top/bottom settings; line 8 one-column setting",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "margin_bottom_mm": {
+        "value": 63.262765,
+        "unit": "mm",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 50; explicit geometry letterpaper and top/bottom settings; line 8 one-column setting",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "columns": {
+        "value": 1,
+        "unit": "count",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 50; explicit geometry letterpaper and top/bottom settings; line 8 one-column setting",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      }
+    },
+    "captions": {
+      "font": {
+        "value": "Palatino",
+        "unit": "native family literal",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 21; class font-family selection",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "size_pt": {
+        "value": 10,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "baseline_skip_pt": {
+        "value": 12,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "bold": {
+        "value": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "italic": {
+        "value": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 29-34; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "figure_label": {
+        "value": "FIGURE",
+        "unit": "text label",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 48",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "label_separator": {
+        "value": "period",
+        "unit": "punctuation",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 48",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      }
+    },
+    "references": {
+      "font": {
+        "value": "Palatino",
+        "unit": "native family literal",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "line 21; class font-family selection",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "size_pt": {
+        "value": 10,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "baseline_skip_pt": {
+        "value": 12,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "bold": {
+        "value": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "italic": {
+        "value": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 8-13; inherited article 10pt size macros resolved numerically under the exact linked class",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199"
+        }
+      },
+      "bibliography_style": {
+        "value": "apacite",
+        "unit": "native bibliography style name",
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/articleMainDocument.tex",
+          "file": "articleMainDocument.tex",
+          "locator": "References group bibliography-style selection",
+          "version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+          "sha256": "5d1d445428a64ca7acf0f65532e140565bca7865a01932d05148fa95f2fee729"
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=hhci20",
+      "file": "hhci20-instructions.html",
+      "sha256": "84a6c74637b1e690cca9b1a1fcff538d0de424643114910882914b0c6e93e1be",
+      "retrieved": "2026-10-30",
+      "link": "https://docs.google.com/document/d/1qztwovMIRjMjrHQ3txaNVaMD7zslXdx0lba9IftYKcc/edit",
+      "verified": true
+    },
+    {
+      "url": "https://docs.google.com/document/d/1qztwovMIRjMjrHQ3txaNVaMD7zslXdx0lba9IftYKcc/export?format=docx",
+      "file": "hci-submission-template-index.docx",
+      "retrieved": "2026-10-30",
+      "link": "https://github.com/madpickle/HCIJ_LaTeX_Template",
+      "sha256": "fb803a8ae23d3ef46d1194638643dcf14ca94f5c5982c328237b0c182b628324",
+      "bytes": 10872,
+      "verified": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+      "file": "hcij.cls",
+      "sha256": "bdf7a2d2aa908b0c50ddb1dea44b9ac88c4ee166ad810872b3744ca81b926199",
+      "bytes": 5990,
+      "retrieved": "2026-10-30",
+      "verified": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/articleMainDocument.tex",
+      "file": "articleMainDocument.tex",
+      "sha256": "5d1d445428a64ca7acf0f65532e140565bca7865a01932d05148fa95f2fee729",
+      "bytes": 1887,
+      "retrieved": "2026-10-30",
+      "verified": true
+    }
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "checks": [
+    {
+      "requirement": "body-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "caption-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-width_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-height_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_top_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_bottom_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-columns",
+      "checking": "xml"
+    }
+  ],
+  "examples": [
+    {
+      "kind": "docx",
+      "path": "computer-special/examples/tf-ws-synthetic.docx",
+      "synthetic": true
+    }
+  ],
+  "template": {
+    "family": "computer-special",
+    "source_version": "hcij 2018/10/16; current official journal template link snapshot 2026-10-30",
+    "source_url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/articleMainDocument.tex",
+    "license": "rules_only_source_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "body-size_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.96264,
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 8-8"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "10 TeX pt -> 10 x 72 / 72.27 Word pt; geometry top/bottom in TeX pt -> mm via 25.4/72.27; letterpaper = 8.5 x 11 inches; no side margins inferred"
+      },
+      {
+        "id": "caption-bold",
+        "category": "layout",
+        "target": "caption",
+        "property": "bold",
+        "expected": true,
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 29-29"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "10 TeX pt -> 10 x 72 / 72.27 Word pt; geometry top/bottom in TeX pt -> mm via 25.4/72.27; letterpaper = 8.5 x 11 inches; no side margins inferred"
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 215.9,
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 50-50"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "10 TeX pt -> 10 x 72 / 72.27 Word pt; geometry top/bottom in TeX pt -> mm via 25.4/72.27; letterpaper = 8.5 x 11 inches; no side margins inferred"
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 279.4,
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 50-50"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "10 TeX pt -> 10 x 72 / 72.27 Word pt; geometry top/bottom in TeX pt -> mm via 25.4/72.27; letterpaper = 8.5 x 11 inches; no side margins inferred"
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 24.602186,
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 50-50"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "10 TeX pt -> 10 x 72 / 72.27 Word pt; geometry top/bottom in TeX pt -> mm via 25.4/72.27; letterpaper = 8.5 x 11 inches; no side margins inferred"
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 63.262765,
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 50-50"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "10 TeX pt -> 10 x 72 / 72.27 Word pt; geometry top/bottom in TeX pt -> mm via 25.4/72.27; letterpaper = 8.5 x 11 inches; no side margins inferred"
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "source": {
+          "url": "https://raw.githubusercontent.com/madpickle/HCIJ_LaTeX_Template/master/hcij.cls",
+          "file": "hcij.cls",
+          "locator": "lines 8-8"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "10 TeX pt -> 10 x 72 / 72.27 Word pt; geometry top/bottom in TeX pt -> mm via 25.4/72.27; letterpaper = 8.5 x 11 inches; no side margins inferred"
+      }
+    ],
+    "coverage_notes": [
+      "The journal-specific template index links the HCIJ article class and separate title-page authoring route.",
+      "Native TeX point sizes, baselines, Palatino family, headings and physical geometry are retained numerically in extracted_format. Supported physical geometry, body-size and caption weight form the current partial Word mapping."
+    ]
+  }
+}

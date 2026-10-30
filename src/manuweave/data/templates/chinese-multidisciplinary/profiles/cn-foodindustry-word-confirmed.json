@@ -1,0 +1,1045 @@
+{
+  "id": "cn-foodindustry-word-confirmed",
+  "name": "食品工业科技：官方投稿模板明确格式",
+  "version": "1.0.0",
+  "aliases": [
+    "食品工业科技"
+  ],
+  "scope": "中文研究论文与综述的投稿版式；采用官方明示字体、通栏和字号层级政策。",
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "abstract_heading": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "abstract": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "keywords": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "heading1": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "heading2": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "heading3": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "heading4": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "body": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "table_body": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "figure_caption": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "table_caption": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "references_heading": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "reference": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    }
+  },
+  "page": {
+    "columns": 1
+  },
+  "latex": {},
+  "sources": [
+    {
+      "file": "spgykj-template.pdf",
+      "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+      "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+      "bytes": 588044,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "title",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "abstract_heading",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "abstract_heading",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "abstract",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "abstract",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "keywords",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "keywords",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading1",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading1",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading2",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading2",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading3",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading3",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading4",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading4",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "table_body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "table_body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "figure_caption",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "figure_caption",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "table_caption",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "table_caption",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "references_heading",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "references_heading",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "reference",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "reference",
+      "property": "font",
+      "expected": "Times New Roman"
+    }
+  ],
+  "template": {
+    "family": "chinese-multidisciplinary",
+    "source_version": "2026-10-30/official-template-PDF-snapshot",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract_heading-east_asia_font",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract_heading-font",
+        "category": "typography",
+        "target": "abstract_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-east_asia_font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-east_asia_font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading4-east_asia_font",
+        "category": "typography",
+        "target": "heading4",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading4-font",
+        "category": "typography",
+        "target": "heading4",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-east_asia_font",
+        "category": "typography",
+        "target": "table_body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-font",
+        "category": "typography",
+        "target": "table_body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-east_asia_font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references_heading-font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 323; anchor 文中所有的中文",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 198; anchor 投稿时请使用通栏",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "font-size-policy",
+        "category": "typography",
+        "target": "document",
+        "property": "fixed_point_sizes_required",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 393; anchor 对字号无要求",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The official template explicitly leaves point sizes free; no invented fixed size is imposed."
+      },
+      {
+        "id": "font-size-hierarchy",
+        "category": "typography",
+        "target": "document",
+        "property": "size_order",
+        "expected": "heading_levels_to_body_descending",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 393; anchor 对字号无要求",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "legacy-word-submission",
+        "category": "submission",
+        "target": "document",
+        "property": "file_format",
+        "expected": "Word .doc",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 1; text character offset 290; anchor 2003",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keyword-count",
+        "category": "submission",
+        "target": "keywords",
+        "property": "recommended_count",
+        "expected": [
+          5,
+          8
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 2; text character offset 718; anchor 关键词以",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading-numbering",
+        "category": "structure",
+        "target": "document",
+        "property": "numbering",
+        "expected": "literal Arabic hierarchy 1,1.1,1.1.2; at most four levels; not automatic fields",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 3; text character offset 1023; anchor 层次标题左起顶格",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-table-numbering",
+        "category": "caption",
+        "target": "document",
+        "property": "numbering",
+        "expected": "consecutive Arabic numbers",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 4; text character offset 723; anchor 表序与图序均按照",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bilingual-captions",
+        "category": "caption",
+        "target": "document",
+        "property": "bilingual_captions_required",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 4; text character offset 776; anchor 图与表题均需有英文对照",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bibliography-numeric",
+        "category": "citation",
+        "target": "document",
+        "property": "bibliography_style",
+        "expected": "numeric",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 2; text character offset 1073; anchor 采用顺序编码体系",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bibliography-standard",
+        "category": "citation",
+        "target": "reference",
+        "property": "standard",
+        "expected": "GB/T 7714-2015",
+        "unit": null,
+        "source": {
+          "url": "https://www.spgykj.com/supplement/preview/a2c39452-a4d8-4f78-b329-28f9aa7d1c05",
+          "file": "spgykj-template.pdf",
+          "locator": "PDF page 6; text character offset 2159; anchor 参照 GB/T 7714-2015",
+          "sha256": "b469ae69a5636e1400dad0a273c6012524034afe6a5608fd4c3d2cc99632d414",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "Only the explicit confirmed manuscript-format rules are applied. Publisher documents and source prose are not redistributed.",
+      "Editorial requirements remain in the audit record; their presence does not authorize invention of author information, references, experiments or results.",
+      "The official document explicitly states that fixed point sizes are not prescribed; this is a confirmed design freedom. Editable DOCX formatting does not itself perform the legacy .doc submission conversion."
+    ]
+  }
+}

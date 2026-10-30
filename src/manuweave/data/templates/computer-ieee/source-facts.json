@@ -1,0 +1,2844 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Per-journal native LaTeX template bindings from the public official IEEE Template Selector. No submission policies or local acceptance artifacts.",
+  "retrieved_at": "2026-10-30T13:29:13.966918+00:00",
+  "catalog_scope": {
+    "file": "computer-catalog.json",
+    "publisher_groups": [
+      "IEEE",
+      "IEEE/ACM"
+    ],
+    "journal_count": 48
+  },
+  "selector_listing": {
+    "url": "https://template-selector.ieee.org/api/ieee-template-selector/publication-title/publication-type/1",
+    "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/publication-title/publication-type/1",
+    "http_status": 200,
+    "byte_count": 75801,
+    "sha256": "a8b2fddeef0ab733696c138b762ced3ce9604852def35d79011e70c47f7d4661",
+    "retrieved_at": "2026-10-30T13:28:31.180851+00:00",
+    "source_verified": true,
+    "original_file_redistributed": false
+  },
+  "journal_mappings": [
+    {
+      "catalog_id": "ccf-2026-ieee-acm-transactions-on-computational-biology-and-bioi-abcdde3d",
+      "journal_name": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+      "abbreviation": "TCBB",
+      "selector_publication_id": 272,
+      "selector_publication_name": "IEEE Transactions on Computational Biology and Bioinformatics",
+      "catalog_name_match": "Full subject title exact after IEEE/ACM to IEEE co-publisher-prefix normalization; current official selector title recorded separately.",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/272",
+        "http_status": 200,
+        "byte_count": 2618,
+        "sha256": "23a2ffd6bc64eec86d379e58e9ceb2acf2c4c5410bd63568a0c82386fdee6541",
+        "retrieved_at": "2026-10-30T13:59:41.635832+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 668,
+          "publication_title": {
+            "id": 272,
+            "name": "IEEE Transactions on Computational Biology and Bioinformatics"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-geoscience-and-remote-sensing-letters",
+      "journal_name": "IEEE Geoscience and Remote Sensing Letters",
+      "abbreviation": "",
+      "selector_publication_id": 30,
+      "selector_publication_name": "IEEE Geoscience and Remote Sensing Letters",
+      "catalog_name_match": "IEEE Geoscience and Remote Sensing Letters",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/30",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/30",
+        "http_status": 200,
+        "byte_count": 2489,
+        "sha256": "6eca5ec980cbc44bec09a67fb13defaae950b3053f76384f20fb0340d9dcdd38",
+        "retrieved_at": "2026-10-30T13:28:32.243272+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 39,
+          "publication_title": {
+            "id": 30,
+            "name": "IEEE Geoscience and Remote Sensing Letters"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-internet-of-things-journal",
+      "journal_name": "IEEE Internet of Things Journal",
+      "abbreviation": "IOT",
+      "selector_publication_id": 12,
+      "selector_publication_name": "IEEE Internet of Things Journal",
+      "catalog_name_match": "IEEE Internet of Things Journal",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/12",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/12",
+        "http_status": 200,
+        "byte_count": 2444,
+        "sha256": "9fdccbd0624d5921295c2086d9d4cbd4a4de235f4b474e0d50ccdb33bd7186a3",
+        "retrieved_at": "2026-10-30T13:28:32.145234+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 14,
+          "publication_title": {
+            "id": 12,
+            "name": "IEEE Internet of Things Journal"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-journal-of-biomedical-and-health-informatics",
+      "journal_name": "IEEE Journal of Biomedical and Health Informatics",
+      "abbreviation": "JBHI",
+      "selector_publication_id": 177,
+      "selector_publication_name": "IEEE Journal of Biomedical and Health Informatics",
+      "catalog_name_match": "IEEE Journal of Biomedical and Health Informatics",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/177",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/177",
+        "http_status": 200,
+        "byte_count": 4961,
+        "sha256": "fb223c3388abfc958e7bc6553f1f44c510ae3a4b7b6c5502b654979bea1178fb",
+        "retrieved_at": "2026-10-30T13:28:33.015078+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 368,
+          "publication_title": {
+            "id": 177,
+            "name": "IEEE Journal of Biomedical and Health Informatics"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 198,
+            "name": "JBHI_LaTex_Template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1681928570000
+          },
+          "status": "Active"
+        },
+        {
+          "mapping_id": 401,
+          "publication_title": {
+            "id": 177,
+            "name": "IEEE Journal of Biomedical and Health Informatics"
+          },
+          "article_type": {
+            "id": 4,
+            "name": "Brief"
+          },
+          "template_meta": {
+            "id": 197,
+            "name": "JBHI_Brief_LaTex_Template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": null
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-journal-on-selected-areas-in-communications",
+      "journal_name": "IEEE Journal on Selected Areas in Communications",
+      "abbreviation": "JSAC",
+      "selector_publication_id": 21,
+      "selector_publication_name": "IEEE Journal on Selected Areas in Communications",
+      "catalog_name_match": "IEEE Journal on Selected Areas in Communications",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/21",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/21",
+        "http_status": 200,
+        "byte_count": 2513,
+        "sha256": "dae48e323cdfc3b2db8327b7501e89150ab9b84001e5e60d40b035be51073998",
+        "retrieved_at": "2026-10-30T13:28:32.378085+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 26,
+          "publication_title": {
+            "id": 21,
+            "name": "IEEE Journal on Selected Areas in Communications"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-signal-processing-letters",
+      "journal_name": "IEEE Signal Processing Letters",
+      "abbreviation": "SPL",
+      "selector_publication_id": 194,
+      "selector_publication_name": "IEEE Signal Processing Letters",
+      "catalog_name_match": "IEEE Signal Processing Letters",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/194",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/194",
+        "http_status": 200,
+        "byte_count": 2421,
+        "sha256": "f300d9ad2a077cb3e0f1c58cfbf3e3b8d3c51001eb421388110cf7749b93a123",
+        "retrieved_at": "2026-10-30T13:28:32.889613+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 419,
+          "publication_title": {
+            "id": 194,
+            "name": "IEEE Signal Processing Letters"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 265,
+            "name": "LSP_LaTeX_Template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": null
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-affective-computing",
+      "journal_name": "IEEE Transactions on Affective Computing",
+      "abbreviation": "TAC",
+      "selector_publication_id": 138,
+      "selector_publication_name": "IEEE Transactions on Affective Computing",
+      "catalog_name_match": "IEEE Transactions on Affective Computing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/138",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/138",
+        "http_status": 200,
+        "byte_count": 2537,
+        "sha256": "c740ff1d8fcc83e3a137c91ebb83537da54e13db804adb49ea76d7c7a3597094",
+        "retrieved_at": "2026-10-30T13:28:33.299555+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 183,
+          "publication_title": {
+            "id": 138,
+            "name": "IEEE Transactions on Affective Computing"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-audio-speech-and-language-processi-1b5cc7cc",
+      "journal_name": "IEEE Transactions on Audio, Speech and Language Processing（原 IEEE/ACM Transactions on Audio, Speech and Language Processing）",
+      "abbreviation": "TASLP",
+      "selector_publication_id": 271,
+      "selector_publication_name": "IEEE Transactions on Audio, Speech and Language Processing",
+      "catalog_name_match": "IEEE Transactions on Audio, Speech and Language Processing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/271",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/271",
+        "http_status": 200,
+        "byte_count": 2556,
+        "sha256": "ba2b90b4d810c4a256a381d74ec8c7013d7825799fb7fd43a5a5ec0e38de275c",
+        "retrieved_at": "2026-10-30T13:28:33.122564+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 666,
+          "publication_title": {
+            "id": 271,
+            "name": "IEEE Transactions on Audio, Speech and Language Processing"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-automation-science-and-engineering",
+      "journal_name": "IEEE Transactions on Automation Science and Engineering",
+      "abbreviation": "TASAE",
+      "selector_publication_id": 126,
+      "selector_publication_name": "IEEE Transactions on Automation Science and Engineering",
+      "catalog_name_match": "IEEE Transactions on Automation Science and Engineering",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/126",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/126",
+        "http_status": 200,
+        "byte_count": 2698,
+        "sha256": "42fab0191a15302e29083a0f34306e6128b921951ad99f6a6c41c0539add4161",
+        "retrieved_at": "2026-10-30T13:28:33.670090+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 158,
+          "publication_title": {
+            "id": 126,
+            "name": "IEEE Transactions on Automation Science and Engineering"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 298,
+            "name": "IEEE-TASE-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1732553461000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-big-data",
+      "journal_name": "IEEE Transactions on Big Data",
+      "abbreviation": "TBD",
+      "selector_publication_id": 141,
+      "selector_publication_name": "IEEE Transactions on Big Data",
+      "catalog_name_match": "IEEE Transactions on Big Data",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/141",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/141",
+        "http_status": 200,
+        "byte_count": 2493,
+        "sha256": "bac56d772b11c113032c471ed6b8aec046da83c1d5ff85cb4ed936f6c2b7e46a",
+        "retrieved_at": "2026-10-30T13:28:33.936485+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 186,
+          "publication_title": {
+            "id": 141,
+            "name": "IEEE Transactions on Big Data"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-circuits-and-systems-for-video-technology",
+      "journal_name": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "abbreviation": "TCSVT",
+      "selector_publication_id": 160,
+      "selector_publication_name": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "catalog_name_match": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/160",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/160",
+        "http_status": 200,
+        "byte_count": 2572,
+        "sha256": "760bdacf79f9f5b0505010ea69fda0e6566cd47cff3b834f6c9cdce6e073c532",
+        "retrieved_at": "2026-10-30T13:28:33.870529+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 213,
+          "publication_title": {
+            "id": 160,
+            "name": "IEEE Transactions on Circuits and Systems for Video Technology"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-circuits-and-systems-i-regular-papers",
+      "journal_name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "abbreviation": "TCASI",
+      "selector_publication_id": 139,
+      "selector_publication_name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "catalog_name_match": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/139",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/139",
+        "http_status": 200,
+        "byte_count": 2560,
+        "sha256": "c770b8e6c0d176d357830faf46cf3804d2c345727436148f816dc6ad22823422",
+        "retrieved_at": "2026-10-30T13:28:34.063190+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 184,
+          "publication_title": {
+            "id": 139,
+            "name": "IEEE Transactions on Circuits and Systems I: Regular Papers"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-cloud-computing",
+      "journal_name": "IEEE Transactions on Cloud Computing",
+      "abbreviation": "TCC",
+      "selector_publication_id": 144,
+      "selector_publication_name": "IEEE Transactions on Cloud Computing",
+      "catalog_name_match": "IEEE Transactions on Cloud Computing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/144",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/144",
+        "http_status": 200,
+        "byte_count": 2521,
+        "sha256": "a6a19d1dcba0766500bf32fb0fa4dba7ad394ed0cf8a60accce995db2923ff0b",
+        "retrieved_at": "2026-10-30T13:28:34.431224+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 189,
+          "publication_title": {
+            "id": 144,
+            "name": "IEEE Transactions on Cloud Computing"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-communications",
+      "journal_name": "IEEE Transactions on Communications",
+      "abbreviation": "TCOM",
+      "selector_publication_id": 136,
+      "selector_publication_name": "IEEE Transactions on Communications",
+      "catalog_name_match": "IEEE Transactions on Communications",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/136",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/136",
+        "http_status": 200,
+        "byte_count": 2464,
+        "sha256": "9c8d64abec415cf79761030aa8d5ab368d16f7b960f5b0fb02b6db45a433ece7",
+        "retrieved_at": "2026-10-30T13:28:34.619044+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 181,
+          "publication_title": {
+            "id": 136,
+            "name": "IEEE Transactions on Communications"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-computational-social-systems",
+      "journal_name": "IEEE Transactions on Computational Social Systems",
+      "abbreviation": "TCSS",
+      "selector_publication_id": 223,
+      "selector_publication_name": "IEEE Transactions on Computational Social Systems",
+      "catalog_name_match": "IEEE Transactions on Computational Social Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/223",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/223",
+        "http_status": 200,
+        "byte_count": 2520,
+        "sha256": "c71cbf9c1015aa75fe1f83377a5ffc0f50ab18216135fdc042dbcded3624cefd",
+        "retrieved_at": "2026-10-30T13:28:34.787287+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 511,
+          "publication_title": {
+            "id": 223,
+            "name": "IEEE Transactions on Computational Social Systems"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-computer-aided-design-of-integrate-4f88bea1",
+      "journal_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "abbreviation": "TCAD",
+      "selector_publication_id": 129,
+      "selector_publication_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "catalog_name_match": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/129",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/129",
+        "http_status": 200,
+        "byte_count": 2632,
+        "sha256": "1d92766677de77538f24bec53b16c88f0e53c77f2e2541b413dbd75b6774d64d",
+        "retrieved_at": "2026-10-30T13:28:34.823617+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 163,
+          "publication_title": {
+            "id": 129,
+            "name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-computers",
+      "journal_name": "IEEE Transactions on Computers",
+      "abbreviation": "TC",
+      "selector_publication_id": 142,
+      "selector_publication_name": "IEEE Transactions on Computers",
+      "catalog_name_match": "IEEE Transactions on Computers",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/142",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/142",
+        "http_status": 200,
+        "byte_count": 2497,
+        "sha256": "330ec1f936fc9d03e555e2229207d0645755d93781b37a5c1b2e521aaa3de04e",
+        "retrieved_at": "2026-10-30T13:28:37.165550+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 187,
+          "publication_title": {
+            "id": 142,
+            "name": "IEEE Transactions on Computers"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-cybernetics",
+      "journal_name": "IEEE Transactions on Cybernetics",
+      "abbreviation": "",
+      "selector_publication_id": 161,
+      "selector_publication_name": "IEEE Transactions on Cybernetics",
+      "catalog_name_match": "IEEE Transactions on Cybernetics",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/161",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/161",
+        "http_status": 200,
+        "byte_count": 2452,
+        "sha256": "ac191a0d75c8c43f24a25bc2a00b8b3e9acf4d1187b5095bd3cb3e0840b80097",
+        "retrieved_at": "2026-10-30T13:28:35.371816+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 217,
+          "publication_title": {
+            "id": 161,
+            "name": "IEEE Transactions on Cybernetics"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-dependable-and-secure-computing",
+      "journal_name": "IEEE Transactions on Dependable and Secure Computing",
+      "abbreviation": "TDSC",
+      "selector_publication_id": 145,
+      "selector_publication_name": "IEEE Transactions on Dependable and Secure Computing",
+      "catalog_name_match": "IEEE Transactions on Dependable and Secure Computing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/145",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/145",
+        "http_status": 200,
+        "byte_count": 2585,
+        "sha256": "c74d79f26897d1abf9de1dec7a6f26402ef83d6116c2e3b7c6bdf3013dda98f2",
+        "retrieved_at": "2026-10-30T13:28:35.590822+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 190,
+          "publication_title": {
+            "id": 145,
+            "name": "IEEE Transactions on Dependable and Secure Computing"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-evolutionary-computation",
+      "journal_name": "IEEE Transactions on Evolutionary Computation",
+      "abbreviation": "TEC",
+      "selector_publication_id": 110,
+      "selector_publication_name": "IEEE Transactions on Evolutionary Computation",
+      "catalog_name_match": "IEEE Transactions on Evolutionary Computation",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/110",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/110",
+        "http_status": 200,
+        "byte_count": 2504,
+        "sha256": "d52a10fdd049dbb63323f041d993950f180e476cf3dc34eb95a58b4ccfcf45dc",
+        "retrieved_at": "2026-10-30T13:28:35.651340+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 240,
+          "publication_title": {
+            "id": 110,
+            "name": "IEEE Transactions on Evolutionary Computation"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-fuzzy-systems",
+      "journal_name": "IEEE Transactions on Fuzzy Systems",
+      "abbreviation": "TFS",
+      "selector_publication_id": 109,
+      "selector_publication_name": "IEEE Transactions on Fuzzy Systems",
+      "catalog_name_match": "IEEE Transactions on Fuzzy Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/109",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/109",
+        "http_status": 200,
+        "byte_count": 2460,
+        "sha256": "94c330fd11034971649f905b9af347f8cdfcce431f92577e8d7913489d34d748",
+        "retrieved_at": "2026-10-30T13:28:36.132840+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 242,
+          "publication_title": {
+            "id": 109,
+            "name": "IEEE Transactions on Fuzzy Systems"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-games",
+      "journal_name": "IEEE Transactions on Games",
+      "abbreviation": "TG",
+      "selector_publication_id": 107,
+      "selector_publication_name": "IEEE Transactions on Games",
+      "catalog_name_match": "IEEE Transactions on Games",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/107",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/107",
+        "http_status": 200,
+        "byte_count": 2428,
+        "sha256": "392af3c18b268630cad8e499f9283059ef3231f527188f2de2b017eb460eeaa5",
+        "retrieved_at": "2026-10-30T13:28:36.336329+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 244,
+          "publication_title": {
+            "id": 107,
+            "name": "IEEE Transactions on Games"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-geoscience-and-remote-sensing",
+      "journal_name": "IEEE Transactions on Geoscience and Remote Sensing",
+      "abbreviation": "TGARS",
+      "selector_publication_id": 102,
+      "selector_publication_name": "IEEE Transactions on Geoscience and Remote Sensing",
+      "catalog_name_match": "IEEE Transactions on Geoscience and Remote Sensing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/102",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/102",
+        "http_status": 200,
+        "byte_count": 2524,
+        "sha256": "42ff5c070b54cf155b35e5375947966dfabde57cf2eac24f2aacff40f9fb563b",
+        "retrieved_at": "2026-10-30T13:28:36.461690+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 246,
+          "publication_title": {
+            "id": 102,
+            "name": "IEEE Transactions on Geoscience and Remote Sensing"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-human-machine-systems",
+      "journal_name": "IEEE Transactions on Human-Machine Systems",
+      "abbreviation": "",
+      "selector_publication_id": 101,
+      "selector_publication_name": "IEEE Transactions on Human-Machine Systems",
+      "catalog_name_match": "IEEE Transactions on Human-Machine Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/101",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/101",
+        "http_status": 200,
+        "byte_count": 2492,
+        "sha256": "1af8a973dc48cf42c51c3c543912036b2592bd3442b6db1d714be270874d4f4d",
+        "retrieved_at": "2026-10-30T13:28:36.908019+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 247,
+          "publication_title": {
+            "id": 101,
+            "name": "IEEE Transactions on Human-Machine Systems"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-image-processing",
+      "journal_name": "IEEE Transactions on Image Processing",
+      "abbreviation": "TIP",
+      "selector_publication_id": 93,
+      "selector_publication_name": "IEEE Transactions on Image Processing",
+      "catalog_name_match": "IEEE Transactions on Image Processing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/93",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/93",
+        "http_status": 200,
+        "byte_count": 2470,
+        "sha256": "29d3f10dbdd4958f76466614ffa26a574166374d65f46863106580c42d1b1b68",
+        "retrieved_at": "2026-10-30T13:28:37.146743+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 252,
+          "publication_title": {
+            "id": 93,
+            "name": "IEEE Transactions on Image Processing"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-industrial-informatics",
+      "journal_name": "IEEE Transactions on Industrial Informatics",
+      "abbreviation": "TII",
+      "selector_publication_id": 188,
+      "selector_publication_name": "IEEE Transactions on Industrial Informatics",
+      "catalog_name_match": "IEEE Transactions on Industrial Informatics",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/188",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/188",
+        "http_status": 200,
+        "byte_count": 4923,
+        "sha256": "80c65ca34440e279f6b8818518a0301fb75b5e93391fe463fcd5aa401f9dc7ff",
+        "retrieved_at": "2026-10-30T13:28:37.391445+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 379,
+          "publication_title": {
+            "id": 188,
+            "name": "IEEE Transactions on Industrial Informatics"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 279,
+            "name": "TII_Articles_LaTeX_Template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": null
+          },
+          "status": "Active"
+        },
+        {
+          "mapping_id": 418,
+          "publication_title": {
+            "id": 188,
+            "name": "IEEE Transactions on Industrial Informatics"
+          },
+          "article_type": {
+            "id": 4,
+            "name": "Brief"
+          },
+          "template_meta": {
+            "id": 276,
+            "name": "TII_Briefs_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": null
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-information-forensics-and-security",
+      "journal_name": "IEEE Transactions on Information Forensics and Security",
+      "abbreviation": "TIFS",
+      "selector_publication_id": 98,
+      "selector_publication_name": "IEEE Transactions on Information Forensics and Security",
+      "catalog_name_match": "IEEE Transactions on Information Forensics and Security",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/98",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/98",
+        "http_status": 200,
+        "byte_count": 2542,
+        "sha256": "4fea8edea8f1f0593d3b18f57a7a1243aff2ebd21002b36b1a67592281b1bdd6",
+        "retrieved_at": "2026-10-30T13:28:37.684842+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 250,
+          "publication_title": {
+            "id": 98,
+            "name": "IEEE Transactions on Information Forensics and Security"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-information-theory",
+      "journal_name": "IEEE Transactions on Information Theory",
+      "abbreviation": "TIT",
+      "selector_publication_id": 92,
+      "selector_publication_name": "IEEE Transactions on Information Theory",
+      "catalog_name_match": "IEEE Transactions on Information Theory",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/92",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/92",
+        "http_status": 200,
+        "byte_count": 2318,
+        "sha256": "7b3cd59169039c209c1c31b94978f2df5b678c348c856dabf0d96f2c091e6f58",
+        "retrieved_at": "2026-10-30T13:28:38.900431+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 253,
+          "publication_title": {
+            "id": 92,
+            "name": "IEEE Transactions on Information Theory"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 281,
+            "name": "TITS_LaTeX_Template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": null
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-intelligent-transportation-systems",
+      "journal_name": "IEEE Transactions on Intelligent Transportation Systems",
+      "abbreviation": "TITS",
+      "selector_publication_id": 91,
+      "selector_publication_name": "IEEE Transactions on Intelligent Transportation Systems",
+      "catalog_name_match": "IEEE Transactions on Intelligent Transportation Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/91",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/91",
+        "http_status": 200,
+        "byte_count": 2542,
+        "sha256": "a091e4c4f93b28a8b8aaa42f0e2ca209e9d6633ec4e0ab0e36e54dbbc9c48c8f",
+        "retrieved_at": "2026-10-30T13:28:38.445604+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 255,
+          "publication_title": {
+            "id": 91,
+            "name": "IEEE Transactions on Intelligent Transportation Systems"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-knowledge-and-data-engineering",
+      "journal_name": "IEEE Transactions on Knowledge and Data Engineering",
+      "abbreviation": "TKDE",
+      "selector_publication_id": 148,
+      "selector_publication_name": "IEEE Transactions on Knowledge and Data Engineering",
+      "catalog_name_match": "IEEE Transactions on Knowledge and Data Engineering",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/148",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/148",
+        "http_status": 200,
+        "byte_count": 2581,
+        "sha256": "2ec83edf1fd8b42ce3f879c25ed4b5ae594f5ec117a91b954d18163b0a2df327",
+        "retrieved_at": "2026-10-30T13:28:38.247351+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 193,
+          "publication_title": {
+            "id": 148,
+            "name": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-medical-imaging",
+      "journal_name": "IEEE Transactions on Medical Imaging",
+      "abbreviation": "TMI",
+      "selector_publication_id": 4,
+      "selector_publication_name": "IEEE Transactions on Medical Imaging",
+      "catalog_name_match": "IEEE Transactions on Medical Imaging",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/4",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/4",
+        "http_status": 200,
+        "byte_count": 2474,
+        "sha256": "af227b75201d3b5ebcb739ff3f9aefa65cdc0d904c7f47eb9cff18ff87019c34",
+        "retrieved_at": "2026-10-30T13:28:39.340676+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 4,
+          "publication_title": {
+            "id": 4,
+            "name": "IEEE Transactions on Medical Imaging"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 147,
+            "name": "alternate_tj_latex_template_ap.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1681928570000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-mobile-computing",
+      "journal_name": "IEEE Transactions on Mobile Computing",
+      "abbreviation": "TMC",
+      "selector_publication_id": 150,
+      "selector_publication_name": "IEEE Transactions on Mobile Computing",
+      "catalog_name_match": "IEEE Transactions on Mobile Computing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/150",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/150",
+        "http_status": 200,
+        "byte_count": 2484,
+        "sha256": "9a0275e1e6a0a2462984f52b0571f5c0e45146f322b61880afe98403dc70cb02",
+        "retrieved_at": "2026-10-30T13:28:39.040955+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 195,
+          "publication_title": {
+            "id": 150,
+            "name": "IEEE Transactions on Mobile Computing"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 286,
+            "name": "TMC_LaTeX_Template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": null
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-multimedia",
+      "journal_name": "IEEE Transactions on Multimedia",
+      "abbreviation": "TMM",
+      "selector_publication_id": 87,
+      "selector_publication_name": "IEEE Transactions on Multimedia",
+      "catalog_name_match": "IEEE Transactions on Multimedia",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/87",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/87",
+        "http_status": 200,
+        "byte_count": 2445,
+        "sha256": "a7f78b5ac9b64cdb66a23a742bd212ae33faa25960b615104361c1af9e5fe0b1",
+        "retrieved_at": "2026-10-30T13:28:39.531519+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 259,
+          "publication_title": {
+            "id": 87,
+            "name": "IEEE Transactions on Multimedia"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-network-and-service-management",
+      "journal_name": "IEEE Transactions on Network and Service Management",
+      "abbreviation": "TNSM",
+      "selector_publication_id": 82,
+      "selector_publication_name": "IEEE Transactions on Network and Service Management",
+      "catalog_name_match": "IEEE Transactions on Network and Service Management",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/82",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/82",
+        "http_status": 200,
+        "byte_count": 2525,
+        "sha256": "931ad599a6e5478bca7ed2f2b0f6606b493bc17369e453e6fc959b0865bd7beb",
+        "retrieved_at": "2026-10-30T13:28:39.806076+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 264,
+          "publication_title": {
+            "id": 82,
+            "name": "IEEE Transactions on Network and Service Management"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-networking-ieee-acm-transactions-o-9de2a899",
+      "journal_name": "IEEE Transactions on Networking（原 IEEE/ACM Transactions on Networking）",
+      "abbreviation": "TON",
+      "selector_publication_id": 273,
+      "selector_publication_name": "IEEE Transactions on Networking",
+      "catalog_name_match": "IEEE Transactions on Networking",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/273",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/273",
+        "http_status": 200,
+        "byte_count": 2498,
+        "sha256": "ed788335b6c59ee153d3f20e246522fbcc5438d7facb34e4dfe46b9d6bf48c79",
+        "retrieved_at": "2026-10-30T13:28:40.101911+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 670,
+          "publication_title": {
+            "id": 273,
+            "name": "IEEE Transactions on Networking"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-neural-networks-and-learning-systems",
+      "journal_name": "IEEE Transactions on Neural Networks and learning systems",
+      "abbreviation": "TNNLS",
+      "selector_publication_id": 84,
+      "selector_publication_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "catalog_name_match": "IEEE Transactions on Neural Networks and learning systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/84",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/84",
+        "http_status": 200,
+        "byte_count": 2549,
+        "sha256": "265df31eccb935e1f6fbbccc99619dbaa287935498630a8baa69ec34c35be1ff",
+        "retrieved_at": "2026-10-30T13:28:40.121850+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 262,
+          "publication_title": {
+            "id": 84,
+            "name": "IEEE Transactions on Neural Networks and Learning Systems"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-parallel-and-distributed-systems",
+      "journal_name": "IEEE Transactions on Parallel and Distributed Systems",
+      "abbreviation": "TPDS",
+      "selector_publication_id": 155,
+      "selector_publication_name": "IEEE Transactions on Parallel and Distributed Systems",
+      "catalog_name_match": "IEEE Transactions on Parallel and Distributed Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/155",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/155",
+        "http_status": 200,
+        "byte_count": 2589,
+        "sha256": "166da5d258eea2cd1264390c66b2091995fed9f1f0569e754969118a843c87c4",
+        "retrieved_at": "2026-10-30T13:28:40.271476+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 200,
+          "publication_title": {
+            "id": 155,
+            "name": "IEEE Transactions on Parallel and Distributed Systems"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-pattern-analysis-and-machine-intelligence",
+      "journal_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "abbreviation": "TPAMI",
+      "selector_publication_id": 154,
+      "selector_publication_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "catalog_name_match": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/154",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/154",
+        "http_status": 200,
+        "byte_count": 2625,
+        "sha256": "f76e6846a2ed60b313ca450dc9f538d53b6086d934e6e3d5251356476bb59f26",
+        "retrieved_at": "2026-10-30T13:28:40.565049+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 199,
+          "publication_title": {
+            "id": 154,
+            "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-reliability",
+      "journal_name": "IEEE Transactions on Reliability",
+      "abbreviation": "",
+      "selector_publication_id": 76,
+      "selector_publication_name": "IEEE Transactions on Reliability",
+      "catalog_name_match": "IEEE Transactions on Reliability",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/76",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/76",
+        "http_status": 200,
+        "byte_count": 2449,
+        "sha256": "eb4701884db176b4608d8a0410f7b8fa059e56d7767cfb3ca300d8ddea1cb47c",
+        "retrieved_at": "2026-10-30T13:28:41.155366+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 270,
+          "publication_title": {
+            "id": 76,
+            "name": "IEEE Transactions on Reliability"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-robotics",
+      "journal_name": "IEEE Transactions on Robotics",
+      "abbreviation": "TR",
+      "selector_publication_id": 73,
+      "selector_publication_name": "IEEE Transactions on Robotics",
+      "catalog_name_match": "IEEE Transactions on Robotics",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/73",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/73",
+        "http_status": 200,
+        "byte_count": 2437,
+        "sha256": "898f2edfd6c0cbbc1fe31f46c30e9d35543886e3e586f144bab7c392bb8f89aa",
+        "retrieved_at": "2026-10-30T13:28:41.203549+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 271,
+          "publication_title": {
+            "id": 73,
+            "name": "IEEE Transactions on Robotics"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-services-computing",
+      "journal_name": "IEEE Transactions on Services Computing",
+      "abbreviation": "TSC",
+      "selector_publication_id": 156,
+      "selector_publication_name": "IEEE Transactions on Services Computing",
+      "catalog_name_match": "IEEE Transactions on Services Computing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/156",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/156",
+        "http_status": 200,
+        "byte_count": 2533,
+        "sha256": "782c1b8fdc1141ab35645c72eca3201af942f6c803ee20ec56788ef598127812",
+        "retrieved_at": "2026-10-30T13:28:41.139362+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 201,
+          "publication_title": {
+            "id": 156,
+            "name": "IEEE Transactions on Services Computing"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-software-engineering",
+      "journal_name": "IEEE Transactions on Software Engineering",
+      "abbreviation": "TSE",
+      "selector_publication_id": 157,
+      "selector_publication_name": "IEEE Transactions on Software Engineering",
+      "catalog_name_match": "IEEE Transactions on Software Engineering",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/157",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/157",
+        "http_status": 200,
+        "byte_count": 2506,
+        "sha256": "325e6391578b9cebc02e675c0b195bf81c2e3900623efe7879f9a7da6ebab788",
+        "retrieved_at": "2026-10-30T13:28:41.292618+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 202,
+          "publication_title": {
+            "id": 157,
+            "name": "IEEE Transactions on Software Engineering"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-sustainable-computing",
+      "journal_name": "IEEE Transactions on Sustainable Computing",
+      "abbreviation": "TSUSC",
+      "selector_publication_id": 158,
+      "selector_publication_name": "IEEE Transactions on Sustainable Computing",
+      "catalog_name_match": "IEEE Transactions on Sustainable Computing",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/158",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/158",
+        "http_status": 200,
+        "byte_count": 2570,
+        "sha256": "6850d6161fdef2c14a6a8fd1b320cf2f91f487df56b98799b6b0f6d267b70aa4",
+        "retrieved_at": "2026-10-30T13:28:41.882049+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 203,
+          "publication_title": {
+            "id": 158,
+            "name": "IEEE Transactions on Sustainable Computing"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-systems-man-and-cybernetics-systems",
+      "journal_name": "IEEE Transactions on Systems, Man,and Cybernetics: Systems",
+      "abbreviation": "TSMC",
+      "selector_publication_id": 60,
+      "selector_publication_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "catalog_name_match": "IEEE Transactions on Systems, Man,and Cybernetics: Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/60",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/60",
+        "http_status": 200,
+        "byte_count": 2553,
+        "sha256": "2a22d1db36635cb0b02b6deb874b2d1182907936d43fc7371c9d9cb11c68a4f6",
+        "retrieved_at": "2026-10-30T13:28:42.436332+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 283,
+          "publication_title": {
+            "id": 60,
+            "name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-very-large-scale-integration-vlsi-systems",
+      "journal_name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "abbreviation": "TVLSI",
+      "selector_publication_id": 39,
+      "selector_publication_name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "catalog_name_match": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/39",
+        "http_status": 200,
+        "byte_count": 4981,
+        "sha256": "0ec590ca95a6260e0f07555e93d030d17f757c642374cc89f6ed78b93bd4813b",
+        "retrieved_at": "2026-10-30T13:59:40.708446+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 680,
+          "publication_title": {
+            "id": 39,
+            "name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
+          },
+          "article_type": {
+            "id": 4,
+            "name": "Brief"
+          },
+          "template_meta": {
+            "id": 300,
+            "name": "TVLSI-brief-latex-template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": null
+          },
+          "status": "Active"
+        },
+        {
+          "mapping_id": 681,
+          "publication_title": {
+            "id": 39,
+            "name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-visualization-and-computer-graphics",
+      "journal_name": "IEEE Transactions on Visualization and Computer Graphics",
+      "abbreviation": "TVCG",
+      "selector_publication_id": 159,
+      "selector_publication_name": "IEEE Transactions on Visualization and Computer Graphics",
+      "catalog_name_match": "IEEE Transactions on Visualization and Computer Graphics",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/159",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/159",
+        "http_status": 200,
+        "byte_count": 2562,
+        "sha256": "73ddfecfddcf24f6477e27ed22b7a769e60c0bdeb47fb4ede507eb073b52b3bc",
+        "retrieved_at": "2026-10-30T13:28:42.912457+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 204,
+          "publication_title": {
+            "id": 159,
+            "name": "IEEE Transactions on Visualization and Computer Graphics"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 5,
+            "name": "Computer_Society_LaTeX_template.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1677682751000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-ieee-transactions-on-wireless-communications",
+      "journal_name": "IEEE Transactions on Wireless Communications",
+      "abbreviation": "TWC",
+      "selector_publication_id": 36,
+      "selector_publication_name": "IEEE Transactions on Wireless Communications",
+      "catalog_name_match": "IEEE Transactions on Wireless Communications",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/36",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/36",
+        "http_status": 200,
+        "byte_count": 2497,
+        "sha256": "85f3737ba74d0c7ee7006da4ed6b6f5fdfeafa8aa7800238859fafbf2006c309",
+        "retrieved_at": "2026-10-30T13:28:42.116448+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 296,
+          "publication_title": {
+            "id": 36,
+            "name": "IEEE Transactions on Wireless Communications"
+          },
+          "article_type": {
+            "id": 3,
+            "name": "Original research and Brief"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "catalog_id": "ccf-2026-proceedings-of-the-ieee",
+      "journal_name": "Proceedings of the IEEE",
+      "abbreviation": "Proc. IEEE",
+      "selector_publication_id": 19,
+      "selector_publication_name": "Proceedings of the IEEE",
+      "catalog_name_match": "Proceedings of the IEEE",
+      "api_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/19",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/publication-type/1/publication-title/19",
+        "http_status": 200,
+        "byte_count": 2491,
+        "sha256": "c31e87606b46aefcb80e7c6393bf400b73c629c8e81b7f46bbe8738a221fceea",
+        "retrieved_at": "2026-10-30T13:28:43.375895+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "latex_templates": [
+        {
+          "mapping_id": 24,
+          "publication_title": {
+            "id": 19,
+            "name": "Proceedings of the IEEE"
+          },
+          "article_type": {
+            "id": 1,
+            "name": "Original Research"
+          },
+          "template_meta": {
+            "id": 1,
+            "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+            "format": "LaTeX",
+            "status": true,
+            "modifiedDate": 1761318435000
+          },
+          "status": "Active"
+        }
+      ]
+    }
+  ],
+  "template_packages": {
+    "1": {
+      "name": "IEEE-Transactions-LaTeX2e-templates-and-instructions.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/39/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/39/download",
+        "http_status": 200,
+        "byte_count": 607664,
+        "sha256": "6c315c3b6729bd7b96a6a0e7d3bb6342023413a4cd4d113fb4a193019af1c603",
+        "retrieved_at": "2026-10-30T13:28:45.894097+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "bare_jrnl_new_sample4.tex",
+          "sha256": "a1225c6ddb0c828596fad8285d4344a654e1597d62e757d0109b07e4f579e4fc",
+          "bytes": 26316,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [
+            "IEEEtran"
+          ],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "algorithm",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "cite"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": true
+        },
+        {
+          "file": "New_IEEEtran_how-to.tex",
+          "sha256": "417b40378ec1c1124918f000eab2f9a27f9cc37d576ef17b77d78347e00c0cd3",
+          "bytes": 33827,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance",
+            "cite",
+            "graphicx",
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance"
+          ],
+          "layout_overrides": [],
+          "documentation": true,
+          "explicit_1_8b_compatibility": true
+        }
+      ],
+      "classes": [
+        {
+          "file": "IEEEtran.cls",
+          "sha256": "b0eb3567b81aec7fe98144a3ad283eeac2d31035bb19e0d9dcba7da190f18d9d"
+        }
+      ]
+    },
+    "198": {
+      "name": "JBHI_LaTex_Template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/368/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/368/download",
+        "http_status": 200,
+        "byte_count": 754072,
+        "sha256": "b425a57376adc6d1e3e85337ca833aaf7bcf3a183ec6254bf21b9f53c6da2a31",
+        "retrieved_at": "2026-10-30T13:28:47.941151+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "IEEE-TJ-color-latex-template/main.tex",
+          "sha256": "b5b8ae41777571d2c934c9f571f6af30022bb1d1a3a16420038602378253cde1",
+          "bytes": 47434,
+          "documentclasses": [
+            {
+              "class": "ieeecolor",
+              "options": [
+                "journal",
+                "twoside",
+                "web"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[journal,twoside,web]{ieeecolor}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "generic",
+            "cite",
+            "amsmath,amssymb,amsfonts",
+            "algorithmic",
+            "graphicx",
+            "algorithm,algorithmic",
+            "hyperref",
+            "textcomp"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": false
+        }
+      ],
+      "classes": [
+        {
+          "file": "IEEE-TJ-color-latex-template/ieeecolor.cls",
+          "sha256": "c7487d9130b5617874f8933911727834235855c9115d43e0589edc9c9dadedbb"
+        }
+      ]
+    },
+    "197": {
+      "name": "JBHI_Brief_LaTex_Template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/401/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/401/download",
+        "http_status": 200,
+        "byte_count": 16761,
+        "sha256": "c434a7414f4b4a2d30c0548b6111b14ac24fdcd732650b8e0ba7c69618d109d9",
+        "retrieved_at": "2026-10-30T13:28:48.760721+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "Alternate-Transactions-Brief-LaTeX-template/brief.tex",
+          "sha256": "d19e445d69a09263ff6bd9914968d5758e499c378baca1f0a7a2b9e59c0adfe5",
+          "bytes": 45074,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [],
+              "line": 1,
+              "declaration": "\\documentclass{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "cite",
+            "amsmath,amssymb,amsfonts",
+            "algorithmic",
+            "graphicx",
+            "textcomp"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": false
+        }
+      ]
+    },
+    "265": {
+      "name": "LSP_LaTeX_Template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/419/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/419/download",
+        "http_status": 200,
+        "byte_count": 1018785,
+        "sha256": "44d7a7f54b26e85e348776b0065120b4c9495be0248b7b2397172639ccedd219",
+        "retrieved_at": "2026-10-30T13:28:51.067154+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "bare_jrnl.tex",
+          "sha256": "b7f586710c8bd6d24bca7ae0feeeba115b82a111da2270466c2650cfd381f14c",
+          "bytes": 28940,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "graphicx",
+            "url",
+            "graphicx"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": false
+        },
+        {
+          "file": "bare_jrnl-docx.tex",
+          "sha256": "f46c6ca04abee5d4da1516b88cb56f68b90b1b1586c351ad5d214b70961bad03",
+          "bytes": 29551,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "graphicx",
+            "url",
+            "graphicx"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": false
+        }
+      ],
+      "classes": [
+        {
+          "file": "IEEEtran.cls",
+          "sha256": "c972aca108fda004c3514d63658e02816da2e54d9a1451e870b9bd970e003f55"
+        }
+      ]
+    },
+    "5": {
+      "name": "Computer_Society_LaTeX_template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/183/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/183/download",
+        "http_status": 200,
+        "byte_count": 541768,
+        "sha256": "f1abd5e9ed440e4263d9e9c2d941eeb4d4cfcfdfece43ccfa10e87613c7bdde9",
+        "retrieved_at": "2026-10-30T13:28:54.679668+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "bare_jrnl_new_sample4.tex",
+          "sha256": "a1225c6ddb0c828596fad8285d4344a654e1597d62e757d0109b07e4f579e4fc",
+          "bytes": 26316,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [
+            "IEEEtran"
+          ],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "algorithm",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "cite"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": true
+        },
+        {
+          "file": "New_IEEEtran_how-to.tex",
+          "sha256": "417b40378ec1c1124918f000eab2f9a27f9cc37d576ef17b77d78347e00c0cd3",
+          "bytes": 33827,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance",
+            "cite",
+            "graphicx",
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance"
+          ],
+          "layout_overrides": [],
+          "documentation": true,
+          "explicit_1_8b_compatibility": true
+        }
+      ]
+    },
+    "298": {
+      "name": "IEEE-TASE-LaTeX2e-templates-and-instructions.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/158/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/158/download",
+        "http_status": 200,
+        "byte_count": 608592,
+        "sha256": "92a555ac23d70d38def79e6c9e8b52d50f2051dfa8cc06e55326dacfc3790415",
+        "retrieved_at": "2026-10-30T13:28:57.386532+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "bare_jrnl_new_sample4.tex",
+          "sha256": "a1225c6ddb0c828596fad8285d4344a654e1597d62e757d0109b07e4f579e4fc",
+          "bytes": 26316,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [
+            "IEEEtran"
+          ],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "algorithm",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "cite"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": true
+        },
+        {
+          "file": "New_IEEEtran_how-to.tex",
+          "sha256": "417b40378ec1c1124918f000eab2f9a27f9cc37d576ef17b77d78347e00c0cd3",
+          "bytes": 33827,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance",
+            "cite",
+            "graphicx",
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance"
+          ],
+          "layout_overrides": [],
+          "documentation": true,
+          "explicit_1_8b_compatibility": true
+        }
+      ],
+      "classes": [
+        {
+          "file": "IEEEtran.cls",
+          "sha256": "b0eb3567b81aec7fe98144a3ad283eeac2d31035bb19e0d9dcba7da190f18d9d"
+        }
+      ]
+    },
+    "279": {
+      "name": "TII_Articles_LaTeX_Template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/379/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/379/download",
+        "http_status": 200,
+        "byte_count": 1094712,
+        "sha256": "e6e18e84a4a3a42ec6ad8839f2cd0751f29d8885c8b1412e7f3a8dec5bc72dd9",
+        "retrieved_at": "2026-10-30T13:28:59.711044+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "TII-Articles-LaTeX-template/tii-articles-template.tex",
+          "sha256": "6b6e55d31885006454240c3c0bc2b218aa9825b670b800e09d145c7176619698",
+          "bytes": 49838,
+          "documentclasses": [
+            {
+              "class": "ieeecolor",
+              "options": [
+                "journal",
+                "twoside",
+                "web"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[journal,twoside,web]{ieeecolor}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "generic",
+            "cite",
+            "amsmath,amssymb,amsfonts",
+            "algorithmic",
+            "graphicx",
+            "textcomp"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": false
+        }
+      ],
+      "classes": [
+        {
+          "file": "TII-Articles-LaTeX-template/ieeecolor.cls",
+          "sha256": "7ad2a9ef754825bcd9151e861ace95a9451f2903bd10e8d2a075c9082de46756"
+        },
+        {
+          "file": "__MACOSX/TII-Articles-LaTeX-template/._ieeecolor.cls",
+          "sha256": "f24edb45d8d7e4023bc7b7108a34a164fc76498d33c53a8d4a33ffb5204a6946"
+        }
+      ]
+    },
+    "276": {
+      "name": "TII_Briefs_LaTeX_template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/418/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/418/download",
+        "http_status": 200,
+        "byte_count": 823910,
+        "sha256": "bf20e9fb82a18dd7839f232961c5c1f933e1ea8d743e50373df987b37bfea32b",
+        "retrieved_at": "2026-10-30T13:29:02.271245+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "TII-Briefs-LaTeX-template/tii-briefs-template.tex",
+          "sha256": "cf723dc94253592f4f3c4032cbd288e0784242d67f9c0d9032f7757d35a17a99",
+          "bytes": 45634,
+          "documentclasses": [
+            {
+              "class": "ieeecolor",
+              "options": [
+                "9pt",
+                "shortpaper",
+                "twoside",
+                "web"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[9pt,shortpaper,twoside,web]{ieeecolor}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "generic",
+            "cite",
+            "amsmath,amssymb,amsfonts",
+            "algorithmic",
+            "graphicx",
+            "textcomp"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": false
+        }
+      ],
+      "classes": [
+        {
+          "file": "TII-Briefs-LaTeX-template/ieeecolor.cls",
+          "sha256": "7ad2a9ef754825bcd9151e861ace95a9451f2903bd10e8d2a075c9082de46756"
+        },
+        {
+          "file": "__MACOSX/TII-Briefs-LaTeX-template/._ieeecolor.cls",
+          "sha256": "f24edb45d8d7e4023bc7b7108a34a164fc76498d33c53a8d4a33ffb5204a6946"
+        }
+      ]
+    },
+    "281": {
+      "name": "TITS_LaTeX_Template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/253/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/253/download",
+        "http_status": 200,
+        "byte_count": 1294777,
+        "sha256": "a44fe118e33ec1699ee5610106d527a5dad6dd285dc7968544c3dbdce798e7eb",
+        "retrieved_at": "2026-10-30T13:29:05.620289+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "TIT-LaTeX-template-202312/IEEEtran_how-to.tex",
+          "sha256": "95b0fbe971033f51c3332b8e346eeae58bcc6b7fa9b4c2af508a437b93be1da4",
+          "bytes": 32825,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance",
+            "cite",
+            "graphicx",
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance"
+          ],
+          "layout_overrides": [],
+          "documentation": true,
+          "explicit_1_8b_compatibility": true
+        },
+        {
+          "file": "TIT-LaTeX-template-202312/IEEEtran-TIT-LaTeX-main.tex",
+          "sha256": "8991c6ec1dfd251586cf6f24eddd12ae102f80eb730084d2a28c68699afb215e",
+          "bytes": 27398,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [
+            "IEEEtran"
+          ],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "algorithm",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "cite"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": true
+        },
+        {
+          "file": "TIT-LaTeX-template-202312/one-column.tex",
+          "sha256": "b6435b5a5164e8da9b6017c0e0006fd0601e4f67383e3455649f127f03b49704",
+          "bytes": 25225,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "onecolumn"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,onecolumn]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [
+            "IEEEtran"
+          ],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "algorithm",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "cite"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": true
+        }
+      ]
+    },
+    "147": {
+      "name": "alternate_tj_latex_template_ap.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/4/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/4/download",
+        "http_status": 200,
+        "byte_count": 691860,
+        "sha256": "56d21c8a27fdc378aa30d4d0277769f830fc4d0ab7fe7e494d2d55aaf83d8f0f",
+        "retrieved_at": "2026-10-30T13:29:08.751261+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "main.tex",
+          "sha256": "f35842f2558e841470c93bbad9c4d98cb3a1b7c6816ab0805a062bfbfd56cde1",
+          "bytes": 47351,
+          "documentclasses": [
+            {
+              "class": "ieeecolor",
+              "options": [
+                "journal",
+                "twoside",
+                "web"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[journal,twoside,web]{ieeecolor}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "generic",
+            "cite",
+            "amsmath,amssymb,amsfonts",
+            "algorithmic",
+            "graphicx",
+            "algorithm,algorithmic",
+            "hyperref",
+            "textcomp"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": false
+        }
+      ],
+      "classes": [
+        {
+          "file": "ieeecolor.cls",
+          "sha256": "807cc207900dcde33b7453b7dfd44a1fb9e425bbe6d44020da2958407e4112df"
+        }
+      ]
+    },
+    "286": {
+      "name": "TMC_LaTeX_Template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/195/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/195/download",
+        "http_status": 200,
+        "byte_count": 541768,
+        "sha256": "f1abd5e9ed440e4263d9e9c2d941eeb4d4cfcfdfece43ccfa10e87613c7bdde9",
+        "retrieved_at": "2026-10-30T13:29:13.962380+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "bare_jrnl_new_sample4.tex",
+          "sha256": "a1225c6ddb0c828596fad8285d4344a654e1597d62e757d0109b07e4f579e4fc",
+          "bytes": 26316,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [
+            "IEEEtran"
+          ],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "algorithm",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "cite"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": true
+        },
+        {
+          "file": "New_IEEEtran_how-to.tex",
+          "sha256": "417b40378ec1c1124918f000eab2f9a27f9cc37d576ef17b77d78347e00c0cd3",
+          "bytes": 33827,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "lettersize",
+                "journal"
+              ],
+              "line": 1,
+              "declaration": "\\documentclass[lettersize,journal]{IEEEtran}"
+            }
+          ],
+          "bibliography_styles": [],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance",
+            "cite",
+            "graphicx",
+            "amsmath,amsfonts",
+            "algorithmic",
+            "array",
+            "subfig",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "balance"
+          ],
+          "layout_overrides": [],
+          "documentation": true,
+          "explicit_1_8b_compatibility": true
+        }
+      ]
+    },
+    "300": {
+      "name": "TVLSI-brief-latex-template.zip",
+      "download_source": {
+        "url": "https://template-selector.ieee.org/api/ieee-template-selector/template/680/download",
+        "final_url": "https://template-selector.ieee.org/api/ieee-template-selector/template/680/download",
+        "http_status": 200,
+        "byte_count": 589465,
+        "sha256": "08c151c358b0621d5edfc4c400da7e0d78fbfd4c077e98c9337875cb70dceb37",
+        "retrieved_at": "2026-10-30T14:16:44.078893+00:00",
+        "source_verified": true,
+        "original_file_redistributed": false
+      },
+      "native_sources": [
+        {
+          "file": "TVLSI-brief-latex-template/IEEE-TVLSI-brief-latex-template.tex",
+          "sha256": "133dd8b9f2cc8d94e83821a33fc89bd5d76045745692f238da92f7ace948a74c",
+          "bytes": 18012,
+          "documentclasses": [
+            {
+              "class": "IEEEtran",
+              "options": [
+                "9pt",
+                "journal"
+              ],
+              "line": 1
+            }
+          ],
+          "bibliography_styles": [
+            "IEEEtran"
+          ],
+          "packages": [
+            "amsmath,amsfonts",
+            "algorithmic",
+            "algorithm",
+            "array",
+            "subfig",
+            "textcomp",
+            "stfloats",
+            "url",
+            "verbatim",
+            "graphicx",
+            "cite",
+            "bm"
+          ],
+          "layout_overrides": [],
+          "documentation": false,
+          "explicit_1_8b_compatibility": true
+        }
+      ],
+      "classes": [
+        {
+          "file": "TVLSI-brief-latex-template/IEEEtran.cls",
+          "sha256": "2d5b0935171a667ba98ed1fcba736ce629e64f93b78de3d3173d2102872ec689"
+        }
+      ]
+    }
+  },
+  "gaps": []
+}

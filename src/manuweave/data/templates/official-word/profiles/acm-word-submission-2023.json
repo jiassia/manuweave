@@ -1,0 +1,3579 @@
+{
+  "id": "acm-word-submission-2023",
+  "name": "ACM Word review submission source, 2023-02-01",
+  "version": "1.0.0",
+  "scope": "Pinned ACM Word submission source modified 2023-02-01: single-column review manuscript; not final TAPS output or a universal ACM venue rule.",
+  "aliases": [
+    "ACM Word submission",
+    "ACM Word review",
+    "ACM TAPS Word submission"
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "font": "Linux Biolinum O",
+      "size_pt": 12.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "first_line_pt": 0.0,
+      "bold": true,
+      "italic": false,
+      "alignment": "left",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 18.0
+    },
+    "body": {
+      "font": "Linux Libertine O",
+      "size_pt": 9.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "first_line_pt": 12.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 13.5
+    },
+    "heading1": {
+      "font": "Linux Biolinum O",
+      "size_pt": 9.0,
+      "space_before_pt": 16.0,
+      "space_after_pt": 3.0,
+      "first_line_pt": -18.0,
+      "left_indent_pt": 18.0,
+      "bold": true,
+      "italic": false,
+      "alignment": "left",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 11.25
+    },
+    "heading2": {
+      "font": "Linux Biolinum O",
+      "size_pt": 9.0,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "first_line_pt": -18.0,
+      "left_indent_pt": 18.0,
+      "bold": true,
+      "italic": false,
+      "alignment": "left",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 11.25
+    },
+    "heading3": {
+      "font": "Linux Biolinum O",
+      "size_pt": 9.0,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "first_line_pt": -18.0,
+      "left_indent_pt": 18.0,
+      "bold": false,
+      "italic": true,
+      "alignment": "justify",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 11.25
+    },
+    "abstract": {
+      "font": "Linux Libertine O",
+      "size_pt": 8.0,
+      "space_before_pt": 10.0,
+      "space_after_pt": 0.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.0
+    },
+    "keywords": {
+      "font": "Linux Libertine O",
+      "size_pt": 9.0,
+      "space_before_pt": 7.0,
+      "space_after_pt": 0.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 13.5
+    },
+    "figure_caption": {
+      "font": "Linux Biolinum O",
+      "size_pt": 8.0,
+      "space_before_pt": 3.0,
+      "space_after_pt": 9.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 10.0
+    },
+    "table_caption": {
+      "font": "Linux Biolinum O",
+      "size_pt": 8.0,
+      "space_before_pt": 9.0,
+      "space_after_pt": 6.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 10.0
+    },
+    "reference": {
+      "font": "Linux Libertine O",
+      "size_pt": 7.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 3.0,
+      "first_line_pt": -18.0,
+      "left_indent_pt": 18.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 8.4
+    },
+    "equation": {
+      "font": "Linux Libertine O",
+      "size_pt": 9.0,
+      "space_before_pt": 6.0,
+      "space_after_pt": 9.0,
+      "first_line_pt": 0.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "center",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 13.5
+    },
+    "table_body": {
+      "font": "Linux Libertine O",
+      "size_pt": 8.0,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "first_line_pt": 12.0,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify",
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 11.0
+    }
+  },
+  "page": {
+    "width_mm": 215.9,
+    "height_mm": 279.4,
+    "margin_top_mm": 31.0444,
+    "margin_bottom_mm": 50.0944,
+    "margin_left_mm": 25.4,
+    "margin_right_mm": 35.9833,
+    "columns": 1
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+      "title": "ACM Word review submission source, 2023-02-01",
+      "sha256": "05e757a3c93f9cbf9dbca257009d48d141f311b1132f8396b8cdb2fbac9ef0e9",
+      "retrieved_at": "2026-10-30",
+      "source_modified": "2023-02-01T13:08:00Z",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false,
+      "provenance": {
+        "primary_guidance_url": "https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word",
+        "distribution": "Downloaded directly from www.acm.org template endpoint."
+      }
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "font",
+      "expected": "Linux Biolinum O"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "title",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "title",
+      "property": "space_after_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "title",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "title",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "title",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "left"
+    },
+    {
+      "role": "title",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "title",
+      "property": "line_spacing_pt",
+      "expected": 18.0
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Linux Libertine O"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "body",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "body",
+      "property": "space_after_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "body",
+      "property": "first_line_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "body",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "body",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "body",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "body",
+      "property": "line_spacing_pt",
+      "expected": 13.5
+    },
+    {
+      "role": "heading1",
+      "property": "font",
+      "expected": "Linux Biolinum O"
+    },
+    {
+      "role": "heading1",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "heading1",
+      "property": "space_before_pt",
+      "expected": 16.0
+    },
+    {
+      "role": "heading1",
+      "property": "space_after_pt",
+      "expected": 3.0
+    },
+    {
+      "role": "heading1",
+      "property": "first_line_pt",
+      "expected": -18.0
+    },
+    {
+      "role": "heading1",
+      "property": "left_indent_pt",
+      "expected": 18.0
+    },
+    {
+      "role": "heading1",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "heading1",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "heading1",
+      "property": "alignment",
+      "expected": "left"
+    },
+    {
+      "role": "heading1",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "heading1",
+      "property": "line_spacing_pt",
+      "expected": 11.25
+    },
+    {
+      "role": "heading2",
+      "property": "font",
+      "expected": "Linux Biolinum O"
+    },
+    {
+      "role": "heading2",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "heading2",
+      "property": "space_before_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "heading2",
+      "property": "space_after_pt",
+      "expected": 3.0
+    },
+    {
+      "role": "heading2",
+      "property": "first_line_pt",
+      "expected": -18.0
+    },
+    {
+      "role": "heading2",
+      "property": "left_indent_pt",
+      "expected": 18.0
+    },
+    {
+      "role": "heading2",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "heading2",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "heading2",
+      "property": "alignment",
+      "expected": "left"
+    },
+    {
+      "role": "heading2",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "heading2",
+      "property": "line_spacing_pt",
+      "expected": 11.25
+    },
+    {
+      "role": "heading3",
+      "property": "font",
+      "expected": "Linux Biolinum O"
+    },
+    {
+      "role": "heading3",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "heading3",
+      "property": "space_before_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "heading3",
+      "property": "space_after_pt",
+      "expected": 3.0
+    },
+    {
+      "role": "heading3",
+      "property": "first_line_pt",
+      "expected": -18.0
+    },
+    {
+      "role": "heading3",
+      "property": "left_indent_pt",
+      "expected": 18.0
+    },
+    {
+      "role": "heading3",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "heading3",
+      "property": "italic",
+      "expected": true
+    },
+    {
+      "role": "heading3",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "heading3",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "heading3",
+      "property": "line_spacing_pt",
+      "expected": 11.25
+    },
+    {
+      "role": "abstract",
+      "property": "font",
+      "expected": "Linux Libertine O"
+    },
+    {
+      "role": "abstract",
+      "property": "size_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "abstract",
+      "property": "space_before_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "abstract",
+      "property": "space_after_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "abstract",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "abstract",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "abstract",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "abstract",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "abstract",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "abstract",
+      "property": "line_spacing_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "keywords",
+      "property": "font",
+      "expected": "Linux Libertine O"
+    },
+    {
+      "role": "keywords",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "keywords",
+      "property": "space_before_pt",
+      "expected": 7.0
+    },
+    {
+      "role": "keywords",
+      "property": "space_after_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "keywords",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "keywords",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "keywords",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "keywords",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "keywords",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "keywords",
+      "property": "line_spacing_pt",
+      "expected": 13.5
+    },
+    {
+      "role": "figure_caption",
+      "property": "font",
+      "expected": "Linux Biolinum O"
+    },
+    {
+      "role": "figure_caption",
+      "property": "size_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "space_before_pt",
+      "expected": 3.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "space_after_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "figure_caption",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "figure_caption",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "figure_caption",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "figure_caption",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "figure_caption",
+      "property": "line_spacing_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "table_caption",
+      "property": "font",
+      "expected": "Linux Biolinum O"
+    },
+    {
+      "role": "table_caption",
+      "property": "size_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "table_caption",
+      "property": "space_before_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "table_caption",
+      "property": "space_after_pt",
+      "expected": 6.0
+    },
+    {
+      "role": "table_caption",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "table_caption",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "table_caption",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "table_caption",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "table_caption",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "table_caption",
+      "property": "line_spacing_pt",
+      "expected": 10.0
+    },
+    {
+      "role": "reference",
+      "property": "font",
+      "expected": "Linux Libertine O"
+    },
+    {
+      "role": "reference",
+      "property": "size_pt",
+      "expected": 7.0
+    },
+    {
+      "role": "reference",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "reference",
+      "property": "space_after_pt",
+      "expected": 3.0
+    },
+    {
+      "role": "reference",
+      "property": "first_line_pt",
+      "expected": -18.0
+    },
+    {
+      "role": "reference",
+      "property": "left_indent_pt",
+      "expected": 18.0
+    },
+    {
+      "role": "reference",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "reference",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "reference",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "reference",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "reference",
+      "property": "line_spacing_pt",
+      "expected": 8.4
+    },
+    {
+      "role": "equation",
+      "property": "font",
+      "expected": "Linux Libertine O"
+    },
+    {
+      "role": "equation",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "equation",
+      "property": "space_before_pt",
+      "expected": 6.0
+    },
+    {
+      "role": "equation",
+      "property": "space_after_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "equation",
+      "property": "first_line_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "equation",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "equation",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "equation",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "equation",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "equation",
+      "property": "line_spacing_pt",
+      "expected": 13.5
+    },
+    {
+      "role": "table_body",
+      "property": "font",
+      "expected": "Linux Libertine O"
+    },
+    {
+      "role": "table_body",
+      "property": "size_pt",
+      "expected": 8.0
+    },
+    {
+      "role": "table_body",
+      "property": "space_before_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "table_body",
+      "property": "space_after_pt",
+      "expected": 0.0
+    },
+    {
+      "role": "table_body",
+      "property": "first_line_pt",
+      "expected": 12.0
+    },
+    {
+      "role": "table_body",
+      "property": "bold",
+      "expected": false
+    },
+    {
+      "role": "table_body",
+      "property": "italic",
+      "expected": false
+    },
+    {
+      "role": "table_body",
+      "property": "alignment",
+      "expected": "justify"
+    },
+    {
+      "role": "table_body",
+      "property": "line_spacing_rule",
+      "expected": "atLeast"
+    },
+    {
+      "role": "table_body",
+      "property": "line_spacing_pt",
+      "expected": 11.0
+    }
+  ],
+  "examples": [
+    {
+      "kind": "synthetic_docx",
+      "generator": "tests/test_official_word_templates.py",
+      "profile": "acm-word-submission-2023"
+    }
+  ],
+  "template": {
+    "family": "ACM Word submission",
+    "source_version": "2023-02-01T13:08:00Z",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Linux Biolinum O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-space_before_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-space_after_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "space_after_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-first_line_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-italic",
+        "category": "typography",
+        "target": "title",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-line_spacing_rule",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "title-line_spacing_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "line_spacing_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Titledocument\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Linux Libertine O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-space_before_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-space_after_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "space_after_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-bold",
+        "category": "typography",
+        "target": "body",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-italic",
+        "category": "typography",
+        "target": "body",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "body-line_spacing_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_pt",
+        "expected": 13.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Para\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Linux Biolinum O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-space_before_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 16.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-space_after_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-first_line_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "first_line_pt",
+        "expected": -18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"4\"]/w:lvl[@w:ilvl=\"0\"]/w:pPr/w:ind/@w:hanging"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-left_indent_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "left_indent_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"4\"]/w:lvl[@w:ilvl=\"0\"]/w:pPr/w:ind/@w:left"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-italic",
+        "category": "typography",
+        "target": "heading1",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading1-line_spacing_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "line_spacing_pt",
+        "expected": 11.25,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head1\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Linux Biolinum O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-space_before_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-space_after_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_after_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-first_line_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "first_line_pt",
+        "expected": -18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"4\"]/w:lvl[@w:ilvl=\"1\"]/w:pPr/w:ind/@w:hanging"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-left_indent_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "left_indent_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"4\"]/w:lvl[@w:ilvl=\"1\"]/w:pPr/w:ind/@w:left"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-bold",
+        "category": "typography",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-italic",
+        "category": "typography",
+        "target": "heading2",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "typography",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_pt",
+        "expected": 11.25,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head2\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Linux Biolinum O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-space_before_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-space_after_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_after_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-first_line_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "first_line_pt",
+        "expected": -18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"4\"]/w:lvl[@w:ilvl=\"2\"]/w:pPr/w:ind/@w:hanging"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-left_indent_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "left_indent_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"4\"]/w:lvl[@w:ilvl=\"2\"]/w:pPr/w:ind/@w:left"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-bold",
+        "category": "typography",
+        "target": "heading3",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-italic",
+        "category": "typography",
+        "target": "heading3",
+        "property": "italic",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "typography",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_pt",
+        "expected": 11.25,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Head3\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Linux Libertine O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-space_before_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "space_before_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-space_after_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "space_after_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-first_line_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-bold",
+        "category": "typography",
+        "target": "abstract",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-italic",
+        "category": "typography",
+        "target": "abstract",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-alignment",
+        "category": "typography",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "abstract-line_spacing_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "line_spacing_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Abstract\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Linux Libertine O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-space_before_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "space_before_pt",
+        "expected": 7.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-space_after_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "space_after_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-first_line_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-bold",
+        "category": "typography",
+        "target": "keywords",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-italic",
+        "category": "typography",
+        "target": "keywords",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-alignment",
+        "category": "typography",
+        "target": "keywords",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "keywords-line_spacing_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "line_spacing_pt",
+        "expected": 13.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"KeyWords\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Linux Biolinum O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-space_before_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "space_before_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-space_after_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "space_after_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-first_line_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-bold",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-italic",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-alignment",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-line_spacing_rule",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "figure_caption-line_spacing_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "line_spacing_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"FigureCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Linux Biolinum O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-space_before_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "space_before_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-space_after_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-first_line_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-bold",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-italic",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-alignment",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-line_spacing_rule",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_caption-line_spacing_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "line_spacing_pt",
+        "expected": 10.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCaption\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Linux Libertine O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 7.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-space_before_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-space_after_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "space_after_pt",
+        "expected": 3.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-first_line_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "first_line_pt",
+        "expected": -18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"9\"]/w:lvl[@w:ilvl=\"0\"]/w:pPr/w:ind/@w:hanging"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-left_indent_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "left_indent_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/numbering.xml:/w:numbering/w:abstractNum[@w:abstractNumId=\"9\"]/w:lvl[@w:ilvl=\"0\"]/w:pPr/w:ind/@w:left"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-bold",
+        "category": "typography",
+        "target": "reference",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-italic",
+        "category": "typography",
+        "target": "reference",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "typography",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "reference-line_spacing_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_pt",
+        "expected": 8.4,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"Bibentry\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-font",
+        "category": "typography",
+        "target": "equation",
+        "property": "font",
+        "expected": "Linux Libertine O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-size_pt",
+        "category": "typography",
+        "target": "equation",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-space_before_pt",
+        "category": "typography",
+        "target": "equation",
+        "property": "space_before_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-space_after_pt",
+        "category": "typography",
+        "target": "equation",
+        "property": "space_after_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-first_line_pt",
+        "category": "typography",
+        "target": "equation",
+        "property": "first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-bold",
+        "category": "typography",
+        "target": "equation",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-italic",
+        "category": "typography",
+        "target": "equation",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-alignment",
+        "category": "typography",
+        "target": "equation",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-line_spacing_rule",
+        "category": "typography",
+        "target": "equation",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "equation-line_spacing_pt",
+        "category": "typography",
+        "target": "equation",
+        "property": "line_spacing_pt",
+        "expected": 13.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"DisplayFormula\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-font",
+        "category": "typography",
+        "target": "table_body",
+        "property": "font",
+        "expected": "Linux Libertine O",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-size_pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "size_pt",
+        "expected": 8.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-space_before_pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "space_before_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-space_after_pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "space_after_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-first_line_pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "first_line_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-bold",
+        "category": "typography",
+        "target": "table_body",
+        "property": "bold",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-italic",
+        "category": "typography",
+        "target": "table_body",
+        "property": "italic",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-alignment",
+        "category": "typography",
+        "target": "table_body",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-line_spacing_rule",
+        "category": "typography",
+        "target": "table_body",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "table_body-line_spacing_pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "line_spacing_pt",
+        "expected": 11.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"TableCell\"]"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Measured style definition, with inherited defaults resolved by read-only Microsoft Word; instructional run emphasis is excluded."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 215.9,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 279.4,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 31.0444,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 50.0944,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 25.4,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 35.9833,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:sectPr"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Main-text section only; title and author sections have distinct native layouts."
+      },
+      {
+        "id": "single-column-review",
+        "category": "layout",
+        "target": "document",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; paragraph_sha256=621ea55786ef081a5d5d8c7867b6b72561b87cd250328479d76e3fcda7cd7bfd"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "no-running-text",
+        "category": "pagination",
+        "target": "document",
+        "property": "headers_footers_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[25]; paragraph_sha256=621ea55786ef081a5d5d8c7867b6b72561b87cd250328479d76e3fcda7cd7bfd"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The review submission source excludes running headers and footers; accepted-publication output uses the TAPS workflow."
+      },
+      {
+        "id": "citation-venue-selection",
+        "category": "citation",
+        "target": "document",
+        "property": "citation_style",
+        "expected": [
+          "numeric",
+          "author_year"
+        ],
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[124]; paragraph_sha256=5a3388f0418db6a929dd17dbe83426a032fc5823e21967eb6910cbb61e761449"
+        },
+        "certainty": "conditional",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The source permits numbered and author-year placeholders; the selected venue decides which style applies. Do not force numeric citations for every ACM venue."
+      },
+      {
+        "id": "double-blind-identity",
+        "category": "review_policy",
+        "target": "document",
+        "property": "author_identifying_content_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[10]; paragraph_sha256=3a2e14385d64f1a936ea1582ab57d08058ccdc73f888343c9257d80286c8bd78"
+        },
+        "certainty": "conditional",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Only when the venue uses double-blind review: omit author identity and identifying acknowledgments, citations or related-work discussion. This is not a blanket citation ban."
+      },
+      {
+        "id": "double-blind-metadata",
+        "category": "review_policy",
+        "target": "metadata",
+        "property": "author_identity_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[22]; paragraph_sha256=3e088015fcab4ad604622d46fb491e2de94c79ecf6b2da9f159c55e8cd298169"
+        },
+        "certainty": "conditional",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "native-table-not-image",
+        "category": "accessibility",
+        "target": "table",
+        "property": "rasterized_table_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[33]; paragraph_sha256=d6bdf24fd6d9ba5f89d7a50598c7e5fe0f9a8372eb069a330a16d71495b255ca"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table-caption-above",
+        "category": "caption",
+        "target": "table_caption",
+        "property": "position",
+        "expected": "above_object",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[34]; paragraph_sha256=cc6d322b37ab6e4ed253b70da320b8e9304415e20eedc51630ca1e063e82a822"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-after-first-reference",
+        "category": "caption",
+        "target": "image",
+        "property": "position",
+        "expected": "after_first_reference",
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[43]; paragraph_sha256=302e1c7c0f5efc8f092929e5d61d29665a4eeb7774ec0d6124f8b20f8219ca17"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure-alternative-description",
+        "category": "accessibility",
+        "target": "image",
+        "property": "alternative_description_required",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[61]; paragraph_sha256=d2e7f33f8905911a46d70bab9319176f4c993ca26c45902d309a07cafefb245e"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The source contains an unresolved 'xxx characters' placeholder; no numeric character limit is invented."
+      },
+      {
+        "id": "reference-not-table",
+        "category": "structure",
+        "target": "reference",
+        "property": "inside_table_allowed",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[174]; paragraph_sha256=eecb3f547e2054eca348c5ea50f0395fe338055cdcce7e50e719a9644aeb056f"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "native-word-equations",
+        "category": "equation",
+        "target": "equation",
+        "property": "native_equation_editor",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[168]; paragraph_sha256=adc66e67b8d2603aad0b719ce9e6348ed129e27fb0c2293d7bced4ba2f10585e"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "document-language-metadata",
+        "category": "accessibility",
+        "target": "metadata",
+        "property": "language_required",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/document.xml:/w:document/w:body/w:p[23]; paragraph_sha256=8ca0aa74b874a1115fa0eb3603c70f2285b7c81164798e56bc20e387494d654c"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "first-body-paragraph-indent",
+        "category": "typography",
+        "target": "body",
+        "property": "post_heading_first_line_pt",
+        "expected": 0.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx",
+          "file": "acm_submission_template.docx",
+          "locator": "word/styles.xml:/w:styles/w:style[@w:styleId=\"PostHeadPara\"]"
+        },
+        "certainty": "conditional",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The first paragraph after a heading uses PostHeadPara; later body paragraphs use Para with a 12pt first-line indent."
+      }
+    ],
+    "coverage_notes": [
+      "This source describes review submission, not final TAPS publication layout.",
+      "Required source fonts are Linux Libertine O and Linux Biolinum O; missing fonts must remain failed/unverified, with no silent Times substitution.",
+      "At-least line spacing is an absolute point minimum, not inherited automatic 1.079 spacing.",
+      "PostHeadPara has zero first-line indent after headings; general Para has 12pt. Contextual exceptions need host review until explicitly applied.",
+      "The guide has an unresolved xxx-character placeholder for figure descriptions; no numerical limit is invented.",
+      "Author-year versus numeric citation mode is venue-dependent; double-blind identity restrictions are conditional, not a blanket ban on citation.",
+      "Typography and main-text page attributes derive from the pinned Word source; semantic policies retain their source-defined scope.",
+      "This fixed source version is not a claim of current compliance with every venue using the publisher's name."
+    ]
+  }
+}

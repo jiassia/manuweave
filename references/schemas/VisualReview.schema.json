@@ -1,0 +1,165 @@
+{
+  "$defs": {
+    "PageChecks": {
+      "additionalProperties": false,
+      "properties": {
+        "glyphs": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "UNVERIFIED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Glyphs",
+          "type": "string"
+        },
+        "overlaps": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "UNVERIFIED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Overlaps",
+          "type": "string"
+        },
+        "equations": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "UNVERIFIED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Equations",
+          "type": "string"
+        },
+        "tables": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "UNVERIFIED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Tables",
+          "type": "string"
+        },
+        "figures": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "UNVERIFIED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Figures",
+          "type": "string"
+        },
+        "heading_breaks": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "UNVERIFIED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Heading Breaks",
+          "type": "string"
+        },
+        "headers_footers": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "UNVERIFIED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Headers Footers",
+          "type": "string"
+        }
+      },
+      "required": [
+        "glyphs",
+        "overlaps",
+        "equations",
+        "tables",
+        "figures",
+        "heading_breaks",
+        "headers_footers"
+      ],
+      "title": "PageChecks",
+      "type": "object"
+    },
+    "PageReview": {
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "minimum": 1,
+          "title": "Page",
+          "type": "integer"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "checks": {
+          "$ref": "#/$defs/PageChecks"
+        },
+        "observations": {
+          "minLength": 1,
+          "title": "Observations",
+          "type": "string"
+        }
+      },
+      "required": [
+        "page",
+        "sha256",
+        "checks",
+        "observations"
+      ],
+      "title": "PageReview",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "reviewer": {
+      "minLength": 1,
+      "title": "Reviewer",
+      "type": "string"
+    },
+    "method": {
+      "enum": [
+        "host_model_image_inspection",
+        "human_image_inspection"
+      ],
+      "title": "Method",
+      "type": "string"
+    },
+    "source_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Source Sha256",
+      "type": "string"
+    },
+    "pages": {
+      "items": {
+        "$ref": "#/$defs/PageReview"
+      },
+      "minItems": 1,
+      "title": "Pages",
+      "type": "array"
+    }
+  },
+  "required": [
+    "reviewer",
+    "method",
+    "source_sha256",
+    "pages"
+  ],
+  "title": "VisualReview",
+  "type": "object"
+}

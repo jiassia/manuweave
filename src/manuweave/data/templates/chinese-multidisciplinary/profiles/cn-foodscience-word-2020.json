@@ -1,0 +1,1476 @@
+{
+  "id": "cn-foodscience-word-2020",
+  "name": "食品科学：2020 官方链接中文稿格式模板",
+  "version": "1.0.0",
+  "aliases": [
+    "食品科学"
+  ],
+  "scope": "官方指南当前链接的 spkxmb-2020.doc 中中文普通研究稿的明示字体、字号、单栏及题注格式。",
+  "compliance": "source_backed_template_partial_coverage",
+  "rules": {
+    "title": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 24.0,
+      "bold": true,
+      "alignment": "center"
+    },
+    "body": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 9.5
+    },
+    "abstract": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 9.0
+    },
+    "keywords": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 9.0
+    },
+    "heading1": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 9.5,
+      "bold": true,
+      "alignment": "left"
+    },
+    "heading2": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "heading3": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "heading4": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman"
+    },
+    "figure_caption": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 7.5,
+      "bold": true,
+      "alignment": "center"
+    },
+    "table_caption": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 7.5,
+      "bold": true,
+      "alignment": "center"
+    },
+    "table_body": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 7.5
+    },
+    "references_heading": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 9.0,
+      "bold": true,
+      "alignment": "left"
+    },
+    "reference": {
+      "east_asia_font": "宋体",
+      "font": "Times New Roman",
+      "size_pt": 7.5
+    }
+  },
+  "page": {
+    "columns": 1
+  },
+  "latex": {},
+  "sources": [
+    {
+      "file": "spkx-template-2020.doc",
+      "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+      "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+      "bytes": 57856,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    },
+    {
+      "file": "spkx-guide.html",
+      "url": "https://www.spkx.net.cn/CN/column/column26.shtml",
+      "sha256": "d0b2e1e7ad456dc62f628ed1be538e42c1b60093b7cb9181be51f93323d1e2e8",
+      "bytes": 178560,
+      "retrieved_at": "2026-10-30",
+      "source_verified": true,
+      "submission_compliance_verified": false,
+      "original_file_redistributed": false
+    }
+  ],
+  "checks": [
+    {
+      "role": "title",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "title",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "title",
+      "property": "size_pt",
+      "expected": 24.0
+    },
+    {
+      "role": "title",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "title",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "body",
+      "property": "size_pt",
+      "expected": 9.5
+    },
+    {
+      "role": "abstract",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "abstract",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "abstract",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "keywords",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "keywords",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "keywords",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "heading1",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading1",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading1",
+      "property": "size_pt",
+      "expected": 9.5
+    },
+    {
+      "role": "heading1",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "heading1",
+      "property": "alignment",
+      "expected": "left"
+    },
+    {
+      "role": "heading2",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading2",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading3",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading3",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "heading4",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "heading4",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "figure_caption",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "figure_caption",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "figure_caption",
+      "property": "size_pt",
+      "expected": 7.5
+    },
+    {
+      "role": "figure_caption",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "figure_caption",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "table_caption",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "table_caption",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "table_caption",
+      "property": "size_pt",
+      "expected": 7.5
+    },
+    {
+      "role": "table_caption",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "table_caption",
+      "property": "alignment",
+      "expected": "center"
+    },
+    {
+      "role": "table_body",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "table_body",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "table_body",
+      "property": "size_pt",
+      "expected": 7.5
+    },
+    {
+      "role": "references_heading",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "references_heading",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "references_heading",
+      "property": "size_pt",
+      "expected": 9.0
+    },
+    {
+      "role": "references_heading",
+      "property": "bold",
+      "expected": true
+    },
+    {
+      "role": "references_heading",
+      "property": "alignment",
+      "expected": "left"
+    },
+    {
+      "role": "reference",
+      "property": "east_asia_font",
+      "expected": "宋体"
+    },
+    {
+      "role": "reference",
+      "property": "font",
+      "expected": "Times New Roman"
+    },
+    {
+      "role": "reference",
+      "property": "size_pt",
+      "expected": 7.5
+    }
+  ],
+  "template": {
+    "family": "chinese-multidisciplinary",
+    "source_version": "spkxmb-2020.doc; retrieved 2026-10-30",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title-east_asia_font",
+        "category": "typography",
+        "target": "title",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-font",
+        "category": "typography",
+        "target": "title",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-size_pt",
+        "category": "typography",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 24.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[15], Range.Start=469; statement anchor 题目宋体小一、居中、加粗、无缩略语",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-bold",
+        "category": "typography",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[15], Range.Start=469; statement anchor 题目宋体小一、居中、加粗、无缩略语",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "title-alignment",
+        "category": "typography",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[15], Range.Start=469; statement anchor 题目宋体小一、居中、加粗、无缩略语",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[67], Range.Start=2980; statement anchor 正文部分(宋体，英文用“Times New Ro",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-east_asia_font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-font",
+        "category": "typography",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "typography",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[21], Range.Start=855; statement anchor 摘  要：宋体9号 ，摘要中首次出现的英文缩写名",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-east_asia_font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-font",
+        "category": "typography",
+        "target": "keywords",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "keywords-size_pt",
+        "category": "typography",
+        "target": "keywords",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[22], Range.Start=914; statement anchor 关键词：关键词1；关键词2；关键词3宋体9号，缩",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 9.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[42], Range.Start=1907; statement anchor 材料与方法(一级标题，9.5号，宋体加黑，英文和",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-bold",
+        "category": "typography",
+        "target": "heading1",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[42], Range.Start=1907; statement anchor 材料与方法(一级标题，9.5号，宋体加黑，英文和",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "typography",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[42], Range.Start=1907; statement anchor 材料与方法(一级标题，9.5号，宋体加黑，英文和",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading4-east_asia_font",
+        "category": "typography",
+        "target": "heading4",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "heading4-font",
+        "category": "typography",
+        "target": "heading4",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-east_asia_font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[93], Range.Start=3728; statement anchor 作者最好提供实际印刷大小的图。图一般情况采用单栏",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-bold",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[93], Range.Start=3728; statement anchor 作者最好提供实际印刷大小的图。图一般情况采用单栏",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "figure_caption-alignment",
+        "category": "typography",
+        "target": "figure_caption",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[93], Range.Start=3728; statement anchor 作者最好提供实际印刷大小的图。图一般情况采用单栏",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-east_asia_font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-font",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-bold",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_caption-alignment",
+        "category": "typography",
+        "target": "table_caption",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-east_asia_font",
+        "category": "typography",
+        "target": "table_body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-font",
+        "category": "typography",
+        "target": "table_body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "table_body-size_pt",
+        "category": "typography",
+        "target": "table_body",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references_heading-font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references_heading-bold",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "references_heading-alignment",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "alignment",
+        "expected": "left",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[10], Range.Start=289; statement anchor 1. 文中所有的中文都使用“宋体”字体；所有的英",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[102], Range.Start=4220; statement anchor 文献著录为7.5号字，中文宋体，英文和数字用“T",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[4], Range.Start=136; statement anchor 投稿时请使用通栏，不必分两栏，分栏工作由排版人员",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "first-line-indent",
+        "category": "paragraph",
+        "target": "body",
+        "property": "first_line_characters",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[67], Range.Start=2980; statement anchor 正文部分(宋体，英文用“Times New Ro",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "three-line-table",
+        "category": "table",
+        "target": "table",
+        "property": "border_widths_pt",
+        "expected": {
+          "outer": 1.5,
+          "middle_and_auxiliary": 0.75
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "The explicit widths are retained as a policy; no unstated border color or extra style value is imposed."
+      },
+      {
+        "id": "bilingual-captions",
+        "category": "caption",
+        "target": "document",
+        "property": "bilingual_captions_required",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[68], Range.Start=3025; statement anchor 表格采用三线表，上下线为1.5磅，中线和辅助线为",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bibliography-standard",
+        "category": "citation",
+        "target": "reference",
+        "property": "standard",
+        "expected": "GB/T 7714-2015",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[100], Range.Start=4160; statement anchor 参考文献：(9号，宋体加黑，左起顶格，具体规定参",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "bibliography-numeric",
+        "category": "citation",
+        "target": "document",
+        "property": "bibliography_style",
+        "expected": "numeric",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/CN/column/column26.shtml",
+          "file": "spkx-guide.html",
+          "locator": "HTML line 748; xpath /html/body/div[3]/div/div[2]/div/ul/li/div/table/tbody/tr[2]/td/table/tbody/tr/td/p[100]/span[1]; anchor 顺序编码制",
+          "sha256": "d0b2e1e7ad456dc62f628ed1be538e42c1b60093b7cb9181be51f93323d1e2e8",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      },
+      {
+        "id": "legacy-word-submission",
+        "category": "submission",
+        "target": "document",
+        "property": "file_format",
+        "expected": "Word .doc",
+        "unit": null,
+        "source": {
+          "url": "https://www.spkx.net.cn/UserFiles/File/spkxmb-2020.doc",
+          "file": "spkx-template-2020.doc",
+          "locator": "Original DOC Word Paragraphs[7], Range.Start=248; statement anchor 5.  保存文件：选择“文件→另存为”为Word",
+          "sha256": "80b79351ccfe60cc15e18ef36acf66b76b656ebe8ba0c3d8ca4225f16f344354",
+          "retrieved_at": "2026-10-30"
+        },
+        "certainty": "verified",
+        "checking": "host",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": ""
+      }
+    ],
+    "coverage_notes": [
+      "Only the explicit confirmed manuscript-format rules are applied. Publisher documents and source prose are not redistributed.",
+      "Editorial requirements remain in the audit record; their presence does not authorize invention of author information, references, experiments or results.",
+      "The scope is a Chinese main manuscript. Its English translated title has a separate 10.5 pt instruction and requires explicit language-aware role assignment; this profile does not assign the Chinese title rule to an English title."
+    ]
+  }
+}

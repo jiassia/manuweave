@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-10-30",
+  "scope": "Only independently verified executable Word layout facts from the supplied journal import audit. Editorial and submission policies belong to the separate read-only journal registry.",
+  "text_paragraph_roles": [
+    "title",
+    "body",
+    "abstract_heading",
+    "abstract",
+    "keywords",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "caption",
+    "figure_caption",
+    "table_caption",
+    "table_body",
+    "reference",
+    "references_heading",
+    "equation",
+    "toc",
+    "unknown"
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "id": "cn-cims-initial-word",
+        "name": "计算机集成制造系统初投稿",
+        "version": "1.0.0",
+        "scope": "计算机集成制造系统；所有来稿；初投稿，仅执行官方明确的单栏要求。",
+        "manuscript_type": "all_manuscripts",
+        "stage": "initial_submission",
+        "variants": [
+          {
+            "manuscript_type": "all_manuscripts",
+            "stage": "initial_submission"
+          }
+        ],
+        "latex": {},
+        "sources": [
+          {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+            "file": "20241121154611.docx",
+            "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+            "byte_length": 18773,
+            "retrieved_at": "2026-10-30",
+            "source_verified": true,
+            "original_file_redistributed": false,
+            "submission_compliance_verified": false,
+            "source_role": "official_submission_guide"
+          },
+          {
+            "url": "http://www.cims-journal.cn/CN/column/column4.shtml",
+            "file": "column4.shtml",
+            "sha256": "49eb4f419056f437b8071f74f1380a161ba3e076755255e21c4a4491fed5eedb",
+            "byte_length": 17387,
+            "retrieved_at": "2026-10-30",
+            "source_verified": true,
+            "original_file_redistributed": false,
+            "submission_compliance_verified": false,
+            "source_role": "current_official_guide_and_template_link"
+          }
+        ],
+        "compliance": "source_backed_template_partial_coverage",
+        "template": {
+          "family": "imported-journals",
+          "source_version": "20241121154611.docx;current-link-snapshot-2026-10-30",
+          "source_url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+          "license": "rules_only_source_not_redistributed",
+          "assets": [],
+          "engine_support": {
+            "docx": "partial",
+            "latex": "unsupported"
+          },
+          "coverage_notes": [
+            "The selected manuscript stage controls which instructions apply.",
+            "Executable properties are limited to the explicit instructions recorded here."
+          ]
+        },
+        "stage_evidence": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+          "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+          "file": "20241121154611.docx",
+          "part": "word/document.xml",
+          "xpath": "/w:document/w:body/w:p[12]",
+          "namespaces": {
+            "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+          }
+        },
+        "manuscript_type_evidence": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+          "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+          "file": "20241121154611.docx",
+          "part": "word/document.xml",
+          "xpath": "/w:document/w:body/w:p[4]",
+          "namespaces": {
+            "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+          }
+        },
+        "journal_id": "CN-1006-5911",
+        "formal_title": "计算机集成制造系统",
+        "manuscript_format": "Microsoft Word",
+        "aliases": [
+          "CIMS 初投稿 Word",
+          "计算机集成制造系统 初投稿 Word"
+        ]
+      },
+      "format_facts": [
+        {
+          "id": "page-columns",
+          "category": "layout",
+          "target": "page",
+          "property": "columns",
+          "expected": 1,
+          "unit": null,
+          "source": {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+            "file": "20241121154611.docx",
+            "locator": "word/document.xml:/w:document/w:body/w:p[10] and /w:document/w:body/w:p[12]; explicit Word single-column initial manuscript instructions",
+            "response_sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+            "response_byte_length": 18773
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "cn-cims-revised-word",
+        "name": "计算机集成制造系统退修改稿",
+        "version": "1.0.0",
+        "scope": "计算机集成制造系统；所有来稿；退修改稿，仅执行当前官方论文模版明确的正文宋体/Times New Roman、五号10.5pt、1.5倍行距和单栏。",
+        "manuscript_type": "all_manuscripts",
+        "stage": "revised_manuscript",
+        "variants": [
+          {
+            "manuscript_type": "all_manuscripts",
+            "stage": "revised_manuscript"
+          }
+        ],
+        "latex": {},
+        "sources": [
+          {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+            "file": "20220128161938.docx",
+            "sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+            "byte_length": 33200,
+            "retrieved_at": "2026-10-30",
+            "source_verified": true,
+            "original_file_redistributed": false,
+            "submission_compliance_verified": false,
+            "source_role": "official_paper_template_with_explicit_instructions"
+          },
+          {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+            "file": "20241121154611.docx",
+            "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+            "byte_length": 18773,
+            "retrieved_at": "2026-10-30",
+            "source_verified": true,
+            "original_file_redistributed": false,
+            "submission_compliance_verified": false,
+            "source_role": "official_submission_guide"
+          },
+          {
+            "url": "http://www.cims-journal.cn/CN/column/column4.shtml",
+            "file": "column4.shtml",
+            "sha256": "49eb4f419056f437b8071f74f1380a161ba3e076755255e21c4a4491fed5eedb",
+            "byte_length": 17387,
+            "retrieved_at": "2026-10-30",
+            "source_verified": true,
+            "original_file_redistributed": false,
+            "submission_compliance_verified": false,
+            "source_role": "current_official_guide_and_template_link"
+          }
+        ],
+        "compliance": "source_backed_template_partial_coverage",
+        "template": {
+          "family": "imported-journals",
+          "source_version": "20220128161938.docx;guide-20241121154611.docx;current-link-snapshot-2026-10-30",
+          "source_url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+          "license": "rules_only_source_not_redistributed",
+          "assets": [],
+          "engine_support": {
+            "docx": "partial",
+            "latex": "unsupported"
+          },
+          "coverage_notes": [
+            "The selected manuscript stage controls which instructions apply.",
+            "Executable properties are limited to the explicit instructions recorded here."
+          ]
+        },
+        "stage_evidence": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+          "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+          "file": "20241121154611.docx",
+          "part": "word/document.xml",
+          "xpath": "/w:document/w:body/w:p[12]",
+          "namespaces": {
+            "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+          }
+        },
+        "manuscript_type_evidence": {
+          "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+          "sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+          "file": "20241121154611.docx",
+          "part": "word/document.xml",
+          "xpath": "/w:document/w:body/w:p[4]",
+          "namespaces": {
+            "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+          }
+        },
+        "official_template_link": {
+          "url": "http://www.cims-journal.cn/CN/column/column4.shtml",
+          "sha256": "49eb4f419056f437b8071f74f1380a161ba3e076755255e21c4a4491fed5eedb",
+          "locator": "/html/body/div[3]/div/div[2]/div[3]/ul/li[1]/a/@href",
+          "href": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+          "label": "论文模版"
+        },
+        "journal_id": "CN-1006-5911",
+        "formal_title": "计算机集成制造系统",
+        "manuscript_format": "Microsoft Word",
+        "aliases": [
+          "CIMS 退修改 Word",
+          "计算机集成制造系统 退修改稿 Word"
+        ]
+      },
+      "format_facts": [
+        {
+          "id": "body-font",
+          "category": "typography",
+          "target": "body",
+          "property": "font",
+          "expected": "Times New Roman",
+          "unit": null,
+          "source": {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+            "file": "20220128161938.docx",
+            "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+            "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+            "response_byte_length": 33200
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+        },
+        {
+          "id": "body-east_asia_font",
+          "category": "typography",
+          "target": "body",
+          "property": "east_asia_font",
+          "expected": "宋体",
+          "unit": null,
+          "source": {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+            "file": "20220128161938.docx",
+            "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+            "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+            "response_byte_length": 33200
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+        },
+        {
+          "id": "body-size_pt",
+          "category": "typography",
+          "target": "body",
+          "property": "size_pt",
+          "expected": 10.5,
+          "unit": "pt",
+          "source": {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+            "file": "20220128161938.docx",
+            "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+            "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+            "response_byte_length": 33200
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+        },
+        {
+          "id": "body-line_spacing_rule",
+          "category": "typography",
+          "target": "body",
+          "property": "line_spacing_rule",
+          "expected": "auto",
+          "unit": null,
+          "source": {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+            "file": "20220128161938.docx",
+            "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+            "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+            "response_byte_length": 33200
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+        },
+        {
+          "id": "body-line_spacing",
+          "category": "typography",
+          "target": "body",
+          "property": "line_spacing",
+          "expected": 1.5,
+          "unit": null,
+          "source": {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20220128161938.docx",
+            "file": "20220128161938.docx",
+            "locator": "word/document.xml:/w:document/w:body/w:p[13]; explicit main-text font, Chinese 五号=10.5pt, 1.5-times line spacing and single-column instruction",
+            "response_sha256": "43d7bbd88fe6b504538e304fa376a830d63871226c54adae1498c8b2c04cb93f",
+            "response_byte_length": 33200
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+        },
+        {
+          "id": "page-columns",
+          "category": "layout",
+          "target": "page",
+          "property": "columns",
+          "expected": 1,
+          "unit": null,
+          "source": {
+            "url": "http://www.cims-journal.cn/fileup/1006-5911/ITEM/20241121154611.docx",
+            "file": "20241121154611.docx",
+            "locator": "word/document.xml:/w:document/w:body/w:p[10] explicit Word single-column requirement; /w:document/w:body/w:p[12] revised-manuscript stage",
+            "response_sha256": "69a2ea9b76ff8e39c38d75ecae5e789bef5f38ace380e77e2b0b5dc2c7ff3cf6",
+            "response_byte_length": 18773
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "detail": "Explicit author instruction; no native document style or guide-container geometry was used."
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "int-ncomms-initial-word",
+        "name": "Nature Communications initial Word manuscript preparation",
+        "version": "1.0.0",
+        "aliases": [
+          "Nature Communications 初投 Word",
+          "Nature Communications Word initial",
+          "Ncomms Word initial"
+        ],
+        "scope": "All manuscripts at initial submission as Microsoft Word files; the guide states that manuscripts should be double-spaced and single-column.",
+        "journal_id": "SCIE-101710",
+        "formal_title": "Nature Communications",
+        "manuscript_type": "all_manuscripts",
+        "stage": "initial_submission",
+        "manuscript_format": "Microsoft Word",
+        "variants": [
+          {
+            "manuscript_type": "all_manuscripts",
+            "stage": "initial_submission",
+            "condition": "microsoft_word_manuscript"
+          }
+        ],
+        "compliance": "source_backed_template_partial_coverage",
+        "latex": {},
+        "sources": [
+          {
+            "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+            "file": "how-to-submit.html",
+            "title": "How to submit | Nature Communications",
+            "sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+            "byte_count": 171997,
+            "retrieved_at": "2026-10-30T11:46:22.372797+00:00",
+            "http_status": 200,
+            "source_verified": true,
+            "original_file_redistributed": false,
+            "submission_compliance_verified": false,
+            "source_role": "official_initial_submission_guide"
+          }
+        ],
+        "template": {
+          "family": "imported-journals",
+          "source_version": "official-how-to-submit-retrieved-2026-10-30",
+          "source_url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "license": "rules_only_source_not_redistributed",
+          "assets": [],
+          "engine_support": {
+            "docx": "partial",
+            "latex": "unsupported"
+          },
+          "coverage_notes": [
+            "Implements two independently verified initial-submission Word preparation recommendations; their source modal strength remains should.",
+            "The manuscript-wide spacing fact is applied consistently to textual paragraph roles, including existing table text and references.",
+            "No fixed font family, point size or page margin is established by these imported executable facts."
+          ]
+        }
+      },
+      "format_facts": [
+        {
+          "id": "word-double-spacing",
+          "category": "paragraph",
+          "target": "text_paragraphs",
+          "property": "line_spacing",
+          "expected": 2.0,
+          "unit": "multiple",
+          "source": {
+            "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+            "file": "how-to-submit.html",
+            "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+            "anchor": "double-spaced",
+            "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+            "response_byte_length": 171997
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "strength": "should",
+          "conditions": {
+            "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+            "scope": "all_manuscripts",
+            "condition": "microsoft_word_manuscript"
+          },
+          "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced."
+        },
+        {
+          "id": "word-single-column",
+          "category": "layout",
+          "target": "page",
+          "property": "columns",
+          "expected": 1,
+          "unit": null,
+          "source": {
+            "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+            "file": "how-to-submit.html",
+            "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+            "anchor": "single-column",
+            "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+            "response_byte_length": 171997
+          },
+          "certainty": "verified",
+          "checking": "xml",
+          "applies_to": [
+            "docx"
+          ],
+          "strength": "should",
+          "conditions": {
+            "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+            "scope": "all_manuscripts",
+            "condition": "microsoft_word_manuscript"
+          },
+          "detail": "The official initial-submission Word preparation guide states that the manuscript should use a single column."
+        }
+      ]
+    }
+  ]
+}

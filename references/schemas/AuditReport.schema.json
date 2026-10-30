@@ -1,0 +1,63 @@
+{
+  "$defs": {
+    "AuditCheck": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/Status"
+        },
+        "details": {
+          "default": null,
+          "title": "Details"
+        }
+      },
+      "required": [
+        "name",
+        "status"
+      ],
+      "title": "AuditCheck",
+      "type": "object"
+    },
+    "Status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "UNKNOWN",
+        "NOT_APPLICABLE",
+        "UNVERIFIED"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "$ref": "#/$defs/Status"
+    },
+    "checks": {
+      "items": {
+        "$ref": "#/$defs/AuditCheck"
+      },
+      "title": "Checks",
+      "type": "array"
+    },
+    "unresolved": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Unresolved",
+      "type": "array"
+    }
+  },
+  "required": [
+    "status",
+    "checks"
+  ],
+  "title": "AuditReport",
+  "type": "object"
+}

@@ -1,0 +1,1044 @@
+{
+  "retrieved_at": "2026-10-30",
+  "source_policy": "Only paraphrased facts and response hashes are redistributed; no source pages or templates are bundled.",
+  "documents": {
+    "int-plos-one-research-word": {
+      "name": "PLOS ONE research manuscript Word requirements",
+      "aliases": [
+        "PLOS ONE research",
+        "PLOS ONE 投稿稿 Word"
+      ],
+      "article_type": "Research article",
+      "spacing": 2,
+      "spacing_source": "plos-one",
+      "spacing_anchor": "Manuscript text should be double-spaced",
+      "columns": 1,
+      "policies": [
+        {
+          "id": "font-choice",
+          "category": "typography",
+          "target": "body",
+          "property": "font_choice",
+          "expected": {
+            "fixed_family": false,
+            "fixed_size": false,
+            "forbidden_family": "Symbol"
+          },
+          "source_key": "plos-one",
+          "anchor": "Use a standard font size and any standard font",
+          "detail": "The guide allows standard font families and sizes, with Symbol excluded. The profile does not invent a fixed font or point size.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[3]/td[2]; normalized text anchor: Use a standard font size and any standard font",
+            "anchor": "Use a standard font size and any standard font",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "heading-depth",
+          "category": "structure",
+          "target": "document",
+          "property": "maximum_heading_levels",
+          "expected": 3,
+          "source_key": "plos-one",
+          "anchor": "Limit manuscript sections and sub-sections to 3 heading levels",
+          "detail": "Keep the manuscript hierarchy within three heading levels.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[4]/td[2]; normalized text anchor: Limit manuscript sections and sub-sections to 3 heading levels",
+            "anchor": "Limit manuscript sections and sub-sections to 3 heading levels",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "page-numbering",
+          "category": "layout",
+          "target": "document",
+          "property": "page_numbers_required",
+          "expected": true,
+          "source_key": "plos-one",
+          "anchor": "Include page numbers and line numbers",
+          "detail": "Include page and line numbering in the submitted manuscript.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[6]/td[2]; normalized text anchor: Include page numbers and line numbers",
+            "anchor": "Include page numbers and line numbers",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "continuous-line-numbering",
+          "category": "layout",
+          "target": "document",
+          "property": "line_numbering",
+          "expected": "continuous",
+          "source_key": "plos-one",
+          "anchor": "Use continuous line numbers",
+          "detail": "Line numbering continues across pages rather than restarting on each page.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[6]/td[2]; normalized text anchor: Use continuous line numbers",
+            "anchor": "Use continuous line numbers",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "footnotes",
+          "category": "structure",
+          "target": "document",
+          "property": "footnotes_allowed",
+          "expected": false,
+          "source_key": "plos-one",
+          "anchor": "Footnotes are not permitted",
+          "detail": "Move footnote information only after reviewing its meaning; formatting must not silently delete it.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[7]/td[2]; normalized text anchor: Footnotes are not permitted",
+            "anchor": "Footnotes are not permitted",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "reference-style",
+          "category": "citation",
+          "target": "reference",
+          "property": "bibliography_style",
+          "expected": "Vancouver",
+          "source_key": "plos-one",
+          "anchor": "Vancouver",
+          "detail": "The journal specifies Vancouver reference formatting; this partial Word profile records the policy without rewriting references automatically.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[10]/td[2]/p[1]; normalized text anchor: Vancouver",
+            "anchor": "Vancouver",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "figure-caption-position",
+          "category": "layout",
+          "target": "figure_caption",
+          "property": "placement",
+          "expected": "after_first_citing_paragraph",
+          "source_key": "plos-one",
+          "anchor": "immediately following the paragraph",
+          "detail": "Place figure captions after the first paragraph that cites the figure; upload figure files separately.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[22]/p[3]; normalized text anchor: immediately following the paragraph",
+            "anchor": "immediately following the paragraph",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-limit",
+          "category": "structure",
+          "target": "abstract",
+          "property": "maximum_words",
+          "expected": 300,
+          "source_key": "plos-one",
+          "anchor": "Not exceed 300 words",
+          "detail": "The abstract must not exceed 300 words.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": "words",
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[15]/ul[1]/li[4]; normalized text anchor: Not exceed 300 words",
+            "anchor": "Not exceed 300 words",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-citations",
+          "category": "citation",
+          "target": "abstract",
+          "property": "citations_allowed",
+          "expected": false,
+          "source_key": "plos-one",
+          "anchor": "Abstracts should not include",
+          "detail": "The abstract excludes citations.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[15]/p[2]; normalized text anchor: Abstracts should not include",
+            "anchor": "Abstracts should not include",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "author-title-page",
+          "category": "identity",
+          "target": "title_page",
+          "property": "author_names_and_affiliations_required",
+          "expected": true,
+          "source_key": "plos-one",
+          "anchor": "Title page: List title, authors, and affiliations",
+          "detail": "The first manuscript page identifies authors and affiliations. This profile does not anonymize author identities.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/div/table/tbody/tr[1]/td[2]/ul/li[1]; normalized text anchor: Title page: List title, authors, and affiliations",
+            "anchor": "Title page: List title, authors, and affiliations",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "table-position",
+          "category": "layout",
+          "target": "table",
+          "property": "placement",
+          "expected": "after_first_citing_paragraph",
+          "source_key": "plos-one",
+          "anchor": "Tables are inserted immediately after",
+          "detail": "Insert a table after the first paragraph citing it.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+            "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/div/table/tbody/tr[4]/td[2]/ul/li[2]; normalized text anchor: Tables are inserted immediately after",
+            "anchor": "Tables are inserted immediately after",
+            "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+            "retrieved_at": "2026-10-30"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+          "title": "PLOS One",
+          "http_status": 200,
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+          "byte_count": 188788,
+          "retrieved_at": "2026-10-30",
+          "source_verified": true,
+          "submission_compliance_verified": false,
+          "original_file_redistributed": false,
+          "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)"
+        }
+      ],
+      "source_version": "Official online author guidelines snapshot 2026-10-30; Research article",
+      "spacing_origin": {
+        "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+        "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+        "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+        "anchor": "Manuscript text should be double-spaced",
+        "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+        "retrieved_at": "2026-10-30"
+      },
+      "columns_origin": {
+        "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+        "file": "official HTML response SHA-256 77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804 (not redistributed)",
+        "locator": "/html/body/main/div/article/div[3]/table/tbody/tr[5]/td[2]/p[2]; normalized text anchor: Do not format text in multiple columns",
+        "anchor": "Do not format text in multiple columns",
+        "response_sha256": "77194bf877dce6fc4a792c497a4e07d0b71dac1f040ae1708097b5a74fd75804",
+        "retrieved_at": "2026-10-30"
+      }
+    },
+    "int-plos-comp-biol-research-word": {
+      "name": "PLOS Computational Biology research manuscript Word requirements",
+      "aliases": [
+        "PLOS Computational Biology research",
+        "PLOS Computational Biology 投稿稿 Word"
+      ],
+      "article_type": "Research article",
+      "spacing": 2,
+      "spacing_source": "plos-comp-biol",
+      "spacing_anchor": "Manuscript text should be double-spaced",
+      "columns": 1,
+      "policies": [
+        {
+          "id": "font-choice",
+          "category": "typography",
+          "target": "body",
+          "property": "font_choice",
+          "expected": {
+            "fixed_family": false,
+            "fixed_size": false,
+            "forbidden_family": "Symbol"
+          },
+          "source_key": "plos-comp-biol",
+          "anchor": "Use a standard font size and any standard font",
+          "detail": "The guide allows standard font families and sizes, with Symbol excluded. The profile does not invent a fixed font or point size.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[3]/td[2]; normalized text anchor: Use a standard font size and any standard font",
+            "anchor": "Use a standard font size and any standard font",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "heading-depth",
+          "category": "structure",
+          "target": "document",
+          "property": "maximum_heading_levels",
+          "expected": 3,
+          "source_key": "plos-comp-biol",
+          "anchor": "Limit manuscript sections and sub-sections to 3 heading levels",
+          "detail": "Keep the manuscript hierarchy within three heading levels.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[4]/td[2]; normalized text anchor: Limit manuscript sections and sub-sections to 3 heading levels",
+            "anchor": "Limit manuscript sections and sub-sections to 3 heading levels",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "page-numbering",
+          "category": "layout",
+          "target": "document",
+          "property": "page_numbers_required",
+          "expected": true,
+          "source_key": "plos-comp-biol",
+          "anchor": "Include page numbers and line numbers",
+          "detail": "Include page and line numbering in the submitted manuscript.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[6]/td[2]; normalized text anchor: Include page numbers and line numbers",
+            "anchor": "Include page numbers and line numbers",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "continuous-line-numbering",
+          "category": "layout",
+          "target": "document",
+          "property": "line_numbering",
+          "expected": "continuous",
+          "source_key": "plos-comp-biol",
+          "anchor": "Use continuous line numbers",
+          "detail": "Line numbering continues across pages rather than restarting on each page.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[6]/td[2]; normalized text anchor: Use continuous line numbers",
+            "anchor": "Use continuous line numbers",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "footnotes",
+          "category": "structure",
+          "target": "document",
+          "property": "footnotes_allowed",
+          "expected": false,
+          "source_key": "plos-comp-biol",
+          "anchor": "Footnotes are not permitted",
+          "detail": "Move footnote information only after reviewing its meaning; formatting must not silently delete it.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[9]/td[2]; normalized text anchor: Footnotes are not permitted",
+            "anchor": "Footnotes are not permitted",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "reference-style",
+          "category": "citation",
+          "target": "reference",
+          "property": "bibliography_style",
+          "expected": "Vancouver",
+          "source_key": "plos-comp-biol",
+          "anchor": "Vancouver",
+          "detail": "The journal specifies Vancouver reference formatting; this partial Word profile records the policy without rewriting references automatically.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[12]/td[2]/p[1]; normalized text anchor: Vancouver",
+            "anchor": "Vancouver",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "figure-caption-position",
+          "category": "layout",
+          "target": "figure_caption",
+          "property": "placement",
+          "expected": "after_first_citing_paragraph",
+          "source_key": "plos-comp-biol",
+          "anchor": "immediately following the paragraph",
+          "detail": "Place figure captions after the first paragraph that cites the figure; upload figure files separately.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[28]/p[3]; normalized text anchor: immediately following the paragraph",
+            "anchor": "immediately following the paragraph",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-limit",
+          "category": "structure",
+          "target": "abstract",
+          "property": "maximum_words",
+          "expected": 300,
+          "source_key": "plos-comp-biol",
+          "anchor": "it must not exceed 300 words",
+          "detail": "The abstract has a 300-word maximum.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": "words",
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[17]/p[1]; normalized text anchor: it must not exceed 300 words",
+            "anchor": "it must not exceed 300 words",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-citations",
+          "category": "citation",
+          "target": "abstract",
+          "property": "citations_allowed",
+          "expected": false,
+          "source_key": "plos-comp-biol",
+          "anchor": "Do not include any citations",
+          "detail": "The abstract excludes citations.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[17]/p[3]; normalized text anchor: Do not include any citations",
+            "anchor": "Do not include any citations",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-subheadings",
+          "category": "structure",
+          "target": "abstract",
+          "property": "subheadings_allowed",
+          "expected": false,
+          "source_key": "plos-comp-biol",
+          "anchor": "do not apply these distinct headings to the Abstract",
+          "detail": "The abstract has conceptual components but does not display the component headings.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[17]/p[2]; normalized text anchor: do not apply these distinct headings to the Abstract",
+            "anchor": "do not apply these distinct headings to the Abstract",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "author-summary",
+          "category": "structure",
+          "target": "author_summary",
+          "property": "word_range",
+          "expected": [
+            150,
+            200
+          ],
+          "source_key": "plos-comp-biol",
+          "anchor": "150-200 word non-technical summary",
+          "detail": "Research articles include a separate nontechnical Author Summary immediately after the abstract.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": "words",
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[18]/p[1]; normalized text anchor: 150-200 word non-technical summary",
+            "anchor": "150-200 word non-technical summary",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "author-title-page",
+          "category": "identity",
+          "target": "title_page",
+          "property": "author_names_and_affiliations_required",
+          "expected": true,
+          "source_key": "plos-comp-biol",
+          "anchor": "Enter author names on the title page",
+          "detail": "Identify authors and affiliations on the title page rather than removing them automatically.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+            "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+            "locator": "/html/body/main/div/article/div[12]/div[2]/p[1]; normalized text anchor: Enter author names on the title page",
+            "anchor": "Enter author names on the title page",
+            "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+            "retrieved_at": "2026-10-30"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+          "title": "PLOS Computational Biology",
+          "http_status": 200,
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+          "byte_count": 185567,
+          "retrieved_at": "2026-10-30",
+          "source_verified": true,
+          "submission_compliance_verified": false,
+          "original_file_redistributed": false,
+          "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)"
+        }
+      ],
+      "source_version": "Official online author guidelines snapshot 2026-10-30; Research article",
+      "spacing_origin": {
+        "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+        "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+        "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[1]; normalized text anchor: Manuscript text should be double-spaced",
+        "anchor": "Manuscript text should be double-spaced",
+        "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+        "retrieved_at": "2026-10-30"
+      },
+      "columns_origin": {
+        "url": "https://journals.plos.org/ploscompbiol/s/submission-guidelines",
+        "file": "official HTML response SHA-256 0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71 (not redistributed)",
+        "locator": "/html/body/main/div/article/div[5]/table/tbody/tr[5]/td[2]/p[2]; normalized text anchor: Do not format text in multiple columns",
+        "anchor": "Do not format text in multiple columns",
+        "response_sha256": "0ee91d03183baf46331aa2f053a567b90a3000c36cb231c7fe385b1cc1977f71",
+        "retrieved_at": "2026-10-30"
+      }
+    },
+    "int-bmc-public-health-research-word": {
+      "name": "BMC Public Health research article Word requirements",
+      "aliases": [
+        "BMC Public Health research",
+        "BMC Public Health 研究论文 Word"
+      ],
+      "article_type": "Research article",
+      "spacing": 2,
+      "spacing_source": "bmc-main",
+      "spacing_anchor": "Use double-line spacing",
+      "policies": [
+        {
+          "id": "page-and-line-numbers",
+          "category": "layout",
+          "target": "document",
+          "property": "page_and_line_numbers_required",
+          "expected": true,
+          "source_key": "bmc-main",
+          "anchor": "Include line and page numbering",
+          "detail": "The main manuscript includes both line and page numbering.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines",
+            "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[2]; normalized text anchor: Include line and page numbering",
+            "anchor": "Include line and page numbering",
+            "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "no-manual-page-breaks",
+          "category": "layout",
+          "target": "document",
+          "property": "manual_page_breaks_allowed",
+          "expected": false,
+          "source_key": "bmc-main",
+          "anchor": "Do not use page breaks in your manuscript",
+          "detail": "Do not add manual page breaks as a formatting shortcut.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines",
+            "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[4]; normalized text anchor: Do not use page breaks in your manuscript",
+            "anchor": "Do not use page breaks in your manuscript",
+            "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-limit",
+          "category": "structure",
+          "target": "abstract",
+          "property": "maximum_words",
+          "expected": 350,
+          "source_key": "bmc-research",
+          "anchor": "The Abstract should not exceed 350 words",
+          "detail": "Research-article abstracts have a maximum of 350 words.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": "words",
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+            "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[8]; normalized text anchor: The Abstract should not exceed 350 words",
+            "anchor": "The Abstract should not exceed 350 words",
+            "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-structure",
+          "category": "structure",
+          "target": "abstract",
+          "property": "required_labels",
+          "expected": [
+            "Background",
+            "Methods",
+            "Results",
+            "Conclusions"
+          ],
+          "source_key": "bmc-research",
+          "anchor": "The abstract must include the following separate sections",
+          "detail": "Use the research-article abstract labels specified by the journal. Trial-registration information is additionally required for applicable intervention trials.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+            "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[8]; normalized text anchor: The abstract must include the following separate sections",
+            "anchor": "The abstract must include the following separate sections",
+            "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-citations",
+          "category": "citation",
+          "target": "abstract",
+          "property": "citations_allowed",
+          "expected": false,
+          "source_key": "bmc-research",
+          "anchor": "do not cite references in the abstract",
+          "detail": "Do not cite references in the abstract.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+            "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[8]; normalized text anchor: do not cite references in the abstract",
+            "anchor": "do not cite references in the abstract",
+            "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "keyword-count",
+          "category": "structure",
+          "target": "keywords",
+          "property": "count_range",
+          "expected": [
+            3,
+            10
+          ],
+          "source_key": "bmc-research",
+          "anchor": "Three to ten keywords",
+          "detail": "Provide three to ten keywords representing the article.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+            "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[10]; normalized text anchor: Three to ten keywords",
+            "anchor": "Three to ten keywords",
+            "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "title-page-identity",
+          "category": "identity",
+          "target": "title_page",
+          "property": "author_names_and_addresses_required",
+          "expected": true,
+          "source_key": "bmc-research",
+          "anchor": "list the full names and institutional addresses for all authors",
+          "detail": "The title page identifies authors and institutional addresses; identity details must come from the manuscript or user.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+            "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[1]/li[2]; normalized text anchor: list the full names and institutional addresses for all authors",
+            "anchor": "list the full names and institutional addresses for all authors",
+            "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "declarations",
+          "category": "structure",
+          "target": "declarations",
+          "property": "required_section",
+          "expected": true,
+          "source_key": "bmc-research",
+          "anchor": "All manuscripts must contain the following sections under the heading",
+          "detail": "The research article includes the journal's Declarations subsections; statements require actual author, funding and ethics evidence.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+            "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)",
+            "locator": "/html/body/div[5]/div[1]/main/div/div/div/p[20]; normalized text anchor: All manuscripts must contain the following sections under the heading",
+            "anchor": "All manuscripts must contain the following sections under the heading",
+            "response_sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+            "retrieved_at": "2026-10-30"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines",
+          "title": "Submission guidelines | BMC Public Health | Springer Nature Link",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+          "byte_count": 221528,
+          "retrieved_at": "2026-10-30",
+          "source_verified": true,
+          "submission_compliance_verified": false,
+          "original_file_redistributed": false,
+          "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)"
+        },
+        {
+          "url": "https://link.springer.com/journal/12889/submission-guidelines/research-article",
+          "title": "Research article | BMC Public Health | Springer Nature Link",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359",
+          "byte_count": 196849,
+          "retrieved_at": "2026-10-30",
+          "source_verified": true,
+          "submission_compliance_verified": false,
+          "original_file_redistributed": false,
+          "file": "official HTML response SHA-256 b216bb1ef5d13d2eb9ca83a64be93217326c759602c3d5d5dcb217d38f363359 (not redistributed)"
+        }
+      ],
+      "source_version": "Official online author guidelines snapshot 2026-10-30; Research article",
+      "spacing_origin": {
+        "url": "https://link.springer.com/journal/12889/submission-guidelines",
+        "file": "official HTML response SHA-256 63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b (not redistributed)",
+        "locator": "/html/body/div[5]/div[1]/main/div/div/div/ul[6]/li[1]; normalized text anchor: Use double-line spacing",
+        "anchor": "Use double-line spacing",
+        "response_sha256": "63cdc8497413559047f205d1b1d4ca58d42eb71e88ac3411ce7fb04cf8d8c15b",
+        "retrieved_at": "2026-10-30"
+      }
+    },
+    "int-frontiers-public-health-word": {
+      "name": "Frontiers in Public Health manuscript Word requirements",
+      "aliases": [
+        "Frontiers in Public Health Word",
+        "Frontiers Public Health 投稿稿"
+      ],
+      "article_type": "Manuscripts subject to the journal author guidelines",
+      "spacing": 1,
+      "spacing_source": "frontiers-public-health",
+      "spacing_anchor": "The entire document should be single-spaced",
+      "policies": [
+        {
+          "id": "page-and-line-numbers",
+          "category": "layout",
+          "target": "document",
+          "property": "page_and_line_numbers_required",
+          "expected": true,
+          "source_key": "frontiers-public-health",
+          "anchor": "must contain page and line numbers",
+          "detail": "Page and line numbering facilitate manuscript review.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[40]; normalized text anchor: must contain page and line numbers",
+            "anchor": "must contain page and line numbers",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-citations",
+          "category": "citation",
+          "target": "abstract",
+          "property": "citations_allowed",
+          "expected": false,
+          "source_key": "frontiers-public-health",
+          "anchor": "do not cite references, figures or tables",
+          "detail": "The abstract excludes references, figures and tables.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[3]; normalized text anchor: do not cite references, figures or tables",
+            "anchor": "do not cite references, figures or tables",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "abstract-paragraph",
+          "category": "structure",
+          "target": "abstract",
+          "property": "maximum_paragraphs",
+          "expected": 1,
+          "source_key": "frontiers-public-health",
+          "anchor": "abstract should be no longer than a single paragraph",
+          "detail": "Keep the abstract to one paragraph while following the selected article type's required structure.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[3]; normalized text anchor: abstract should be no longer than a single paragraph",
+            "anchor": "abstract should be no longer than a single paragraph",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "table-native-format",
+          "category": "structure",
+          "target": "table",
+          "property": "editable_required",
+          "expected": true,
+          "source_key": "frontiers-public-health",
+          "anchor": "Tables should be inserted at the end of the manuscript in an editable format",
+          "detail": "Place editable tables at the end of the manuscript; retain table data and merge structure.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[94]; normalized text anchor: Tables should be inserted at the end of the manuscript in an editable format",
+            "anchor": "Tables should be inserted at the end of the manuscript in an editable format",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "table-caption-position",
+          "category": "layout",
+          "target": "table_caption",
+          "property": "placement",
+          "expected": "immediately_before_table",
+          "source_key": "frontiers-public-health",
+          "anchor": "Table captions must be placed immediately before the table",
+          "detail": "The table caption precedes its table and occupies one paragraph.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[95]; normalized text anchor: Table captions must be placed immediately before the table",
+            "anchor": "Table captions must be placed immediately before the table",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "figure-caption-position",
+          "category": "layout",
+          "target": "figure_caption",
+          "property": "placement",
+          "expected": "end_of_manuscript",
+          "source_key": "frontiers-public-health",
+          "anchor": "Figure captions should be placed at the end of the manuscript",
+          "detail": "Collect figure captions at the end of the manuscript.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[86]; normalized text anchor: Figure captions should be placed at the end of the manuscript",
+            "anchor": "Figure captions should be placed at the end of the manuscript",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "figure-resolution",
+          "category": "image",
+          "target": "image",
+          "property": "minimum_dpi",
+          "expected": 300,
+          "source_key": "frontiers-public-health",
+          "anchor": "All images must have a resolution of 300 dpi at final size",
+          "detail": "Check image resolution at its final physical size; resampling cannot create missing detail.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": "dpi",
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[88]; normalized text anchor: All images must have a resolution of 300 dpi at final size",
+            "anchor": "All images must have a resolution of 300 dpi at final size",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "editable-equations",
+          "category": "structure",
+          "target": "equation",
+          "property": "editable_required",
+          "expected": true,
+          "source_key": "frontiers-public-health",
+          "anchor": "Equations should be inserted in editable format",
+          "detail": "Keep native editable equations instead of rasterizing them.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[42]; normalized text anchor: Equations should be inserted in editable format",
+            "anchor": "Equations should be inserted in editable format",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        },
+        {
+          "id": "author-list",
+          "category": "identity",
+          "target": "title_page",
+          "property": "author_names_and_affiliations_required",
+          "expected": true,
+          "source_key": "frontiers-public-health",
+          "anchor": "All names are listed together and separated by commas",
+          "detail": "List exact author names and keyed affiliations. The source requires author identification, so this profile does not remove it.",
+          "checking": "host",
+          "certainty": "verified",
+          "unit": null,
+          "source": {
+            "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+            "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+            "locator": "/html/body/div/div/div/div[1]/main/div/p[119]; normalized text anchor: All names are listed together and separated by commas",
+            "anchor": "All names are listed together and separated by commas",
+            "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+            "retrieved_at": "2026-10-30"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+          "title": "Frontiers in Public Health | About",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+          "byte_count": 1385972,
+          "retrieved_at": "2026-10-30",
+          "source_verified": true,
+          "submission_compliance_verified": false,
+          "original_file_redistributed": false,
+          "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)"
+        }
+      ],
+      "source_version": "Official online author guidelines snapshot 2026-10-30; Manuscripts subject to the journal author guidelines",
+      "spacing_origin": {
+        "url": "https://www.frontiersin.org/journals/public-health/for-authors/author-guidelines",
+        "file": "official HTML response SHA-256 bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2 (not redistributed)",
+        "locator": "/html/body/div/div/div/div[1]/main/div/p[40]; normalized text anchor: The entire document should be single-spaced",
+        "anchor": "The entire document should be single-spaced",
+        "response_sha256": "bc4e05dcd078f36a2e9afb2581d22b2f4e13f1f3720a487cb14898278e3079e2",
+        "retrieved_at": "2026-10-30"
+      }
+    }
+  }
+}

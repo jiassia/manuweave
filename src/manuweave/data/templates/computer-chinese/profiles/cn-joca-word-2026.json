@@ -1,0 +1,2894 @@
+{
+  "id": "cn-joca-word-2026",
+  "name": "计算机应用官方论文模板2026",
+  "version": "1.0.0",
+  "aliases": [
+    "计算机应用论文模板2026"
+  ],
+  "scope": "Official Word manuscript template typography and layout captured from semantic content runs and resolved inheritance; source-specific stage and section limits are recorded.",
+  "compliance": "source_backed_template_partial_coverage",
+  "manuscript_stage": "official_manuscript_template",
+  "rules": {
+    "title_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "黑体",
+      "size_pt": 18.0,
+      "bold": true,
+      "alignment": "center",
+      "space_before_pt": 12.0,
+      "space_after_pt": 12.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "title_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "黑体",
+      "size_pt": 18.0,
+      "bold": true,
+      "alignment": "center",
+      "space_before_pt": 12.0,
+      "space_after_pt": 12.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "body": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 9.0,
+      "alignment": "both",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "heading1": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 12.0,
+      "space_before_pt": 13.2,
+      "space_after_pt": 13.2
+    },
+    "heading2": {
+      "font": "Times New Roman",
+      "east_asia_font": "黑体",
+      "size_pt": 9.0,
+      "space_before_pt": 9.6,
+      "space_after_pt": 9.6,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "heading3": {
+      "font": "Calibri",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "space_before_pt": 6.0,
+      "space_after_pt": 6.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "abstract_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "abstract_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.15
+    },
+    "keywords_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "keywords_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 9.0,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.15
+    },
+    "references_heading": {
+      "font": "Times New Roman",
+      "east_asia_font": "黑体",
+      "size_pt": 9.0,
+      "bold": true,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    },
+    "reference": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 7.5,
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "author_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 12.0,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "author_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "楷体",
+      "size_pt": 12.0,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.3
+    },
+    "affiliation_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 7.5,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    },
+    "affiliation_en": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 7.5,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    },
+    "correspondence_zh": {
+      "font": "Times New Roman",
+      "east_asia_font": "宋体",
+      "size_pt": 7.5,
+      "alignment": "center",
+      "line_spacing_rule": "auto",
+      "line_spacing": 1.5
+    }
+  },
+  "page": {
+    "width_mm": 210.0086,
+    "height_mm": 297.0036,
+    "margin_top_mm": 24.0065,
+    "margin_bottom_mm": 11.9944,
+    "margin_left_mm": 21.0079,
+    "margin_right_mm": 15.9985,
+    "grid_type": "default",
+    "grid_line_pitch_pt": 15.6,
+    "mirror_margins": false
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+      "file": "20260421131814.doc",
+      "sha256": "ea305883ad80b38404a9c016c3959551d5dd21f3b2c4916e786fd433b9486f89",
+      "byte_length": 409600,
+      "retrieved_at": "2026-10-30",
+      "official_index_url": "https://www.joca.cn/CN/column/column26.shtml",
+      "method": "Downloaded original official DOC; isolated hidden Microsoft Word with AutomationSecurity=3, UpdateLinksAtOpen=False, read-only/no-recent Open; converted only to system TEMP DOCX; static XML styles and representative visible runs inspected. No macros or OLE executed.",
+      "converted_file": "joca-converted.docx",
+      "converted_sha256": "60510a8bb6ba16b8f62d94c298f3f68c28b3bc6c9b3b126198517a627390270e",
+      "source_verified": true,
+      "original_file_redistributed": false,
+      "submission_compliance_verified": false
+    }
+  ],
+  "template": {
+    "family": "computer-chinese",
+    "source_version": "2026-template-label;download-file-20260421131814.doc",
+    "license": "rules_only_source_not_redistributed",
+    "source_url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "requirements": [
+      {
+        "id": "title_zh-font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-east_asia_font",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-size_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "size_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-bold",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-alignment",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_before_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_before_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-space_after_pt",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "space_after_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_zh-line_spacing",
+        "category": "typography",
+        "target": "title_zh",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[2]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-east_asia_font",
+        "category": "typography",
+        "target": "title_en",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-size_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "size_pt",
+        "expected": 18.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-bold",
+        "category": "typography",
+        "target": "title_en",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-alignment",
+        "category": "typography",
+        "target": "title_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_before_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_before_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-space_after_pt",
+        "category": "typography",
+        "target": "title_en",
+        "property": "space_after_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing_rule",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "title_en-line_spacing",
+        "category": "typography",
+        "target": "title_en",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[15]; representative visible run ordinal 1; paragraph styleId=af1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-font",
+        "category": "typography",
+        "target": "body",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[28]; representative visible run ordinal 1; paragraph styleId=a3; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-east_asia_font",
+        "category": "typography",
+        "target": "body",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[28]; representative visible run ordinal 1; paragraph styleId=a3; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "typography",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[28]; representative visible run ordinal 1; paragraph styleId=a3; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-alignment",
+        "category": "typography",
+        "target": "body",
+        "property": "alignment",
+        "expected": "both",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[28]; representative visible run ordinal 1; paragraph styleId=a3; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[28]; representative visible run ordinal 1; paragraph styleId=a3; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "typography",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[28]; representative visible run ordinal 1; paragraph styleId=a3; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[27]; representative visible run ordinal 1; paragraph styleId=a0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-east_asia_font",
+        "category": "typography",
+        "target": "heading1",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[27]; representative visible run ordinal 1; paragraph styleId=a0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[27]; representative visible run ordinal 1; paragraph styleId=a0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_before_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_before_pt",
+        "expected": 13.2,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[27]; representative visible run ordinal 1; paragraph styleId=a0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading1-space_after_pt",
+        "category": "typography",
+        "target": "heading1",
+        "property": "space_after_pt",
+        "expected": 13.2,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[27]; representative visible run ordinal 1; paragraph styleId=a0; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[32]; representative visible run ordinal 1; paragraph styleId=a1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-east_asia_font",
+        "category": "typography",
+        "target": "heading2",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[32]; representative visible run ordinal 1; paragraph styleId=a1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[32]; representative visible run ordinal 1; paragraph styleId=a1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-space_before_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_before_pt",
+        "expected": 9.6,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[32]; representative visible run ordinal 1; paragraph styleId=a1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-space_after_pt",
+        "category": "typography",
+        "target": "heading2",
+        "property": "space_after_pt",
+        "expected": 9.6,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[32]; representative visible run ordinal 1; paragraph styleId=a1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[32]; representative visible run ordinal 1; paragraph styleId=a1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "typography",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[32]; representative visible run ordinal 1; paragraph styleId=a1; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Calibri",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[37]; representative visible run ordinal 1; paragraph styleId=a2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-east_asia_font",
+        "category": "typography",
+        "target": "heading3",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[37]; representative visible run ordinal 1; paragraph styleId=a2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[37]; representative visible run ordinal 1; paragraph styleId=a2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-space_before_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_before_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[37]; representative visible run ordinal 1; paragraph styleId=a2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-space_after_pt",
+        "category": "typography",
+        "target": "heading3",
+        "property": "space_after_pt",
+        "expected": 6.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[37]; representative visible run ordinal 1; paragraph styleId=a2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[37]; representative visible run ordinal 1; paragraph styleId=a2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "heading3-line_spacing",
+        "category": "typography",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[37]; representative visible run ordinal 1; paragraph styleId=a2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 5; paragraph styleId=a; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-east_asia_font",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 5; paragraph styleId=a; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-size_pt",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 5; paragraph styleId=a; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 5; paragraph styleId=a; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_zh-line_spacing",
+        "category": "typography",
+        "target": "abstract_zh",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[7]; representative visible run ordinal 5; paragraph styleId=a; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 1; paragraph styleId=4; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-east_asia_font",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 1; paragraph styleId=4; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-size_pt",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 1; paragraph styleId=4; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing_rule",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 1; paragraph styleId=4; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "abstract_en-line_spacing",
+        "category": "typography",
+        "target": "abstract_en",
+        "property": "line_spacing",
+        "expected": 1.15,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[19]; representative visible run ordinal 1; paragraph styleId=4; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-east_asia_font",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-size_pt",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_zh-line_spacing",
+        "category": "typography",
+        "target": "keywords_zh",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[13]; representative visible run ordinal 1; paragraph styleId=2; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 1; paragraph styleId=5; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-east_asia_font",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 1; paragraph styleId=5; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-size_pt",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 1; paragraph styleId=5; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing_rule",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 1; paragraph styleId=5; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "keywords_en-line_spacing",
+        "category": "typography",
+        "target": "keywords_en",
+        "property": "line_spacing",
+        "expected": 1.15,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[20]; representative visible run ordinal 1; paragraph styleId=5; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[43]; representative visible run ordinal 1; paragraph styleId=6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-east_asia_font",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "east_asia_font",
+        "expected": "黑体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[43]; representative visible run ordinal 1; paragraph styleId=6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-size_pt",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "size_pt",
+        "expected": 9.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[43]; representative visible run ordinal 1; paragraph styleId=6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-bold",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "bold",
+        "expected": true,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[43]; representative visible run ordinal 1; paragraph styleId=6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing_rule",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[43]; representative visible run ordinal 1; paragraph styleId=6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "references_heading-line_spacing",
+        "category": "typography",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/document.xml:/w:document/w:body/w:p[43]; representative visible run ordinal 1; paragraph styleId=6; resolved inherited paragraph/style properties plus this run; pPr/rPr end-mark font excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-font",
+        "category": "typography",
+        "target": "reference",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"afe\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-east_asia_font",
+        "category": "typography",
+        "target": "reference",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"afe\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "typography",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"afe\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"afe\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "typography",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx:word/styles.xml:/w:styles/w:style[@w:styleId=\"afe\"]; resolved basedOn chain and docDefaults. Explicit bibliography class in official template."
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-east_asia_font",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-size_pt",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-alignment",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_zh-line_spacing",
+        "category": "typography",
+        "target": "author_zh",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[3]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-east_asia_font",
+        "category": "typography",
+        "target": "author_en",
+        "property": "east_asia_font",
+        "expected": "楷体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-size_pt",
+        "category": "typography",
+        "target": "author_en",
+        "property": "size_pt",
+        "expected": 12.0,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-alignment",
+        "category": "typography",
+        "target": "author_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing_rule",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "author_en-line_spacing",
+        "category": "typography",
+        "target": "author_en",
+        "property": "line_spacing",
+        "expected": 1.3,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[16]/w:r[1]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[4]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[4]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-size_pt",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[4]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-alignment",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[4]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[4]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_zh-line_spacing",
+        "category": "typography",
+        "target": "affiliation_zh",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[4]/w:r[4]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-east_asia_font",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-size_pt",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-alignment",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing_rule",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "affiliation_en-line_spacing",
+        "category": "typography",
+        "target": "affiliation_en",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[17]/w:r[2]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "correspondence_zh-font",
+        "category": "typography",
+        "target": "correspondence_zh",
+        "property": "font",
+        "expected": "Times New Roman",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[6]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "correspondence_zh-east_asia_font",
+        "category": "typography",
+        "target": "correspondence_zh",
+        "property": "east_asia_font",
+        "expected": "宋体",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[6]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "correspondence_zh-size_pt",
+        "category": "typography",
+        "target": "correspondence_zh",
+        "property": "size_pt",
+        "expected": 7.5,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[6]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "correspondence_zh-alignment",
+        "category": "typography",
+        "target": "correspondence_zh",
+        "property": "alignment",
+        "expected": "center",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[6]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "correspondence_zh-line_spacing_rule",
+        "category": "typography",
+        "target": "correspondence_zh",
+        "property": "line_spacing_rule",
+        "expected": "auto",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[6]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "correspondence_zh-line_spacing",
+        "category": "typography",
+        "target": "correspondence_zh",
+        "property": "line_spacing",
+        "expected": 1.5,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml:/w:document/w:body/w:p[6]/w:r[3]; first primary manuscript name/unit content run; paragraph format and inherited styles resolved; appended editorial instructions excluded; visible text excludes pPr/rPr paragraph-mark font properties"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 210.0086,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 297.0036,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 24.0065,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 11.9944,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 21.0079,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 15.9985,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: all w:sectPr/w:pgSz and w:pgMar; shared section attributes only"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_type",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_type",
+        "expected": "default",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:type; source default applies if absent; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-grid_line_pitch_pt",
+        "category": "layout",
+        "target": "page",
+        "property": "grid_line_pitch_pt",
+        "expected": 15.6,
+        "unit": "pt",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/document.xml://w:sectPr/w:docGrid/@w:linePitch; source twips/20; invariant across source sections"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "page-mirror_margins",
+        "category": "layout",
+        "target": "page",
+        "property": "mirror_margins",
+        "expected": false,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Converted word/settings.xml:/w:settings/w:mirrorMargins; OOXML default false when absent"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_columns",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_columns",
+        "expected": 2,
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_starts_at",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_starts_at",
+        "expected": "first_heading1",
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_column_gap_mm",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_column_gap_mm",
+        "expected": 7.9022,
+        "unit": "mm",
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-front_matter_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "front_matter_page",
+        "expected": {
+          "width_mm": 210.0086,
+          "height_mm": 297.0036,
+          "margin_top_mm": 24.0065,
+          "margin_bottom_mm": 11.9944,
+          "margin_left_mm": 21.0079,
+          "margin_right_mm": 15.9985,
+          "header_distance_mm": 12.9999,
+          "footer_distance_mm": 12.9999,
+          "columns": 1,
+          "column_gap_mm": 12.7,
+          "grid_line_pitch_pt": 15.6,
+          "grid_type": "default"
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      },
+      {
+        "id": "sections-body_page",
+        "category": "layout",
+        "target": "sections",
+        "property": "body_page",
+        "expected": {
+          "width_mm": 210.0086,
+          "height_mm": 297.0036,
+          "margin_top_mm": 24.0065,
+          "margin_bottom_mm": 11.9944,
+          "margin_left_mm": 21.0079,
+          "margin_right_mm": 15.9985,
+          "header_distance_mm": 15.0107,
+          "footer_distance_mm": 17.4978,
+          "columns": 2,
+          "column_gap_mm": 7.9022,
+          "grid_line_pitch_pt": 15.6,
+          "grid_type": "default"
+        },
+        "unit": null,
+        "source": {
+          "url": "https://www.joca.cn/CN/item/downloadFile.jsp?filedisplay=20260421131814.doc",
+          "file": "20260421131814.doc",
+          "locator": "Word-converted joca-converted.docx: first front-matter sectPr and following body sectPr/w:cols; first visible main-text heading follows front matter; front_matter_page uses first source sectPr; body_page uses first source two-column sectPr; pgSz/pgMar/cols/docGrid read directly"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "detail": "Observed manuscript run, inherited style or section property in the official template; editorial annotation typography is excluded."
+      }
+    ],
+    "coverage_notes": [
+      "Pinned official template/sample style learning, not a claim that every initial submission must use every sample property.",
+      "Typeface, size and paragraph properties come from representative visible content runs; red/blue instruction font colors are not copied.",
+      "Word original source is not redistributed; converted part locators refer to the temporary derived DOCX, linked to the original download SHA256.",
+      "Character-count indents and automatic numbering remain source observations; no point-indent approximation is added.",
+      "Source later alternates single/double columns for wide objects and appendices. The sections rule records only front matter and main body; wide-object exceptions need host review.",
+      "Reference uses the explicitly requested 文献列表 native style at7.5pt; bibliography standards appendix examples have local9pt overrides and are not used as the paper reference role."
+    ]
+  },
+  "sections": {
+    "front_matter_columns": 1,
+    "body_columns": 2,
+    "body_starts_at": "first_heading1",
+    "body_column_gap_mm": 7.9022,
+    "front_matter_page": {
+      "width_mm": 210.0086,
+      "height_mm": 297.0036,
+      "margin_top_mm": 24.0065,
+      "margin_bottom_mm": 11.9944,
+      "margin_left_mm": 21.0079,
+      "margin_right_mm": 15.9985,
+      "header_distance_mm": 12.9999,
+      "footer_distance_mm": 12.9999,
+      "columns": 1,
+      "column_gap_mm": 12.7,
+      "grid_line_pitch_pt": 15.6,
+      "grid_type": "default"
+    },
+    "body_page": {
+      "width_mm": 210.0086,
+      "height_mm": 297.0036,
+      "margin_top_mm": 24.0065,
+      "margin_bottom_mm": 11.9944,
+      "margin_left_mm": 21.0079,
+      "margin_right_mm": 15.9985,
+      "header_distance_mm": 15.0107,
+      "footer_distance_mm": 17.4978,
+      "columns": 2,
+      "column_gap_mm": 7.9022,
+      "grid_line_pitch_pt": 15.6,
+      "grid_type": "default"
+    }
+  },
+  "extracted_format": {
+    "visible_text_inheritance": "docDefaults + paragraph/character style inheritance + actual visible text run; pPr/rPr paragraph-mark font properties excluded",
+    "visible_run_reaudit": {
+      "title_zh": {
+        "paragraph_index": 2,
+        "run_index": 1,
+        "text_sha256": "3677ef77b1574d162d7c2dc66dcc28ad644c6ead733c26eb9513233557fe9ab8",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "size_pt": 18.0,
+          "bold": true,
+          "alignment": "center",
+          "space_before_pt": 12.0,
+          "space_after_pt": 12.0,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "bold",
+          "alignment",
+          "space_before_pt",
+          "space_after_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "title_en": {
+        "paragraph_index": 15,
+        "run_index": 1,
+        "text_sha256": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "size_pt": 18.0,
+          "bold": true,
+          "alignment": "center",
+          "space_before_pt": 12.0,
+          "space_after_pt": 12.0,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "bold",
+          "alignment",
+          "space_before_pt",
+          "space_after_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "body": {
+        "paragraph_index": 28,
+        "run_index": 1,
+        "text_sha256": "8c88207cc65259056f996760035d72ddbd428d97023a3a165a6ad9b81167dd40",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 9.0,
+          "alignment": "both",
+          "line_spacing_rule": "auto",
+          "first_line_pt": 18.0,
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "heading1": {
+        "paragraph_index": 27,
+        "run_index": 1,
+        "text_sha256": "a75d25cd026c63749bdadd0e26d344043c00d0fefa611a3de52b8de03003e2b4",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 12.0,
+          "space_before_pt": 13.2,
+          "space_after_pt": 13.2,
+          "right_indent_pt": 9.0
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "space_before_pt",
+          "space_after_pt"
+        ]
+      },
+      "heading2": {
+        "paragraph_index": 32,
+        "run_index": 1,
+        "text_sha256": "d69947f39796fc118ac30dc00abf9e84cdae266c0d7f5e621b0a9cde33cb995f",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "size_pt": 9.0,
+          "space_before_pt": 9.6,
+          "space_after_pt": 9.6,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "space_before_pt",
+          "space_after_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "heading3": {
+        "paragraph_index": 37,
+        "run_index": 1,
+        "text_sha256": "7d96cb13e68934a4d4b0e453034a63ed949e9d91e916c4b3f349813ae169dca3",
+        "resolved_visible_run_format": {
+          "font": "Calibri",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "space_before_pt": 6.0,
+          "space_after_pt": 6.0,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "space_before_pt",
+          "space_after_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "abstract_zh": {
+        "paragraph_index": 7,
+        "run_index": 5,
+        "text_sha256": "e907ec20e0b3b887b2114fb9f3c959f44a5827f00d2074f9697cbb9046b1ef45",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3,
+          "first_line_pt": 21.25
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "abstract_en": {
+        "paragraph_index": 19,
+        "run_index": 1,
+        "text_sha256": "a3fc2c3a580e4b46842f2e47deb76ca580e0c84f23ceff79ad8619ce161417a5",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "bold": false,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.15,
+          "first_line_pt": 21.25
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "keywords_zh": {
+        "paragraph_index": 13,
+        "run_index": 1,
+        "text_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3,
+          "first_line_pt": 21.25
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "keywords_en": {
+        "paragraph_index": 20,
+        "run_index": 1,
+        "text_sha256": "47a0a3a1b6cef12dfc9d38c89dc0f566f8d51c5ae10bb2c0134d6339fe42100d",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 9.0,
+          "bold": false,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.15,
+          "first_line_pt": 21.25
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "references_heading": {
+        "paragraph_index": 43,
+        "run_index": 1,
+        "text_sha256": "edc3efb149a25b9613ce36ac49d50fa08fbda9e7b7120a27b83d2c9a69b24a3f",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "黑体",
+          "size_pt": 9.0,
+          "bold": true,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.5
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "bold",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "author_zh": {
+        "paragraph_index": 3,
+        "run_index": 1,
+        "text_sha256": "af50a0fe2a50a3d15556402bca1851972ab7e544877f8404070f044ba8a33285",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 12.0,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "author_en": {
+        "paragraph_index": 16,
+        "run_index": 1,
+        "text_sha256": "c819b8288d71876c6248b325a38408c0ec9047a66be256140af376395e0f24a4",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "楷体",
+          "size_pt": 12.0,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "affiliation_zh": {
+        "paragraph_index": 4,
+        "run_index": 4,
+        "text_sha256": "e11d0f868d9133578a1fc4648b2f118c85d708b556b013d085daebbf7dad6ed3",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 7.5,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.5
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "affiliation_en": {
+        "paragraph_index": 17,
+        "run_index": 2,
+        "text_sha256": "05f00f61bbd7cbb7f47de945257784f53623dd1e2d130ae87e7f123631863ecf",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 7.5,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.5
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "correspondence_zh": {
+        "paragraph_index": 6,
+        "run_index": 3,
+        "text_sha256": "4950e64e1d82c8a87e42f0dbf899e6f5be7bd09bb009c44eb7230b31dfe1ccc1",
+        "resolved_visible_run_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 7.5,
+          "alignment": "center",
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.5
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "alignment",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      },
+      "reference": {
+        "style_id": "afe",
+        "resolved_style_format": {
+          "font": "Times New Roman",
+          "east_asia_font": "宋体",
+          "size_pt": 7.5,
+          "line_spacing_rule": "auto",
+          "line_spacing": 1.3
+        },
+        "explicit_properties_cross_checked": [
+          "font",
+          "east_asia_font",
+          "size_pt",
+          "line_spacing_rule",
+          "line_spacing"
+        ]
+      }
+    },
+    "reaudit_note": "Shared engine resolves defaults, basedOn paragraph/character styles and actual visible run; paragraph-mark rPr excluded. Captured full resolved source observations can include editorial colors or labels; executable rules retain documented manuscript content selection and source guidance/COM measurements where OOXML alone is incomplete."
+  }
+}

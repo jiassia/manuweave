@@ -1,0 +1,5325 @@
+{
+  "id": "comp-lmcs",
+  "name": "Logical Methods in Computer Science detailed author-template layout",
+  "version": "1.0.0",
+  "journal_title": "Logical Methods in Computer Science",
+  "catalog_journal_id": "ccf-2026-logical-methods-in-computer-science",
+  "stage": "authoring_template",
+  "scope": "lmcs default 11pt",
+  "rules": {
+    "abstract": {
+      "font": "Computer Modern Roman",
+      "size_pt": 8.96637609,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 10.95890411,
+      "alignment": "justify"
+    },
+    "title": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": true,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 13.94769614,
+      "alignment": "center"
+    },
+    "author": {
+      "font": "Computer Modern Roman",
+      "size_pt": 8.96637609,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 10.95890411
+    },
+    "affiliation": {
+      "font": "Computer Modern Roman",
+      "size_pt": 8.96637609,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 10.95890411,
+      "left_indent_pt": 19.9252802,
+      "right_indent_pt": 19.9252802
+    },
+    "body": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.95143213,
+      "alignment": "justify",
+      "first_line_pt": 19.9252802,
+      "space_after_pt": 0.0
+    },
+    "heading1": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.95143213,
+      "alignment": "center"
+    },
+    "heading2": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": true,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.95143213,
+      "alignment": "justify"
+    },
+    "heading3": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": false,
+      "italic": true,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.95143213,
+      "alignment": "justify"
+    },
+    "equation": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.95143213,
+      "alignment": "center"
+    },
+    "figure_caption": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.95143213
+    },
+    "table_caption": {
+      "font": "Computer Modern Roman",
+      "size_pt": 10.90909091,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 12.95143213
+    },
+    "reference": {
+      "font": "Computer Modern Roman",
+      "size_pt": 8.96637609,
+      "bold": false,
+      "italic": false,
+      "line_spacing_rule": "atLeast",
+      "line_spacing_pt": 10.95890411,
+      "alignment": "justify"
+    }
+  },
+  "page": {
+    "width_mm": 215.9,
+    "height_mm": 279.39999649,
+    "margin_left_mm": 31.74999649,
+    "margin_right_mm": 31.75000351,
+    "margin_top_mm": 40.1287982,
+    "margin_bottom_mm": 23.37119828,
+    "columns": 1,
+    "column_gap_mm": 3.51459804
+  },
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://lmcs.episciences.org/page/authors-latex-style",
+      "locator": "Official journal author instructions and current template link",
+      "source_verified": true
+    },
+    {
+      "url": "https://lmcs.episciences.org/public/lmcs.cls",
+      "file": "lmcs.cls",
+      "version": "lmcs default 11pt",
+      "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+      "source_verified": true,
+      "retrieved_on": "2026-10-30"
+    }
+  ],
+  "extracted_format": {
+    "mode": "compiled_original_author_template_physical_layout",
+    "roles": {
+      "abstract": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        },
+        "size_pt": {
+          "value": 8.96637609,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          },
+          "source_value": {
+            "value": 9.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 10.95890411,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          },
+          "source_value": {
+            "value": 11.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        },
+        "native_font": {
+          "value": "cmr9",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "abstract environment"
+          }
+        }
+      },
+      "title": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 13.94769614,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          },
+          "source_value": {
+            "value": 14.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        },
+        "native_font": {
+          "value": "cmbx10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        },
+        "native_series": {
+          "value": "bx",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / title font"
+          }
+        }
+      },
+      "author": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          }
+        },
+        "size_pt": {
+          "value": 8.96637609,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          },
+          "source_value": {
+            "value": 9.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 10.95890411,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          },
+          "source_value": {
+            "value": 11.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "native_font": {
+          "value": "CMR9",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / author font"
+          }
+        }
+      },
+      "affiliation": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "size_pt": {
+          "value": 8.96637609,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          },
+          "source_value": {
+            "value": 9.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 10.95890411,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          },
+          "source_value": {
+            "value": 11.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "left_indent_pt": {
+          "value": 19.9252802,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "right_indent_pt": {
+          "value": 19.9252802,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "native_font": {
+          "value": "cmr9",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\maketitle / address or affiliation font"
+          }
+        }
+      },
+      "body": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "first_line_pt": {
+          "value": 19.9252802,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "space_after_pt": {
+          "value": 0.0,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "native_font": {
+          "value": "cmr10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\normalsize in document body"
+          }
+        }
+      },
+      "heading1": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "native_font": {
+          "value": "cmcsc10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "native_shape": {
+          "value": "sc",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        },
+        "small_caps": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\section"
+          }
+        }
+      },
+      "heading2": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        },
+        "native_font": {
+          "value": "cmbx10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        },
+        "native_series": {
+          "value": "bx",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsection"
+          }
+        }
+      },
+      "heading3": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        },
+        "italic": {
+          "value": true,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        },
+        "native_font": {
+          "value": "cmti10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        },
+        "native_shape": {
+          "value": "it",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "\\subsubsection"
+          }
+        }
+      },
+      "equation": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "center",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        },
+        "native_font": {
+          "value": "cmr10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "equation environment"
+          }
+        }
+      },
+      "figure_caption": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "native_font": {
+          "value": "cmr10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        }
+      },
+      "table_caption": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "native_font": {
+          "value": "cmr10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        }
+      },
+      "reference": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        },
+        "size_pt": {
+          "value": 8.96637609,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          },
+          "source_value": {
+            "value": 9.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 10.95890411,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          },
+          "source_value": {
+            "value": 11.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "alignment": {
+          "value": "justify",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        },
+        "native_font": {
+          "value": "cmr9",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "thebibliography environment"
+          }
+        }
+      }
+    },
+    "page": {
+      "width_mm": {
+        "value": 215.9,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      },
+      "height_mm": {
+        "value": 279.39999649,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      },
+      "margin_left_mm": {
+        "value": 31.74999649,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      },
+      "margin_right_mm": {
+        "value": 31.75000351,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      },
+      "margin_top_mm": {
+        "value": 40.1287982,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      },
+      "margin_bottom_mm": {
+        "value": 23.37119828,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      },
+      "columns": {
+        "value": 1,
+        "unit": "count",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      },
+      "column_gap_mm": {
+        "value": 3.51459804,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        }
+      }
+    },
+    "native_page": {
+      "PW": {
+        "value": 614.295,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "PH": {
+        "value": 794.96999,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "TW": {
+        "value": 433.62,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "TH": {
+        "value": 614.295,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "ODD": {
+        "value": 18.06749,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "EVEN": {
+        "value": 18.06749,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "TOP": {
+        "value": -50.58878,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "HH": {
+        "value": 9.84,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "HS": {
+        "value": 32.06749,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "FS": {
+        "value": 12.0,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "HO": {
+        "value": 0.0,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "VO": {
+        "value": 50.58878,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "COLSEP": {
+        "value": 10.0,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "IND": {
+        "value": 20.0,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "PAR": {
+        "value": 0.0,
+        "unit": "TeX pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      },
+      "COLS": {
+        "value": 1.0,
+        "unit": "count",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry registers"
+        }
+      }
+    },
+    "captions": {
+      "figure": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "native_font": {
+          "value": "cmr10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "figure \\caption / \\@makecaption"
+          }
+        }
+      },
+      "table": {
+        "font": {
+          "value": "Computer Modern Roman",
+          "unit": "name",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "size_pt": {
+          "value": 10.90909091,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 10.95,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "bold": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "italic": {
+          "value": false,
+          "unit": "boolean",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_rule": {
+          "value": "atLeast",
+          "unit": "enum",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "line_spacing_pt": {
+          "value": 12.95143213,
+          "unit": "Word pt",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          },
+          "source_value": {
+            "value": 13.0,
+            "unit": "TeX pt",
+            "conversion": "physical pt = TeX pt * 72 / 72.27"
+          }
+        },
+        "native_font": {
+          "value": "cmr10 at 10.95pt",
+          "unit": "TeX font identifier",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "native_shape": {
+          "value": "n",
+          "unit": "TeX font shape",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        },
+        "native_series": {
+          "value": "m",
+          "unit": "TeX font series",
+          "source": {
+            "url": "https://lmcs.episciences.org/public/lmcs.cls",
+            "file": "lmcs.cls",
+            "version": "lmcs default 11pt",
+            "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+            "source_verified": true,
+            "retrieved_on": "2026-10-30",
+            "locator": "table \\caption / \\@makecaption"
+          }
+        }
+      }
+    },
+    "equations": {
+      "font": {
+        "value": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      },
+      "size_pt": {
+        "value": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "source_value": {
+          "value": 10.95,
+          "unit": "TeX pt",
+          "conversion": "physical pt = TeX pt * 72 / 72.27"
+        }
+      },
+      "bold": {
+        "value": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      },
+      "italic": {
+        "value": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      },
+      "line_spacing_rule": {
+        "value": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      },
+      "line_spacing_pt": {
+        "value": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "source_value": {
+          "value": 13.0,
+          "unit": "TeX pt",
+          "conversion": "physical pt = TeX pt * 72 / 72.27"
+        }
+      },
+      "alignment": {
+        "value": "center",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      },
+      "native_font": {
+        "value": "cmr10 at 10.95pt",
+        "unit": "TeX font identifier",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      },
+      "native_shape": {
+        "value": "n",
+        "unit": "TeX font shape",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      },
+      "native_series": {
+        "value": "m",
+        "unit": "TeX font series",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        }
+      }
+    },
+    "references": {
+      "font": {
+        "value": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      },
+      "size_pt": {
+        "value": 8.96637609,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "source_value": {
+          "value": 9.0,
+          "unit": "TeX pt",
+          "conversion": "physical pt = TeX pt * 72 / 72.27"
+        }
+      },
+      "bold": {
+        "value": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      },
+      "italic": {
+        "value": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      },
+      "line_spacing_rule": {
+        "value": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      },
+      "line_spacing_pt": {
+        "value": 10.95890411,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "source_value": {
+          "value": 11.0,
+          "unit": "TeX pt",
+          "conversion": "physical pt = TeX pt * 72 / 72.27"
+        }
+      },
+      "alignment": {
+        "value": "justify",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      },
+      "native_font": {
+        "value": "cmr9",
+        "unit": "TeX font identifier",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      },
+      "native_shape": {
+        "value": "n",
+        "unit": "TeX font shape",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      },
+      "native_series": {
+        "value": "m",
+        "unit": "TeX font series",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        }
+      }
+    }
+  },
+  "compliance": "source_backed_template_partial_coverage",
+  "checks": [
+    {
+      "requirement": "abstract-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "abstract-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "title-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "author-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-left_indent_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "affiliation-right_indent_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-first_line_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "body-space_after_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading1-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading2-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "heading3-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "equation-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "equation-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "equation-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "equation-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "equation-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "equation-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "equation-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "figure_caption-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "table_caption-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-font",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-size_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-bold",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-italic",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing_rule",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-line_spacing_pt",
+      "checking": "xml"
+    },
+    {
+      "requirement": "reference-alignment",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-width_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-height_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_left_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_right_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_top_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-margin_bottom_mm",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-columns",
+      "checking": "xml"
+    },
+    {
+      "requirement": "page-column_gap_mm",
+      "checking": "xml"
+    }
+  ],
+  "template": {
+    "family": "computer-special",
+    "source_version": "lmcs default 11pt",
+    "source_url": "https://lmcs.episciences.org/page/authors-latex-style",
+    "license": "rules_only_source_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "partial"
+    },
+    "requirements": [
+      {
+        "id": "abstract-font",
+        "category": "layout",
+        "target": "abstract",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "abstract environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "abstract-size_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "size_pt",
+        "expected": 8.96637609,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "abstract environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "abstract-bold",
+        "category": "layout",
+        "target": "abstract",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "abstract environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "abstract-italic",
+        "category": "layout",
+        "target": "abstract",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "abstract environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "abstract-line_spacing_rule",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "abstract environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "abstract-line_spacing_pt",
+        "category": "layout",
+        "target": "abstract",
+        "property": "line_spacing_pt",
+        "expected": 10.95890411,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "abstract environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "abstract-alignment",
+        "category": "layout",
+        "target": "abstract",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "abstract environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "title-font",
+        "category": "layout",
+        "target": "title",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / title font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "title-size_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / title font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "title-bold",
+        "category": "layout",
+        "target": "title",
+        "property": "bold",
+        "expected": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / title font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "title-italic",
+        "category": "layout",
+        "target": "title",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / title font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "title-line_spacing_rule",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / title font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "title-line_spacing_pt",
+        "category": "layout",
+        "target": "title",
+        "property": "line_spacing_pt",
+        "expected": 13.94769614,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / title font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "title-alignment",
+        "category": "layout",
+        "target": "title",
+        "property": "alignment",
+        "expected": "center",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / title font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "author-font",
+        "category": "layout",
+        "target": "author",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / author font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "author-size_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "size_pt",
+        "expected": 8.96637609,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / author font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "author-bold",
+        "category": "layout",
+        "target": "author",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / author font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "author-italic",
+        "category": "layout",
+        "target": "author",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / author font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "author-line_spacing_rule",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / author font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "author-line_spacing_pt",
+        "category": "layout",
+        "target": "author",
+        "property": "line_spacing_pt",
+        "expected": 10.95890411,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / author font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-font",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-size_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "size_pt",
+        "expected": 8.96637609,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-bold",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-italic",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-line_spacing_rule",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-line_spacing_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "line_spacing_pt",
+        "expected": 10.95890411,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-left_indent_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "left_indent_pt",
+        "expected": 19.9252802,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "affiliation-right_indent_pt",
+        "category": "layout",
+        "target": "affiliation",
+        "property": "right_indent_pt",
+        "expected": 19.9252802,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\maketitle / address or affiliation font"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-font",
+        "category": "layout",
+        "target": "body",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-size_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-bold",
+        "category": "layout",
+        "target": "body",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-italic",
+        "category": "layout",
+        "target": "body",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-line_spacing_rule",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-line_spacing_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "line_spacing_pt",
+        "expected": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-alignment",
+        "category": "layout",
+        "target": "body",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-first_line_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "first_line_pt",
+        "expected": 19.9252802,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "body-space_after_pt",
+        "category": "layout",
+        "target": "body",
+        "property": "space_after_pt",
+        "expected": 0.0,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\normalsize in document body"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading1-font",
+        "category": "layout",
+        "target": "heading1",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading1-size_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading1-bold",
+        "category": "layout",
+        "target": "heading1",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading1-italic",
+        "category": "layout",
+        "target": "heading1",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading1-line_spacing_rule",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading1-line_spacing_pt",
+        "category": "layout",
+        "target": "heading1",
+        "property": "line_spacing_pt",
+        "expected": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading1-alignment",
+        "category": "layout",
+        "target": "heading1",
+        "property": "alignment",
+        "expected": "center",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\section"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading2-font",
+        "category": "layout",
+        "target": "heading2",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading2-size_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading2-bold",
+        "category": "layout",
+        "target": "heading2",
+        "property": "bold",
+        "expected": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading2-italic",
+        "category": "layout",
+        "target": "heading2",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading2-line_spacing_rule",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading2-line_spacing_pt",
+        "category": "layout",
+        "target": "heading2",
+        "property": "line_spacing_pt",
+        "expected": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading2-alignment",
+        "category": "layout",
+        "target": "heading2",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading3-font",
+        "category": "layout",
+        "target": "heading3",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsubsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading3-size_pt",
+        "category": "layout",
+        "target": "heading3",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsubsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading3-bold",
+        "category": "layout",
+        "target": "heading3",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsubsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading3-italic",
+        "category": "layout",
+        "target": "heading3",
+        "property": "italic",
+        "expected": true,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsubsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading3-line_spacing_rule",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsubsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading3-line_spacing_pt",
+        "category": "layout",
+        "target": "heading3",
+        "property": "line_spacing_pt",
+        "expected": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsubsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "heading3-alignment",
+        "category": "layout",
+        "target": "heading3",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "\\subsubsection"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "equation-font",
+        "category": "layout",
+        "target": "equation",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "equation-size_pt",
+        "category": "layout",
+        "target": "equation",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "equation-bold",
+        "category": "layout",
+        "target": "equation",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "equation-italic",
+        "category": "layout",
+        "target": "equation",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "equation-line_spacing_rule",
+        "category": "layout",
+        "target": "equation",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "equation-line_spacing_pt",
+        "category": "layout",
+        "target": "equation",
+        "property": "line_spacing_pt",
+        "expected": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "equation-alignment",
+        "category": "layout",
+        "target": "equation",
+        "property": "alignment",
+        "expected": "center",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "equation environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "figure_caption-font",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "figure \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "figure_caption-size_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "figure \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "figure_caption-bold",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "figure \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "figure_caption-italic",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "figure \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "figure_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "figure \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "figure_caption-line_spacing_pt",
+        "category": "layout",
+        "target": "figure_caption",
+        "property": "line_spacing_pt",
+        "expected": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "figure \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "table_caption-font",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "table \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "table_caption-size_pt",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "size_pt",
+        "expected": 10.90909091,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "table \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "table_caption-bold",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "table \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "table_caption-italic",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "table \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "table_caption-line_spacing_rule",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "table \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "table_caption-line_spacing_pt",
+        "category": "layout",
+        "target": "table_caption",
+        "property": "line_spacing_pt",
+        "expected": 12.95143213,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "table \\caption / \\@makecaption"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "reference-font",
+        "category": "layout",
+        "target": "reference",
+        "property": "font",
+        "expected": "Computer Modern Roman",
+        "unit": "name",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "reference-size_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "size_pt",
+        "expected": 8.96637609,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "reference-bold",
+        "category": "layout",
+        "target": "reference",
+        "property": "bold",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "reference-italic",
+        "category": "layout",
+        "target": "reference",
+        "property": "italic",
+        "expected": false,
+        "unit": "boolean",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "reference-line_spacing_rule",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing_rule",
+        "expected": "atLeast",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "reference-line_spacing_pt",
+        "category": "layout",
+        "target": "reference",
+        "property": "line_spacing_pt",
+        "expected": 10.95890411,
+        "unit": "Word pt",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "reference-alignment",
+        "category": "layout",
+        "target": "reference",
+        "property": "alignment",
+        "expected": "justify",
+        "unit": "enum",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "thebibliography environment"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-width_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "width_mm",
+        "expected": 215.9,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-height_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "height_mm",
+        "expected": 279.39999649,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-margin_left_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_left_mm",
+        "expected": 31.74999649,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-margin_right_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_right_mm",
+        "expected": 31.75000351,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-margin_top_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_top_mm",
+        "expected": 40.1287982,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-margin_bottom_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "margin_bottom_mm",
+        "expected": 23.37119828,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-columns",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": "count",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      },
+      {
+        "id": "page-column_gap_mm",
+        "category": "layout",
+        "target": "page",
+        "property": "column_gap_mm",
+        "expected": 3.51459804,
+        "unit": "mm",
+        "source": {
+          "url": "https://lmcs.episciences.org/public/lmcs.cls",
+          "file": "lmcs.cls",
+          "version": "lmcs default 11pt",
+          "sha256": "f9bf516676eac41ce34bd11c0e1a2f6e367ff1c64199e6989a8dd50d861da6cf",
+          "source_verified": true,
+          "retrieved_on": "2026-10-30",
+          "locator": "page geometry after \\maketitle; TeX offsets include one physical inch"
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx",
+          "latex"
+        ],
+        "detail": "Physical layout extracted in the original template context. Native TeX points and font identifiers remain in extracted_format. Natural baseline becomes Word minimum line spacing."
+      }
+    ],
+    "coverage_notes": [
+      "Values measured in native original-template role contexts, converted from TeX pt to physical Word pt. Source native font identifiers remain in extracted_format.",
+      "Natural TeX baseline is represented as Word minimum line spacing; font availability and font substitution remain environment dependent.",
+      "Native small capitals, text case transformations, structural numbering, floats, bibliography punctuation and publisher branding remain source metadata or manual checks.",
+      "Caption alignment measured here is the one-line synthetic-caption context; long-caption breaking remains a manual check."
+    ]
+  }
+}

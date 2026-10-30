@@ -1,0 +1,731 @@
+{
+  "id": "int-ncomms-initial-word",
+  "name": "Nature Communications initial Word manuscript preparation",
+  "version": "1.0.0",
+  "aliases": [
+    "Nature Communications 初投 Word",
+    "Nature Communications Word initial",
+    "Ncomms Word initial"
+  ],
+  "scope": "All manuscripts at initial submission as Microsoft Word files; the guide states that manuscripts should be double-spaced and single-column.",
+  "journal_id": "SCIE-101710",
+  "formal_title": "Nature Communications",
+  "manuscript_type": "all_manuscripts",
+  "stage": "initial_submission",
+  "manuscript_format": "Microsoft Word",
+  "variants": [
+    {
+      "manuscript_type": "all_manuscripts",
+      "stage": "initial_submission",
+      "condition": "microsoft_word_manuscript"
+    }
+  ],
+  "compliance": "source_backed_template_partial_coverage",
+  "latex": {},
+  "sources": [
+    {
+      "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+      "file": "how-to-submit.html",
+      "title": "How to submit | Nature Communications",
+      "sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+      "byte_count": 171997,
+      "retrieved_at": "2026-10-30T11:46:22.372797+00:00",
+      "http_status": 200,
+      "source_verified": true,
+      "original_file_redistributed": false,
+      "submission_compliance_verified": false,
+      "source_role": "official_initial_submission_guide"
+    }
+  ],
+  "template": {
+    "family": "imported-journals",
+    "source_version": "official-how-to-submit-retrieved-2026-10-30",
+    "source_url": "https://www.nature.com/ncomms/submit/how-to-submit",
+    "license": "rules_only_source_not_redistributed",
+    "assets": [],
+    "engine_support": {
+      "docx": "partial",
+      "latex": "unsupported"
+    },
+    "coverage_notes": [
+      "Implements two independently verified initial-submission Word preparation recommendations; their source modal strength remains should.",
+      "The manuscript-wide spacing fact is applied consistently to textual paragraph roles, including existing table text and references.",
+      "No fixed font family, point size or page margin is established by these imported executable facts."
+    ],
+    "requirements": [
+      {
+        "id": "title-line_spacing",
+        "category": "paragraph",
+        "target": "title",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "body-line_spacing",
+        "category": "paragraph",
+        "target": "body",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "abstract_heading-line_spacing",
+        "category": "paragraph",
+        "target": "abstract_heading",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "abstract-line_spacing",
+        "category": "paragraph",
+        "target": "abstract",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "keywords-line_spacing",
+        "category": "paragraph",
+        "target": "keywords",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "heading1-line_spacing",
+        "category": "paragraph",
+        "target": "heading1",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "heading2-line_spacing",
+        "category": "paragraph",
+        "target": "heading2",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "heading3-line_spacing",
+        "category": "paragraph",
+        "target": "heading3",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "heading4-line_spacing",
+        "category": "paragraph",
+        "target": "heading4",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "heading5-line_spacing",
+        "category": "paragraph",
+        "target": "heading5",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "heading6-line_spacing",
+        "category": "paragraph",
+        "target": "heading6",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "caption-line_spacing",
+        "category": "paragraph",
+        "target": "caption",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "figure_caption-line_spacing",
+        "category": "paragraph",
+        "target": "figure_caption",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "table_caption-line_spacing",
+        "category": "paragraph",
+        "target": "table_caption",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "table_body-line_spacing",
+        "category": "paragraph",
+        "target": "table_body",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "reference-line_spacing",
+        "category": "paragraph",
+        "target": "reference",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "references_heading-line_spacing",
+        "category": "paragraph",
+        "target": "references_heading",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "equation-line_spacing",
+        "category": "paragraph",
+        "target": "equation",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "toc-line_spacing",
+        "category": "paragraph",
+        "target": "toc",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "unknown-line_spacing",
+        "category": "paragraph",
+        "target": "unknown",
+        "property": "line_spacing",
+        "expected": 2.0,
+        "unit": "multiple",
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "double-spaced",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should be double-spaced.",
+        "source_fact_id": "word-double-spacing"
+      },
+      {
+        "id": "word-single-column",
+        "category": "layout",
+        "target": "page",
+        "property": "columns",
+        "expected": 1,
+        "unit": null,
+        "source": {
+          "url": "https://www.nature.com/ncomms/submit/how-to-submit",
+          "file": "how-to-submit.html",
+          "locator": "/html/body/div[2]/div/div/div[2]/div[2]/p[26]",
+          "anchor": "single-column",
+          "response_sha256": "4bdf7208d86f6e2b6b4be7a3cc99faf35ffbbaa258d1248fc0d056aaa5a07adb",
+          "response_byte_length": 171997
+        },
+        "certainty": "verified",
+        "checking": "xml",
+        "applies_to": [
+          "docx"
+        ],
+        "strength": "should",
+        "conditions": {
+          "variant_id": "SCIE-101710-all_manuscripts-initial_submission",
+          "scope": "all_manuscripts",
+          "condition": "microsoft_word_manuscript"
+        },
+        "detail": "The official initial-submission Word preparation guide states that the manuscript should use a single column."
+      }
+    ]
+  },
+  "rules": {
+    "title": {
+      "line_spacing": 2.0
+    },
+    "body": {
+      "line_spacing": 2.0
+    },
+    "abstract_heading": {
+      "line_spacing": 2.0
+    },
+    "abstract": {
+      "line_spacing": 2.0
+    },
+    "keywords": {
+      "line_spacing": 2.0
+    },
+    "heading1": {
+      "line_spacing": 2.0
+    },
+    "heading2": {
+      "line_spacing": 2.0
+    },
+    "heading3": {
+      "line_spacing": 2.0
+    },
+    "heading4": {
+      "line_spacing": 2.0
+    },
+    "heading5": {
+      "line_spacing": 2.0
+    },
+    "heading6": {
+      "line_spacing": 2.0
+    },
+    "caption": {
+      "line_spacing": 2.0
+    },
+    "figure_caption": {
+      "line_spacing": 2.0
+    },
+    "table_caption": {
+      "line_spacing": 2.0
+    },
+    "table_body": {
+      "line_spacing": 2.0
+    },
+    "reference": {
+      "line_spacing": 2.0
+    },
+    "references_heading": {
+      "line_spacing": 2.0
+    },
+    "equation": {
+      "line_spacing": 2.0
+    },
+    "toc": {
+      "line_spacing": 2.0
+    },
+    "unknown": {
+      "line_spacing": 2.0
+    }
+  },
+  "page": {
+    "columns": 1
+  }
+}
