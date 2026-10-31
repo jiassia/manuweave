@@ -27,12 +27,14 @@ def pdf_font_family(name):
     return aliases.get(normalized, normalized)
 
 
-def audit_rendered_fonts(source, pdf, profile):
+def audit_rendered_fonts(source, pdf, profile, roles=None):
     """Sample unique body text in a real PDF to detect silent Word substitution."""
     import pypdfium2 as pdfium
     from pypdfium2 import raw
     from .word import inspect_docx
     ir = inspect_docx(source)
+    for block in ir["blocks"]:
+        block["role"] = (roles or {}).get(block["id"], block["role"])
     properties = profile.get("rules", {}).get("body", {})
     blocks = [b for b in ir["blocks"] if b["role"] == "body" and b["text"].strip()]
     checks = []
@@ -48,8 +50,28 @@ def audit_rendered_fonts(source, pdf, profile):
                     selected = (block["id"], match.group(0))
                     break
             if selected is None:
-                checks.append({"property": key, "status": "UNVERIFIED", "reason": "No unique body-text sample of this script"})
-                continue
+                # Chinese official documents often contain numbers but no Latin
+                # prose. Check a unique numeric token rather than requiring an
+                # English phrase that is absent from the source.
+                if key == "font":
+                    for block in blocks:
+                        for match in re.finditer(r"\d+(?:\.\d+)?", block["text"]):
+                            token = match.group(0)
+                            if sum(b["text"].count(token) for b in ir["blocks"]) == 1:
+                                selected = (block["id"], token)
+                                break
+                            context = block["text"][max(0, match.start() - 6):match.end() + 6]
+                            if sum(b["text"].count(context) for b in ir["blocks"]) == 1:
+                                selected = (block["id"], context)
+                                break
+                        if selected is not None:
+                            break
+                if selected is None:
+                    script = r"[A-Za-z0-9]" if key == "font" else r"[\u3400-\u9fff]"
+                    absent = not any(re.search(script, block["text"]) for block in blocks)
+                    checks.append({"property": key, "status": "NOT_APPLICABLE" if absent else "UNVERIFIED",
+                                   "reason": "Script absent from body" if absent else "No unique body-text sample of this script"})
+                    continue
             block_id, needle = selected
             observed = []
             for page_index in range(len(document)):
@@ -60,20 +82,31 @@ def audit_rendered_fonts(source, pdf, profile):
                 if match:
                     index, count = match
                     # A short contiguous script-specific sample avoids whitespace fonts.
-                    for char in range(index, index + min(count, 4)):
+                    sampled = 0
+                    for char in range(index, index + count):
+                        # PDFium may insert synthetic spaces between justified
+                        # Chinese glyphs. These have no font and are not evidence
+                        # of substitution in the source's requested script.
+                        glyph = textpage.get_text_range(char, 1)
+                        charset = r"[A-Za-z0-9]" if key == "font" else r"[\u3400-\u9fff]"
+                        if not re.search(charset, glyph):
+                            continue
                         flags = ctypes.c_int()
                         size = raw.FPDFText_GetFontInfo(textpage.raw, char, None, 0, ctypes.byref(flags))
                         buffer = ctypes.create_string_buffer(size)
                         raw.FPDFText_GetFontInfo(textpage.raw, char, buffer, size, ctypes.byref(flags))
                         observed.append({"font": buffer.value.decode("utf-8", errors="replace"),
                                          "size_pt": raw.FPDFText_GetFontSize(textpage.raw, char), "page": page_index + 1})
+                        sampled += 1
+                        if sampled == 4:
+                            break
                 search.close()
                 textpage.close()
                 page.close()
             status = "UNVERIFIED" if not observed else "PASS" if all(pdf_font_family(o["font"]) == pdf_font_family(expected) for o in observed) else "FAIL"
             checks.append({"property": key, "block_id": block_id, "expected": expected, "actual": observed, "status": status})
     statuses = [item["status"] for item in checks]
-    status = "NOT_APPLICABLE" if not checks else "FAIL" if "FAIL" in statuses else "UNVERIFIED" if "UNVERIFIED" in statuses else "PASS"
+    status = "NOT_APPLICABLE" if not checks or all(s == "NOT_APPLICABLE" for s in statuses) else "FAIL" if "FAIL" in statuses else "UNVERIFIED" if "UNVERIFIED" in statuses else "PASS"
     return {"status": status, "checks": checks, "scope": "Actual PDF glyph fonts for unique body samples; other roles and script coverage require page review"}
 
 

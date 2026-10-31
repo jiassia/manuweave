@@ -15,6 +15,28 @@ def parser():
     root.add_argument("--version", action="version", version=f"ManuWeave {__version__}")
     subs = root.add_subparsers(dest="command", required=True)
     subs.add_parser("doctor")
+    official = subs.add_parser("official", help="Native Chinese official-document formatting").add_subparsers(dest="action", required=True)
+    for action in ("inspect", "plan", "run"):
+        p = official.add_parser(action)
+        p.add_argument("source")
+        p.add_argument("--request", help="OfficialRequest JSON; defaults to body formatting")
+        if action != "inspect":
+            p.add_argument("--roles", help="Explicit paragraph role map JSON")
+        p.add_argument("--output", required=action != "inspect")
+        if action == "run":
+            p.add_argument("--renderer", choices=["auto", "word", "libreoffice"], default="auto")
+    p = official.add_parser("apply")
+    p.add_argument("plan")
+    p.add_argument("--output", required=True)
+    p = official.add_parser("audit")
+    p.add_argument("before")
+    p.add_argument("after")
+    p.add_argument("--request")
+    p.add_argument("--roles")
+    p.add_argument("--output")
+    p = official.add_parser("accept")
+    p.add_argument("directory")
+    p.add_argument("--review", required=True)
     presets = subs.add_parser("presets").add_subparsers(dest="action", required=True)
     presets.add_parser("list")
     presets.add_parser("catalog")
@@ -91,6 +113,30 @@ def execute(args):
     if command == "doctor":
         from .render import doctor
         return doctor()
+    if command == "official":
+        from .official import inspect_official, plan_official, apply_official, audit_official
+        request = read_json(args.request) if getattr(args, "request", None) else None
+        mapping = read_json(args.roles) if getattr(args, "roles", None) else None
+        roles = mapping.get("roles", mapping) if mapping is not None else None
+        if args.action == "run":
+            from .official_workflow import run_official
+            return run_official(args.source, args.output, request, roles, args.renderer)
+        if args.action == "apply":
+            return apply_official(read_json(args.plan), args.output)
+        if args.action == "accept":
+            from .official_workflow import accept_official
+            return accept_official(args.directory, read_json(args.review))
+        if args.action == "inspect":
+            result = inspect_official(args.source, request)
+        elif args.action == "plan":
+            result = plan_official(args.source, request, roles)
+        else:
+            result = audit_official(args.before, args.after, request, roles)
+        if getattr(args, "output", None):
+            if Path(args.output).exists():
+                raise FileExistsError("JSON output already exists")
+            write_json(args.output, result)
+        return result
     if command == "presets":
         if args.action == "list":
             return presets.list_presets()
@@ -155,7 +201,8 @@ def execute(args):
         if destination.exists():
             raise FileExistsError("Schema directory already exists")
         from .review import VisualReview
-        for model in CONTRACTS + [CompletionRequest, VisualReview]:
+        from .official_models import OfficialRequest, OfficialPlan
+        for model in CONTRACTS + [CompletionRequest, VisualReview, OfficialRequest, OfficialPlan]:
             write_json(destination / f"{model.__name__}.schema.json", model.model_json_schema())
         return {"output": str(destination.resolve())}
     elif command == "accept":

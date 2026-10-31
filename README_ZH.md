@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="180" alt="ManuWeave 标志">
 </p>
 <h1 align="center">ManuWeave</h1>
-<p align="center">面向 AI Agent 的原生 Word 与 LaTeX 学术排版 Skill</p>
+<p align="center">面向 AI Agent 的 Word 公文与 Word、LaTeX 学术排版 Skill</p>
 <p align="center">
   <a href="README.md">English</a> · <a href="README_ZH.md">简体中文</a>
 </p>
@@ -12,7 +12,7 @@
   <a href="SKILL.md"><img src="https://img.shields.io/badge/Agent-Skill-0f766e?style=flat-square" alt="Agent Skill"></a>
 </p>
 
-ManuWeave 是一个轻量学术文档 Skill，适用于 Codex、Claude Code 等宿主。通过参考文档或**内置期刊模板**整理 Word 和 LaTeX，保留原生对象并检查结果，无须额外配置 AI API。
+ManuWeave 是一个轻量文档排版 Skill，适用于 Codex、Claude Code 等宿主。通过参考文档或**内置期刊模板**整理 Word 和 LaTeX 学术稿件，也支持中文公文 Word 自动排版。工具保留原生对象并检查结果，无须额外配置 AI API。
 
 ## 通过 Agent 安装
 
@@ -32,7 +32,7 @@ ManuWeave 是一个轻量学术文档 Skill，适用于 Codex、Claude Code 等�
 使用本机已有的 Word、LibreOffice 和 TeX，不自动安装字体或系统工具。
 无须额外配置 AI API。
 
-准备完成后，提示提供原稿，以及参考模板或目标期刊与格式要求。
+准备完成后，提示提供原稿，以及参考模板、目标期刊或公文格式要求。
 ```
 
 ## 使用
@@ -44,6 +44,21 @@ ManuWeave 是一个轻量学术文档 Skill，适用于 Codex、Claude Code 等�
 支持标题、摘要、正文、公式、图表和参考文献等格式调整。宿主负责调用工具和检查页面；实质内容补全需要授权与原文依据。
 
 [模板库](#内置模板)
+
+## 公文自动排版
+
+支持中文公文 DOCX 的正文整理和单一机关完整通用格式，处理标题、层级、署名日期、附件分页、版头红线、末页版记与奇偶页码。通过独立的 `official` 命令流程识别结构、生成计划、应用规则和检查结果，采用 GB/T 9704—2012 规则或单位参考模板，并记录模板差异。
+
+> 使用 ManuWeave，将通知原稿按党政机关公文通用格式排版，沿用原稿中的机关、文号和日期，保留表格与图片，交付可编辑 Word、核对 PDF 和检查报告。
+
+已有信息清楚时连续自动执行；缺少必要字段或角色存在歧义时集中确认。机关名称、文号、签发人和日期采用原稿或确认信息，工具不编造字段、不生成印章。字体、内容保持、实际分页和页面审阅分别检查；缺少字体或渲染器时报告实际状态。复杂联合行文、信函、命令与纪要特定格式另需专门规则。
+
+```powershell
+.venv\Scripts\python.exe scripts/manuweave.py official inspect draft.docx --request official.json
+.venv\Scripts\python.exe scripts/manuweave.py official run draft.docx --request official.json --output official-result --renderer word
+```
+
+`official.json` 最小示例为 `{"scope":"body","direction":"down","mode":"standard"}`。完整格式的字段、单位模板、角色修正和验收流程见[公文使用说明](static/official.md)。公文功能独立于下方期刊模板数量。
 
 ## 内置模板
 

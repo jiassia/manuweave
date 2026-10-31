@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="180" alt="ManuWeave logo">
 </p>
 <h1 align="center">ManuWeave</h1>
-<p align="center">Native Word &amp; LaTeX formatting for AI agents</p>
+<p align="center">Academic Word &amp; LaTeX and Chinese official-document formatting for AI agents</p>
 <p align="center">
   <a href="README.md">English</a> · <a href="README_ZH.md">简体中文</a>
 </p>
@@ -12,7 +12,7 @@
   <a href="SKILL.md"><img src="https://img.shields.io/badge/Agent-Skill-0f766e?style=flat-square" alt="Agent Skill"></a>
 </p>
 
-ManuWeave is a lightweight academic document Skill for Codex, Claude Code, and other skill-capable agents. Format Word and LaTeX from reference documents or **built-in journal templates**, preserve native objects, and check the result. No separate AI API key is required.
+ManuWeave is a lightweight document-formatting Skill for Codex, Claude Code, and other skill-capable agents. Format academic Word and LaTeX from reference documents or **built-in journal templates**, or format Chinese official Word documents. Preserve native objects and check the result. No separate AI API key is required.
 
 ## Install with an Agent
 
@@ -32,7 +32,7 @@ with that environment's Python. Run scripts/manuweave.py doctor in the same envi
 Use existing Word, LibreOffice, and TeX tools; do not automatically install
 fonts or system tools. No separate AI API key is needed.
 
-When ready, ask for my source document and a reference template or target journal/style.
+When ready, ask for my source document and a reference template, target journal, or official-document style.
 ```
 
 ## Use
@@ -44,6 +44,21 @@ Attach a Word document or native LaTeX project, plus a reference template or tar
 Format titles, abstracts, body text, equations, figures, tables, and references. The agent runs the tools and reviews pages; substantive additions require authorization and source evidence.
 
 [Templates](#built-in-templates)
+
+## Chinese official documents
+
+The `official` command family formats DOCX files for single-agency Chinese official documents, with `body` scope for main-text formatting and `full` scope for the complete general layout. It handles headings, signatures and dates, annex pagination, red mastheads and separators, the final-page imprint, and odd/even page numbers. Use GB/T 9704-2012 rules or an organization reference document; template deviations are reported.
+
+> Use ManuWeave to format this notice in the general Chinese official-document layout. Retain the source agency, document number and date, preserve tables and images, and deliver an editable Word file, rendered PDF and audit report.
+
+Confirmed formatting runs automatically. Missing metadata and ambiguous roles are gathered for clarification. The tool does not invent agency names, document numbers, signatories or dates, and does not generate seals. Content preservation, fonts, rendering and visual acceptance have separate results. Specialized letter, order and minutes layouts and complex joint issuance require dedicated support.
+
+```powershell
+.venv\Scripts\python.exe scripts/manuweave.py official inspect draft.docx --request official.json
+.venv\Scripts\python.exe scripts/manuweave.py official run draft.docx --request official.json --output official-result --renderer word
+```
+
+A minimal `official.json` is `{"scope":"body","direction":"down","mode":"standard"}`. See the [official-document guide](static/official.md) for full metadata, organization templates, role overrides and page acceptance. This capability is separate from the journal-template count below.
 
 ## Built-in templates
 

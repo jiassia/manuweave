@@ -1,6 +1,6 @@
 ---
 name: manuweave
-description: Format native academic Word and LaTeX manuscripts using detailed JSON requirements extracted from official templates or a supplied reference, preserve document objects, and prepare evidence-linked completion.
+description: Format native academic Word and LaTeX manuscripts and Chinese official documents 公文排版, using explicit rules or reference documents; preserve native objects and check rendered pages.
 ---
 
 # ManuWeave
@@ -11,11 +11,14 @@ Use the host agent for semantic roles, evidence assessment, and page inspection.
 
 Read [core](static/core.md), then the needed fragment:
 
+- [Chinese official documents / 公文](static/official.md): DOCX body or full single-agency layout, conditional metadata checks and rendered-page review.
 - [Word](static/docx.md): effective-format learning and native OOXML changes.
 - [LaTeX](static/latex.md): native project formatting from JSON requirements.
 - [Completion](static/completion.md): deterministic structure and evidence-linked drafts.
 
 The [homepage list](README.md#built-in-templates) identifies built-in rule profiles. The [workflow](references/workflow.md) describes tool arguments. Load those details only when needed.
+
+For Chinese official documents, load the official-document fragment and use the `official` command family. Inspect and confirm official roles and applicable metadata; do not apply academic missing-abstract, keyword or reference checks to public-sector correspondence. Resolve missing fields and role ambiguity together, then execute confirmed formatting automatically.
 
 ## Apply extracted requirements
 

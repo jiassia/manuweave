@@ -3,6 +3,10 @@ version: 0.2.1
 always_load:
   - static/core.md
 routes:
+  official:
+    description: 中文公文 DOCX 正文整理、单一机关通用格式、单位参考模板和页面检查
+    load:
+      - static/official.md
   docx:
     description: Word 原稿、参考 Word 或内置 Word 版式
     load:
