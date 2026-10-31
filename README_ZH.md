@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="180" alt="ManuWeave 标志">
 </p>
 <h1 align="center">ManuWeave</h1>
-<p align="center">面向 AI Agent 的 Word 公文与 Word、LaTeX 学术排版 Skill</p>
+<p align="center">面向 AI Agent 的Word、LaTeX 排版 Skill</p>
 <p align="center">
   <a href="README.md">English</a> · <a href="README_ZH.md">简体中文</a>
 </p>

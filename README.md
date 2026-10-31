@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="180" alt="ManuWeave logo">
 </p>
 <h1 align="center">ManuWeave</h1>
-<p align="center">Academic Word &amp; LaTeX and Chinese official-document formatting for AI agents</p>
+<p align="center">Word and LaTeX formatting Skill for AI Agents</p>
 <p align="center">
   <a href="README.md">English</a> · <a href="README_ZH.md">简体中文</a>
 </p>
