@@ -17,3 +17,9 @@ examples/test-results.xml
 examples/validation.log
 
 examples/generated/
+
+# Local development and acceptance materials are not part of the published Skill.
+/tests/
+/examples/
+/.github/workflows/tests.yml
+/scripts/run_template_matrix.py

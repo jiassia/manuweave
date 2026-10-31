@@ -49,6 +49,8 @@ def accept(state_path, review):
             raise ValueError(f"Saved artifact changed: {name}")
     reviewed = VisualReview.model_validate(review)
     rendered = read_json(directory / "render.json")
+    from .pipeline import validate_rendered_artifacts
+    validate_rendered_artifacts(rendered)
     if rendered.get("status") != "PASS":
         raise ValueError("A successful real render is required before visual acceptance")
     expected_source = rendered.get("source_sha256", digest(state["native_root"]))
@@ -68,16 +70,8 @@ def accept(state_path, review):
     audit = read_json(directory / "audit.json")
     audit["visual"] = {"status": status, "review": reviewed.model_dump(mode="json"),
                        "geometry": rendered.get("visual", {}).get("geometry", "UNVERIFIED")}
-    from .pipeline import check_status, _record
-    checks = [check_status(audit, key) for key in ("content", "style", "visual")]
-    if audit["visual"]["geometry"] == "FAIL" or check_status(audit, "fonts") == "FAIL" or check_status(audit, "rendered_fonts") == "FAIL":
-        checks.append("FAIL")
-    if check_status(audit, "requirements") not in {"PASS", "NOT_APPLICABLE", "UNVERIFIED"}:
-        checks.append(check_status(audit, "requirements"))
-    elif "requirements" in audit and check_status(audit, "requirements") == "UNVERIFIED":
-        checks.append("UNVERIFIED")
-    audit["status"] = "FAIL" if "FAIL" in checks else "PASS" if all(s == "PASS" for s in checks) else "UNVERIFIED"
-    audit["unresolved"] = [f"{key}: {check_status(audit, key)}" for key in ("content", "style", "visual", "requirements") if key in audit and check_status(audit, key) not in {"PASS", "NOT_APPLICABLE"}]
+    from .pipeline import final_gate, _record
+    final_gate(audit)
     write_json(directory / "visual-review.json", reviewed.model_dump(mode="json"))
     write_json(directory / "audit.json", audit)
     for name in ("visual-review.json", "audit.json"):

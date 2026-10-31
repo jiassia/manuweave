@@ -79,12 +79,14 @@ def parser():
     p.add_argument("before")
     p.add_argument("after")
     p.add_argument("--profile")
+    p.add_argument("--roles", help="Confirmed RoleMap JSON used for planning and application")
     p.add_argument("--output")
     p = subs.add_parser("render")
     p.add_argument("source")
     p.add_argument("--output", required=True)
     p.add_argument("--renderer", choices=["auto", "word", "libreoffice"], default="auto")
     p.add_argument("--profile")
+    p.add_argument("--roles", help="Confirmed RoleMap JSON used for planning and application")
     p = subs.add_parser("resume")
     p.add_argument("state")
     p = subs.add_parser("complete")
@@ -104,6 +106,19 @@ def parser():
     p.add_argument("--output", required=True)
     p.add_argument("--max-rounds", type=int, default=3)
     return root
+
+
+def _confirmed_roles(path, source):
+    if not path:
+        return None
+    from .models import RoleMap
+    from .pipeline import inspect
+    roles = RoleMap.model_validate(read_json(path)).roles
+    known = {block["id"] for block in inspect(source)["blocks"]}
+    unknown = sorted(set(roles) - known)
+    if unknown:
+        raise ValueError("Role map contains unknown source block IDs: " + ", ".join(unknown))
+    return roles
 
 
 def execute(args):
@@ -182,10 +197,12 @@ def execute(args):
         edit_plan = read_json(args.plan)
         return pipeline.apply(edit_plan, args.output) if command == "apply" else pipeline.repair(edit_plan, args.output, args.max_rounds)
     elif command == "audit":
-        result = pipeline.audit(args.before, args.after, read_json(args.profile) if args.profile else None)
+        roles = _confirmed_roles(args.roles, args.before)
+        result = pipeline.audit(args.before, args.after, read_json(args.profile) if args.profile else None, roles)
     elif command == "render":
         from .render import render
-        return render(args.source, args.output, read_json(args.profile) if args.profile else None, args.renderer)
+        roles = _confirmed_roles(args.roles, args.source)
+        return render(args.source, args.output, read_json(args.profile) if args.profile else None, args.renderer, roles)
     elif command == "resume":
         return pipeline.run(state_path=args.state)
     elif command == "complete":

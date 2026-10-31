@@ -94,6 +94,62 @@ def check_status(report, key):
     return value.get("status", "UNVERIFIED") if isinstance(value, dict) else value
 
 
+def final_gate(report):
+    """Use the same complete set of checks before and after page review."""
+    keys = ["content", "style", "visual"]
+    keys.extend(key for key in ("requirements", "render", "fonts", "rendered_fonts", "field_refresh")
+                if key in report)
+    checks, unresolved = [], []
+    for key in keys:
+        status = check_status(report, key)
+        checks.append(status)
+        if status in {"PASS", "NOT_APPLICABLE"}:
+            continue
+        value = report.get(key)
+        details = []
+        if isinstance(value, dict):
+            if value.get("reason"):
+                details.append(str(value["reason"]))
+            if value.get("missing"):
+                details.append("Missing fonts: " + ", ".join(value["missing"]))
+            for item in value.get("checks", []):
+                if item.get("status") in {"PASS", "NOT_APPLICABLE"}:
+                    continue
+                actual = sorted({entry.get("font", "") for entry in item.get("actual", [])})
+                detail = f"{item.get('property', item.get('id', 'check'))}: {item.get('status', 'UNVERIFIED')}"
+                if item.get("expected"):
+                    detail += f"; expected {item['expected']}"
+                if actual:
+                    detail += "; observed " + ", ".join(actual)
+                if item.get("reason"):
+                    detail += "; " + item["reason"]
+                details.append(detail)
+        unresolved.append(f"{key}: {status}" + ("; " + "; ".join(details) if details else ""))
+    geometry = report.get("visual", {}).get("geometry")
+    if geometry == "FAIL":
+        checks.append("FAIL")
+        unresolved.append("visual.geometry: FAIL; Rendered text extends outside the page")
+    report["status"] = ("FAIL" if "FAIL" in checks else
+                        "PASS" if all(s in {"PASS", "NOT_APPLICABLE"} for s in checks) else "UNVERIFIED")
+    report["unresolved"] = unresolved
+    return report
+
+
+def validate_rendered_artifacts(rendered):
+    """Reject changed PDFs and page images before reusing a saved result."""
+    if rendered.get("pdf") and str(rendered["pdf"]) not in rendered.get("artifact_hashes", {}):
+        raise ValueError("Saved PDF identity is unavailable; create a new run")
+    for name, expected in rendered.get("artifact_hashes", {}).items():
+        path = Path(name)
+        if not path.is_file() or digest(path) != expected:
+            raise ValueError(f"Rendered artifact changed: {name}")
+    # Page identities also bind legacy image-only fixtures without a PDF.
+    for page in rendered.get("visual", {}).get("pages", []):
+        path = Path(page["png"])
+        if not path.is_file() or digest(path) != page["sha256"]:
+            raise ValueError(f"Rendered artifact changed: {path}")
+
+
 def apply(edit_plan, output):
     validated = EditPlan.model_validate(edit_plan)
     source = Path(validated.source)
@@ -162,6 +218,8 @@ def run(source=None, output=None, profile=None, state_path=None):
                 raise ValueError(f"Saved artifact changed: {name}")
         if state.get("native_root") and digest(state["native_root"]) != state["native_hash"]:
             raise ValueError("Native output changed since application")
+        if "render.json" in state["artifacts"]:
+            validate_rendered_artifacts(read_json(Path(state["directory"]) / "render.json"))
         if state.get("finished"):
             return state["result"]
     else:
@@ -224,9 +282,6 @@ def run(source=None, output=None, profile=None, state_path=None):
             raise ValueError("Content failure: candidate quarantined, original retained")
         _record(state, "STYLE_AUDIT")
         from .templates import audit_requirements
-        report["requirements"] = audit_requirements(native, profile)
-        from .fonts import check_fonts
-        report["fonts"] = check_fonts(profile) if source.suffix.lower() == ".docx" else {"status": "NOT_APPLICABLE", "reason": "TeX fonts are checked by the isolated compiler log and page review"}
         if check_status(report, "style") == "FAIL":
             _record(state, "REPAIR", {"round": 1, "limit": 2})
             fixed = directory / ("repaired.docx" if source.suffix.lower() == ".docx" else "latex-repaired")
@@ -234,6 +289,10 @@ def run(source=None, output=None, profile=None, state_path=None):
             native = fixed / repaired["main"] if "main" in repaired else fixed
             report = audit(source, native, profile)
             state.update(native=str(native), native_hash=digest(fixed), native_root=str(fixed))
+        # Repair creates a new audit, so attach ancillary checks afterwards.
+        report["requirements"] = audit_requirements(native, profile)
+        from .fonts import check_fonts
+        report["fonts"] = check_fonts(profile) if source.suffix.lower() == ".docx" else {"status": "NOT_APPLICABLE", "reason": "TeX fonts are checked by the isolated compiler log and page review"}
         if native.suffix.lower() == ".docx":
             from .fields import _toc_fields, refresh_fields
             from .word import _package, _xml
@@ -260,6 +319,7 @@ def run(source=None, output=None, profile=None, state_path=None):
         _record(state, "RENDER")
         if "render.json" in state["artifacts"]:
             rendered = read_json(directory / "render.json")
+            validate_rendered_artifacts(rendered)
         else:
             attempt = state.get("render_attempt", 0) + 1
             if attempt > 3:
@@ -268,6 +328,9 @@ def run(source=None, output=None, profile=None, state_path=None):
             state["render_attempt"] = attempt
             write_json(state["state_path"], state)
             rendered = render(native, render_path, profile)
+            paths = [rendered["pdf"]] if rendered.get("pdf") else []
+            paths.extend(page["png"] for page in rendered.get("visual", {}).get("pages", []))
+            rendered["artifact_hashes"] = {str(path): digest(path) for path in paths}
             _artifact(state, "render.json", rendered)
         _record(state, "VISUAL_AUDIT")
         report["render"] = rendered
@@ -276,19 +339,7 @@ def run(source=None, output=None, profile=None, state_path=None):
             report["rendered_fonts"] = audit_rendered_fonts(native, rendered["pdf"], profile)
         report["visual"] = rendered.get("visual", {"status": "UNVERIFIED", "reason": rendered.get("reason")})
         _record(state, "FINAL_GATE")
-        checks = [check_status(report, "content"), check_status(report, "style"), check_status(report, "visual")]
-        if rendered.get("status") == "FAIL":
-            checks.append("FAIL")
-        if check_status(report, "fonts") == "FAIL":
-            checks.append("FAIL")
-        if check_status(report, "rendered_fonts") == "FAIL":
-            checks.append("FAIL")
-        if report.get("field_refresh", {}).get("status") in {"FAIL", "UNVERIFIED"}:
-            checks.append(report["field_refresh"]["status"])
-        if check_status(report, "requirements") not in {"PASS", "NOT_APPLICABLE"}:
-            checks.append(check_status(report, "requirements"))
-        report["status"] = "FAIL" if "FAIL" in checks else "PASS" if all(s == "PASS" for s in checks) else "UNVERIFIED"
-        report["unresolved"] = [f"{key}: {check_status(report, key)}" for key in ("content", "style", "visual", "requirements") if check_status(report, key) not in {"PASS", "NOT_APPLICABLE"}]
+        final_gate(report)
         report["completeness"] = {"status": "UNKNOWN" if read_json(directory / "missing.json")["issues"] else "PASS",
                                    "report": str(directory / "missing.json"),
                                    "scope": "Genre-dependent findings are advisory in format_only mode"}

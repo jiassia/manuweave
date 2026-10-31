@@ -479,6 +479,14 @@ def _format_tex(properties, font_commands):
         commands.append("\\fontsize{" + _dimension(properties["size_pt"]) + "}{" + baseline + "}\\selectfont")
     elif "line_spacing_pt" in properties:
         commands.append("\\setlength{\\baselineskip}{" + _dimension(properties["line_spacing_pt"]) + "}")
+    if properties.get("line_spacing_rule") == "exact":
+        # TeX normally replaces a short baseline gap with \lineskip around
+        # tall inline material. Fixed spacing must retain the requested gap.
+        commands.append(r"\setlength{\lineskiplimit}{-\maxdimen}")
+    elif properties.get("line_spacing_rule") == "atLeast":
+        # A minimum permits tall material to enlarge the gap, without TeX's
+        # unrelated default one-point padding changing the requested minimum.
+        commands.append(r"\setlength{\lineskiplimit}{0bp}\setlength{\lineskip}{0bp}")
     if "line_spacing" in properties:
         commands.append("\\setstretch{" + f"{properties['line_spacing']:.9g}" + "}")
     for property_name, yes, no in (("bold", r"\bfseries", r"\mdseries"), ("italic", r"\itshape", r"\upshape")):
@@ -492,7 +500,10 @@ def _format_tex(properties, font_commands):
                          "justify": r"\justifying", "both": r"\justifying"}[alignment])
     for key, length in (("first_line_pt", "parindent"), ("left_indent_pt", "leftskip"), ("right_indent_pt", "rightskip")):
         if key in properties:
-            commands.append("\\setlength{\\" + length + "}{" + _dimension(properties[key]) + "}")
+            # Alignment uses stretchable left/right glue. Preserve that glue
+            # when adding explicit margins, including zero-valued margins.
+            operation = "addtolength" if alignment and length in {"leftskip", "rightskip"} else "setlength"
+            commands.append("\\" + operation + "{\\" + length + "}{" + _dimension(properties[key]) + "}")
     return "".join(commands)
 
 
@@ -605,7 +616,7 @@ def _render_layout(specification):
     if mirrored:
         geometry.append("twoside")
     elif page.get("mirror_margins") is False:
-        geometry.append("oneside")
+        geometry.append("twoside=false")
     if geometry:
         lines.append("\\geometry{" + ",".join(geometry) + "}")
     if "column_gap_mm" in page:
@@ -1114,6 +1125,7 @@ def compile_latex(source: str | Path, output_dir: str | Path) -> dict:
     started = time.monotonic()
     logs, commands = [], []
     status, timed_out = "PASS", False
+    failed_exit_code = None
     with tempfile.TemporaryDirectory(prefix="manuweave-native-tex-") as temporary:
         work = Path(temporary) / "project"
         work.mkdir()
@@ -1152,6 +1164,7 @@ def compile_latex(source: str | Path, output_dir: str | Path) -> dict:
                 logs.append(output)
                 if code:
                     status = "FAIL"
+                    failed_exit_code = code
                     break
         except OSError as error:
             status = "UNVERIFIED"
@@ -1171,7 +1184,9 @@ def compile_latex(source: str | Path, output_dir: str | Path) -> dict:
               for code, pattern in (("overflow", r"Overfull \\[hv]box"), ("font", r"Missing character|Font.*not found"),
                                     ("unresolved_reference", r"undefined references|Citation.*undefined|Reference.*undefined"),
                                     ("rerun_not_converged", r"rerun seems needed|stopping at \d+ passes"),
-                                    ("compile_error", r"^!|^error:")) if re.search(pattern, line)]
+                                    ("compile_error", r"^!|^error:|(?:LaTeX|Package \S+) Error:|Undefined control sequence|Fatal error occurred")) if re.search(pattern, line)]
+    if failed_exit_code is not None and not any(issue["code"] == "compile_error" for issue in issues):
+        issues.append({"code": "compile_error", "message": f"Native TeX process exited with code {failed_exit_code}; inspect compile.log"})
     native_log = destination / (main.stem + ".log")
     if native_log.is_file():
         final_log = native_log.read_text(encoding="utf-8", errors="replace")

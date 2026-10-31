@@ -587,7 +587,67 @@ def learn_docx(path):
     return {"id": "learned-" + document["sha256"][:12], "name": "Learned from " + Path(path).name, "version": "1.0.0", "rules": rules, "page": pages[-1] if pages else {}, "tables": tables, "running": running, "evidence": evidence, "source": {"type": "reference_docx", "sha256": document["sha256"]}, "warnings": document["warnings"] + (["Multiple sections: the final section provides the default; section exceptions need review."] if len(pages) > 1 else [])}
 
 
-def _set_format(p, properties):
+def _run_emphasis(p, styles):
+    """Resolve visible run emphasis, including inherited character styles."""
+    ppr = _child(p, "pPr")
+    base = dict(styles.defaults)
+    _merge_format(base, styles.resolve(_val(_child(ppr, "pStyle"), default=styles.default_style)))
+    values = {}
+    for run in p.findall(".//w:r", NS):
+        text = "".join(run.xpath(".//w:t/text()", namespaces=NS))
+        if not text.strip():
+            continue
+        effective = dict(base)
+        rpr = _child(run, "rPr")
+        _merge_format(effective, styles.resolve(_val(_child(rpr, "rStyle"))))
+        _merge_format(effective, styles.properties(None, rpr))
+        values[run] = {key: effective.get(key, False) for key in ("bold", "italic")}
+    return values
+
+
+def _inline_emphasis(p, styles):
+    """Retain mixed-run emphasis relative to the inherited paragraph baseline.
+
+    Uniform run formatting can represent paragraph formatting and is replaced by
+    the role rule. Mixed formatting uses the paragraph style, not text length,
+    to distinguish local emphasis; a long emphasized span remains an exception.
+    """
+    if styles is None:
+        return {}
+    values = _run_emphasis(p, styles)
+    ppr = _child(p, "pPr")
+    baseline = dict(styles.defaults)
+    _merge_format(baseline, styles.resolve(_val(_child(ppr, "pStyle"), default=styles.default_style)))
+    mixed = {key for key in ("bold", "italic") if len({props[key] for props in values.values()}) > 1}
+    return {run: {key: value for key, value in props.items() if key in mixed and value != baseline.get(key, False)}
+            for run, props in values.items()}
+
+
+def _audit_inline_emphasis(before, after):
+    """Check source-local emphasis independently of the new paragraph baseline."""
+    issues = []
+    before_styles, after_styles = _Styles(before), _Styles(after)
+    for name, data in before.items():
+        if name != "word/document.xml" and not re.fullmatch(r"word/(header|footer)\d*\.xml", name):
+            continue
+        if name not in after:
+            continue  # Missing parts are covered by the semantic inventory.
+        original, result = _xml(data), _xml(after[name])
+        for index, (source_p, result_p) in enumerate(zip(original.findall(".//w:p", NS), result.findall(".//w:p", NS))):
+            exceptions = _inline_emphasis(source_p, before_styles)
+            actual = _run_emphasis(result_p, after_styles)
+            for run_index, (source_run, result_run) in enumerate(zip(source_p.findall(".//w:r", NS), result_p.findall(".//w:r", NS))):
+                for key, expected in exceptions.get(source_run, {}).items():
+                    observed = actual.get(result_run, {}).get(key)
+                    if observed != expected:
+                        issues.append({"id": f"p{index}" if name == "word/document.xml" else f"{name}:p{index}",
+                                       "run_index": run_index, "property": "inline_" + key,
+                                       "expected": expected, "actual": observed})
+    return issues
+
+
+def _set_format(p, properties, styles=None):
+    emphasis = _inline_emphasis(p, styles)
     ppr = _child(p, "pPr")
     if ppr is None:
         ppr = ET.Element(W + "pPr")
@@ -642,7 +702,12 @@ def _set_format(p, properties):
                     color.attrib.pop(W + attr, None)
             for key, tag in (("bold", "b"), ("italic", "i")):
                 if key in properties:
-                    _ensure(rpr, tag).set(W + "val", "1" if properties[key] else "0")
+                    value = emphasis.get(run, {}).get(key, properties[key])
+                    _ensure(rpr, tag).set(W + "val", "1" if value else "0")
+    return [{"run_index": index, "properties": {key: value for key, value in emphasis.get(run, {}).items()
+                                                if key in properties and value != properties[key]}}
+            for index, run in enumerate(p.findall(".//w:r", NS))
+            if any(key in properties and value != properties[key] for key, value in emphasis.get(run, {}).items())]
 
 
 def _set_border(target, border):
@@ -954,6 +1019,7 @@ def apply_docx(source, output, profile, roles=None):
     parts = _package(source)
     root = _xml(parts["word/document.xml"])
     blocks = inspect_docx(source)["blocks"]
+    source_styles = _Styles(parts)
     if sections_rule:
         _section_structure(root, blocks, roles, sections_rule)
         _apply_section_settings(parts, sections_rule)
@@ -974,8 +1040,11 @@ def apply_docx(source, output, profile, roles=None):
                 _ensure(ppr, key).set(W + "val", "1")
             log.append({"id": block["id"], "role": role, "properties": {"keepNext": True, "keepLines": True}, "rollback": {"source_sha256": source_hash, "source": str(source.resolve())}})
         if properties:
-            _set_format(p, properties)
-            log.append({"id": block["id"], "role": role, "properties": properties, "rollback": {"source_sha256": source_hash, "source": str(source.resolve())}})
+            exceptions = _set_format(p, properties, source_styles)
+            entry = {"id": block["id"], "role": role, "properties": properties, "rollback": {"source_sha256": source_hash, "source": str(source.resolve())}}
+            if exceptions:
+                entry["preserved_inline_emphasis"] = exceptions
+            log.append(entry)
     for sect in root.findall(".//w:sectPr", NS):
         _set_page_properties(sect, profile.get("page", {}))
     if "mirror_margins" in profile.get("page", {}):
@@ -1016,8 +1085,11 @@ def apply_docx(source, output, profile, roles=None):
             if re.fullmatch(r"word/" + kind + r"\d*\.xml", name):
                 running_root = _xml(data)
                 for index, paragraph in enumerate(running_root.findall(".//w:p", NS)):
-                    _set_format(paragraph, properties)
-                    log.append({"id": f"{name}:p{index}", "properties": properties, "rollback": {"source_sha256": source_hash, "source": str(source.resolve())}})
+                    exceptions = _set_format(paragraph, properties, source_styles)
+                    entry = {"id": f"{name}:p{index}", "properties": properties, "rollback": {"source_sha256": source_hash, "source": str(source.resolve())}}
+                    if exceptions:
+                        entry["preserved_inline_emphasis"] = exceptions
+                    log.append(entry)
                 parts[name] = ET.tostring(running_root, xml_declaration=True, encoding="UTF-8", standalone=True)
     log.extend(_fit_layout(root))
     log.extend(_fit_image_lineboxes(root, _Styles(parts)))
@@ -1073,6 +1145,7 @@ def audit_docx(before, after, profile=None, roles=None):
     changed = [key for key in set(original["inventory"]) | set(result["inventory"]) if original["inventory"].get(key) != result["inventory"].get(key)]
     issues = [{"id": obj["id"], "property": "column_overflow", "expected": obj["available_width_mm"], "actual": obj["width_mm"]} for obj in result["layout_risks"]]
     issues.extend(result["linebox_risks"])
+    issues.extend(_audit_inline_emphasis(_package(before), _package(after)))
     if profile is not None:
         original_roles = {b["id"]: b["role"] for b in original["blocks"]}
         after_root = _xml(_package(after)["word/document.xml"])

@@ -112,7 +112,8 @@ def word_render_risk(source):
     return None
 
 
-def render(source: str | Path, output: str | Path, profile: dict | None = None, renderer: str = "auto") -> dict:
+def render(source: str | Path, output: str | Path, profile: dict | None = None,
+           renderer: str = "auto", roles: dict | None = None) -> dict:
     source, output = Path(source).resolve(), Path(output).resolve()
     if output.exists():
         raise FileExistsError("Render output must be a new directory")
@@ -141,7 +142,7 @@ def render(source: str | Path, output: str | Path, profile: dict | None = None, 
                 report.update(source_sha256=digest(source), visual=inspect_pdf(Path(report["pdf"]), output))
                 if profile:
                     from .fonts import audit_rendered_fonts
-                    report["fonts"] = audit_rendered_fonts(source, report["pdf"], profile)
+                    report["fonts"] = audit_rendered_fonts(source, report["pdf"], profile, roles)
                 write_json(output / "render.json", report)
             return report
     output.mkdir(parents=True)
@@ -164,13 +165,13 @@ def render(source: str | Path, output: str | Path, profile: dict | None = None, 
               "visual": inspect_pdf(pdf, output)}
     if profile and source.suffix.lower() == ".docx":
         from .fonts import audit_rendered_fonts
-        report["fonts"] = audit_rendered_fonts(source, pdf, profile)
+        report["fonts"] = audit_rendered_fonts(source, pdf, profile, roles)
         if renderer == "auto" and report["fonts"]["status"] == "FAIL":
             from .libreoffice import available, export_pdf
             if available()["status"] == "PASS":
                 fallback = export_pdf(source, output / "libreoffice")
                 if fallback.get("pdf"):
-                    fallback["fonts"] = audit_rendered_fonts(source, fallback["pdf"], profile)
+                    fallback["fonts"] = audit_rendered_fonts(source, fallback["pdf"], profile, roles)
                     if fallback["fonts"]["status"] == "PASS":
                         fallback["visual"] = inspect_pdf(Path(fallback["pdf"]), output / "libreoffice")
                         fallback["source_sha256"] = digest(source)
